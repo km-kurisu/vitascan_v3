@@ -1,0 +1,59 @@
+{
+  "iron": {
+    "rda": "19-29 mg/day for adult Indian females/males (ICMR-NIN 2020)",
+    "rich_foods": [
+      {
+        "name": "Amaranth (Rajgira)",
+        "content": "11.0 mg/100g",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Spinach (Palak)",
+        "content": "3.5 mg/100g",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Jaggery (Gur)",
+        "content": "2.6 mg/100g",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Garden cress seeds (Halim)",
+        "content": "100 mg/100g",
+        "type": "vegetarian"
+      }
+    ],
+    "enhancers": [
+      "Vitamin C (Amla, Lemon juice, Guava, Oranges)"
+    ],
+    "inhibitors": [
+      "Tea, Coffee, Calcium supplements taken during meals"
+    ]
+  },
+  "b12": {
+    "rda": "2.2 mcg/day (ICMR-NIN 2020)",
+    "rich_foods": [
+      {
+        "name": "Paneer & Cow Milk",
+        "content": "0.5-1.1 mcg/100g",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Curd (Dahi)",
+        "content": "0.4 mcg/100g",
+        "type": "vegetarian"
+      },
+      {
+        "name": "Eggs",
+        "content": "1.1 mcg/egg",
+        "type": "non-vegetarian"
+      }
+    ],
+    "enhancers": [
+      "Probiotics and fermented curd"
+    ],
+    "inhibitors": [
+      "Excessive alcohol, proton pump inhibitors"
+    ]
+  }
+}

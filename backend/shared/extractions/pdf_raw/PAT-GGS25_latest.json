@@ -1,0 +1,803 @@
+{
+  "filename": "sterling-accuris-pathology-sample-report-unlocked.pdf",
+  "patient_id": "PAT-GGS25",
+  "patient_details": {
+    "patient_id": "PAT-GGS25",
+    "name": "BIORAD VARIANT",
+    "age": "40",
+    "gender": "Male",
+    "date": "02/20/2023",
+    "lab_id": "02232160XXXX",
+    "referred_by": "Dr.  Sanjeev Shah"
+  },
+  "age": "40",
+  "gender": "Male",
+  "biomarkers": {
+    "40": {
+      "canonical_name": "40 -",
+      "value": 49.0,
+      "raw_value": 49.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "40 - 49"
+    },
+    "83": {
+      "canonical_name": "83 -",
+      "value": 101.0,
+      "raw_value": 101.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "83 - 101"
+    },
+    "4000": {
+      "canonical_name": "4000 -",
+      "value": 10000.0,
+      "raw_value": 10000.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "4000 - 10000"
+    },
+    "20": {
+      "canonical_name": "20 -",
+      "value": 40.0,
+      "raw_value": 40.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "20 - 40"
+    },
+    "2000": {
+      "canonical_name": "2000 -",
+      "value": 6700.0,
+      "raw_value": 6700.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "2000 - 6700"
+    },
+    "1100": {
+      "canonical_name": "1100 -",
+      "value": 3300.0,
+      "raw_value": 3300.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "1100 - 3300"
+    },
+    "00": {
+      "canonical_name": "00 -",
+      "value": 400.0,
+      "raw_value": 400.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "00 - 400"
+    },
+    "200": {
+      "canonical_name": "200 -",
+      "value": 700.0,
+      "raw_value": 700.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "200 - 700"
+    },
+    "150000": {
+      "canonical_name": "150000 -",
+      "value": 410000.0,
+      "raw_value": 410000.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "150000 - 410000"
+    },
+    "male": {
+      "canonical_name": "Male /",
+      "value": 41.0,
+      "raw_value": 41.0,
+      "unit": "Y",
+      "ref_range": "N/A",
+      "source_span": "Male / 41 Y"
+    },
+    "01_feb": {
+      "canonical_name": "01-Feb",
+      "value": 1982.0,
+      "raw_value": 1982.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "01-Feb-1982"
+    },
+    "20_feb_2023_11": {
+      "canonical_name": "20-Feb-2023 11",
+      "value": 9.0,
+      "raw_value": 9.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "20-Feb-2023 11:09"
+    },
+    "28_feb_2023_10": {
+      "canonical_name": "28-Feb-2023 10",
+      "value": 26.0,
+      "raw_value": 26.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "28-Feb-2023 10:26"
+    },
+    "registration_on": {
+      "canonical_name": "Registration On",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "",
+      "ref_range": "-",
+      "source_span": "Registration on  : 20-Feb-2023 09:10"
+    },
+    "20_feb_2023_13": {
+      "canonical_name": "20-Feb-2023 13",
+      "value": 33.0,
+      "raw_value": 33.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "20-Feb-2023 13:33"
+    },
+    "20_feb_2023_08": {
+      "canonical_name": "20-Feb-2023 08",
+      "value": 53.0,
+      "raw_value": 53.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "20-Feb-2023 08:53"
+    },
+    "desirable": {
+      "canonical_name": "Desirable",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Desirable : <200"
+    },
+    "borderline_high": {
+      "canonical_name": "Borderline High",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "",
+      "ref_range": "-239",
+      "source_span": "Borderline High : 200-239"
+    },
+    "high": {
+      "canonical_name": "High",
+      "value": 240.0,
+      "raw_value": 240.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "High : >240"
+    },
+    "normal": {
+      "canonical_name": "Normal",
+      "value": 150.0,
+      "raw_value": 150.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Normal : <150"
+    },
+    "borderline": {
+      "canonical_name": "Borderline",
+      "value": 150.0,
+      "raw_value": 150.0,
+      "unit": "",
+      "ref_range": "-199",
+      "source_span": "Borderline : 150-199"
+    },
+    "very_high": {
+      "canonical_name": "Very High",
+      "value": 500.0,
+      "raw_value": 500.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Very High : >500"
+    },
+    "low": {
+      "canonical_name": "Low",
+      "value": 40.0,
+      "raw_value": 40.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Low: <40.0"
+    },
+    "optimal": {
+      "canonical_name": "Optimal",
+      "value": 100.0,
+      "raw_value": 100.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Optimal: <100"
+    },
+    "15": {
+      "canonical_name": "15 -",
+      "value": 35.0,
+      "raw_value": 35.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "15 - 35"
+    },
+    "up_to": {
+      "canonical_name": "Up To",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Up to 5.0"
+    },
+    "74": {
+      "canonical_name": "74 -",
+      "value": 106.0,
+      "raw_value": 106.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "74 - 106"
+    },
+    "diabetes": {
+      "canonical_name": "Diabetes",
+      "value": 6.5,
+      "raw_value": 6.5,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "Diabetes: >6.5%"
+    },
+    "pre_diabetes": {
+      "canonical_name": "Pre-Diabetes",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "%",
+      "ref_range": "-",
+      "source_span": "Pre-Diabetes: 5.7% -"
+    },
+    "non_diabetes": {
+      "canonical_name": "Non-Diabetes",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "Non-Diabetes: < 5.7%"
+    },
+    "poor_control": {
+      "canonical_name": "Poor Control",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "Poor Control : > 7.0 %"
+    },
+    "good_control": {
+      "canonical_name": "Good Control",
+      "value": 6.0,
+      "raw_value": 6.0,
+      "unit": "",
+      "ref_range": "-7.0",
+      "source_span": "Good Control : 6.0-7.0 %"
+    },
+    "20_feb_2023_12": {
+      "canonical_name": "20-Feb-2023 12",
+      "value": 40.0,
+      "raw_value": 40.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "20-Feb-2023 12:40"
+    },
+    "49": {
+      "canonical_name": "49 -",
+      "value": 181.0,
+      "raw_value": 181.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "49 - 181"
+    },
+    "261": {
+      "canonical_name": "261 -",
+      "value": 462.0,
+      "raw_value": 462.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "261 - 462"
+    },
+    "children": {
+      "canonical_name": "Children",
+      "value": 16.0,
+      "raw_value": 16.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Children : >16"
+    },
+    "adult": {
+      "canonical_name": "Adult",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "",
+      "ref_range": "- 50",
+      "source_span": "Adult : 20 - 50"
+    },
+    "17": {
+      "canonical_name": "17 -",
+      "value": 59.0,
+      "raw_value": 59.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "17 - 59"
+    },
+    "136": {
+      "canonical_name": "136 -",
+      "value": 145.0,
+      "raw_value": 145.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "136 - 145"
+    },
+    "98": {
+      "canonical_name": "98 -",
+      "value": 107.0,
+      "raw_value": 107.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "98 - 107"
+    },
+    "deficiency": {
+      "canonical_name": "Deficiency",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Deficiency    : <10"
+    },
+    "insufficiency": {
+      "canonical_name": "Insufficiency",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "",
+      "ref_range": "- 30",
+      "source_span": "Insufficiency : 10 - 30"
+    },
+    "sufficiency": {
+      "canonical_name": "Sufficiency",
+      "value": 30.0,
+      "raw_value": 30.0,
+      "unit": "",
+      "ref_range": "- 100",
+      "source_span": "Sufficiency   : 30 - 100"
+    },
+    "toxicity": {
+      "canonical_name": "Toxicity",
+      "value": 100.0,
+      "raw_value": 100.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Toxicity        :  >100"
+    },
+    "increasing_mean_baseline_levels_from": {
+      "canonical_name": "Increasing Mean Baseline Levels From",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "to",
+      "ref_range": "38",
+      "source_span": "increasing mean baseline levels from 29 to 38 ng/mL was associated with a 50% lower risk for colon cancer and levels of 52 ng/mL with a 50% reduction"
+    },
+    "187": {
+      "canonical_name": "187 -",
+      "value": 833.0,
+      "raw_value": 833.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "187 - 833"
+    },
+    "ejaculation_withi_24": {
+      "canonical_name": "Ejaculation Withi 24 -",
+      "value": 48.0,
+      "raw_value": 48.0,
+      "unit": "hours",
+      "ref_range": "N/A",
+      "source_span": "Ejaculation withi 24 - 48 hours"
+    },
+    "a_change_in_psa_of": {
+      "canonical_name": "A Change In Psa Of",
+      "value": 30.0,
+      "raw_value": 30.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "A change in PSA of >30% in man with a PSA initially below 2.0 ng/mL was likely to indicate a true change beyond normal random variation."
+    },
+    "exogenous_asthama_in_approximately": {
+      "canonical_name": "Exogenous Asthama In Approximately",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "Exogenous asthama in approximately 60% of patients"
+    },
+    "hay_fever_in_approximately": {
+      "canonical_name": "Hay Fever In Approximately",
+      "value": 30.0,
+      "raw_value": 30.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "Hay fever in approximately 30% of patients and Atopic eczema"
+    },
+    "non_reactive": {
+      "canonical_name": "Non Reactive",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Non Reactive : <1.0"
+    },
+    "reactive": {
+      "canonical_name": "Reactive",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Reactive : >1.0"
+    },
+    "20_feb_2023_14": {
+      "canonical_name": "20-Feb-2023 14",
+      "value": 35.0,
+      "raw_value": 35.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "20-Feb-2023 14:35"
+    },
+    "after": {
+      "canonical_name": "After",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "month",
+      "ref_range": "N/A",
+      "source_span": "after 3 month from last date of transfusion is recommended."
+    },
+    "linearity_range_of_hbf_is_1": {
+      "canonical_name": "Linearity Range Of Hbf Is 1",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "0",
+      "source_span": "Linearity range of HbF is 1-40%, However, values in excess of the reportable range have been provided for ease of interpretation."
+    },
+    "p3_window_above": {
+      "canonical_name": "P3 Window-Above",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "P3 window-Above 10% is often indicative of either denatured froms of hemoglobins or may suggest a possibility of abnormal haemoglobin"
+    },
+    "p2_window_above": {
+      "canonical_name": "P2 Window-Above",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "P2 Window-Above 10% is indicative of either glycated haemoglonin requring correlation with diabetic staus or may suggest a possibility of"
+    },
+    "hematopathologist_g": {
+      "canonical_name": "Hematopathologist (G",
+      "value": 1809.0,
+      "raw_value": 1809.0,
+      "unit": "",
+      "ref_range": "7",
+      "source_span": "Hematopathologist (G-18097)"
+    },
+    "02_20_2023_13": {
+      "canonical_name": "02/20/2023 13",
+      "value": 56.0,
+      "raw_value": 56.0,
+      "unit": "",
+      "ref_range": "59",
+      "source_span": "02/20/2023 13:56:59"
+    },
+    "02_20_2023_14": {
+      "canonical_name": "02/20/2023 14",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "40",
+      "source_span": "02/20/2023 14:04:40"
+    }
+  },
+  "labs": {
+    "40 -": {
+      "value": "49.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "83 -": {
+      "value": "101.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "4000 -": {
+      "value": "10000.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "20 -": {
+      "value": "40.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "2000 -": {
+      "value": "6700.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "1100 -": {
+      "value": "3300.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "00 -": {
+      "value": "400.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "200 -": {
+      "value": "700.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "150000 -": {
+      "value": "410000.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Male /": {
+      "value": "41.0",
+      "unit": "Y",
+      "ref_range": "N/A"
+    },
+    "01-Feb": {
+      "value": "1982.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "20-Feb-2023 11": {
+      "value": "9.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "28-Feb-2023 10": {
+      "value": "26.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Registration On": {
+      "value": "20.0",
+      "unit": "",
+      "ref_range": "-"
+    },
+    "20-Feb-2023 13": {
+      "value": "33.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "20-Feb-2023 08": {
+      "value": "53.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Desirable": {
+      "value": "200.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Borderline High": {
+      "value": "200.0",
+      "unit": "",
+      "ref_range": "-239"
+    },
+    "High": {
+      "value": "240.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Normal": {
+      "value": "150.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Borderline": {
+      "value": "150.0",
+      "unit": "",
+      "ref_range": "-199"
+    },
+    "Very High": {
+      "value": "500.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Low": {
+      "value": "40.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Optimal": {
+      "value": "100.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "15 -": {
+      "value": "35.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Up To": {
+      "value": "5.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "74 -": {
+      "value": "106.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Diabetes": {
+      "value": "6.5",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Pre-Diabetes": {
+      "value": "5.7",
+      "unit": "%",
+      "ref_range": "-"
+    },
+    "Non-Diabetes": {
+      "value": "5.7",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Poor Control": {
+      "value": "7.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Good Control": {
+      "value": "6.0",
+      "unit": "",
+      "ref_range": "-7.0"
+    },
+    "20-Feb-2023 12": {
+      "value": "40.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "49 -": {
+      "value": "181.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "261 -": {
+      "value": "462.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Children": {
+      "value": "16.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Adult": {
+      "value": "20.0",
+      "unit": "",
+      "ref_range": "- 50"
+    },
+    "17 -": {
+      "value": "59.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "136 -": {
+      "value": "145.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "98 -": {
+      "value": "107.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Deficiency": {
+      "value": "10.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Insufficiency": {
+      "value": "10.0",
+      "unit": "",
+      "ref_range": "- 30"
+    },
+    "Sufficiency": {
+      "value": "30.0",
+      "unit": "",
+      "ref_range": "- 100"
+    },
+    "Toxicity": {
+      "value": "100.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Increasing Mean Baseline Levels From": {
+      "value": "29.0",
+      "unit": "to",
+      "ref_range": "38"
+    },
+    "187 -": {
+      "value": "833.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Ejaculation Withi 24 -": {
+      "value": "48.0",
+      "unit": "hours",
+      "ref_range": "N/A"
+    },
+    "A Change In Psa Of": {
+      "value": "30.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Exogenous Asthama In Approximately": {
+      "value": "60.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Hay Fever In Approximately": {
+      "value": "30.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Non Reactive": {
+      "value": "1.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Reactive": {
+      "value": "1.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "20-Feb-2023 14": {
+      "value": "35.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "After": {
+      "value": "3.0",
+      "unit": "month",
+      "ref_range": "N/A"
+    },
+    "Linearity Range Of Hbf Is 1": {
+      "value": "4.0",
+      "unit": "",
+      "ref_range": "0"
+    },
+    "P3 Window-Above": {
+      "value": "10.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "P2 Window-Above": {
+      "value": "10.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Hematopathologist (G": {
+      "value": "1809.0",
+      "unit": "",
+      "ref_range": "7"
+    },
+    "02/20/2023 13": {
+      "value": "56.0",
+      "unit": "",
+      "ref_range": "59"
+    },
+    "02/20/2023 14": {
+      "value": "4.0",
+      "unit": "",
+      "ref_range": "40"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "Hemoglobin\ng/dL\n13.0 - 16.5\nColorimetric\n14.5\nRBC Count\nmillion/cmm\n4.5 - 5.5\nElectrical impedance\n4.79\nHematocrit\n%\n40 - 49\nCalculated\n43.3\nMCV\nfL\n83 - 101\nDerived\n90.3\nMCH\npg\n27.1 - 32.5\nCalculated\n30.2\nMCHC\ng/dL\n32.5 - 36.7\nCalculated\n33.4\nRDW CV\n%\n11.6 - 14\nCalculated\n13.60\nTotal WBC and Differential Count\nWBC Count\nH\n/cmm\n4000 - 10000\nSF Cube cell analysis\n10570\nNeutrophils\n%\n40 - 80\nMicroscopic\n73\nLymphocytes\n%\n20 - 40\nMicroscopic\n19\nEosinophils\n%\n1 - 6\nMicroscopic\n02\nMonocytes\n%\n2 - 10\nMicroscopic\n06\nBasophils\n%\n0 - 2\nMicroscopic\n00\n/cmm\n2000 - 6700\n7716\n/cmm\n1100 - 3300\n2008\n/cmm\n00 - 400\n211\n/cmm\n200 - 700\n634\n/cmm\n0 - 100\n0\nPlatelet Count\n/cmm\n150000 - 410000\nElectrical impedance\n150000\nMPV\nH\nfL\n7.5 - 10.3\nCalculated\n14.00\nPeripheral Smear Examination\nRBC Morphology\nNormochromic Normocytic\nWBC Morphology\nWBCs Series Shows Normal Morphology\nPlatelets Morphology\nPlatelets are adequate with normal morphology.\nParasites\nMalarial parasite is not detected.\nErythrocyte Sedimentation Rate\nESR\nmm/1hr\n0 - 14\nCapillary photometry\n7\nComplete Blood Count\nTest \nResult\nUnit\nBiological Ref. Interval\nDifferential Count\nAbsolute Count\nDr.  Sanjeev Shah\nDr.Yash Shah\nDR.TEJASWINI DHOTE\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:09\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : EDTA Blood\nProcess At\nPage 1 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\n ABO Type\n\"A\"\n Rh (D) Type\nPositive\nBlood Group\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDR.TEJASWINI DHOTE\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nCollected at\n:\nnon SAWPL\nStatus :\nFinal\n20-Feb-2023 13:33\nApproved on\n:\n:\n20-Feb-2023 08:53\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\nCollected on\nProcess At\n:\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nLocation\nPatient Information\nEDTA Blood, \nSerum\nSample Type    :\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX \nRegistration on  : 20-Feb-2023 09:10\nPage 2 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nCholesterol\nmg/dL\nDesirable : <200\nBorderline High : 200-239\nHigh : >240\nCholesterol oxidase \u2013 Peroxidase method\n189.0\nTriglyceride\nH\nmg/dL\nNormal : <150\nBorderline : 150-199\nHigh : 200-499\nVery High : >500 \nEzymatic (Lipase/GK/GPO/POD)\n168.0\nHDL Cholesterol\nmg/dL\nLow: <40.0 \nHigh: >60.0  \nPTA/MgCl2\n60.0\nDirect LDL\nH\nmg/dL\nOptimal: <100\nNear to above Optimal: \n100\u2013129\nBorderline High: 130-159\nHigh: 160\u2013189\nVery High: =190\nDirect measured\n100.39\nVLDL\nmg/dL\n15 - 35\nCalculated\n33.60\nCHOL/HDL Ratio\nUp to 5.0\nCalculated\n3.1\nLDL/HDL Ratio\nUp to 3.5\nCalculated\n1.7\nLipid Profile\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:29\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 3 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nFasting Blood Sugar\nH\nmg/dL\n74 - 106\nGOD-POD\n141.0\nBiochemistry\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:45\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Fluoride plasma\nProcess At\nPage 4 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nHbA1c\nH\n%\nFor Screening:\nDiabetes: >6.5%\nPre-Diabetes: 5.7% - \n6.4%\nNon-Diabetes: < 5.7%\nFor Diabetic Patient:\nPoor Control : > 7.0 % \nGood Control : 6.0-7.0 %\nHigh Performance Liquid Chromatography\n7.10\nMean Blood Glucose\nmg/dL\nCalculated\n157.07\nExplanation:- \n\u2022\nTotal haemoglobin A1 c is continuously synthesized in the red blood cell throught its 120 days life span. The concentration of HBA1c in the cell\nreflects the average blood glucose concentration it encounters.\n\u2022\nThe level of HBA1c increases proportionately in patients with uncontrolled diabetes. It reflects the average blood glucose concentration over an\nextended time period and remains unaffected by short-term fluctuations in blood glucose levels.\n\u2022\nThe measurement of HbA1c can serve as a convenient test for evaluating the adequacy of diabetic control and in preventing various diabetic\ncomplications. Because the average half life of a red blood cell is sixty days, HbA1c has been accepted as a measurement which reflects the mean \ndaily blood glucose concentration, better than fasting blood glucose determination, and the degree of carbohydrate imbalance over the preceding\ntwo months.\n\u2022\nIt may also provide a better index of control of the diabetic patient without resorting to glucose loading procedures.\nHbA1c assay Interferences: \nErroneous values might be obtained from samples with abnormally elevated quantities of other Haemoglobins as a result of \neither their simultaneous elution with HbA1c (HbF) or differences in their glycation from that of HbA (HbS).\nReference: ADA Guideline 2023\nHbA1c (Glycosylated Hemoglobin)\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDR.TEJASWINI DHOTE\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:33\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : EDTA Blood\nProcess At\nPage 5 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nT3 - Triiodothyronine\nng/mL\n0.58 - 1.59\nChemiluminescence\n1.01\nT4 - Thyroxine\nmg/mL\n4.87 - 11.72\n7.84\nTSH - Thyroid Stimulating Hormone\nmicroIU/mL\n0.35 - 4.94\nChemiluminescence\n0.8199\nThyroid Function Test\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:38\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 6 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nMicroalbumin (per urine volume)\nmg/L\n< 16.7\nImmunoturbidimetric\n10.50\nIn random urine specimens, normal urinary albumin excretion is below 17 mg/g creatinine for males and below 25 mg/g creatinine for females.(3)\nMicroalbuminuria is defined as an albumin:creatinine ratio of 17 to 299 for males and 25 to 299 for females.\nA ratio of albumin:creatinine of 300 or higher is indicative of overt proteinuria.\nDue to biologic variability, positive results should be confirmed by a second, first-morning random or 24-hour timed urine specimen. If there is \ndiscrepancy, a third specimen is recommended. When 2 out of 3 results are in the microalbuminuria range, this is evidence for incipient nephropathy \nand warrants increased efforts at glucose control, blood pressure control, and institution of therapy with an angiotensin-converting-enzyme (ACE) \ninhibitor (if the patient can tolerate it).\nReference : \n1.\nBennett PH, Haffner S, Kasiske BL, et al: Screening and management of microalbuminuria in patients with diabetes mellitus: recommendations\nto the Scientific Advisory Board of the National Kidney Foundation from an ad hoc committee of the Council on Diabetes Mellitus of the National \nKidney Foundation. Am J Kidney Dis 1995;25:107-112\n2.\nKrolewski AS, Laffel LM, Krolewski M, et al: Glycosylated hemoglobin and the risk of microalbuminuria in patients with insulin-dependent\ndiabetes mellitus. N Engl J Med 1995;332:1251-1255\n3.\nZelmanovitz T, Gross JL, Oliveira JR, et al: The receiver operating characteristics curve in the evaluation of a random urine specimen as a\nscreening test for diabetic nephropathy. Diabetes Care 1997;20:516-519\nBiochemistry\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 12:40\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Urine\nProcess At\nPage 7 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nTotal Protein\ng/dL\n6.3 - 8.2\nCopper tartrate to colour complex\n7.00\nAlbumin\ng/dL\n3.5 - 5.0\nBromocresol  Green Method\n4.20\nGlobulin\ng/dL\n2.3 - 3.5\nCalculated\n2.80\nA/G Ratio\n1.3 - 1.7\nCalculated\n1.50\nBilirubin\nTotal Bilirubin\nmg/dL\n0.2 - 1.3\nAzobilirubin chromophores\n0.70\nConjugated Bilirubin\nmg/dL\n0.0 - 0.3\nCationic Mordant Binding\n0.30\nUnconjugated Bilirubin\nmg/dL\n0.0 - 1.1\nCationic Mordant Binding\n0.20\nDelta Bilirubin\nmg/dL\n0.0 - 0.2\nCalculated\n0.20\nProtein\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:41\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 8 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nIron\nmicro g/dL\n49 - 181\nPyridyl azo Dye\n103.00\nTotal Iron Binding Capacity (TIBC)\n261 - 462\n352.00\nTransferrin Saturation\n%\nChildren : >16 \nAdult : 20 - 50\nCalculated\n29.26\nIron Studies\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:29\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 9 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nHomocysteine, Serum\nH\nmicromol/L\n6.0 - 14.8\nChemiluminescence\n23.86\nSummary and Uses:\n\u2022\nTotal Hcy is a thiol-containing amino acid, produced by the intracellular demethylation of methionine to\ncysteine.\n\u2022\nElevated levels of t Hcy may be used to exclude or confirm deficiencies of vitamin B12 or folate.\n\u2022\nIt is recommended to test in patients using medications that interfere with folate status (methotrexate,\nantiepileptics), vegetarians without  B12 supplementations, unexplained anemia, peripheral neuropathy or\nmyleopathy, recurrent spontaneous abortions or infertility.\n\u2022\nTesting also recommended for patients 40 years of age with coronary artery disease to exclude\nhomocystinuria.\n\u2022\nElevations in tHcy levels have also been used as an independent risk factor of coronary or cerebral\nvascular disease. Treatment of moderate hyperhomocystinemia with folic acid supplementation for primary\nand secondary cardiovascular protection has met with inconsistent results and at present cannot be\nroutinely recommended.\nLimitations:\n\u2022\nThe plasma must be seprated immediately on collection to avoid continuous synthesis of Hcy  by red cells.\n\u2022\nSamples must be immediately stored on ice and serum centrifuged immediately before a complete clot is\nformed.\n\u2022\nCertain drugs, such as anticonvulsants, methotrexate, or nitrous oxide, may interfere with the assay.\n\u2022\nCigarette smoking and coffee consumption increase tHcy levels.\n\u2022\nIntraindividual variability is approximately 8%; it can be as much as 25% in patients with\nhyperhomocystinemia.\n\u2022\nGenerally, a single measurement of tHcy is considered adequate.\nImmunoassay\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:38\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 10 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nCreatinine, Serum\nmg/dL\n0.66 - 1.25\nCreatinine Amidohydrolase\n0.83\nUrea\nL\nmg/dL\n19.3 - 43.0\nUrease, Colorimetric\n18.0\nBlood Urea Nitrogen\nL\nmg/dL\n9.0 - 20.0\nCalculated\n8.41\nUric Acid\nmg/dL\n3.5 - 8.5\nUricase\n4.90\nCalcium\nmg/dL\n8.4 - 10.2\nArsenazo III \n9.10\nSGPT\nU/L\n0 - 50\nUV with P5P, IFCC\n48.0\nSGOT\nU/L\n17 - 59\nUV with P5P\n27.0\nElectrolytes\nSodium (Na+)\nmmol/L\n136 - 145\nDirect- ISE\n143.00\nPotassium (K+)\nmmol/L\n3.5 - 5.1\nDirect- ISE\n4.90\nChloride (Cl-)\nmmol/L\n98 - 107\nDirect- ISE\n105.0\nBiochemistry\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:10\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 11 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\n25(OH) Vitamin D\nng/mL\nDeficiency    : <10 \nInsufficiency : 10 - 30 \nSufficiency   : 30 - 100 \nToxicity        :  >100\nCLIA\n8.98\nVitamin D is a fat soluble vitamin and exists in two main forms as cholecalciferol(vitamin D3) which is synthesized in skin from 7-dehydrocholesterol in \nresponse to sunlight exposure & Ergocalciferol(vitamin D2) present mainly in dietary sources.Both cholecalciferol & Ergocalciferol are converted to \n25(OH)vitamin D in liver.\nInterpretation:\nIncreased In\n\u2022\nVitamin D intoxication\n\u2022\nExcessive exposure to sunlight\nDecreased In\n\u2022\nMalabsorption\n\u2022\nSteatorrhea\n\u2022\nDietary osteomalacia, anticonvulsant osteomalacia\n\u2022\nBiliary and portal cirrhosis\n\u2022\nThyrotoxicosis\n\u2022\nPancreatic insufficiency\n\u2022\nCeliac disease\n\u2022\nRickets\n\u2022\nAlzheimer disease\nLimitations:\nMore recently, it has become clear that receptors for vitamin D are present in a wide variety of cells and that this hormone has biologic effects extending \nbeyond the control of mineral metabolism. Vitamin D deficiency is not clear. Levels needed to prevent rickets and osteomalacia (15 ng/mL) are lower \nthan those that dramatically suppress parathyroid hormone levels (20\u201330 ng/mL). In turn, those levels are lower than levels needed to optimize intestinal \ncalcium absorption (34 ng/mL). Neuromuscular peak performance is associated with levels approximately 38 ng/mL. A recent study states that \nincreasing mean baseline levels from 29 to 38 ng/mL was associated with a 50% lower risk for colon cancer and levels of 52 ng/mL with a 50% reduction \nin the incidence of breast cancer. It is recommended to have clinical correlation with serum 25(OH)vitamin D, serum calcium, serum PTH & serum \nalkaline phosphatase.\nImmunoassay\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDR.TEJASWINI DHOTE\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 12:33\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 12 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nVitamin B12\nL\npg/mL\n187 - 833\nCLIA\n< 148\nVitamin B12 is essential in DNA synthesis, hematopoiesis, and CNS integrity.\nInterpretation:\n\u2022\nIncreased In      :      Chronic granulocytic leukemia , COPD and Chronic renal failure ,  Leukocytosis ,   Liver cell damage (hepatitis, cirrhosis) , Obesity and \nSevere CHF ,  Polycythemia vera , Protein malnutrition.\n\u2022\nDecreased In     :   Abnormalities of cobalamin transport or metabolism  , Bacterial overgrowth ,  Crohn disease  ,   Dietary deficiency (e.g. in vegetarians) \n,  Diphyllobothrium (fish tapeworm)   infestation  ,  Gastric or small intestine surgery  , Hypochlorhydria   ,  Inflammatory bowel diseas , Intestinal \nmalabsorption and Intrinsic factor deficiency\nLimitations:\n\u2022\nDrugs such as chloral hydrate increase vitamin B12 levels. On the other hand , alcohol, aminosalicylic acid, anticonvulsants, ascorbic acid,\ncholestyramine, cimetidine, colchicines, metformin, neomycin, oral contraceptives, ranitidine, and triamterene decrease vitamin B12 levels.\n\u2022\nThe evaluation of macrocytic anemia requires measurements of both vitamin B12 and folate levels; ideally they should be measured\nsimultaneously.\n\u2022\nSpecimen collection soon after blood transfusion can falsely increase vitamin B12 levels.\n\u2022\nPatients taking vitamin B12 supplementation may have misleading results.\n\u2022\nA normal serum concentration of B12 does not rule out tissue deficiency of vitamin B12. The most sensitive test for B12 deficiency at the\ncellular level is the assay for MMA. If clinical symptoms suggest deficiency, measurement of MMA and homocysteine should be considered,\neven if serum B12 concentrations are normal.\nImmunoassay\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDR.TEJASWINI DHOTE\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 12:04\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 13 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nPSA-Prostate Specific Antigen, Total\nng/mL\n0 - 4\n0.573\nPSA is a glycoprotein that is expresses by both normal and neoplastic prostate tissue and is prostate tissue specific and not prostate cancer specific. \nPSA is constantly expressed in nearly all prastate cancers, although its level of expression on a percell basis is lower than in normal prostate epithelium. \nThe absolute value of serum PSA is useful for determining the extent of prostate cancer and assessing the response to prostate cancer treatment; its \nuse as a screening method to detect prostate cancer is also common.\nInterpretation\nIncreased in\n\u2022\nProstate disease (Cancer, Prostatitis, Benign prostatic hyperplasia, Acute urinary retention)\n\u2022\nManipulations ( Cystoscopy, Needle biopsy, Radiation therapy, Indwelling catheter, Prostatic massage)\n\u2022\nTransurethral resection\n\u2022\nProstatic ischemia\nDecreased in\n\u2022\nCastration\n\u2022\nProstatectomy\n\u2022\nRadiation therapy\n\u2022\nEjaculation withi 24 - 48 hours\n\u2022\n5-alpha-reductase inhibitor reduces PSA by 50% after 6 months in men without cancer\nLimitations\n\u2022\nPSA has been recommended by the American Cancer Society for use in conjunction with a DRE for early detection of prostate cancer starting\nat the age of 50 years for men with at least 10 year life expectancy\n\u2022\nPSA levels that are measured repeatedly over time may vary because of biologic variability where the true PSA level in a given man is different\non different measurements.\n\u2022\nA change in PSA of >30% in man with a PSA initially below 2.0 ng/mL was likely to indicate a true change beyond normal random variation.\nImmunoassay\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:38\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 14 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\n IgE\nH\nIU/mL\n0 - 87\nCLIA\n492.30\n\u00a0IgE\u00a0mediates\u00a0allergic\u00a0and\u00a0hypersensitivity\u00a0reactions.\u00a0There\u00a0is\u00a0a\u00a0significant\u00a0overlap\u00a0in\u00a0total\u00a0IgE\u00a0between\u00a0\u00a0allergic and nonallergic individuals.\nInterpretation:\n- Increased In\n\u2022\nAtopic\u00a0\u00a0diseases\n\u25e6\nExogenous asthama in approximately 60% of patients\n\u25e6\nHay fever in approximately 30% of patients and Atopic eczema\n\u2022\nInfluenced by type of allergen, duration of stimulation. Presence of symptoms, and hyposensitization treatment\n\u2022\nParasitic diseases (e.g. ascariasis, visceral larva migrans, hookworm disease, schistosomiasis, Echinococcus infestation)\n\u2022\nMonoclonal IgE myeloma\n- Decreased In\n\u2022\nHereditary deficiencies\n\u2022\nAcquired immunodeficiency\n\u2022\nAtaxia-telangiectasis\n\u2022\nNon-IgE myeloma\nLimitations:\n\u2022\nA normal level of IgE in serum does not eliminate the possibility of allergic disease.\n\u2022\nSerum total IgE levels for the majority of individuals with IgE-mediated disease can be expected to be elevated compared to the reference\nrange for healthy adults. However, not all allergic patients exhibit elevated serum total IgE levels.\n\u2022\nSince\u00a0not\u00a0all\u00a0atopic\u00a0reactions\u00a0are\u00a0IgE-mediated,\u00a0\u00a0a\u00a0total\u00a0IgE\u00a0result\u00a0in\u00a0the\u00a0reference\u00a0range\u00a0\u00a0should\u00a0always\u00a0be\u00a0interpreted\u00a0in\u00a0light\u00a0of\u00a0other\u00a0clinical\nobservations.\n\u2022\nHeterophilic antibodies in human serum can react with the immunoglobulins included in the assay components causing interference with in vitro \nimmunoassays.\nImmunoassay\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Purvish Darji\nMD Path\nMD Path\nMD(Path)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 12:06\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\nProcess At\n:\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nLocation\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nPage 15 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nHIV I & II Ab/Ag with P24 Ag\nS/Co\nNon Reactive : <1.0 \nReactive : >1.0\nChemiluminescence\n0.070\nInterpretation\nNon Reactive\nHBsAg\nS/Co\nNon Reactive : <1.0 \nReactive: >1.0 \nChemiluminescence\n0.290\nInterpretation\nNon Reactive\nAdditional Information:\n1.\nA NON REACTIVE result implies that no Anti HIV-1 or HIV -2 antibodies have been detected in the sample by this method. This means that either\nthe patient has not been exposed to HIV-1 or HIV-2 infection or the sample has been tested during the \"WINDOW PHASE\" (before the\ndevelopment of detectable levels of antibodies).\n2.\nA PROVISIONALITY REACTIVE / BORDERLINE REACTIVE result suggests possibility of HIV-1 or/and HIV-2 infection. However these results\nmust be verified by confirmatory WESTERN BLOT / HIV PCR method before declaring the patient positive for HIV-1 or HIV-2 infection.\n3.\nVery high levels of IgM Antibodies or Anti-HLA ABC and DR Antibodies can give false positive reaction.\n**Pre & Post test counselling for HIV testing is responsibility of reffering Physician.\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Siddharth Thummar\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 14:35\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Serum\nProcess At\nPage 16 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nHb A\nL\n%\n96.8 - 97.8\n84.4\nHb A2\n%\n2.2 - 3.2\n2.8\nP2 Peak\n%\n5.5\nP3 Peak\n%\n5.2\nFoetal Hb\n%\n0.0 - 1.0\n0.3\nInterpretation\nNegative for typical beta thalassemia trait.\nInterpretation:\n\u2022\nAll results have to be correlated with age and history of blood transfusion if there is history of blood transfusion in last 3 months, repeat testing\nafter 3 month from last date of transfusion is recommended.\n\u2022\nIn case of haemoglobinopathy, parents or family studies and councelling is advised.\n\u2022\nThis test detects beta thalassaemia and haemoglobinopathies, DNA analysis is recommended to rule out alpha thalassaemia and silent\ncarriers.\n\u2022\nLinearity range of HbF is 1-40%, However, values in excess of the reportable range have been provided for ease of interpretation.\n\u2022\nMild to moderate increase in fetal haemoglobiin can be seen in some acquired condition like pregnancy, megaloblastic anaemia, Throtoxicosis,\nHypoxia, Chronic kidney disease, Recovering marrow, MDS, Aplastic anaemia, PNH, Medications (Hydrocyurea, Erythropoietin) ect.\n\u2022\nP3 window-Above 10% is often indicative of either denatured froms of hemoglobins or may suggest a possibility of abnormal haemoglobin\nvariant. Hence, repeat analysis with fresh sample or DNA studies is advised.\n\u2022\nP2 Window-Above 10% is indicative of either glycated haemoglonin requring correlation with diabetic staus or may suggest a possibility of\nabnormal haemoglobin variant further DNA studies for confirmation.\nHB Electrophoresis By HPLC\nInstrument Name: BIORAD VARIANT - II Haemoglobin Testing System\nTest\nResult\nUnit\nBiological Ref. Interval\nDr.  Sanjeev Shah\nDr.Yash Shah\nDr. Hardik Modi \nMD Path\nMD Path\nHematopathologist (G-18097)\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 14:16\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : EDTA Blood\nProcess At\nPage 17 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nBio-Rad CDM System\nPATIENT REPORT\nVII Inst. #1. SN-13939\nV2_BThal\nPatient Data\nAnalysis Data \nSample ID: \n022321600126\nAnalysis Performed: \n02/20/2023 13:56:59\nPatient ID: \nInjection Number: \n2575\nName: \nRun Number: \n95\nPhysician:\nRack ID:\n0001\nSex: \nTube Number:\n2\nDOB: \nReport Generated:\n02/20/2023 14:04:40\nComments:\nOperator ID:\nCalibrated\nRetention\nPeak\nPeak Name\nArea %\nArea %\nTime (min)\nArea\nUnknown\n--- \n0.1 \n1.00\n2400\nF\n0.3 \n--- \n1.08\n8321\nUnknown\n--- \n1.6 \n1.18\n44109\nP2\n--- \n5.5 \n1.30\n148807\nP3\n--- \n5.2 \n1.72\n139183\nAo\n--- \n84.4 \n2.34\n2277592\nA2\n2.8 \n--- \n3.64\n76999\nTotal Area:\n2,697,411 \nF Concentration =\n0.3 %\nA2 Concentration =\n2.8 %\nAnalysis comments:\n0\n1\n2\n3\n4\n5\n6\n0.0\n7.5\n15.0\n22.5\n30.0\n37.5\n45.0\nTime (min.)\n%\n-\n1.00\nF-\n1.08\n-\n1.18\n-\n1.30\n-\n1.72\n-\n2.34\nA2-\n3.64\nPage 18 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n\nPhysical & Chemical (Dip strip) examination \nColour\nPale Yellow\nPale Yellow\nClearity\nClear\nClear\npH\n4.6 - 8.0\nDouble indicator\n6.0\nSpecific Gravity\n1.005 - 1.030\nPolyelectrolyte based reaction\n1.030\nUrine Glucose\nAbsent\nGOD-POD\nPresent (+)\nUrine Protein\nAbsent\nProtein error of indicators\nAbsent\nBilirubin\nAbsent\nDiazo reaction\nAbsent\nUrobilinogen\nAbsent\nModified Ehrlich reaction\nAbsent\nUrine Ketone\nAbsent\n Nitroprusside\nAbsent\nNitrite\nAbsent\nNitrite reaction\nAbsent\nMicroscopic Examination\nPus Cells\nAbsent\n1-2\nRed Cells\n/hpf\n0 - 2\nNil\nEpithelial Cells\n/hpf\n.\n1-2\nCasts\n/hpf\nAbsent\nAbsent\nCrystals\n/hpf\nAbsent\nAbsent\nAmorphous Material\nAbsent\nTest\nResult\nUnit\nBiological Ref. Interval\n------------------ End Of Report ------------------\nDr.  Sanjeev Shah\nDr.Yash Shah\nDR.TEJASWINI DHOTE\nMD Path\nMD Path\nM.D. Pathology\nThis is an Electronically Authenticated Report.\n# Referred Test\nMale / 41 Y\n01-Feb-1982\nSex/Age\nStatus :\nFinal\n20-Feb-2023 11:12\nApproved on\n:\n:\nRef. Id\n:\nPrinted On\n28-Feb-2023 10:26\n:\nRef. By\n:\n1. NRL SAWPL Gujarat Ahmedabad Paldi\n:\n:\nLocation\nMC-2202\nScan QR code to check \nreport authenticity\nLABORATORY TEST REPORT\nPassport No :\nSample Information\nClient/Location Information\nPatient Information\n: Lyubochka Svetka\nName\nClient Name\nSterling Accuris Buddy\n:\nLab Id \n: 02232160XXXX\nRegistration on  : 20-Feb-2023 09:10 \nCollected at \n: non SAWPL \nCollected on \n: 20-Feb-2023 08:53 \nSample Type    : Urine\nProcess At\nPage 19 of 19\n0\n3\n600\n6\na d\nSo\npu a\nea s\na e\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 32593
+}

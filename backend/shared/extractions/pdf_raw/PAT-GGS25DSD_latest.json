@@ -1,0 +1,291 @@
+{
+  "filename": "CBC-with-ESR-test-report-format-example-sample-template-Drlogy-lab-report.pdf",
+  "patient_id": "PAT-GGS25DSD",
+  "patient_details": {
+    "patient_id": "PAT-GGS25DSD",
+    "name": null,
+    "age": "21 Years",
+    "gender": "Male",
+    "date": null,
+    "lab_id": "PAT-GGS25DSD",
+    "referred_by": "Dr. Vimal Shah"
+  },
+  "age": "21 Years",
+  "gender": "Male",
+  "biomarkers": {
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 150000.0,
+      "raw_value": 150000.0,
+      "unit": "Borderline",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count                                      150000                    Borderline"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 27.2,
+      "raw_value": 27.2,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "source_span": "MCH                                                      27.2                                             "
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 32.8,
+      "raw_value": 32.8,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "source_span": "MCHC                                                    32.8                                             "
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 13.6,
+      "raw_value": 13.6,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "source_span": "RDW                                                      13.6                                             "
+    },
+    "packed_cell_volume_pcv": {
+      "canonical_name": "Packed Cell Volume (Pcv)",
+      "value": 57.5,
+      "raw_value": 57.5,
+      "unit": "High",
+      "ref_range": "40 - 50",
+      "source_span": "Packed Cell Volume (PCV)                 57.5                                  High   40 - 50                                       %"
+    },
+    "mean_corpuscular_volume_mcv": {
+      "canonical_name": "Mean Corpuscular Volume (Mcv)",
+      "value": 87.75,
+      "raw_value": 87.75,
+      "unit": "",
+      "ref_range": "83 - 101",
+      "source_span": "Mean Corpuscular Volume (MCV)     87.75                                           83 - 101                                    fL"
+    },
+    "hemoglobin_hb": {
+      "canonical_name": "Hemoglobin (Hb)",
+      "value": 12.5,
+      "raw_value": 12.5,
+      "unit": "Low",
+      "ref_range": "13.0 - 17.0",
+      "source_span": "Hemoglobin (Hb)                                 12.5                                  Low   13.0 - 17.0                                 g/dL"
+    },
+    "total_rbc_count": {
+      "canonical_name": "Total Rbc Count",
+      "value": 5.2,
+      "raw_value": 5.2,
+      "unit": "",
+      "ref_range": "4.5 - 5.5",
+      "source_span": "Total RBC count                                   5.2                                               4.5 - 5.5                                     mill/cumm"
+    },
+    "total_wbc_count": {
+      "canonical_name": "Total Wbc Count",
+      "value": 9000.0,
+      "raw_value": 9000.0,
+      "unit": "",
+      "ref_range": "4000-11000",
+      "source_span": "Total WBC count                                 9000                                            4000-11000                              cumm"
+    },
+    "neutrophils": {
+      "canonical_name": "Neutrophils",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "",
+      "ref_range": "50 - 62",
+      "source_span": "Neutrophils                                           60                                                 50 - 62                                      %"
+    },
+    "lymphocytes": {
+      "canonical_name": "Lymphocytes",
+      "value": 31.0,
+      "raw_value": 31.0,
+      "unit": "",
+      "ref_range": "20 - 40",
+      "source_span": "Lymphocytes                                        31                                                 20 - 40                                      %"
+    },
+    "eosinophils": {
+      "canonical_name": "Eosinophils",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "00 - 06",
+      "source_span": "Eosinophils                                           1                                                   00 - 06                                      %"
+    },
+    "monocytes": {
+      "canonical_name": "Monocytes",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "",
+      "ref_range": "00 - 10",
+      "source_span": "Monocytes                                            7                                                   00 - 10                                      %"
+    },
+    "basophils": {
+      "canonical_name": "Basophils",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "00 - 02",
+      "source_span": "Basophils                                              1                                                   00 - 02                                      %"
+    },
+    "platelet_count": {
+      "canonical_name": "Platelet Count",
+      "value": 150000.0,
+      "raw_value": 150000.0,
+      "unit": "Borderline",
+      "ref_range": "150000 - 410000",
+      "source_span": "Platelet Count                                      150000                    Borderline  150000 - 410000                    cumm"
+    },
+    "105": {
+      "canonical_name": "105",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "",
+      "ref_range": "8",
+      "source_span": "105 -108, SMART VISION COMPLEX, HEALTHCARE ROAD, OPPOSITE HEALTHCARE COMPLEX. MUMBAI - 689578"
+    },
+    "0123456789": {
+      "canonical_name": "0123456789",
+      "value": 912345678.0,
+      "raw_value": 912345678.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "0123456789  | 0912345678"
+    },
+    "generated_on": {
+      "canonical_name": "Generated On",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Generated on :  02 Dec, 202X 05:00 PM                           Page 1 of 1"
+    },
+    "registered_on": {
+      "canonical_name": "Registered On",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "31",
+      "source_span": "Registered on: 02:31 PM 02 Dec, 2X"
+    },
+    "collected_on": {
+      "canonical_name": "Collected On",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "",
+      "ref_range": "11",
+      "source_span": "Collected on: 03:11 PM 02 Dec, 2X"
+    },
+    "esr": {
+      "canonical_name": "Esr",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "",
+      "ref_range": "0 - 15",
+      "source_span": "ESR                                                        5                                                   0 - 15                                       mm/hr"
+    }
+  },
+  "labs": {
+    "Platelet Count": {
+      "value": "150000.0",
+      "unit": "Borderline",
+      "ref_range": "150000 - 410000"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "27.2",
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "32.8",
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "13.6",
+      "unit": "%",
+      "ref_range": "11.5 - 14.5"
+    },
+    "Packed Cell Volume (Pcv)": {
+      "value": "57.5",
+      "unit": "High",
+      "ref_range": "40 - 50"
+    },
+    "Mean Corpuscular Volume (Mcv)": {
+      "value": "87.75",
+      "unit": "",
+      "ref_range": "83 - 101"
+    },
+    "Hemoglobin (Hb)": {
+      "value": "12.5",
+      "unit": "Low",
+      "ref_range": "13.0 - 17.0"
+    },
+    "Total Rbc Count": {
+      "value": "5.2",
+      "unit": "",
+      "ref_range": "4.5 - 5.5"
+    },
+    "Total Wbc Count": {
+      "value": "9000.0",
+      "unit": "",
+      "ref_range": "4000-11000"
+    },
+    "Neutrophils": {
+      "value": "60.0",
+      "unit": "",
+      "ref_range": "50 - 62"
+    },
+    "Lymphocytes": {
+      "value": "31.0",
+      "unit": "",
+      "ref_range": "20 - 40"
+    },
+    "Eosinophils": {
+      "value": "1.0",
+      "unit": "",
+      "ref_range": "00 - 06"
+    },
+    "Monocytes": {
+      "value": "7.0",
+      "unit": "",
+      "ref_range": "00 - 10"
+    },
+    "Basophils": {
+      "value": "1.0",
+      "unit": "",
+      "ref_range": "00 - 02"
+    },
+    "105": {
+      "value": "10.0",
+      "unit": "",
+      "ref_range": "8"
+    },
+    "0123456789": {
+      "value": "912345678.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Generated On": {
+      "value": "2.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Registered On": {
+      "value": "2.0",
+      "unit": "",
+      "ref_range": "31"
+    },
+    "Collected On": {
+      "value": "3.0",
+      "unit": "",
+      "ref_range": "11"
+    },
+    "Esr": {
+      "value": "5.0",
+      "unit": "",
+      "ref_range": "0 - 15"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "Smart Pathology Laboratory\nDrlogy.com\nBLOOD INDICES\nPacked Cell Volume (PCV)                 57.5                                  High   40 - 50                                       %\nMean Corpuscular Volume (MCV)     87.75                                           83 - 101                                    fL\nMCH                                                      27.2                                             27 - 32                                       pg\nMCHC                                                    32.8                                             32.5 - 34.5                                g/dL \nRDW                                                      13.6                                             11.6 - 14.0                                 %\nDr. Vimal Shah\n(MD, Pathologist)\nMedical Lab Technician\n(DMLT, BMLT)\nDr. Payal Shah\n(MD, Pathologist)\nYash M. Patel\nAge : 21 Years\nSex : Male\nPID : 555\nSample Collected At:\n125, Shivam Bungalow, S G Road,\nMumbai\nRef. By: Dr. Hiren Shah\nInvestigation                             Result                                Reference Value              Unit\nPrimary Sample Type :                        Blood\nComplete Blood Count (CBC) with ESR\nHEMOGLOBIN\nHemoglobin (Hb)                                 12.5                                  Low   13.0 - 17.0                                 g/dL                  \nRBC COUNT\nTotal RBC count                                   5.2                                               4.5 - 5.5                                     mill/cumm\nWBC COUNT\nTotal WBC count                                 9000                                            4000-11000                              cumm\nDIFFERENTIAL WBC COUNT\nNeutrophils                                           60                                                 50 - 62                                      % \nLymphocytes                                        31                                                 20 - 40                                      %\nEosinophils                                           1                                                   00 - 06                                      %\nMonocytes                                            7                                                   00 - 10                                      %\nBasophils                                              1                                                   00 - 02                                      %\nPLATELET COUNT\nPlatelet Count                                      150000                    Borderline  150000 - 410000                    cumm \nInstruments: Fully automated cell counter - Mindray 300\nInterpretation: Further confirm for Anemia\nThanks for Reference                                                                          ****End of Report****\nCalculated\nCalculated\nCalculated\nDRLOGY PATHOLOGY LAB\nAccurate  | Caring  |  Instant\n 105 -108, SMART VISION COMPLEX, HEALTHCARE ROAD, OPPOSITE HEALTHCARE COMPLEX. MUMBAI - 689578\n 0123456789  | 0912345678\ndrlogypathlab@drlogy.com\nwww.drlogy.com\nGenerated on :  02 Dec, 202X 05:00 PM                           Page 1 of 1\nSample Collection\n0123456789\nRegistered on: 02:31 PM 02 Dec, 2X\n\nCollected on: 03:11 PM 02 Dec, 2X\n\nReported on: 04:35 PM 02 Dec, 2X\nESR                                                        5                                                   0 - 15                                       mm/hr\nCapillary photometry\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 3483
+}

@@ -1,0 +1,1257 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 4.79,
+      "raw_value": 4.79,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC Count: 4.79 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "calcium": {
+      "canonical_name": "Serum Calcium",
+      "value": 9.1,
+      "raw_value": 9.1,
+      "unit": "mg/dL",
+      "ref_range": "8.5 - 10.5",
+      "confidence": 0.95,
+      "source_span": "Calcium: 9.1 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "creatinine": {
+      "canonical_name": "Serum Creatinine",
+      "value": 0.83,
+      "raw_value": 0.83,
+      "unit": "mg/dL",
+      "ref_range": "0.5 - 1.2",
+      "confidence": 0.95,
+      "source_span": "Creatinine, Serum: 0.83 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 148.0,
+      "raw_value": 148.0,
+      "unit": "pg/mL",
+      "ref_range": "200.0 - 900.0",
+      "confidence": 0.95,
+      "source_span": "Vitamin B12: 148.0 pg/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "tsh": {
+      "canonical_name": "Thyroid Stimulating Hormone (TSH)",
+      "value": 0.8199,
+      "raw_value": 0.8199,
+      "unit": "uIU/mL",
+      "ref_range": "0.4 - 4.5",
+      "confidence": 0.95,
+      "source_span": "TSH - Thyroid Stimulating Hormone: 0.8199 uIU/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "male": {
+      "canonical_name": "Male /",
+      "value": 41.0,
+      "raw_value": 41.0,
+      "unit": "Y",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Male / 41 Y",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "exogenous_asthama_in_approximately": {
+      "canonical_name": "Exogenous Asthama In Approximately",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Exogenous asthama in approximately 60% of patients",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "98": {
+      "canonical_name": "98 -",
+      "value": 107.0,
+      "raw_value": 107.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "98 - 107",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "poor_control": {
+      "canonical_name": "Poor Control",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Poor Control : > 7.0 %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "ldl": {
+      "canonical_name": "LDL Cholesterol",
+      "value": 100.0,
+      "raw_value": 100.0,
+      "unit": "mg/dL",
+      "ref_range": "0.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "Direct LDL: 100.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "hba1c": {
+      "canonical_name": "HbA1c",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "%",
+      "ref_range": "4.0 - 5.7",
+      "confidence": 0.95,
+      "source_span": "HbA1c: 5.7 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "low": {
+      "canonical_name": "Low",
+      "value": 40.0,
+      "raw_value": 40.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Low: <40.0",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hay_fever_in_approximately": {
+      "canonical_name": "Hay Fever In Approximately",
+      "value": 30.0,
+      "raw_value": 30.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Hay fever in approximately 30% of patients and Atopic eczema",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "after": {
+      "canonical_name": "After",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "month",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "after 3 month from last date of transfusion is recommended.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "20_feb_2023_08": {
+      "canonical_name": "20-Feb-2023 08",
+      "value": 53.0,
+      "raw_value": 53.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20-Feb-2023 08:53",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "2000": {
+      "canonical_name": "2000 -",
+      "value": 6700.0,
+      "raw_value": 6700.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "2000 - 6700",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "wbc": {
+      "canonical_name": "White Blood Cell Count (WBC)",
+      "value": 10570.0,
+      "raw_value": 10570.0,
+      "unit": "cells/uL",
+      "ref_range": "4000 - 11000",
+      "confidence": 0.95,
+      "source_span": "Total WBC and Differential Count: 10570.0 cells/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "homocysteine": {
+      "canonical_name": "Homocysteine",
+      "value": 23.86,
+      "raw_value": 23.86,
+      "unit": "micromol/L",
+      "ref_range": "6.0 - 14.8",
+      "confidence": 0.95,
+      "source_span": "Homocysteine, Serum: 23.86 micromol/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "15": {
+      "canonical_name": "15 -",
+      "value": 35.0,
+      "raw_value": 35.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "15 - 35",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "sodium": {
+      "canonical_name": "Serum Sodium",
+      "value": 143.0,
+      "raw_value": 143.0,
+      "unit": "mEq/L",
+      "ref_range": "135.0 - 145.0",
+      "confidence": 0.95,
+      "source_span": "Sodium (Na+): 143.0 mEq/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "ast": {
+      "canonical_name": "Aspartate Transaminase (AST / SGOT)",
+      "value": 27.0,
+      "raw_value": 27.0,
+      "unit": "U/L",
+      "ref_range": "8.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "SGOT: 27.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "up_to": {
+      "canonical_name": "Up To",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Up to 5.0",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "high": {
+      "canonical_name": "High",
+      "value": 240.0,
+      "raw_value": 240.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "High : >240",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "insufficiency": {
+      "canonical_name": "Insufficiency",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "",
+      "ref_range": "- 30",
+      "confidence": 0.9,
+      "source_span": "Insufficiency : 10 - 30",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "borderline_high": {
+      "canonical_name": "Borderline High",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "",
+      "ref_range": "-239",
+      "confidence": 0.9,
+      "source_span": "Borderline High : 200-239",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "1100": {
+      "canonical_name": "1100 -",
+      "value": 3300.0,
+      "raw_value": 3300.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "1100 - 3300",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "deficiency": {
+      "canonical_name": "Deficiency",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Deficiency    : <10",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hematopathologist_g": {
+      "canonical_name": "Hematopathologist (G",
+      "value": 1809.0,
+      "raw_value": 1809.0,
+      "unit": "",
+      "ref_range": "7",
+      "confidence": 0.9,
+      "source_span": "Hematopathologist (G-18097)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "20_feb_2023_11": {
+      "canonical_name": "20-Feb-2023 11",
+      "value": 9.0,
+      "raw_value": 9.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20-Feb-2023 11:09",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "20_feb_2023_14": {
+      "canonical_name": "20-Feb-2023 14",
+      "value": 35.0,
+      "raw_value": 35.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20-Feb-2023 14:35",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "20_feb_2023_12": {
+      "canonical_name": "20-Feb-2023 12",
+      "value": 40.0,
+      "raw_value": 40.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20-Feb-2023 12:40",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "261": {
+      "canonical_name": "261 -",
+      "value": 462.0,
+      "raw_value": 462.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "261 - 462",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "bilirubin": {
+      "canonical_name": "Total Bilirubin",
+      "value": 0.7,
+      "raw_value": 0.7,
+      "unit": "mg/dL",
+      "ref_range": "0.1 - 1.2",
+      "confidence": 0.95,
+      "source_span": "Bilirubin: 0.7 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "20_feb_2023_13": {
+      "canonical_name": "20-Feb-2023 13",
+      "value": 33.0,
+      "raw_value": 33.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20-Feb-2023 13:33",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "83": {
+      "canonical_name": "83 -",
+      "value": 101.0,
+      "raw_value": 101.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "83 - 101",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "150000": {
+      "canonical_name": "150000 -",
+      "value": 410000.0,
+      "raw_value": 410000.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "150000 - 410000",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "increasing_mean_baseline_levels_from": {
+      "canonical_name": "Increasing Mean Baseline Levels From",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "to",
+      "ref_range": "38",
+      "confidence": 0.9,
+      "source_span": "increasing mean baseline levels from 29 to 38 ng/mL was associated with a 50% lower risk for colon cancer and levels of 52 ng/mL with a 50% reduction",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "4000": {
+      "canonical_name": "4000 -",
+      "value": 10000.0,
+      "raw_value": 10000.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "4000 - 10000",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "urea": {
+      "canonical_name": "Blood Urea",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "mg/dL",
+      "ref_range": "7.0 - 20.0",
+      "confidence": 0.95,
+      "source_span": "Urea: 18.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "non_reactive": {
+      "canonical_name": "Non Reactive",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Non Reactive : <1.0",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "Sex/Age",
+      "value": "Sex/Age",
+      "unit": "",
+      "confidence": 0.5,
+      "source": "gliner",
+      "source_span": "Sex/Age",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 33.4,
+      "raw_value": 33.4,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC: 33.4 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 30.2,
+      "raw_value": 30.2,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH: 30.2 pg",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "187": {
+      "canonical_name": "187 -",
+      "value": 833.0,
+      "raw_value": 833.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "187 - 833",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "non_diabetes": {
+      "canonical_name": "Non-Diabetes",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Non-Diabetes: < 5.7%",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "sufficiency": {
+      "canonical_name": "Sufficiency",
+      "value": 30.0,
+      "raw_value": 30.0,
+      "unit": "",
+      "ref_range": "- 100",
+      "confidence": 0.9,
+      "source_span": "Sufficiency   : 30 - 100",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "vitamin_d": {
+      "canonical_name": "Vitamin D",
+      "raw_value": "angiotensin-converting-enzyme",
+      "value": "angiotensin-converting-enzyme",
+      "unit": "",
+      "confidence": 0.7,
+      "source": "gliner",
+      "source_span": "angiotensin-converting-enzyme",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "very_high": {
+      "canonical_name": "Very High",
+      "value": 500.0,
+      "raw_value": 500.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Very High : >500",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "40": {
+      "canonical_name": "40 -",
+      "value": 49.0,
+      "raw_value": 49.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "40 - 49",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "optimal": {
+      "canonical_name": "Optimal",
+      "value": 100.0,
+      "raw_value": 100.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Optimal: <100",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "linearity_range_of_hbf_is_1": {
+      "canonical_name": "Linearity Range Of Hbf Is 1",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "0",
+      "confidence": 0.9,
+      "source_span": "Linearity range of HbF is 1-40%, However, values in excess of the reportable range have been provided for ease of interpretation.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "200": {
+      "canonical_name": "200 -",
+      "value": 700.0,
+      "raw_value": 700.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "200 - 700",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "00": {
+      "canonical_name": "00 -",
+      "value": 400.0,
+      "raw_value": 400.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "00 - 400",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "reactive": {
+      "canonical_name": "Reactive",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Reactive : >1.0",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "registration_on": {
+      "canonical_name": "Registration On",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "",
+      "ref_range": "-",
+      "confidence": 0.9,
+      "source_span": "Registration on  : 20-Feb-2023 09:10",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "02_20_2023_14": {
+      "canonical_name": "02/20/2023 14",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "40",
+      "confidence": 0.9,
+      "source_span": "02/20/2023 14:04:40",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "17": {
+      "canonical_name": "17 -",
+      "value": 59.0,
+      "raw_value": 59.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "17 - 59",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "pre_diabetes": {
+      "canonical_name": "Pre-Diabetes",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "%",
+      "ref_range": "-",
+      "confidence": 0.9,
+      "source_span": "Pre-Diabetes: 5.7% -",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "49": {
+      "canonical_name": "49 -",
+      "value": 181.0,
+      "raw_value": 181.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "49 - 181",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "albumin": {
+      "canonical_name": "Serum Albumin",
+      "value": 4.2,
+      "raw_value": 4.2,
+      "unit": "g/dL",
+      "ref_range": "3.5 - 5.0",
+      "confidence": 0.95,
+      "source_span": "Albumin: 4.2 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 150000.0,
+      "raw_value": 150000.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count: 150000.0 cells/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "desirable": {
+      "canonical_name": "Desirable",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Desirable : <200",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "a_change_in_psa_of": {
+      "canonical_name": "A Change In Psa Of",
+      "value": 30.0,
+      "raw_value": 30.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "A change in PSA of >30% in man with a PSA initially below 2.0 ng/mL was likely to indicate a true change beyond normal random variation.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "adult": {
+      "canonical_name": "Adult",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "",
+      "ref_range": "- 50",
+      "confidence": 0.9,
+      "source_span": "Adult : 20 - 50",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "p2_window_above": {
+      "canonical_name": "P2 Window-Above",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "P2 Window-Above 10% is indicative of either glycated haemoglonin requring correlation with diabetic staus or may suggest a possibility of",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 13.6,
+      "raw_value": 13.6,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "RDW CV: 13.6 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "01_feb": {
+      "canonical_name": "01-Feb",
+      "value": 1982.0,
+      "raw_value": 1982.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "01-Feb-1982",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 14.5,
+      "raw_value": 14.5,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin: 14.5 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "cholesterol": {
+      "canonical_name": "Total Cholesterol",
+      "value": 189.0,
+      "raw_value": 189.0,
+      "unit": "mg/dL",
+      "ref_range": "125.0 - 200.0",
+      "confidence": 0.95,
+      "source_span": "Cholesterol: 189.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "normal": {
+      "canonical_name": "Normal",
+      "value": 150.0,
+      "raw_value": 150.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Normal : <150",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "20": {
+      "canonical_name": "20 -",
+      "value": 40.0,
+      "raw_value": 40.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20 - 40",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "ejaculation_withi_24": {
+      "canonical_name": "Ejaculation Withi 24 -",
+      "value": 48.0,
+      "raw_value": 48.0,
+      "unit": "hours",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Ejaculation withi 24 - 48 hours",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "p3_window_above": {
+      "canonical_name": "P3 Window-Above",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "P3 window-Above 10% is often indicative of either denatured froms of hemoglobins or may suggest a possibility of abnormal haemoglobin",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "potassium": {
+      "canonical_name": "Serum Potassium",
+      "value": 4.9,
+      "raw_value": 4.9,
+      "unit": "mEq/L",
+      "ref_range": "3.5 - 5.0",
+      "confidence": 0.95,
+      "source_span": "Potassium (K+): 4.9 mEq/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "alt": {
+      "canonical_name": "Alanine Transaminase (ALT / SGPT)",
+      "value": 48.0,
+      "raw_value": 48.0,
+      "unit": "U/L",
+      "ref_range": "7.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "SGPT: 48.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "tibc": {
+      "canonical_name": "Total Iron Binding Capacity (TIBC)",
+      "value": 352.0,
+      "raw_value": 352.0,
+      "unit": "mcg/dL",
+      "ref_range": "250.0 - 450.0",
+      "confidence": 0.95,
+      "source_span": "Total Iron Binding Capacity (TIBC): 352.0 mcg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 90.3,
+      "raw_value": 90.3,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "MCV: 90.3 fL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "children": {
+      "canonical_name": "Children",
+      "value": 16.0,
+      "raw_value": 16.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Children : >16",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "02_20_2023_13": {
+      "canonical_name": "02/20/2023 13",
+      "value": 56.0,
+      "raw_value": 56.0,
+      "unit": "",
+      "ref_range": "59",
+      "confidence": 0.9,
+      "source_span": "02/20/2023 13:56:59",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "fasting_sugar": {
+      "canonical_name": "Fasting Blood Sugar",
+      "value": 141.0,
+      "raw_value": 141.0,
+      "unit": "mg/dL",
+      "ref_range": "74.0 - 106.0",
+      "confidence": 0.95,
+      "source_span": "Fasting Blood Sugar: 141.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "28_feb_2023_10": {
+      "canonical_name": "28-Feb-2023 10",
+      "value": 26.0,
+      "raw_value": 26.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "28-Feb-2023 10:26",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "diabetes": {
+      "canonical_name": "Diabetes",
+      "value": 6.5,
+      "raw_value": 6.5,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Diabetes: >6.5%",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "good_control": {
+      "canonical_name": "Good Control",
+      "value": 6.0,
+      "raw_value": 6.0,
+      "unit": "",
+      "ref_range": "-7.0",
+      "confidence": 0.9,
+      "source_span": "Good Control : 6.0-7.0 %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "136": {
+      "canonical_name": "136 -",
+      "value": 145.0,
+      "raw_value": 145.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "136 - 145",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "74": {
+      "canonical_name": "74 -",
+      "value": 106.0,
+      "raw_value": 106.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "74 - 106",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hdl": {
+      "canonical_name": "HDL Cholesterol",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "mg/dL",
+      "ref_range": "40.0 - 90.0",
+      "confidence": 0.95,
+      "source_span": "HDL Cholesterol: 60.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "females",
+      "value": "females",
+      "unit": "",
+      "confidence": 0.91,
+      "source": "gliner",
+      "source_span": "females",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "borderline": {
+      "canonical_name": "Borderline",
+      "value": 150.0,
+      "raw_value": 150.0,
+      "unit": "",
+      "ref_range": "-199",
+      "confidence": 0.9,
+      "source_span": "Borderline : 150-199",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "toxicity": {
+      "canonical_name": "Toxicity",
+      "value": 100.0,
+      "raw_value": 100.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Toxicity        :  >100",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "Red Blood Cell Count (RBC)": {
+      "value": "4.79",
+      "unit": "million/uL"
+    },
+    "Serum Calcium": {
+      "value": "9.1",
+      "unit": "mg/dL"
+    },
+    "Serum Creatinine": {
+      "value": "0.83",
+      "unit": "mg/dL"
+    },
+    "Vitamin B12": {
+      "value": "148.0",
+      "unit": "pg/mL"
+    },
+    "Thyroid Stimulating Hormone (TSH)": {
+      "value": "0.8199",
+      "unit": "uIU/mL"
+    },
+    "Male /": {
+      "value": "41.0",
+      "unit": "Y"
+    },
+    "Exogenous Asthama In Approximately": {
+      "value": "60.0",
+      "unit": "%"
+    },
+    "98 -": {
+      "value": "107.0",
+      "unit": ""
+    },
+    "Poor Control": {
+      "value": "7.0",
+      "unit": "%"
+    },
+    "LDL Cholesterol": {
+      "value": "100.0",
+      "unit": "mg/dL"
+    },
+    "HbA1c": {
+      "value": "5.7",
+      "unit": "%"
+    },
+    "Low": {
+      "value": "40.0",
+      "unit": ""
+    },
+    "Hay Fever In Approximately": {
+      "value": "30.0",
+      "unit": "%"
+    },
+    "After": {
+      "value": "3.0",
+      "unit": "month"
+    },
+    "20-Feb-2023 08": {
+      "value": "53.0",
+      "unit": ""
+    },
+    "2000 -": {
+      "value": "6700.0",
+      "unit": ""
+    },
+    "White Blood Cell Count (WBC)": {
+      "value": "10570.0",
+      "unit": "cells/uL"
+    },
+    "Homocysteine": {
+      "value": "23.86",
+      "unit": "micromol/L"
+    },
+    "15 -": {
+      "value": "35.0",
+      "unit": ""
+    },
+    "Serum Sodium": {
+      "value": "143.0",
+      "unit": "mEq/L"
+    },
+    "Aspartate Transaminase (AST / SGOT)": {
+      "value": "27.0",
+      "unit": "U/L"
+    },
+    "Up To": {
+      "value": "5.0",
+      "unit": ""
+    },
+    "High": {
+      "value": "240.0",
+      "unit": ""
+    },
+    "Insufficiency": {
+      "value": "10.0",
+      "unit": ""
+    },
+    "Borderline High": {
+      "value": "200.0",
+      "unit": ""
+    },
+    "1100 -": {
+      "value": "3300.0",
+      "unit": ""
+    },
+    "Deficiency": {
+      "value": "10.0",
+      "unit": ""
+    },
+    "Hematopathologist (G": {
+      "value": "1809.0",
+      "unit": ""
+    },
+    "20-Feb-2023 11": {
+      "value": "9.0",
+      "unit": ""
+    },
+    "20-Feb-2023 14": {
+      "value": "35.0",
+      "unit": ""
+    },
+    "20-Feb-2023 12": {
+      "value": "40.0",
+      "unit": ""
+    },
+    "261 -": {
+      "value": "462.0",
+      "unit": ""
+    },
+    "Total Bilirubin": {
+      "value": "0.7",
+      "unit": "mg/dL"
+    },
+    "20-Feb-2023 13": {
+      "value": "33.0",
+      "unit": ""
+    },
+    "83 -": {
+      "value": "101.0",
+      "unit": ""
+    },
+    "150000 -": {
+      "value": "410000.0",
+      "unit": ""
+    },
+    "Increasing Mean Baseline Levels From": {
+      "value": "29.0",
+      "unit": "to"
+    },
+    "4000 -": {
+      "value": "10000.0",
+      "unit": ""
+    },
+    "Blood Urea": {
+      "value": "18.0",
+      "unit": "mg/dL"
+    },
+    "Non Reactive": {
+      "value": "1.0",
+      "unit": ""
+    },
+    "Age": {
+      "value": "Sex/Age",
+      "unit": ""
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "33.4",
+      "unit": "g/dL"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "30.2",
+      "unit": "pg"
+    },
+    "187 -": {
+      "value": "833.0",
+      "unit": ""
+    },
+    "Non-Diabetes": {
+      "value": "5.7",
+      "unit": "%"
+    },
+    "Sufficiency": {
+      "value": "30.0",
+      "unit": ""
+    },
+    "Vitamin D": {
+      "value": "angiotensin-converting-enzyme",
+      "unit": ""
+    },
+    "Very High": {
+      "value": "500.0",
+      "unit": ""
+    },
+    "40 -": {
+      "value": "49.0",
+      "unit": ""
+    },
+    "Optimal": {
+      "value": "100.0",
+      "unit": ""
+    },
+    "Linearity Range Of Hbf Is 1": {
+      "value": "4.0",
+      "unit": ""
+    },
+    "200 -": {
+      "value": "700.0",
+      "unit": ""
+    },
+    "00 -": {
+      "value": "400.0",
+      "unit": ""
+    },
+    "Reactive": {
+      "value": "1.0",
+      "unit": ""
+    },
+    "Registration On": {
+      "value": "20.0",
+      "unit": ""
+    },
+    "02/20/2023 14": {
+      "value": "4.0",
+      "unit": ""
+    },
+    "17 -": {
+      "value": "59.0",
+      "unit": ""
+    },
+    "Pre-Diabetes": {
+      "value": "5.7",
+      "unit": "%"
+    },
+    "49 -": {
+      "value": "181.0",
+      "unit": ""
+    },
+    "Serum Albumin": {
+      "value": "4.2",
+      "unit": "g/dL"
+    },
+    "Platelet Count": {
+      "value": "150000.0",
+      "unit": "cells/uL"
+    },
+    "Desirable": {
+      "value": "200.0",
+      "unit": ""
+    },
+    "A Change In Psa Of": {
+      "value": "30.0",
+      "unit": "%"
+    },
+    "Adult": {
+      "value": "20.0",
+      "unit": ""
+    },
+    "P2 Window-Above": {
+      "value": "10.0",
+      "unit": "%"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "13.6",
+      "unit": "%"
+    },
+    "01-Feb": {
+      "value": "1982.0",
+      "unit": ""
+    },
+    "Hemoglobin": {
+      "value": "14.5",
+      "unit": "g/dL"
+    },
+    "Total Cholesterol": {
+      "value": "189.0",
+      "unit": "mg/dL"
+    },
+    "Normal": {
+      "value": "150.0",
+      "unit": ""
+    },
+    "20 -": {
+      "value": "40.0",
+      "unit": ""
+    },
+    "Ejaculation Withi 24 -": {
+      "value": "48.0",
+      "unit": "hours"
+    },
+    "P3 Window-Above": {
+      "value": "10.0",
+      "unit": "%"
+    },
+    "Serum Potassium": {
+      "value": "4.9",
+      "unit": "mEq/L"
+    },
+    "Alanine Transaminase (ALT / SGPT)": {
+      "value": "48.0",
+      "unit": "U/L"
+    },
+    "Total Iron Binding Capacity (TIBC)": {
+      "value": "352.0",
+      "unit": "mcg/dL"
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "90.3",
+      "unit": "fL"
+    },
+    "Children": {
+      "value": "16.0",
+      "unit": ""
+    },
+    "02/20/2023 13": {
+      "value": "56.0",
+      "unit": ""
+    },
+    "Fasting Blood Sugar": {
+      "value": "141.0",
+      "unit": "mg/dL"
+    },
+    "28-Feb-2023 10": {
+      "value": "26.0",
+      "unit": ""
+    },
+    "Diabetes": {
+      "value": "6.5",
+      "unit": "%"
+    },
+    "Good Control": {
+      "value": "6.0",
+      "unit": ""
+    },
+    "136 -": {
+      "value": "145.0",
+      "unit": ""
+    },
+    "74 -": {
+      "value": "106.0",
+      "unit": ""
+    },
+    "HDL Cholesterol": {
+      "value": "60.0",
+      "unit": "mg/dL"
+    },
+    "Gender": {
+      "value": "females",
+      "unit": ""
+    },
+    "Borderline": {
+      "value": "150.0",
+      "unit": ""
+    },
+    "Toxicity": {
+      "value": "100.0",
+      "unit": ""
+    }
+  },
+  "confidence_summary": 0.91,
+  "parse_confidence": 0.91,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

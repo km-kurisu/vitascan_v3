@@ -1,0 +1,357 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "esr": {
+      "canonical_name": "Esr",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "",
+      "ref_range": "0 - 15",
+      "confidence": 0.9,
+      "source_span": "ESR                                                        5                                                   0 - 15                                       mm/hr",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 32.8,
+      "raw_value": 32.8,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC                                                    32.8                                             ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 13.6,
+      "raw_value": 13.6,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "RDW                                                      13.6                                             ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 300.0,
+      "raw_value": 300.0,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC COUNT: 300.0 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 27.2,
+      "raw_value": 27.2,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH                                                      27.2                                             ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "neutrophils": {
+      "canonical_name": "Neutrophils",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "",
+      "ref_range": "50 - 62",
+      "confidence": 0.9,
+      "source_span": "Neutrophils                                           60                                                 50 - 62                                      %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelet_count": {
+      "canonical_name": "Platelet Count",
+      "value": 150000.0,
+      "raw_value": 150000.0,
+      "unit": "Borderline",
+      "ref_range": "150000 - 410000",
+      "confidence": 0.9,
+      "source_span": "Platelet Count                                      150000                    Borderline  150000 - 410000                    cumm",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "total_rbc_count": {
+      "canonical_name": "Total Rbc Count",
+      "value": 5.2,
+      "raw_value": 5.2,
+      "unit": "",
+      "ref_range": "4.5 - 5.5",
+      "confidence": 0.9,
+      "source_span": "Total RBC count                                   5.2                                               4.5 - 5.5                                     mill/cumm",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "generated_on": {
+      "canonical_name": "Generated On",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Generated on :  02 Dec, 202X 05:00 PM                           Page 1 of 1",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mean_corpuscular_volume_mcv": {
+      "canonical_name": "Mean Corpuscular Volume (Mcv)",
+      "value": 87.75,
+      "raw_value": 87.75,
+      "unit": "",
+      "ref_range": "83 - 101",
+      "confidence": 0.9,
+      "source_span": "Mean Corpuscular Volume (MCV)     87.75                                           83 - 101                                    fL",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "basophils": {
+      "canonical_name": "Basophils",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "00 - 02",
+      "confidence": 0.9,
+      "source_span": "Basophils                                              1                                                   00 - 02                                      %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "105": {
+      "canonical_name": "105",
+      "value": 10.0,
+      "raw_value": 10.0,
+      "unit": "",
+      "ref_range": "8",
+      "confidence": 0.9,
+      "source_span": "105 -108, SMART VISION COMPLEX, HEALTHCARE ROAD, OPPOSITE HEALTHCARE COMPLEX. MUMBAI - 689578",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "packed_cell_volume_pcv": {
+      "canonical_name": "Packed Cell Volume (Pcv)",
+      "value": 57.5,
+      "raw_value": 57.5,
+      "unit": "High",
+      "ref_range": "40 - 50",
+      "confidence": 0.9,
+      "source_span": "Packed Cell Volume (PCV)                 57.5                                  High   40 - 50                                       %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "eosinophils": {
+      "canonical_name": "Eosinophils",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "00 - 06",
+      "confidence": 0.9,
+      "source_span": "Eosinophils                                           1                                                   00 - 06                                      %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "collected_on": {
+      "canonical_name": "Collected On",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "",
+      "ref_range": "11",
+      "confidence": 0.9,
+      "source_span": "Collected on: 03:11 PM 02 Dec, 2X",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin_hb": {
+      "canonical_name": "Hemoglobin (Hb)",
+      "value": 12.5,
+      "raw_value": 12.5,
+      "unit": "Low",
+      "ref_range": "13.0 - 17.0",
+      "confidence": 0.9,
+      "source_span": "Hemoglobin (Hb)                                 12.5                                  Low   13.0 - 17.0                                 g/dL",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "lymphocytes": {
+      "canonical_name": "Lymphocytes",
+      "value": 31.0,
+      "raw_value": 31.0,
+      "unit": "",
+      "ref_range": "20 - 40",
+      "confidence": 0.9,
+      "source_span": "Lymphocytes                                        31                                                 20 - 40                                      %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "monocytes": {
+      "canonical_name": "Monocytes",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "",
+      "ref_range": "00 - 10",
+      "confidence": 0.9,
+      "source_span": "Monocytes                                            7                                                   00 - 10                                      %",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "0123456789": {
+      "canonical_name": "0123456789",
+      "value": 912345678.0,
+      "raw_value": 912345678.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "0123456789  | 0912345678",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Male",
+      "value": "Male",
+      "unit": "",
+      "confidence": 0.89,
+      "source": "gliner",
+      "source_span": "Male",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "registered_on": {
+      "canonical_name": "Registered On",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "31",
+      "confidence": 0.9,
+      "source_span": "Registered on: 02:31 PM 02 Dec, 2X",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 150000.0,
+      "raw_value": 150000.0,
+      "unit": "Borderline",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count                                      150000                    Borderline",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "wbc": {
+      "canonical_name": "White Blood Cell Count (WBC)",
+      "value": 300.0,
+      "raw_value": 300.0,
+      "unit": "cells/uL",
+      "ref_range": "4000 - 11000",
+      "confidence": 0.95,
+      "source_span": "WBC COUNT: 300.0 cells/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "21 Years",
+      "value": "21 Years",
+      "unit": "",
+      "confidence": 0.88,
+      "source": "gliner",
+      "source_span": "21 Years",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "total_wbc_count": {
+      "canonical_name": "Total Wbc Count",
+      "value": 9000.0,
+      "raw_value": 9000.0,
+      "unit": "",
+      "ref_range": "4000-11000",
+      "confidence": 0.9,
+      "source_span": "Total WBC count                                 9000                                            4000-11000                              cumm",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "Esr": {
+      "value": "5.0",
+      "unit": ""
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "32.8",
+      "unit": "g/dL"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "13.6",
+      "unit": "%"
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "300.0",
+      "unit": "million/uL"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "27.2",
+      "unit": "pg"
+    },
+    "Neutrophils": {
+      "value": "60.0",
+      "unit": ""
+    },
+    "Platelet Count": {
+      "value": "150000.0",
+      "unit": "Borderline"
+    },
+    "Total Rbc Count": {
+      "value": "5.2",
+      "unit": ""
+    },
+    "Generated On": {
+      "value": "2.0",
+      "unit": ""
+    },
+    "Mean Corpuscular Volume (Mcv)": {
+      "value": "87.75",
+      "unit": ""
+    },
+    "Basophils": {
+      "value": "1.0",
+      "unit": ""
+    },
+    "105": {
+      "value": "10.0",
+      "unit": ""
+    },
+    "Packed Cell Volume (Pcv)": {
+      "value": "57.5",
+      "unit": "High"
+    },
+    "Eosinophils": {
+      "value": "1.0",
+      "unit": ""
+    },
+    "Collected On": {
+      "value": "3.0",
+      "unit": ""
+    },
+    "Hemoglobin (Hb)": {
+      "value": "12.5",
+      "unit": "Low"
+    },
+    "Lymphocytes": {
+      "value": "31.0",
+      "unit": ""
+    },
+    "Monocytes": {
+      "value": "7.0",
+      "unit": ""
+    },
+    "0123456789": {
+      "value": "912345678.0",
+      "unit": ""
+    },
+    "Gender": {
+      "value": "Male",
+      "unit": ""
+    },
+    "Registered On": {
+      "value": "2.0",
+      "unit": ""
+    },
+    "White Blood Cell Count (WBC)": {
+      "value": "300.0",
+      "unit": "cells/uL"
+    },
+    "Age": {
+      "value": "21 Years",
+      "unit": ""
+    },
+    "Total Wbc Count": {
+      "value": "9000.0",
+      "unit": ""
+    }
+  },
+  "confidence_summary": 0.91,
+  "parse_confidence": 0.91,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

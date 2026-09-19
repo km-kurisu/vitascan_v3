@@ -1,0 +1,44 @@
+{
+  "ferritin": {
+    "min": 13.0,
+    "max": 150.0,
+    "unit": "ng/mL",
+    "name": "Serum Ferritin"
+  },
+  "hemoglobin": {
+    "min": 12.0,
+    "max": 15.5,
+    "unit": "g/dL",
+    "name": "Hemoglobin"
+  },
+  "b12": {
+    "min": 200.0,
+    "max": 900.0,
+    "unit": "pg/mL",
+    "name": "Vitamin B12"
+  },
+  "folate": {
+    "min": 4.6,
+    "max": 18.7,
+    "unit": "ng/mL",
+    "name": "Serum Folate"
+  },
+  "tibc": {
+    "min": 250.0,
+    "max": 450.0,
+    "unit": "ug/dL",
+    "name": "Total Iron Binding Capacity"
+  },
+  "iron": {
+    "min": 60.0,
+    "max": 170.0,
+    "unit": "ug/dL",
+    "name": "Serum Iron"
+  },
+  "mcv": {
+    "min": 80.0,
+    "max": 100.0,
+    "unit": "fL",
+    "name": "Mean Corpuscular Volume"
+  }
+}

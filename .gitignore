@@ -1,0 +1,34 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+ENV/
+env/
+
+# Build & Cache Outputs
+.next/
+dist/
+out/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Model Binaries (Optional)
+# backend/path_b_blood_report/mod_b3_grader/weights/*.pkl

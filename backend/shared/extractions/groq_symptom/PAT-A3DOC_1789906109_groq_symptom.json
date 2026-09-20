@@ -1,0 +1,11 @@
+{
+  "deficiency": "anemia",
+  "confidence": 0.45,
+  "visual_findings": [
+    "Generalized pallor of the nail bed",
+    "Absence of normal pink coloration in the lunula and distal nail bed",
+    "No visible koilonychia (spooning) or Beau's lines"
+  ],
+  "agrees_with_path_b": true,
+  "source_region": "nails"
+}

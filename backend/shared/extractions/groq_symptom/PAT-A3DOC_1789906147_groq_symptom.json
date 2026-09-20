@@ -1,0 +1,10 @@
+{
+  "deficiency": "iron",
+  "confidence": 0.45,
+  "visual_findings": [
+    "Generalized skin pallor",
+    "Koilonychia (spoon-shaped nails) visible in the central and lower-left circular regions"
+  ],
+  "agrees_with_path_b": true,
+  "source_region": "skin"
+}

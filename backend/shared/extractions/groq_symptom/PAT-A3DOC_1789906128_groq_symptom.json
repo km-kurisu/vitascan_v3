@@ -1,0 +1,11 @@
+{
+  "deficiency": "anemia",
+  "confidence": 0.45,
+  "visual_findings": [
+    "Generalized pallor of the tongue",
+    "Smooth, atrophic tongue surface (glossitis)",
+    "Absence of visible papillae"
+  ],
+  "agrees_with_path_b": true,
+  "source_region": "tongue"
+}

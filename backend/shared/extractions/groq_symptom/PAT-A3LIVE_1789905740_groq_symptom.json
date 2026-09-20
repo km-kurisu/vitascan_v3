@@ -1,0 +1,11 @@
+{
+  "deficiency": "iron",
+  "confidence": 0.45,
+  "visual_findings": [
+    "Generalized pallor of the nail bed",
+    "Loss of normal pink coloration in the lunula and nail plate",
+    "No distinct koilonychia (spooning) morphology visible"
+  ],
+  "agrees_with_path_b": false,
+  "source_region": "nails"
+}

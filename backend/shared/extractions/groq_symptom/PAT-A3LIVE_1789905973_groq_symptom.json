@@ -1,0 +1,10 @@
+{
+  "deficiency": "anemia",
+  "confidence": 0.85,
+  "visual_findings": [
+    "Pallor of the conjunctiva",
+    "Pale pink coloration of the lower eyelid mucosa"
+  ],
+  "agrees_with_path_b": true,
+  "source_region": "eyes"
+}

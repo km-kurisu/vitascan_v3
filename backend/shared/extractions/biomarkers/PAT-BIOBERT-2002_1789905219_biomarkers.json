@@ -1,0 +1,110 @@
+{
+  "model": "biobert-v1.1-ner",
+  "biomarkers": {
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin: 10.4 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "pg/mL",
+      "ref_range": "200.0 - 900.0",
+      "confidence": 0.95,
+      "source_span": "Vitamin B12: 210 pg/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "confidence": 0.95,
+      "source_span": "Ferritin: 11.2 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "serum_ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Serum Ferritin: 11.2 ng/mL (Ref: 13 - 150)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "folate": {
+      "canonical_name": "Serum Folate",
+      "value": 4.8,
+      "raw_value": 4.8,
+      "unit": "ng/mL",
+      "ref_range": "4.6 - 18.7",
+      "confidence": 0.95,
+      "source_span": "Folate: 4.8 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "pg/mL",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Vitamin B12: 210 pg/mL (Ref: 200 - 900)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 250000.0,
+      "raw_value": 250000.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelets: 250000 cells/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "Hemoglobin": {
+      "value": "10.4",
+      "unit": "g/dL"
+    },
+    "Vitamin B12": {
+      "value": "210.0",
+      "unit": "pg/mL"
+    },
+    "Serum Ferritin": {
+      "value": "11.2",
+      "unit": "ng/mL"
+    },
+    "Serum Folate": {
+      "value": "4.8",
+      "unit": "ng/mL"
+    },
+    "Platelet Count": {
+      "value": "250000.0",
+      "unit": "cells/uL"
+    }
+  },
+  "confidence_summary": 0.94,
+  "parse_confidence": 0.94,
+  "source_mix": "regex_only",
+  "extractor_mode": "biobert_regex_hybrid",
+  "patient_details": {
+    "patient_id": "PAT-BIOBERT-2002",
+    "name": "John Doe",
+    "age": "45",
+    "gender": "Male",
+    "date": null,
+    "lab_id": "PAT-BIOBERT-2002",
+    "referred_by": null
+  }
+}

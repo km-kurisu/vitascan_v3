@@ -1,0 +1,152 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "confidence": 0.95,
+      "source_span": "Ferritin: 11.2 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "45",
+      "value": "45",
+      "unit": "",
+      "confidence": 0.95,
+      "source": "gliner",
+      "source_span": "45",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "folate": {
+      "canonical_name": "Folate",
+      "raw_value": "Ferritin",
+      "value": "Ferritin",
+      "unit": "",
+      "confidence": 0.8,
+      "source": "gliner",
+      "source_span": "Ferritin",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Male",
+      "value": "Male",
+      "unit": "",
+      "confidence": 0.87,
+      "source": "gliner",
+      "source_span": "Male",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "vitamin_d": {
+      "canonical_name": "Vitamin D",
+      "raw_value": "Folate",
+      "value": "Folate",
+      "unit": "",
+      "confidence": 0.77,
+      "source": "gliner",
+      "source_span": "Folate",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelets",
+      "raw_value": "Platelets",
+      "value": "Platelets",
+      "unit": "",
+      "confidence": 0.82,
+      "source": "gliner",
+      "source_span": "Platelets",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin: 10.4 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "pg/mL",
+      "ref_range": "200.0 - 900.0",
+      "confidence": 0.95,
+      "source_span": "Vitamin B12: 210 pg/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "serum_ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Serum Ferritin: 11.2 ng/mL (Ref: 13 - 150)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "raw_value": "Vitamin B12",
+      "value": "Vitamin B12",
+      "unit": "",
+      "confidence": 0.95,
+      "source": "gliner",
+      "source_span": "Vitamin B12",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    }
+  },
+  "labs": {
+    "Serum Ferritin": {
+      "value": "11.2",
+      "unit": "ng/mL"
+    },
+    "Age": {
+      "value": "45",
+      "unit": ""
+    },
+    "Folate": {
+      "value": "Ferritin",
+      "unit": ""
+    },
+    "Gender": {
+      "value": "Male",
+      "unit": ""
+    },
+    "Vitamin D": {
+      "value": "Folate",
+      "unit": ""
+    },
+    "Platelets": {
+      "value": "Platelets",
+      "unit": ""
+    },
+    "Hemoglobin": {
+      "value": "10.4",
+      "unit": "g/dL"
+    },
+    "Vitamin B12": {
+      "value": "Vitamin B12",
+      "unit": ""
+    }
+  },
+  "confidence_summary": 0.89,
+  "parse_confidence": 0.89,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner",
+  "patient_details": {
+    "patient_id": "PAT-BIOBERT-2002",
+    "name": "John Doe",
+    "age": "45",
+    "gender": "Male",
+    "date": null,
+    "lab_id": "PAT-BIOBERT-2002",
+    "referred_by": null
+  }
+}

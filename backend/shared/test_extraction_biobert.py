@@ -38,20 +38,20 @@ def test_save_extracted_json_logging_and_storage(caplog):
         "char_count": 145
     }
 
-    file_path = save_extracted_json(sample_data, patient_id=patient_id)
+    file_path = save_extracted_json(patient_id, sample_data)
     
     assert os.path.exists(file_path)
-    assert file_path.startswith(EXTRACTIONS_DIR)
+    assert file_path.startswith(str(EXTRACTIONS_DIR))
     
     with open(file_path, "r", encoding="utf-8") as f:
         saved_json = json.load(f)
 
-    assert saved_json["patient_id"] == patient_id
+    assert saved_json["patient_details"]["patient_id"] == patient_id
     assert saved_json["filename"] == "sample_cbc_report.pdf"
     assert saved_json["patient_details"]["name"] == "Alice Smith"
     assert "ferritin" in saved_json["biomarkers"]
     assert "Serum Ferritin" in saved_json["raw_text"]
-    assert "Successfully saved extracted OCR contents to JSON" in caplog.text
+    assert "Saved pdf_raw JSON" in caplog.text
 
 
 def test_biobert_biomarker_extractor_and_patient_saving(caplog):
@@ -80,17 +80,17 @@ def test_biobert_biomarker_extractor_and_patient_saving(caplog):
     assert res["biomarkers"]["ferritin"]["value"] == 11.2
 
     # Check patient biomarker JSON file creation
-    patient_file = os.path.join(PATIENT_BIOMARKERS_DIR, f"biomarkers_{patient_id}.json")
+    patient_file = PATIENT_BIOMARKERS_DIR / f"{patient_id}_latest.json"
     assert os.path.exists(patient_file)
 
     with open(patient_file, "r", encoding="utf-8") as f:
         saved_biomarkers = json.load(f)
 
-    assert saved_biomarkers["patient_id"] == patient_id
+    assert saved_biomarkers["patient_details"]["patient_id"] == patient_id
     assert saved_biomarkers["patient_details"]["name"] == "John Doe"
     assert "ferritin" in saved_biomarkers["biomarkers"]
     assert "Starting Biomedical NER biomarker extraction" in caplog.text
-    assert "Successfully saved BioBERT patient biomarkers" in caplog.text
+    assert "Successfully extracted and saved BioBERT biomarkers" in caplog.text
 
 
 def test_blood_report_extractor_with_logging_and_storage(caplog):

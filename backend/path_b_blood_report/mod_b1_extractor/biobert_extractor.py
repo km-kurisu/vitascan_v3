@@ -184,7 +184,7 @@ class BioBERTBiomarkerExtractor:
         extraction_result["patient_details"] = patient_details
 
         # Save to shared folder
-        saved_path = save_patient_biomarkers_json(extraction_result, patient_id=patient_id)
+        saved_path = save_patient_biomarkers_json(patient_id, extraction_result)
         
         logger.info(
             f"Successfully extracted and saved BioBERT biomarkers for Patient ID '{patient_id}'. "

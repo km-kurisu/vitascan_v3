@@ -49,6 +49,10 @@ class ModA3Output(BaseModel):
         ...,
         description="Optional cross-check signal mapping deficiency -> detail"
     )
+    visual_findings: List[str] = Field(
+        ...,
+        description="Human-readable findings from the symptom image analysis"
+    )
     model_confidence: float = Field(..., ge=0.0, le=1.0)
 
 

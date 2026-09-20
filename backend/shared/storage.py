@@ -21,6 +21,9 @@ SUBDIRS = {
 for d in SUBDIRS.values():
     d.mkdir(parents=True, exist_ok=True)
 
+EXTRACTIONS_DIR = BASE_STORAGE_DIR
+PATIENT_BIOMARKERS_DIR = SUBDIRS["biomarkers"]
+
 def save_json_artifact(category: str, patient_id: str, data: Dict[str, Any]) -> str:
     """Saves an organized JSON artifact under shared/extractions/<category>/"""
     if category not in SUBDIRS:

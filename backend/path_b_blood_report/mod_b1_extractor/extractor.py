@@ -205,7 +205,7 @@ class BloodReportExtractor:
         if save_json:
             try:
                 from backend.shared.storage import save_extracted_json
-                json_path = save_extracted_json(result, patient_id=patient_id or "REPORT")
+                json_path = save_extracted_json(patient_id or "REPORT", result)
                 result["json_storage_path"] = json_path
                 logger.info(f"Saved extracted contents to shared JSON file: '{json_path}'")
             except Exception as e:
@@ -239,7 +239,7 @@ class BloodReportExtractor:
             }
 
             from backend.shared.storage import save_extracted_json
-            saved_path = save_extracted_json(extracted_data=extracted, patient_id=result_obj["patient_id"])
+            saved_path = save_extracted_json(result_obj["patient_id"], extracted)
 
             return {
                 "result": result_obj,

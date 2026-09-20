@@ -6,9 +6,12 @@ from typing import Dict, Any, List
 
 logger = logging.getLogger("vitascan.groq_vision")
 
+DEFAULT_VISION_MODEL = "qwen/qwen3.8-27b"
+
 class GroqSymptomVisionAnalyzer:
     def __init__(self):
         self.api_key = os.getenv("GROQ_VISION_API_KEY") or os.getenv("GROQ_API_KEY")
+        self.model = os.getenv("GROQ_VISION_MODEL", DEFAULT_VISION_MODEL)
         self.client = None
         if self.api_key:
             try:
@@ -37,7 +40,7 @@ class GroqSymptomVisionAnalyzer:
             )
 
             completion = self.client.chat.completions.create(
-                model="llama-3.2-11b-vision-preview",
+                model=self.model,
                 messages=[
                     {
                         "role": "user",
@@ -48,10 +51,12 @@ class GroqSymptomVisionAnalyzer:
                     }
                 ],
                 temperature=0.2,
-                max_tokens=300
+                max_tokens=400,
+                response_format={"type": "json_object"}
             )
 
-            response_text = completion.choices[0].message.content.strip()
+            msg = completion.choices[0].message
+            response_text = msg.content or getattr(msg, "reasoning_content", "") or ""
             # Extract JSON block
             if "```json" in response_text:
                 response_text = response_text.split("```json")[1].split("```")[0].strip()

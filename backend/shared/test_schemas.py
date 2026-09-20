@@ -40,10 +40,12 @@ def test_mod_a3_schema_valid():
         "crosscheck_signal": {
             "anemia": {"confidence": 0.85, "source": "eyes", "agrees_with_path_b": True}
         },
+        "visual_findings": ["Pallor of the conjunctiva", "Pale lower eyelid mucosa"],
         "model_confidence": 0.85
     }
     model = ModA3Output(**data)
     assert model.crosscheck_signal["anemia"].source == "eyes"
+    assert model.visual_findings[0] == "Pallor of the conjunctiva"
 
 
 def test_mock_frontend_output_valid():

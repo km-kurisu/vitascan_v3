@@ -1,0 +1,80 @@
+{
+  "deficiency": "iron",
+  "deficiency_label": "Iron Deficiency Anemia",
+  "target_nutrients": [
+    "fe"
+  ],
+  "diet_pref": "vegetarian",
+  "allergens": [
+    "peanut"
+  ],
+  "disorders": [],
+  "meal_plan": {
+    "Day 1": {
+      "Breakfast": "Bajra (Pearl Millet) & Amaranth Seeds (Rajgira)",
+      "Lunch": "Quinoa & Ragi (Finger Millet)",
+      "Snack": "Dates (dry) & Orange",
+      "Dinner": "Whole Wheat Atta & Jowar (Sorghum)"
+    },
+    "Day 2": {
+      "Breakfast": "Maize (dry) & Rice Flakes (Poha)",
+      "Lunch": "Barley (Jau) & Brown Rice",
+      "Snack": "Mango (ripe) & Banana (ripe)",
+      "Dinner": "White Rice (milled) & Horse Gram (Kulthi)"
+    },
+    "Day 3": {
+      "Breakfast": "Bengal Gram whole (Kala Chana) & Green Gram whole (Sabut Moong)",
+      "Lunch": "Soya Bean & Rajmah (Red Kidney Beans)",
+      "Snack": "Guava (white flesh) & Pineapple",
+      "Dinner": "Bengal Gram Dal (Chana) & Black Gram whole (Sabut Urad)"
+    },
+    "Day 4": {
+      "Breakfast": "Black Gram Dal (Urad) & Green Gram Dal (Moong)",
+      "Lunch": "Cowpea (Lobia) & Red Gram Dal (Toor)",
+      "Snack": "Watermelon & Apple",
+      "Dinner": "French Beans & Green Peas (fresh)"
+    },
+    "Day 5": {
+      "Breakfast": "Papaya (ripe) & Pomegranate",
+      "Lunch": "Amaranth Leaves (Red Chaulai) & Amaranth Leaves (Green Chaulai)",
+      "Snack": "Lemon & Garden Cress Seeds (Halim)",
+      "Dinner": "Cauliflower (Gobi) & Brinjal (Baingan)"
+    },
+    "Day 6": {
+      "Breakfast": "Almond (Badam) & Milk (whole, buffalo)",
+      "Lunch": "Fenugreek Leaves (Methi) & Drumstick Leaves (Moringa)",
+      "Snack": "Sesame Seeds (Til) & Cashew (Kaju)",
+      "Dinner": "Ridge Gourd (Turai) & Pumpkin"
+    },
+    "Day 7": {
+      "Breakfast": "Milk (whole, cow) & Cucumber",
+      "Lunch": "Spinach (Palak) & Mustard Greens (Sarson)",
+      "Snack": "Walnut (Akhrot) & Coconut (fresh kernel)",
+      "Dinner": "Bottle Gourd (Lauki) & Tomato"
+    }
+  },
+  "bioavailability_tips": [
+    "Pair iron\u2011rich meals with vitamin\u2011C sources such as lemon, orange, guava or amla to triple non\u2011heme iron absorption.",
+    "Avoid tea, coffee and calcium\u2011rich foods within one hour of iron\u2011rich meals as tannins and calcium inhibit iron uptake.",
+    "Soak, sprout legumes and ferment batters (e.g., idli/dosa) to reduce phytates that bind iron."
+  ],
+  "fssai_checked": true,
+  "source": "groq_llm_grounded",
+  "coverage": {
+    "deficiency": "iron",
+    "target_nutrients": [
+      "fe"
+    ],
+    "per_nutrient": {
+      "fe": {
+        "available": 70,
+        "rda_pct_serving": 5.8
+      }
+    },
+    "adequate": true
+  },
+  "explanation": [
+    "Target nutrient: Iron (fe), RDA 21.0 mg/day."
+  ],
+  "rationale": "The plan emphasizes iron\u2011rich whole grains, legumes, leafy greens and vitamin\u2011C fruits to boost non\u2011heme iron absorption while avoiding peanuts."
+}

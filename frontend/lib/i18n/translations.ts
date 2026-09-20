@@ -11,6 +11,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'common.selectLanguage': 'Select language',
 
     'nav.home': 'Home',
+    'nav.upload': 'Upload Scan',
+    'nav.dietPlanner': 'Diet Planner',
+    'nav.reminders': 'Reminders',
+    'nav.results': 'Results',
     'nav.history': 'History',
     'nav.about': 'About',
     'nav.patientProfile': 'Patient Profile',
@@ -256,6 +260,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'common.selectLanguage': 'भाषा चुनें',
 
     'nav.home': 'होम',
+    'nav.upload': 'स्कैन अपलोड करें',
+    'nav.dietPlanner': 'आहार योजनाकार',
+    'nav.reminders': 'रिमाइंडर',
+    'nav.results': 'परिणाम',
     'nav.history': 'इतिहास',
     'nav.about': 'हमारे बारे में',
     'nav.patientProfile': 'रोगी प्रोफ़ाइल',
@@ -492,6 +500,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'common.selectLanguage': 'भाषा निवडा',
 
     'nav.home': 'मुख्यपृष्ठ',
+    'nav.upload': 'स्कॅन अपलोड करा',
+    'nav.dietPlanner': 'आहार नियोजक',
+    'nav.reminders': 'रिमाइंडर',
+    'nav.results': 'निकाल',
     'nav.history': 'इतिहास',
     'nav.about': 'आमच्याविषयी',
     'nav.patientProfile': 'रुग्ण प्रोफाइल',

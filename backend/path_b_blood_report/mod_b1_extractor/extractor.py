@@ -106,9 +106,9 @@ class BloodReportExtractor:
         # Fallback 1: PyMuPDF image page stream
         try:
             try:
-    import pymupdf as fitz
-except ImportError:
-    import fitz
+                import pymupdf as fitz
+            except ImportError:
+                import fitz
             doc = fitz.open(stream=image_bytes, filetype="png")
             text_blocks = [page.get_text() for page in doc]
             fitz_text = "\n".join(text_blocks).strip()
@@ -261,9 +261,9 @@ except ImportError:
         """
         try:
             try:
-    import pymupdf as fitz
-except ImportError:
-    import fitz
+                import pymupdf as fitz
+            except ImportError:
+                import fitz
             doc = fitz.open(stream=pdf_bytes, filetype="pdf")
             aligned_lines = []
 
@@ -506,9 +506,9 @@ except ImportError:
         """Extract text using PyMuPDF (fitz)."""
         try:
             try:
-    import pymupdf as fitz
-except ImportError:
-    import fitz  # PyMuPDF
+                import pymupdf as fitz
+            except ImportError:
+                import fitz  # PyMuPDF
             doc = fitz.open(stream=pdf_bytes, filetype="pdf")
             text_blocks = []
             for page in doc:
@@ -533,9 +533,9 @@ except ImportError:
         """Renders PDF pages to images and runs Tesseract OCR."""
         try:
             try:
-    import pymupdf as fitz
-except ImportError:
-    import fitz
+                import pymupdf as fitz
+            except ImportError:
+                import fitz
             import pytesseract
             from PIL import Image
             import io

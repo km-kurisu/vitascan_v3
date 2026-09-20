@@ -32,3 +32,4 @@ Thumbs.db
 
 # Large Model Binaries (Optional)
 # backend/path_b_blood_report/mod_b3_grader/weights/*.pkl
+backend/.cache/

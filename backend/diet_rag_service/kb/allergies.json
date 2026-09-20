@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "note": "Allergen ids recognized in API request 'allergies' list.",
+    "foods": "foods.json uses these allergen keys on curated foods."
+  },
+  "allergies": {
+    "dairy":     {"label": "Dairy / Milk Products",     "foods": ["L001", "L002", "L003", "L004"]},
+    "egg":       {"label": "Egg",                       "foods": ["M001", "M004", "M003"]},
+    "gluten":    {"label": "Gluten (wheat/barley)",     "foods": ["A004", "A019"]},
+    "peanut":    {"label": "Peanut / Groundnut",        "foods": ["H012"]},
+    "nuts":      {"label": "Tree Nuts",                 "foods": ["H001", "H005", "H021"]},
+    "sesame":    {"label": "Sesame / Til",              "foods": ["H011"]},
+    "soy":       {"label": "Soy",                       "foods": ["B024"]},
+    "fish":      {"label": "Fish",                      "foods": ["P004", "P030", "P060", "S001"]},
+    "shellfish": {"label": "Shellfish / Prawns",        "foods": ["Q008"]}
+  }
+}

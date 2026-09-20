@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "source": "ICMR-NIN 2020 Recommended Dietary Allowances (Indian adults), FSSAI reference",
+    "basis": "RDA per day for reference Indian adult (~60 kg, moderate activity)"
+  },
+  "nutrients": {
+    "enerc":   {"name": "Energy",       "unit": "kcal", "rda": 2000},
+    "protcnt": {"name": "Protein",      "unit": "g",    "rda": 55.0},
+    "fatce":   {"name": "Fat",          "unit": "g",    "rda": 55.0, "max": true},
+    "fibtg":   {"name": "Dietary Fiber","unit": "g",    "rda": 40.0},
+    "fe":      {"name": "Iron",         "unit": "mg",   "rda": 21.0},
+    "folsum":  {"name": "Folate",       "unit": "ug",   "rda": 400.0},
+    "vitb12":  {"name": "Vitamin B12",  "unit": "ug",   "rda": 2.4},
+    "vitd":    {"name": "Vitamin D",    "unit": "ug",   "rda": 15.0},
+    "vitc":    {"name": "Vitamin C",    "unit": "mg",   "rda": 80.0},
+    "retol":   {"name": "Vitamin A",    "unit": "ug",   "rda": 900.0},
+    "thia":    {"name": "Thiamine B1",  "unit": "mg",   "rda": 1.2},
+    "ribf":    {"name": "Riboflavin B2","unit": "mg",   "rda": 1.4},
+    "nia":     {"name": "Niacin B3",    "unit": "mg",   "rda": 16.0},
+    "vitb6c":  {"name": "Vitamin B6",   "unit": "mg",   "rda": 2.0},
+    "ca":      {"name": "Calcium",      "unit": "mg",   "rda": 1000.0},
+    "mg":      {"name": "Magnesium",    "unit": "mg",   "rda": 340.0},
+    "zn":      {"name": "Zinc",         "unit": "mg",   "rda": 11.0},
+    "p":       {"name": "Phosphorus",   "unit": "mg",   "rda": 700.0},
+    "k":       {"name": "Potassium",    "unit": "mg",   "rda": 3500.0},
+    "na":      {"name": "Sodium",       "unit": "mg",   "rda": 2000.0, "max": true}
+  }
+}

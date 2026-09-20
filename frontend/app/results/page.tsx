@@ -204,7 +204,7 @@ export default function ResultsPage() {
 
             return (
               <div
-                key={item.id}
+                key={item.id || item.type}
                 className={`bg-white p-6 rounded-2xl border shadow-xs space-y-4 relative overflow-hidden transition-all ${
                   isSevere
                     ? 'border-red-200 hover:border-red-300'

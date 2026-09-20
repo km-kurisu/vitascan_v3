@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "note": "Deficiency types accepted by /api/diet endpoints.",
+    "target_nutrients": "Primary nutrients to maximize for each deficiency.",
+    "emphasize": "Nutrients to boost absorption or support metabolism.",
+    "tips": "Deterministic bioavailability guidance shown to users."
+  },
+  "deficiencies": {
+    "iron": {
+      "label": "Iron Deficiency Anemia",
+      "target_nutrients": ["fe"],
+      "emphasize": ["vitc", "folsum", "vitb12"],
+      "tips": [
+        "Pair iron-rich meals with Vitamin C (lemon, amla, guava, orange) to triple non-heme iron absorption.",
+        "Avoid tea, coffee, and calcium-rich foods within 1 hour of an iron-rich meal - tannins and calcium inhibit iron uptake.",
+        "Soak and sprout legumes, and ferment batters (idli/dosa) to break down phytates that bind iron.",
+        "Use iron-rich greens (amaranth, drumstick, fenugreek) textured small and cooked lightly to reduce oxalates.",
+        "Include small amounts of meat/fish/egg (if diet permits) - heme iron is absorbed 2-3x better than plant iron.",
+        "Cook in iron vessels (karahi/skillet) to leach 1-2 mg extra iron into gravies."
+      ]
+    },
+    "anemia": {
+      "label": "Nutritional Anemia (Mixed)",
+      "target_nutrients": ["fe", "folsum", "vitb12", "vitc"],
+      "emphasize": ["vitc"],
+      "tips": [
+        "Combination anemia needs all three builders: iron (from greens, legumes, jaggery), folate (green leaves, chickpea), and B12 (dairy, eggs, fish, fortified foods).",
+        "Add Vitamin C at every iron meal to improve absorption of non-heme iron.",
+        "Avoid tea/coffee/calcium within an hour of iron-heavy meals.",
+        "If strictly vegetarian, B12 comes almost only from dairy - consider fortified foods or a supplement on medical advice.",
+        "Monitor for 4-6 weeks; dietary correction raises hemoglobin gradually."
+      ]
+    },
+    "b12": {
+      "label": "Vitamin B12 Deficiency",
+      "target_nutrients": ["vitb12"],
+      "emphasize": ["folsum"],
+      "tips": [
+        "B12 is found almost exclusively in animal foods: milk, paneer, curd, eggs, fish, poultry, and liver.",
+        "Strict vegetarians and vegans must rely on dairy (if vegetarian) or fortified foods; consider a cyanocobalamin supplement on medical advice.",
+        "The body stores years of B12, so restoration is slow - pair with folate-rich greens for red cell production.",
+        "Avoid alcohol excess, which interferes with B12 absorption."
+      ]
+    },
+    "folate": {
+      "label": "Folate (Vitamin B9) Deficiency",
+      "target_nutrients": ["folsum"],
+      "emphasize": ["vitc", "vitb12"],
+      "tips": [
+        "Folate is abundant in green leafy vegetables (spinach, amaranth, drumstick), pulses, beetroot, and citrus.",
+        "Folate is heat- and light-sensitive - steam or lightly cook greens and eat them fresh.",
+        "Pair folate foods with Vitamin C (lemon juice on salads) to protect the vitamin.",
+        "Women of childbearing age should meet the 400 ug/day target to prevent neural tube defects.",
+        "Avoid excess alcohol and smoking, which deplete folate."
+      ]
+    },
+    "vitamin_d": {
+      "label": "Vitamin D Deficiency",
+      "target_nutrients": ["vitd"],
+      "emphasize": ["ca", "p", "mg"],
+      "tips": [
+        "Very few foods naturally contain vitamin D (mushrooms, egg yolk, fatty fish); fortified milk and oils are helpful.",
+        "Sun exposure (20-30 minutes, forearms+face, 11am-3pm, 2-4 times/week) is the primary natural source.",
+        "Pair vitamin D foods with calcium-rich ones (milk, paneer, sesame, greens) for bone health.",
+        "Fat helps vitamin D absorption - cook mushrooms/eggs in a little oil.",
+        "Over-supplementation can be toxic; keep total intake near 15 ug/day unless a doctor advises more."
+      ]
+    },
+    "calcium": {
+      "label": "Calcium Deficiency",
+      "target_nutrients": ["ca"],
+      "emphasize": ["vitd", "vitc"],
+      "tips": [
+        "Dairy (milk, curd, paneer), sesame seeds, amaranth greens, drumstick leaves and ragi are top Indian calcium sources.",
+        "Vitamin D is needed to absorb calcium - combine with sun exposure or vitamin-D foods.",
+        "Avoid taking calcium with iron-rich meals - they compete for absorption.",
+        "Limit excess salt and caffeine which increase calcium loss."
+      ]
+    },
+    "zinc": {
+      "label": "Zinc Deficiency",
+      "target_nutrients": ["zn"],
+      "emphasize": ["protcnt"],
+      "tips": [
+        "Meat, eggs, seafood (prawns), and nuts (cashew) provide the most bioavailable zinc.",
+        "Vegetarian zinc comes from legumes, nuts and seeds - soak, sprout or ferment to reduce phytate binding.",
+        "Pair zinc foods with protein and Vitamin C to improve uptake.",
+        "Avoid excess tea/coffee and iron supplements taken simultaneously with zinc meals."
+      ]
+    },
+    "protein": {
+      "label": "Protein Deficiency",
+      "target_nutrients": ["protcnt"],
+      "emphasize": ["zn"],
+      "tips": [
+        "Combine cereals+millets with pulses (dal+roti, khichdi) for complete protein.",
+        "Add dairy (milk, paneer, curd), eggs, soy, or meat/fish according to your diet preference.",
+        "Spread protein across all three meals for better utilization.",
+        "Include at least one nut or seed (peanuts, almonds, sesame) daily."
+      ]
+    }
+  }
+}

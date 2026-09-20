@@ -1,0 +1,3945 @@
+{
+ "source": "IFCT2017 (National Institute of Nutrition, Hyderabad) + curated metadata",
+ "units": "per 100g edible; energy in kcal; macro in g; micro in mg except folsum/vitc-retol/vitd/b12 in ug",
+ "foods": [
+  {
+   "code": "A010",
+   "name": "Ragi (Finger Millet)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "gluten_free",
+    "high_fiber",
+    "high_calcium",
+    "low_gi"
+   ],
+   "dishes": [
+    "Ragi malt porridge",
+    "Ragi dosa",
+    "Ragi mudde"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 320.7457,
+    "protcnt": 7.16,
+    "fatce": 1.92,
+    "fibtg": 11.18,
+    "fe": 4.62,
+    "folsum": 34.66,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.37,
+    "ribf": 0.17,
+    "nia": 1.34,
+    "vitb6c": 0.05,
+    "ca": 364.0,
+    "mg": 146.0,
+    "zn": 2.53,
+    "p": 210.0,
+    "k": 443.0,
+    "na": 4.75
+   }
+  },
+  {
+   "code": "A005",
+   "name": "Jowar (Sorghum)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "gluten_free",
+    "high_fiber",
+    "low_gi"
+   ],
+   "dishes": [
+    "Jowar roti",
+    "Jowar khichdi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 334.13,
+    "protcnt": 9.97,
+    "fatce": 1.73,
+    "fibtg": 10.22,
+    "fe": 3.95,
+    "folsum": 39.42,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.35,
+    "ribf": 0.14,
+    "nia": 2.1,
+    "vitb6c": 0.28,
+    "ca": 27.6,
+    "mg": 133.0,
+    "zn": 1.96,
+    "p": 274.0,
+    "k": 328.0,
+    "na": 5.42
+   }
+  },
+  {
+   "code": "A003",
+   "name": "Bajra (Pearl Millet)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "gluten_free",
+    "high_fiber",
+    "low_gi"
+   ],
+   "dishes": [
+    "Bajra roti",
+    "Bajra khichdi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 347.9924,
+    "protcnt": 10.96,
+    "fatce": 5.43,
+    "fibtg": 11.49,
+    "fe": 6.42,
+    "folsum": 36.11,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.25,
+    "ribf": 0.2,
+    "nia": 0.86,
+    "vitb6c": 0.27,
+    "ca": 27.35,
+    "mg": 124.0,
+    "zn": 2.76,
+    "p": 289.0,
+    "k": 365.0,
+    "na": 4.11
+   }
+  },
+  {
+   "code": "A006",
+   "name": "Maize (dry)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "snack"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "gluten_free",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Makki ki roti",
+    "Bhutta"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 334.13,
+    "protcnt": 8.8,
+    "fatce": 3.77,
+    "fibtg": 12.24,
+    "fe": 2.49,
+    "folsum": 25.81,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.33,
+    "ribf": 0.09,
+    "nia": 2.69,
+    "vitb6c": 0.34,
+    "ca": 8.91,
+    "mg": 145.0,
+    "zn": 2.27,
+    "p": 279.0,
+    "k": 291.0,
+    "na": 4.44
+   }
+  },
+  {
+   "code": "A009",
+   "name": "Quinoa",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 50,
+   "tags": [
+    "gluten_free",
+    "high_protein",
+    "low_gi"
+   ],
+   "dishes": [
+    "Quinoa upma",
+    "Quinoa khichdi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 328.3939,
+    "protcnt": 13.11,
+    "fatce": 5.5,
+    "fibtg": 14.66,
+    "fe": 7.51,
+    "folsum": 173.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.83,
+    "ribf": 0.22,
+    "nia": 1.7,
+    "vitb6c": 0.21,
+    "ca": 198.0,
+    "mg": 119.0,
+    "zn": 3.31,
+    "p": 212.0,
+    "k": 474.0,
+    "na": 4.5
+   }
+  },
+  {
+   "code": "A004",
+   "name": "Barley (Jau)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "slots": [
+    "breakfast",
+    "lunch"
+   ],
+   "portion_g": 40,
+   "tags": [
+    "high_fiber",
+    "low_gi"
+   ],
+   "dishes": [
+    "Barley upma",
+    "Barley water"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 315.7266,
+    "protcnt": 10.94,
+    "fatce": 1.3,
+    "fibtg": 15.64,
+    "fe": 1.56,
+    "folsum": 31.58,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.36,
+    "ribf": 0.18,
+    "nia": 2.84,
+    "vitb6c": 0.31,
+    "ca": 28.64,
+    "mg": 48.97,
+    "zn": 1.5,
+    "p": 178.0,
+    "k": 268.0,
+    "na": 7.56
+   }
+  },
+  {
+   "code": "A019",
+   "name": "Whole Wheat Atta",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_fiber"
+   ],
+   "dishes": [
+    "Whole wheat roti",
+    "Thepla",
+    "Methi thepla"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 320.2677,
+    "protcnt": 10.57,
+    "fatce": 1.53,
+    "fibtg": 11.36,
+    "fe": 4.1,
+    "folsum": 29.22,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.42,
+    "ribf": 0.15,
+    "nia": 2.37,
+    "vitb6c": 0.25,
+    "ca": 30.94,
+    "mg": 125.0,
+    "zn": 2.85,
+    "p": 315.0,
+    "k": 311.0,
+    "na": 2.04
+   }
+  },
+  {
+   "code": "A013",
+   "name": "Brown Rice",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 50,
+   "tags": [
+    "gluten_free",
+    "high_fiber",
+    "low_gi"
+   ],
+   "dishes": [
+    "Brown rice",
+    "Brown rice khichdi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 353.7285,
+    "protcnt": 9.16,
+    "fatce": 1.24,
+    "fibtg": 4.43,
+    "fe": 1.02,
+    "folsum": 11.51,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.27,
+    "ribf": 0.06,
+    "nia": 3.4,
+    "vitb6c": 0.37,
+    "ca": 10.93,
+    "mg": 93.91,
+    "zn": 1.68,
+    "p": 267.0,
+    "k": 199.0,
+    "na": 3.64
+   }
+  },
+  {
+   "code": "A015",
+   "name": "White Rice (milled)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 50,
+   "tags": [
+    "gluten_free"
+   ],
+   "dishes": [
+    "Steamed rice",
+    "Curd rice"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 356.3576,
+    "protcnt": 7.94,
+    "fatce": 0.52,
+    "fibtg": 2.81,
+    "fe": 0.65,
+    "folsum": 9.32,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.05,
+    "ribf": 0.05,
+    "nia": 1.69,
+    "vitb6c": 0.12,
+    "ca": 7.49,
+    "mg": 19.3,
+    "zn": 1.21,
+    "p": 96.0,
+    "k": 108.0,
+    "na": 2.34
+   }
+  },
+  {
+   "code": "A011",
+   "name": "Rice Flakes (Poha)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 40,
+   "tags": [
+    "gluten_free",
+    "low_gi"
+   ],
+   "dishes": [
+    "Poha",
+    "Poha with peanuts"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 353.7285,
+    "protcnt": 7.44,
+    "fatce": 1.14,
+    "fibtg": 3.46,
+    "fe": 4.46,
+    "folsum": 8.46,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.12,
+    "ribf": 0.04,
+    "nia": 1.6,
+    "vitb6c": 0.02,
+    "ca": 9.19,
+    "mg": 77.92,
+    "zn": 1.49,
+    "p": 195.0,
+    "k": 148.0,
+    "na": 2.58
+   }
+  },
+  {
+   "code": "A001",
+   "name": "Amaranth Seeds (Rajgira)",
+   "group": "Cereals & Millets",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 40,
+   "tags": [
+    "gluten_free",
+    "high_protein"
+   ],
+   "dishes": [
+    "Rajgira porridge",
+    "Rajgira chikki"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 356.1185,
+    "protcnt": 14.59,
+    "fatce": 5.74,
+    "fibtg": 7.02,
+    "fe": 9.33,
+    "folsum": 27.44,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.04,
+    "nia": 0.45,
+    "vitb6c": 0.5,
+    "ca": 181.0,
+    "mg": 325.0,
+    "zn": 2.66,
+    "p": 374.0,
+    "k": 433.0,
+    "na": 2.7
+   }
+  },
+  {
+   "code": "B001",
+   "name": "Bengal Gram Dal (Chana)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Chana dal",
+    "Chana dal fry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 329.1109,
+    "protcnt": 21.55,
+    "fatce": 5.31,
+    "fibtg": 15.15,
+    "fe": 6.08,
+    "folsum": 182.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.35,
+    "ribf": 0.15,
+    "nia": 1.87,
+    "vitb6c": 0.19,
+    "ca": 46.32,
+    "mg": 118.0,
+    "zn": 3.65,
+    "p": 325.0,
+    "k": 957.0,
+    "na": 20.83
+   }
+  },
+  {
+   "code": "B002",
+   "name": "Bengal Gram whole (Kala Chana)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack",
+    "lunch"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Kala chana curry",
+    "Chana chaat"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 287.0459,
+    "protcnt": 18.77,
+    "fatce": 5.11,
+    "fibtg": 25.22,
+    "fe": 6.78,
+    "folsum": 233.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.37,
+    "ribf": 0.24,
+    "nia": 2.1,
+    "vitb6c": 0.36,
+    "ca": 150.0,
+    "mg": 160.0,
+    "zn": 3.37,
+    "p": 267.0,
+    "k": 935.0,
+    "na": 26.56
+   }
+  },
+  {
+   "code": "B003",
+   "name": "Black Gram Dal (Urad)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_protein"
+   ],
+   "dishes": [
+    "Idli",
+    "Dosa",
+    "Urad dal tadka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 324.0918,
+    "protcnt": 23.06,
+    "fatce": 1.69,
+    "fibtg": 11.93,
+    "fe": 4.67,
+    "folsum": 88.75,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.21,
+    "ribf": 0.09,
+    "nia": 1.76,
+    "vitb6c": 0.22,
+    "ca": 55.67,
+    "mg": 173.0,
+    "zn": 3.0,
+    "p": 375.0,
+    "k": 1157.0,
+    "na": 18.88
+   }
+  },
+  {
+   "code": "B004",
+   "name": "Black Gram whole (Sabut Urad)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Sabut urad daal",
+    "Kali daal"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 291.348,
+    "protcnt": 21.97,
+    "fatce": 1.58,
+    "fibtg": 20.41,
+    "fe": 5.97,
+    "folsum": 134.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.32,
+    "ribf": 0.11,
+    "nia": 1.85,
+    "vitb6c": 0.53,
+    "ca": 86.18,
+    "mg": 190.0,
+    "zn": 3.05,
+    "p": 345.0,
+    "k": 1093.0,
+    "na": 26.8
+   }
+  },
+  {
+   "code": "B010",
+   "name": "Green Gram Dal (Moong)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_protein",
+    "low_gi"
+   ],
+   "dishes": [
+    "Moong dal khichdi",
+    "Moong dal tadka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 325.7648,
+    "protcnt": 23.88,
+    "fatce": 1.35,
+    "fibtg": 9.37,
+    "fe": 3.93,
+    "folsum": 92.11,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.35,
+    "ribf": 0.12,
+    "nia": 1.84,
+    "vitb6c": 0.19,
+    "ca": 43.13,
+    "mg": 155.0,
+    "zn": 2.49,
+    "p": 416.0,
+    "k": 1268.0,
+    "na": 10.14
+   }
+  },
+  {
+   "code": "B011",
+   "name": "Green Gram whole (Sabut Moong)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein",
+    "low_gi"
+   ],
+   "dishes": [
+    "Moong sprouts salad",
+    "Moong curry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 293.738,
+    "protcnt": 22.53,
+    "fatce": 1.14,
+    "fibtg": 17.04,
+    "fe": 4.89,
+    "folsum": 145.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.45,
+    "ribf": 0.27,
+    "nia": 2.16,
+    "vitb6c": 0.35,
+    "ca": 92.43,
+    "mg": 198.0,
+    "zn": 2.67,
+    "p": 353.0,
+    "k": 1177.0,
+    "na": 12.48
+   }
+  },
+  {
+   "code": "B021",
+   "name": "Red Gram Dal (Toor)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_protein"
+   ],
+   "dishes": [
+    "Sambar",
+    "Toor dal tadka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 330.7839,
+    "protcnt": 21.7,
+    "fatce": 1.56,
+    "fibtg": 9.06,
+    "fe": 3.9,
+    "folsum": 108.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.45,
+    "ribf": 0.11,
+    "nia": 2.09,
+    "vitb6c": 0.24,
+    "ca": 71.73,
+    "mg": 119.0,
+    "zn": 2.63,
+    "p": 328.0,
+    "k": 1395.0,
+    "na": 18.01
+   }
+  },
+  {
+   "code": "B020",
+   "name": "Rajmah (Red Kidney Beans)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Rajma chawal",
+    "Rajma curry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 299.2352,
+    "protcnt": 19.91,
+    "fatce": 1.77,
+    "fibtg": 16.57,
+    "fe": 6.13,
+    "folsum": 316.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.3,
+    "ribf": 0.19,
+    "nia": 2.42,
+    "vitb6c": 0.21,
+    "ca": 126.0,
+    "mg": 173.0,
+    "zn": 2.69,
+    "p": 409.0,
+    "k": 1324.0,
+    "na": 10.45
+   }
+  },
+  {
+   "code": "B012",
+   "name": "Horse Gram (Kulthi)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Horse gram rasam",
+    "Kulthi curry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 329.5889,
+    "protcnt": 21.73,
+    "fatce": 0.62,
+    "fibtg": 7.88,
+    "fe": 8.76,
+    "folsum": 163.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.32,
+    "ribf": 0.24,
+    "nia": 1.82,
+    "vitb6c": 0.21,
+    "ca": 269.0,
+    "mg": 152.0,
+    "zn": 2.71,
+    "p": 298.0,
+    "k": 1065.0,
+    "na": 12.14
+   }
+  },
+  {
+   "code": "B005",
+   "name": "Cowpea (Lobia)",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Lobia curry",
+    "Lobia salad"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 320.2677,
+    "protcnt": 20.36,
+    "fatce": 1.15,
+    "fibtg": 11.54,
+    "fe": 5.9,
+    "folsum": 231.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.33,
+    "ribf": 0.09,
+    "nia": 1.64,
+    "vitb6c": 0.3,
+    "ca": 81.73,
+    "mg": 213.0,
+    "zn": 3.41,
+    "p": 372.0,
+    "k": 1241.0,
+    "na": 13.68
+   }
+  },
+  {
+   "code": "B024",
+   "name": "Soya Bean",
+   "group": "Pulses",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "soy"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_protein",
+    "high_calcium"
+   ],
+   "dishes": [
+    "Soya chunks curry",
+    "Soya tikki"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 381.4532,
+    "protcnt": 35.58,
+    "fatce": 19.82,
+    "fibtg": 21.55,
+    "fe": 8.29,
+    "folsum": 297.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.59,
+    "ribf": 0.24,
+    "nia": 2.12,
+    "vitb6c": 0.43,
+    "ca": 239.0,
+    "mg": 259.0,
+    "zn": 4.01,
+    "p": 483.0,
+    "k": 1613.0,
+    "na": 2.07
+   }
+  },
+  {
+   "code": "C033",
+   "name": "Spinach (Palak)",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_folate",
+    "high_iron",
+    "high_vitamin_a",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Palak paneer",
+    "Palak dal",
+    "Palak paratha"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 24.3786,
+    "protcnt": 2.14,
+    "fatce": 0.64,
+    "fibtg": 2.38,
+    "fe": 2.95,
+    "folsum": 142.0,
+    "vitc": 30.28,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.16,
+    "ribf": 0.1,
+    "nia": 0.33,
+    "vitb6c": 0.15,
+    "ca": 82.29,
+    "mg": 86.97,
+    "zn": 0.46,
+    "p": 32.59,
+    "k": 625.0,
+    "na": 42.55
+   }
+  },
+  {
+   "code": "C003",
+   "name": "Amaranth Leaves (Red Chaulai)",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_iron",
+    "high_folate",
+    "high_calcium",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Chaulai sabzi",
+    "Chaulai dal"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 33.4608,
+    "protcnt": 3.93,
+    "fatce": 0.63,
+    "fibtg": 4.91,
+    "fe": 7.25,
+    "folsum": 81.95,
+    "vitc": 86.2,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.01,
+    "ribf": 0.269,
+    "nia": 0.62,
+    "vitb6c": 0.22,
+    "ca": 245.0,
+    "mg": 177.0,
+    "zn": 1.37,
+    "p": 75.98,
+    "k": 564.0,
+    "na": 14.58
+   }
+  },
+  {
+   "code": "C019",
+   "name": "Drumstick Leaves (Moringa)",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_iron",
+    "high_calcium",
+    "high_vitamin_a",
+    "high_vitamin_c"
+   ],
+   "dishes": [
+    "Moringa dal",
+    "Moringa paratha"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 67.3996,
+    "protcnt": 6.41,
+    "fatce": 1.64,
+    "fibtg": 8.21,
+    "fe": 4.56,
+    "folsum": 42.89,
+    "vitc": 108.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.06,
+    "ribf": 0.45,
+    "nia": 0.82,
+    "vitb6c": 0.87,
+    "ca": 314.0,
+    "mg": 97.09,
+    "zn": 0.72,
+    "p": 109.0,
+    "k": 397.0,
+    "na": 9.34
+   }
+  },
+  {
+   "code": "C020",
+   "name": "Fenugreek Leaves (Methi)",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_iron",
+    "high_folate",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Methi thepla",
+    "Methi paratha",
+    "Aloo methi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 34.4168,
+    "protcnt": 3.68,
+    "fatce": 0.83,
+    "fibtg": 4.9,
+    "fe": 5.69,
+    "folsum": 75.26,
+    "vitc": 58.25,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.11,
+    "ribf": 0.22,
+    "nia": 0.7,
+    "vitb6c": 0.38,
+    "ca": 274.0,
+    "mg": 63.67,
+    "zn": 0.54,
+    "p": 53.05,
+    "k": 226.0,
+    "na": 47.01
+   }
+  },
+  {
+   "code": "C026",
+   "name": "Mustard Greens (Sarson)",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_folate",
+    "high_vitamin_a",
+    "high_vitamin_c"
+   ],
+   "dishes": [
+    "Sarson ka saag"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 30.3537,
+    "protcnt": 3.52,
+    "fatce": 0.51,
+    "fibtg": 3.92,
+    "fe": 2.84,
+    "folsum": 110.0,
+    "vitc": 60.32,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.08,
+    "ribf": 0.18,
+    "nia": 0.58,
+    "vitb6c": 0.16,
+    "ca": 191.0,
+    "mg": 51.63,
+    "zn": 0.68,
+    "p": 71.62,
+    "k": 403.0,
+    "na": 19.14
+   }
+  },
+  {
+   "code": "C015",
+   "name": "Cabbage",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_vitamin_c",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Cabbage poriyal",
+    "Cabbage thoran"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 21.5105,
+    "protcnt": 1.36,
+    "fatce": 0.12,
+    "fibtg": 2.76,
+    "fe": 0.35,
+    "folsum": 46.36,
+    "vitc": 33.25,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.05,
+    "nia": 0.24,
+    "vitb6c": 0.13,
+    "ca": 51.76,
+    "mg": 17.99,
+    "zn": 0.16,
+    "p": 30.15,
+    "k": 233.0,
+    "na": 14.98
+   }
+  },
+  {
+   "code": "D036",
+   "name": "Cauliflower (Gobi)",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_vitamin_c",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Gobi matar",
+    "Gobi sabzi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 22.9446,
+    "protcnt": 2.15,
+    "fatce": 0.44,
+    "fibtg": 3.71,
+    "fe": 0.96,
+    "folsum": 45.95,
+    "vitc": 47.14,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.07,
+    "nia": 0.31,
+    "vitb6c": 0.13,
+    "ca": 25.16,
+    "mg": 23.08,
+    "zn": 0.31,
+    "p": 47.33,
+    "k": 329.0,
+    "na": 30.72
+   }
+  },
+  {
+   "code": "D075",
+   "name": "Tomato",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 50,
+   "tags": [
+    "high_vitamin_c",
+    "vitamin_c_pair"
+   ],
+   "dishes": [
+    "Tomato chutney",
+    "Tomato soup",
+    "Kachumber"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 18.8815,
+    "protcnt": 0.76,
+    "fatce": 0.25,
+    "fibtg": 1.58,
+    "fe": 0.22,
+    "folsum": 15.41,
+    "vitc": 25.27,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.02,
+    "nia": 0.51,
+    "vitb6c": 0.08,
+    "ca": 8.9,
+    "mg": 11.86,
+    "zn": 0.11,
+    "p": 15.45,
+    "k": 167.0,
+    "na": 11.86
+   }
+  },
+  {
+   "code": "D066",
+   "name": "Pumpkin",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Kaddu sabzi",
+    "Pumpkin sambar"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 23.1836,
+    "protcnt": 0.84,
+    "fatce": 0.16,
+    "fibtg": 2.56,
+    "fe": 0.36,
+    "folsum": 24.14,
+    "vitc": 8.04,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.03,
+    "nia": 0.41,
+    "vitb6c": 0.08,
+    "ca": 23.06,
+    "mg": 10.43,
+    "zn": 0.11,
+    "p": 22.18,
+    "k": 253.0,
+    "na": 8.81
+   }
+  },
+  {
+   "code": "D007",
+   "name": "Bottle Gourd (Lauki)",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_fiber"
+   ],
+   "dishes": [
+    "Lauki sabzi",
+    "Lauki kheer"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 10.9943,
+    "protcnt": 0.53,
+    "fatce": 0.13,
+    "fibtg": 2.12,
+    "fe": 0.26,
+    "folsum": 41.99,
+    "vitc": 4.33,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.01,
+    "nia": 0.14,
+    "vitb6c": 0.02,
+    "ca": 15.42,
+    "mg": 10.93,
+    "zn": 0.15,
+    "p": 16.01,
+    "k": 124.0,
+    "na": 1.46
+   }
+  },
+  {
+   "code": "D061",
+   "name": "Green Peas (fresh)",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 50,
+   "tags": [
+    "high_fiber",
+    "high_protein"
+   ],
+   "dishes": [
+    "Matar paneer",
+    "Matar pulao"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 81.262,
+    "protcnt": 7.25,
+    "fatce": 0.13,
+    "fibtg": 6.32,
+    "fe": 1.58,
+    "folsum": 54.77,
+    "vitc": 38.4,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.27,
+    "ribf": 0.03,
+    "nia": 1.28,
+    "vitb6c": 0.19,
+    "ca": 28.24,
+    "mg": 40.11,
+    "zn": 1.09,
+    "p": 55.95,
+    "k": 249.0,
+    "na": 3.66
+   }
+  },
+  {
+   "code": "D049",
+   "name": "French Beans",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_fiber",
+    "low_calorie"
+   ],
+   "dishes": [
+    "Beans poriyal",
+    "Beans sabzi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 24.3786,
+    "protcnt": 2.49,
+    "fatce": 0.26,
+    "fibtg": 4.38,
+    "fe": 1.25,
+    "folsum": 47.45,
+    "vitc": 15.81,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.06,
+    "nia": 0.83,
+    "vitb6c": 0.37,
+    "ca": 55.99,
+    "mg": 43.01,
+    "zn": 0.5,
+    "p": 59.86,
+    "k": 324.0,
+    "na": 8.84
+   }
+  },
+  {
+   "code": "D010",
+   "name": "Brinjal (Baingan)",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_fiber"
+   ],
+   "dishes": [
+    "Baingan bharta",
+    "Baingan sabzi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 27.2467,
+    "protcnt": 1.77,
+    "fatce": 0.39,
+    "fibtg": 3.57,
+    "fe": 0.49,
+    "folsum": 37.22,
+    "vitc": 1.58,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.07,
+    "ribf": 0.13,
+    "nia": 0.74,
+    "vitb6c": 0.05,
+    "ca": 22.17,
+    "mg": 26.75,
+    "zn": 0.32,
+    "p": 39.95,
+    "k": 302.0,
+    "na": 3.15
+   }
+  },
+  {
+   "code": "F001",
+   "name": "Beetroot",
+   "group": "Roots & Tubers",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "snack"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_folate",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Beetroot poriyal",
+    "Beetroot thoran"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 35.6119,
+    "protcnt": 1.95,
+    "fatce": 0.14,
+    "fibtg": 3.31,
+    "fe": 0.76,
+    "folsum": 97.37,
+    "vitc": 5.26,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.01,
+    "ribf": 0.01,
+    "nia": 0.21,
+    "vitb6c": 0.07,
+    "ca": 17.28,
+    "mg": 33.21,
+    "zn": 0.3,
+    "p": 36.33,
+    "k": 306.0,
+    "na": 69.44
+   }
+  },
+  {
+   "code": "F002",
+   "name": "Carrot",
+   "group": "Roots & Tubers",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "snack"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_vitamin_a",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Carrot halwa",
+    "Carrot thoran",
+    "Salad"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 33.2218,
+    "protcnt": 0.95,
+    "fatce": 0.47,
+    "fibtg": 4.18,
+    "fe": 0.6,
+    "folsum": 24.04,
+    "vitc": 6.22,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.03,
+    "nia": 0.22,
+    "vitb6c": 0.11,
+    "ca": 35.09,
+    "mg": 16.73,
+    "zn": 0.25,
+    "p": 43.06,
+    "k": 273.0,
+    "na": 52.33
+   }
+  },
+  {
+   "code": "F006",
+   "name": "Potato",
+   "group": "Roots & Tubers",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_calorie"
+   ],
+   "dishes": [
+    "Aloo sabzi",
+    "Aloo gobi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 69.7897,
+    "protcnt": 1.54,
+    "fatce": 0.23,
+    "fibtg": 1.71,
+    "fe": 0.57,
+    "folsum": 15.51,
+    "vitc": 23.15,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.06,
+    "ribf": 0.01,
+    "nia": 1.04,
+    "vitb6c": 0.1,
+    "ca": 9.52,
+    "mg": 24.07,
+    "zn": 0.28,
+    "p": 43.42,
+    "k": 541.0,
+    "na": 4.11
+   }
+  },
+  {
+   "code": "F013",
+   "name": "Sweet Potato (Shakarkandi)",
+   "group": "Roots & Tubers",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_fiber",
+    "high_vitamin_a",
+    "low_gi"
+   ],
+   "dishes": [
+    "Roasted sweet potato",
+    "Sweet potato chaat"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 108.9866,
+    "protcnt": 1.33,
+    "fatce": 0.26,
+    "fibtg": 3.99,
+    "fe": 0.35,
+    "folsum": 15.62,
+    "vitc": 17.94,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.07,
+    "ribf": 0.04,
+    "nia": 0.67,
+    "vitb6c": 0.12,
+    "ca": 27.5,
+    "mg": 17.37,
+    "zn": 0.16,
+    "p": 42.96,
+    "k": 345.0,
+    "na": 29.6
+   }
+  },
+  {
+   "code": "E028",
+   "name": "Guava (white flesh)",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_vitamin_c",
+    "vitamin_c_pair",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Fresh guava"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 32.2658,
+    "protcnt": 1.44,
+    "fatce": 0.32,
+    "fibtg": 8.59,
+    "fe": 0.32,
+    "folsum": 29.76,
+    "vitc": 214.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.05,
+    "ribf": 0.04,
+    "nia": 0.6,
+    "vitb6c": 0.11,
+    "ca": 18.52,
+    "mg": 15.26,
+    "zn": 0.23,
+    "p": 23.54,
+    "k": 283.0,
+    "na": 2.87
+   }
+  },
+  {
+   "code": "E033",
+   "name": "Lemon",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "vitamin_c_pair",
+    "high_vitamin_c"
+   ],
+   "dishes": [
+    "Nimbu paani",
+    "Lemon on salads"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 36.5679,
+    "protcnt": 0.41,
+    "fatce": 0.75,
+    "fibtg": 0.0,
+    "fe": 0.12,
+    "folsum": 12.43,
+    "vitc": 48.16,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.01,
+    "nia": 0.1,
+    "vitb6c": 0.03,
+    "ca": 22.68,
+    "mg": 8.9,
+    "zn": 0.08,
+    "p": 9.86,
+    "k": 113.0,
+    "na": 1.21
+   }
+  },
+  {
+   "code": "E047",
+   "name": "Orange",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_vitamin_c",
+    "vitamin_c_pair"
+   ],
+   "dishes": [
+    "Fresh orange"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 37.2849,
+    "protcnt": 0.7,
+    "fatce": 0.13,
+    "fibtg": 1.29,
+    "fe": 0.81,
+    "folsum": 19.46,
+    "vitc": 42.72,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.07,
+    "ribf": 0.02,
+    "nia": 0.28,
+    "vitb6c": 0.04,
+    "ca": 19.52,
+    "mg": 11.05,
+    "zn": 0.04,
+    "p": 12.9,
+    "k": 164.0,
+    "na": 1.47
+   }
+  },
+  {
+   "code": "E036",
+   "name": "Mango (ripe)",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_vitamin_a",
+    "high_vitamin_c"
+   ],
+   "dishes": [
+    "Fresh mango",
+    "Aamras"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 41.826,
+    "protcnt": 0.54,
+    "fatce": 0.55,
+    "fibtg": 1.88,
+    "fe": 0.51,
+    "folsum": 82.05,
+    "vitc": 32.97,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.04,
+    "nia": 0.26,
+    "vitb6c": 0.12,
+    "ca": 15.77,
+    "mg": 13.35,
+    "zn": 0.12,
+    "p": 11.07,
+    "k": 144.0,
+    "na": 1.34
+   }
+  },
+  {
+   "code": "E049",
+   "name": "Papaya (ripe)",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_vitamin_c",
+    "high_vitamin_a",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Fresh papaya"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 23.9006,
+    "protcnt": 0.42,
+    "fatce": 0.16,
+    "fibtg": 2.83,
+    "fe": 0.23,
+    "folsum": 60.9,
+    "vitc": 43.09,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.11,
+    "nia": 0.33,
+    "vitb6c": 0.04,
+    "ca": 15.02,
+    "mg": 10.97,
+    "zn": 0.08,
+    "p": 17.73,
+    "k": 173.0,
+    "na": 6.68
+   }
+  },
+  {
+   "code": "E055",
+   "name": "Pomegranate",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 70,
+   "tags": [
+    "high_vitamin_c",
+    "high_vitamin_a",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Fresh pomegranate seeds"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 54.7323,
+    "protcnt": 1.33,
+    "fatce": 0.15,
+    "fibtg": 2.83,
+    "fe": 0.31,
+    "folsum": 38.64,
+    "vitc": 12.69,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.06,
+    "ribf": 0.01,
+    "nia": 0.2,
+    "vitb6c": 0.29,
+    "ca": 10.65,
+    "mg": 11.07,
+    "zn": 0.18,
+    "p": 27.2,
+    "k": 206.0,
+    "na": 2.13
+   }
+  },
+  {
+   "code": "E053",
+   "name": "Pineapple",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_vitamin_c",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Fresh pineapple"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 43.021,
+    "protcnt": 0.52,
+    "fatce": 0.16,
+    "fibtg": 3.46,
+    "fe": 0.28,
+    "folsum": 18.21,
+    "vitc": 36.37,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.05,
+    "ribf": 0.03,
+    "nia": 0.12,
+    "vitb6c": 0.13,
+    "ca": 10.88,
+    "mg": 12.68,
+    "zn": 0.1,
+    "p": 13.56,
+    "k": 143.0,
+    "na": 1.43
+   }
+  },
+  {
+   "code": "E017",
+   "name": "Dates (dry)",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "snack"
+   ],
+   "portion_g": 40,
+   "tags": [
+    "high_fiber",
+    "high_iron",
+    "energy_dense"
+   ],
+   "dishes": [
+    "Whole dates"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 320.2677,
+    "protcnt": 2.45,
+    "fatce": 0.35,
+    "fibtg": 8.95,
+    "fe": 3.2,
+    "folsum": 18.65,
+    "vitc": 4.42,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.03,
+    "nia": 1.47,
+    "vitb6c": 0.14,
+    "ca": 71.2,
+    "mg": 73.79,
+    "zn": 0.7,
+    "p": 73.02,
+    "k": 804.0,
+    "na": 3.27
+   }
+  },
+  {
+   "code": "E065",
+   "name": "Watermelon",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 120,
+   "tags": [
+    "high_vitamin_c",
+    "hydration"
+   ],
+   "dishes": [
+    "Fresh watermelon"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 20.3155,
+    "protcnt": 0.6,
+    "fatce": 0.16,
+    "fibtg": 0.7,
+    "fe": 0.22,
+    "folsum": 5.88,
+    "vitc": 13.26,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.02,
+    "ribf": 0.02,
+    "nia": 0.28,
+    "vitb6c": 0.1,
+    "ca": 5.29,
+    "mg": 9.91,
+    "zn": 0.1,
+    "p": 11.33,
+    "k": 124.0,
+    "na": 1.89
+   }
+  },
+  {
+   "code": "C002",
+   "name": "Amaranth Leaves (Green Chaulai)",
+   "group": "Green Leafy Veg",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_iron",
+    "high_calcium",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Chaulai sabzi",
+    "Chaulai dal"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 30.5927,
+    "protcnt": 3.29,
+    "fatce": 0.65,
+    "fibtg": 4.41,
+    "fe": 4.64,
+    "folsum": 70.33,
+    "vitc": 83.54,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.01,
+    "ribf": 0.19,
+    "nia": 0.71,
+    "vitb6c": 0.21,
+    "ca": 330.0,
+    "mg": 194.0,
+    "zn": 0.86,
+    "p": 73.22,
+    "k": 572.0,
+    "na": 16.08
+   }
+  },
+  {
+   "code": "D068",
+   "name": "Ridge Gourd (Turai)",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_fiber",
+    "high_water"
+   ],
+   "dishes": [
+    "Turai sabzi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 13.1453,
+    "protcnt": 0.91,
+    "fatce": 0.14,
+    "fibtg": 1.81,
+    "fe": 0.42,
+    "folsum": 29.26,
+    "vitc": 5.42,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.02,
+    "ribf": 0.01,
+    "nia": 0.2,
+    "vitb6c": 0.07,
+    "ca": 13.7,
+    "mg": 16.15,
+    "zn": 0.22,
+    "p": 33.06,
+    "k": 118.0,
+    "na": 4.71
+   }
+  },
+  {
+   "code": "F004",
+   "name": "Colocasia (Arbi)",
+   "group": "Roots & Tubers",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_fiber",
+    "high_potassium"
+   ],
+   "dishes": [
+    "Arbi sabzi",
+    "Arbi fry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 88.9101,
+    "protcnt": 3.31,
+    "fatce": 0.17,
+    "fibtg": 3.22,
+    "fe": 0.66,
+    "folsum": 19.91,
+    "vitc": 1.83,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.06,
+    "ribf": 0.03,
+    "nia": 0.51,
+    "vitb6c": 0.17,
+    "ca": 30.18,
+    "mg": 36.93,
+    "zn": 0.41,
+    "p": 81.16,
+    "k": 514.0,
+    "na": 4.54
+   }
+  },
+  {
+   "code": "E009",
+   "name": "Banana (ripe)",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_potassium",
+    "energy_dense",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Fresh banana"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 110.6597,
+    "protcnt": 1.25,
+    "fatce": 0.32,
+    "fibtg": 2.21,
+    "fe": 0.4,
+    "folsum": 17.93,
+    "vitc": 8.06,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.01,
+    "ribf": 0.04,
+    "nia": 0.48,
+    "vitb6c": 0.51,
+    "ca": 6.77,
+    "mg": 30.22,
+    "zn": 0.15,
+    "p": 20.85,
+    "k": 362.0,
+    "na": 1.25
+   }
+  },
+  {
+   "code": "E001",
+   "name": "Apple",
+   "group": "Fruits",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_fiber",
+    "high_vitamin_c"
+   ],
+   "dishes": [
+    "Fresh apple"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 62.3805,
+    "protcnt": 0.29,
+    "fatce": 0.64,
+    "fibtg": 2.59,
+    "fe": 0.26,
+    "folsum": 3.04,
+    "vitc": 3.57,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.01,
+    "nia": 0.25,
+    "vitb6c": 0.04,
+    "ca": 13.68,
+    "mg": 8.09,
+    "zn": 0.09,
+    "p": 10.44,
+    "k": 116.0,
+    "na": 1.43
+   }
+  },
+  {
+   "code": "D045",
+   "name": "Cucumber",
+   "group": "Vegetables",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "snack"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_water",
+    "high_fiber"
+   ],
+   "dishes": [
+    "Salad",
+    "Raita base"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 19.5985,
+    "protcnt": 0.98,
+    "fatce": 0.24,
+    "fibtg": 2.46,
+    "fe": 0.45,
+    "folsum": 18.77,
+    "vitc": 6.24,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.02,
+    "ribf": 0.01,
+    "nia": 0.36,
+    "vitb6c": 0.04,
+    "ca": 21.98,
+    "mg": 20.34,
+    "zn": 0.16,
+    "p": 23.17,
+    "k": 185.0,
+    "na": 8.16
+   }
+  },
+  {
+   "code": "L001",
+   "name": "Milk (whole, buffalo)",
+   "group": "Dairy",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "dairy"
+   ],
+   "slots": [
+    "breakfast",
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 200,
+   "tags": [
+    "high_calcium",
+    "high_protein",
+    "high_b12"
+   ],
+   "dishes": [
+    "Warm milk",
+    "Coffee with milk"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 107.3136,
+    "protcnt": 3.68,
+    "fatce": 6.58,
+    "fibtg": 0.0,
+    "fe": 0.16,
+    "folsum": 8.57,
+    "vitc": 2.37,
+    "retol": 0.0,
+    "vitd": 0.2,
+    "thia": 0.05,
+    "ribf": 0.13,
+    "nia": 0.07,
+    "vitb6c": 0.04,
+    "ca": 121.0,
+    "mg": 10.05,
+    "zn": 0.3,
+    "p": 86.94,
+    "k": 109.0,
+    "na": 30.1,
+    "vitb12": 0.9
+   }
+  },
+  {
+   "code": "L002",
+   "name": "Milk (whole, cow)",
+   "group": "Dairy",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "dairy"
+   ],
+   "slots": [
+    "breakfast",
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 200,
+   "tags": [
+    "high_calcium",
+    "high_protein",
+    "high_b12"
+   ],
+   "dishes": [
+    "Warm milk",
+    "Haldi doodh"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 72.8967,
+    "protcnt": 3.26,
+    "fatce": 4.48,
+    "fibtg": 0.0,
+    "fe": 0.15,
+    "folsum": 7.03,
+    "vitc": 2.01,
+    "retol": 0.0,
+    "vitd": 0.1,
+    "thia": 0.03,
+    "ribf": 0.11,
+    "nia": 0.08,
+    "vitb6c": 0.04,
+    "ca": 118.0,
+    "mg": 8.28,
+    "zn": 0.33,
+    "p": 96.56,
+    "k": 115.0,
+    "na": 25.46,
+    "vitb12": 0.4
+   }
+  },
+  {
+   "code": "L003",
+   "name": "Paneer (Cottage Cheese)",
+   "group": "Dairy",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "dairy"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_calcium",
+    "high_protein",
+    "high_fat"
+   ],
+   "dishes": [
+    "Paneer bhurji",
+    "Palak paneer",
+    "Paneer tikka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 257.8872,
+    "protcnt": 18.86,
+    "fatce": 14.78,
+    "fibtg": 0.0,
+    "fe": 0.9,
+    "folsum": 93.31,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.02,
+    "ribf": 0.1,
+    "nia": 0.13,
+    "vitb6c": 0.04,
+    "ca": 476.0,
+    "mg": 26.62,
+    "zn": 2.74,
+    "p": 330.0,
+    "k": 63.53,
+    "na": 18.04,
+    "vitb12": 0.5
+   }
+  },
+  {
+   "code": "L004",
+   "name": "Khoa (Khoya)",
+   "group": "Dairy",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "dairy"
+   ],
+   "slots": [
+    "snack",
+    "dinner"
+   ],
+   "portion_g": 40,
+   "tags": [
+    "high_calcium",
+    "high_protein",
+    "high_fat"
+   ],
+   "dishes": [
+    "Kheer",
+    "Barfi"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 315.9656,
+    "protcnt": 16.34,
+    "fatce": 20.62,
+    "fibtg": 0.0,
+    "fe": 2.32,
+    "folsum": 94.25,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.11,
+    "ribf": 0.11,
+    "nia": 0.43,
+    "vitb6c": 0.06,
+    "ca": 602.0,
+    "mg": 58.53,
+    "zn": 2.34,
+    "p": 476.0,
+    "k": 536.0,
+    "na": 48.1,
+    "vitb12": 0.5
+   }
+  },
+  {
+   "code": "M001",
+   "name": "Egg (whole, raw)",
+   "group": "Eggs",
+   "diets": [
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "egg"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 55,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Egg curry",
+    "Bhurji"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 134.7992,
+    "protcnt": 13.28,
+    "fatce": 9.15,
+    "fibtg": 0.0,
+    "fe": 1.82,
+    "folsum": 49.32,
+    "vitc": 0.0,
+    "retol": 198.0,
+    "vitd": 2.5,
+    "thia": 0.06,
+    "ribf": 0.19,
+    "nia": 0.11,
+    "vitb6c": 0.16,
+    "ca": 49.44,
+    "mg": 12.01,
+    "zn": 1.23,
+    "p": 185.0,
+    "k": 138.0,
+    "na": 123.0,
+    "vitb12": 1.1
+   }
+  },
+  {
+   "code": "M004",
+   "name": "Egg (whole, boiled)",
+   "group": "Eggs",
+   "diets": [
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "egg"
+   ],
+   "slots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 55,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Boiled egg",
+    "Egg salad"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 147.7055,
+    "protcnt": 13.43,
+    "fatce": 10.54,
+    "fibtg": 0.0,
+    "fe": 1.87,
+    "folsum": 48.25,
+    "vitc": 0.0,
+    "retol": 180.0,
+    "vitd": 2.5,
+    "thia": 0.06,
+    "ribf": 0.18,
+    "nia": 0.21,
+    "vitb6c": 0.14,
+    "ca": 55.12,
+    "mg": 13.76,
+    "zn": 1.31,
+    "p": 209.0,
+    "k": 127.0,
+    "na": 121.0,
+    "vitb12": 1.1
+   }
+  },
+  {
+   "code": "M003",
+   "name": "Egg yolk",
+   "group": "Eggs",
+   "diets": [
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "egg"
+   ],
+   "slots": [
+    "breakfast",
+    "lunch"
+   ],
+   "portion_g": 20,
+   "tags": [
+    "high_b12",
+    "high_vitamin_a",
+    "high_iron"
+   ],
+   "dishes": [
+    "Egg yolk dishes"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 296.8451,
+    "protcnt": 15.74,
+    "fatce": 26.34,
+    "fibtg": 0.0,
+    "fe": 3.17,
+    "folsum": 112.0,
+    "vitc": 0.0,
+    "retol": 539.0,
+    "vitd": 5.0,
+    "thia": 0.11,
+    "ribf": 0.16,
+    "nia": 0.69,
+    "vitb6c": 0.29,
+    "ca": 116.0,
+    "mg": 13.17,
+    "zn": 1.64,
+    "p": 549.0,
+    "k": 118.0,
+    "na": 46.33,
+    "vitb12": 2.0
+   }
+  },
+  {
+   "code": "N003",
+   "name": "Chicken (breast, skinless)",
+   "group": "Poultry",
+   "diets": [
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "low_fat"
+   ],
+   "dishes": [
+    "Chicken curry",
+    "Grilled chicken"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 168.26,
+    "protcnt": 21.81,
+    "fatce": 9.0,
+    "fibtg": 0.0,
+    "fe": 0.83,
+    "folsum": 10.44,
+    "vitc": 0.0,
+    "retol": 6.96,
+    "vitd": 0.2,
+    "thia": 0.1,
+    "ribf": 0.06,
+    "nia": 8.06,
+    "vitb6c": 0.53,
+    "ca": 12.91,
+    "mg": 20.2,
+    "zn": 0.78,
+    "p": 178.0,
+    "k": 295.0,
+    "na": 36.7,
+    "vitb12": 0.6
+   }
+  },
+  {
+   "code": "N005",
+   "name": "Chicken liver",
+   "group": "Poultry",
+   "diets": [
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_iron",
+    "high_b12",
+    "high_folate",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Chicken liver fry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 123.805,
+    "protcnt": 21.57,
+    "fatce": 4.08,
+    "fibtg": 0.0,
+    "fe": 9.92,
+    "folsum": 1032.0,
+    "vitc": 0.0,
+    "retol": 3486.0,
+    "vitd": 3.6,
+    "thia": 0.28,
+    "ribf": 0.2,
+    "nia": 4.44,
+    "vitb6c": 0.92,
+    "ca": 4.1,
+    "mg": 16.0,
+    "zn": 2.65,
+    "p": 244.0,
+    "k": 241.0,
+    "na": 61.58,
+    "vitb12": 16.6
+   }
+  },
+  {
+   "code": "O001",
+   "name": "Goat (mutton, shoulder)",
+   "group": "Red Meat",
+   "diets": [
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_zinc"
+   ],
+   "dishes": [
+    "Mutton curry",
+    "Korma"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 188.0975,
+    "protcnt": 20.33,
+    "fatce": 11.94,
+    "fibtg": 0.0,
+    "fe": 1.48,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 7.57,
+    "vitd": 0.2,
+    "thia": 0.07,
+    "ribf": 0.17,
+    "nia": 5.14,
+    "vitb6c": 0.26,
+    "ca": 6.18,
+    "mg": 21.39,
+    "zn": 4.19,
+    "p": 189.0,
+    "k": 332.0,
+    "na": 47.31,
+    "vitb12": 2.4
+   }
+  },
+  {
+   "code": "N001",
+   "name": "Chicken (leg, skinless)",
+   "group": "Poultry",
+   "diets": [
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_protein",
+    "high_b12"
+   ],
+   "dishes": [
+    "Chicken curry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 383.6042,
+    "protcnt": 19.44,
+    "fatce": 12.64,
+    "fibtg": 0.0,
+    "fe": 1.27,
+    "folsum": 7.47,
+    "vitc": 0.0,
+    "retol": 10.95,
+    "vitd": 0.2,
+    "thia": 0.17,
+    "ribf": 0.13,
+    "nia": 5.6,
+    "vitb6c": 0.33,
+    "ca": 20.52,
+    "mg": 23.82,
+    "zn": 1.77,
+    "p": 199.0,
+    "k": 283.0,
+    "na": 65.07
+   }
+  },
+  {
+   "code": "O021",
+   "name": "Lamb/Sheep liver",
+   "group": "Red Meat",
+   "diets": [
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 60,
+   "tags": [
+    "high_iron",
+    "high_b12",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Lamb liver fry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 133.6042,
+    "protcnt": 22.26,
+    "fatce": 4.87,
+    "fibtg": 0.0,
+    "fe": 6.15,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 14106.0,
+    "vitd": 1.2,
+    "thia": 0.17,
+    "ribf": 0.35,
+    "nia": 15.66,
+    "vitb6c": 0.26,
+    "ca": 5.92,
+    "mg": 17.91,
+    "zn": 3.73,
+    "p": 334.0,
+    "k": 280.0,
+    "na": 55.82,
+    "vitb12": 60.0
+   }
+  },
+  {
+   "code": "P004",
+   "name": "Marine Fish (Ari)",
+   "group": "Fish & Seafood",
+   "diets": [
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "fish"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_omega3"
+   ],
+   "dishes": [
+    "Fish curry",
+    "Fish fry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 99.1874,
+    "protcnt": 22.01,
+    "fatce": 1.11,
+    "fibtg": 0.0,
+    "fe": 0.47,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 1.56,
+    "vitd": 1.0,
+    "thia": 0.06,
+    "ribf": 0.03,
+    "nia": 3.65,
+    "vitb6c": 218.0,
+    "ca": 4.36,
+    "mg": 30.27,
+    "zn": 0.31,
+    "p": 265.0,
+    "k": 447.0,
+    "na": 37.35,
+    "vitb12": 2.2
+   }
+  },
+  {
+   "code": "P030",
+   "name": "Kite Fish (marine)",
+   "group": "Fish & Seafood",
+   "diets": [
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "fish"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_omega3"
+   ],
+   "dishes": [
+    "Fish curry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 98.7094,
+    "protcnt": 23.07,
+    "fatce": 0.56,
+    "fibtg": 0.0,
+    "fe": 1.38,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 1.52,
+    "vitd": 3.0,
+    "thia": 0.04,
+    "ribf": 0.07,
+    "nia": 2.5,
+    "vitb6c": 127.0,
+    "ca": 11.02,
+    "mg": 28.46,
+    "zn": 0.55,
+    "p": 231.0,
+    "k": 387.0,
+    "na": 59.03,
+    "vitb12": 2.0
+   }
+  },
+  {
+   "code": "P060",
+   "name": "Queen Fish",
+   "group": "Fish & Seafood",
+   "diets": [
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "fish"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_omega3"
+   ],
+   "dishes": [
+    "Fish curry",
+    "Fish tikka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 95.6023,
+    "protcnt": 20.97,
+    "fatce": 1.17,
+    "fibtg": 0.0,
+    "fe": 0.49,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 1.52,
+    "vitd": 2.0,
+    "thia": 0.06,
+    "ribf": 0.04,
+    "nia": 3.24,
+    "vitb6c": 118.0,
+    "ca": 5.75,
+    "mg": 28.1,
+    "zn": 0.35,
+    "p": 235.0,
+    "k": 440.0,
+    "na": 48.93,
+    "vitb12": 2.6
+   }
+  },
+  {
+   "code": "Q008",
+   "name": "Tiger Prawns",
+   "group": "Fish & Seafood",
+   "diets": [
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "shellfish"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 80,
+   "tags": [
+    "high_protein",
+    "high_b12",
+    "high_selenium"
+   ],
+   "dishes": [
+    "Prawn curry",
+    "Shrimp fry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 64.5315,
+    "protcnt": 14.25,
+    "fatce": 0.74,
+    "fibtg": 0.0,
+    "fe": 0.39,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 6.55,
+    "vitd": 0.4,
+    "thia": 0.03,
+    "ribf": 0.03,
+    "nia": 1.18,
+    "vitb6c": 112.0,
+    "ca": 71.89,
+    "mg": 30.5,
+    "zn": 1.16,
+    "p": 191.0,
+    "k": 140.0,
+    "na": 61.05,
+    "vitb12": 1.4
+   }
+  },
+  {
+   "code": "S001",
+   "name": "Catfish (fresh water)",
+   "group": "Fish & Seafood",
+   "diets": [
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "fish"
+   ],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 100,
+   "tags": [
+    "high_protein",
+    "high_b12"
+   ],
+   "dishes": [
+    "Fish curry"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 123.805,
+    "protcnt": 15.86,
+    "fatce": 6.24,
+    "fibtg": 0.0,
+    "fe": 0.82,
+    "folsum": 0.0,
+    "vitc": 0.0,
+    "retol": 13.59,
+    "vitd": 0.3,
+    "thia": 0.01,
+    "ribf": 0.07,
+    "nia": 1.74,
+    "vitb6c": 114.0,
+    "ca": 21.99,
+    "mg": 18.78,
+    "zn": 0.71,
+    "p": 157.0,
+    "k": 250.0,
+    "na": 28.29,
+    "vitb12": 1.6
+   }
+  },
+  {
+   "code": "G010",
+   "name": "Curry Leaves",
+   "group": "Spices & Herbs",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 5,
+   "tags": [
+    "high_iron",
+    "high_folate",
+    "high_vitamin_a",
+    "high_calcium"
+   ],
+   "dishes": [
+    "Tempering in dals",
+    "Drumstick sambar"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 63.5755,
+    "protcnt": 7.41,
+    "fatce": 1.06,
+    "fibtg": 16.83,
+    "fe": 8.67,
+    "folsum": 117.0,
+    "vitc": 6.04,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.07,
+    "ribf": 0.13,
+    "nia": 0.85,
+    "vitb6c": 0.57,
+    "ca": 659.0,
+    "mg": 182.0,
+    "zn": 1.18,
+    "p": 83.29,
+    "k": 584.0,
+    "na": 18.66
+   }
+  },
+  {
+   "code": "G016",
+   "name": "Mint Leaves (Pudina)",
+   "group": "Spices & Herbs",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "snack",
+    "lunch"
+   ],
+   "portion_g": 10,
+   "tags": [
+    "high_iron",
+    "high_folate",
+    "high_vitamin_a"
+   ],
+   "dishes": [
+    "Pudina chutney",
+    "Pudina raita"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 37.0459,
+    "protcnt": 4.66,
+    "fatce": 0.65,
+    "fibtg": 5.89,
+    "fe": 8.56,
+    "folsum": 106.0,
+    "vitc": 17.16,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.02,
+    "ribf": 0.19,
+    "nia": 0.74,
+    "vitb6c": 0.17,
+    "ca": 205.0,
+    "mg": 110.0,
+    "zn": 0.75,
+    "p": 65.25,
+    "k": 539.0,
+    "na": 16.87
+   }
+  },
+  {
+   "code": "G011",
+   "name": "Garlic",
+   "group": "Spices & Herbs",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 5,
+   "tags": [
+    "high_vitamin_c",
+    "antibacterial"
+   ],
+   "dishes": [
+    "In curries",
+    "Tempering"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 123.805,
+    "protcnt": 6.92,
+    "fatce": 0.16,
+    "fibtg": 5.22,
+    "fe": 1.05,
+    "folsum": 85.77,
+    "vitc": 12.62,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.2,
+    "ribf": 0.25,
+    "nia": 0.38,
+    "vitb6c": 0.56,
+    "ca": 20.08,
+    "mg": 27.08,
+    "zn": 0.89,
+    "p": 119.0,
+    "k": 430.0,
+    "na": 9.42
+   }
+  },
+  {
+   "code": "G026",
+   "name": "Fenugreek Seeds (Methi)",
+   "group": "Spices & Herbs",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 5,
+   "tags": [
+    "high_fiber",
+    "high_iron",
+    "digestive"
+   ],
+   "dishes": [
+    "Methi water",
+    "In tadka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 234.9426,
+    "protcnt": 25.41,
+    "fatce": 5.72,
+    "fibtg": 47.55,
+    "fe": 8.47,
+    "folsum": 51.11,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.28,
+    "ribf": 0.14,
+    "nia": 1.19,
+    "vitb6c": 0.77,
+    "ca": 135.0,
+    "mg": 167.0,
+    "zn": 3.8,
+    "p": 435.0,
+    "k": 891.0,
+    "na": 40.2
+   }
+  },
+  {
+   "code": "G025",
+   "name": "Cumin Seeds (Jeera)",
+   "group": "Spices & Herbs",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "lunch",
+    "dinner"
+   ],
+   "portion_g": 3,
+   "tags": [
+    "high_iron",
+    "digestive"
+   ],
+   "dishes": [
+    "Jeera water",
+    "Tadka"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 304.4933,
+    "protcnt": 13.91,
+    "fatce": 16.64,
+    "fibtg": 30.35,
+    "fe": 20.58,
+    "folsum": 27.79,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.52,
+    "ribf": 0.13,
+    "nia": 2.87,
+    "vitb6c": 0.39,
+    "ca": 878.0,
+    "mg": 442.0,
+    "zn": 4.29,
+    "p": 382.0,
+    "k": 1886.0,
+    "na": 125.0
+   }
+  },
+  {
+   "code": "H001",
+   "name": "Almond (Badam)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "nuts"
+   ],
+   "slots": [
+    "breakfast",
+    "snack"
+   ],
+   "portion_g": 20,
+   "tags": [
+    "high_vitamin_e",
+    "high_calcium",
+    "high_protein",
+    "high_healthy_fat"
+   ],
+   "dishes": [
+    "Soaked almonds",
+    "Badam milk"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 609.2256,
+    "protcnt": 18.41,
+    "fatce": 58.49,
+    "fibtg": 13.06,
+    "fe": 4.59,
+    "folsum": 36.46,
+    "vitc": 0.74,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.15,
+    "ribf": 0.26,
+    "nia": 3.71,
+    "vitb6c": 0.09,
+    "ca": 228.0,
+    "mg": 318.0,
+    "zn": 3.5,
+    "p": 446.0,
+    "k": 699.0,
+    "na": 1.5
+   }
+  },
+  {
+   "code": "H005",
+   "name": "Cashew (Kaju)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "nuts"
+   ],
+   "slots": [
+    "snack"
+   ],
+   "portion_g": 20,
+   "tags": [
+    "high_zinc",
+    "high_iron",
+    "high_healthy_fat"
+   ],
+   "dishes": [
+    "Kaju katli",
+    "In pulao"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 582.696,
+    "protcnt": 18.78,
+    "fatce": 45.2,
+    "fibtg": 3.86,
+    "fe": 5.95,
+    "folsum": 25.2,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.61,
+    "ribf": 0.03,
+    "nia": 1.03,
+    "vitb6c": 0.16,
+    "ca": 34.0,
+    "mg": 307.0,
+    "zn": 5.34,
+    "p": 500.0,
+    "k": 635.0,
+    "na": 9.0
+   }
+  },
+  {
+   "code": "H021",
+   "name": "Walnut (Akhrot)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "nuts"
+   ],
+   "slots": [
+    "snack"
+   ],
+   "portion_g": 20,
+   "tags": [
+    "high_omega3",
+    "high_biotin",
+    "high_healthy_fat"
+   ],
+   "dishes": [
+    "Walnut trail mix",
+    "Overnight oats"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 671.3671,
+    "protcnt": 14.92,
+    "fatce": 64.27,
+    "fibtg": 5.39,
+    "fe": 3.21,
+    "folsum": 57.95,
+    "vitc": 0.88,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.4,
+    "ribf": 0.12,
+    "nia": 0.86,
+    "vitb6c": 0.8,
+    "ca": 105.0,
+    "mg": 180.0,
+    "zn": 2.94,
+    "p": 400.0,
+    "k": 457.0,
+    "na": 1.33
+   }
+  },
+  {
+   "code": "H007",
+   "name": "Coconut (fresh kernel)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "snack",
+    "lunch"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_fiber",
+    "high_healthy_fat"
+   ],
+   "dishes": [
+    "Coconut chutney",
+    "Nariyal laddu"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 408.9388,
+    "protcnt": 3.84,
+    "fatce": 41.38,
+    "fibtg": 10.42,
+    "fe": 1.3,
+    "folsum": 25.41,
+    "vitc": 0.8,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.03,
+    "ribf": 0.08,
+    "nia": 0.3,
+    "vitb6c": 0.1,
+    "ca": 8.0,
+    "mg": 35.0,
+    "zn": 0.58,
+    "p": 67.73,
+    "k": 246.0,
+    "na": 8.12
+   }
+  },
+  {
+   "code": "H012",
+   "name": "Peanut (Groundnut)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "peanut"
+   ],
+   "slots": [
+    "snack"
+   ],
+   "portion_g": 30,
+   "tags": [
+    "high_protein",
+    "high_energy_dense"
+   ],
+   "dishes": [
+    "Roasted peanuts",
+    "Peanut chikki"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 520.0765,
+    "protcnt": 23.65,
+    "fatce": 39.63,
+    "fibtg": 10.38,
+    "fe": 3.44,
+    "folsum": 90.87,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.57,
+    "ribf": 0.12,
+    "nia": 11.35,
+    "vitb6c": 0.23,
+    "ca": 54.0,
+    "mg": 197.0,
+    "zn": 3.18,
+    "p": 391.0,
+    "k": 679.0,
+    "na": 12.21
+   }
+  },
+  {
+   "code": "H011",
+   "name": "Sesame Seeds (Til)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [
+    "sesame"
+   ],
+   "slots": [
+    "snack",
+    "lunch"
+   ],
+   "portion_g": 15,
+   "tags": [
+    "high_calcium",
+    "high_iron",
+    "high_zinc"
+   ],
+   "dishes": [
+    "Til chikki",
+    "Til laddoo"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 519.5985,
+    "protcnt": 21.7,
+    "fatce": 43.05,
+    "fibtg": 16.99,
+    "fe": 15.04,
+    "folsum": 131.0,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.36,
+    "ribf": 0.07,
+    "nia": 3.94,
+    "vitb6c": 0.62,
+    "ca": 1283.0,
+    "mg": 372.0,
+    "zn": 7.77,
+    "p": 754.0,
+    "k": 460.0,
+    "na": 15.43
+   }
+  },
+  {
+   "code": "H008",
+   "name": "Garden Cress Seeds (Halim)",
+   "group": "Nuts & Seeds",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "snack"
+   ],
+   "portion_g": 20,
+   "tags": [
+    "high_iron",
+    "high_folate",
+    "high_b12_analog"
+   ],
+   "dishes": [
+    "Halim ladoo",
+    "Halim drink"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 445.2677,
+    "protcnt": 23.36,
+    "fatce": 23.74,
+    "fibtg": 8.27,
+    "fe": 17.2,
+    "folsum": 30.92,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.52,
+    "ribf": 0.15,
+    "nia": 5.67,
+    "vitb6c": 0.05,
+    "ca": 318.0,
+    "mg": 307.0,
+    "zn": 4.83,
+    "p": 539.0,
+    "k": 952.0,
+    "na": 21.84
+   }
+  },
+  {
+   "code": "I001",
+   "name": "Jaggery (Gur)",
+   "group": "Sugars",
+   "diets": [
+    "vegetarian",
+    "eggetarian",
+    "fishetarian",
+    "non-vegetarian"
+   ],
+   "allergens": [],
+   "slots": [
+    "snack"
+   ],
+   "portion_g": 20,
+   "tags": [
+    "high_iron",
+    "high_calcium",
+    "energy_dense"
+   ],
+   "dishes": [
+    "Jaggery with chikki",
+    "Jaggery tea"
+   ],
+   "nutrients_per_100g": {
+    "enerc": 353.7285,
+    "protcnt": 1.85,
+    "fatce": 0.16,
+    "fibtg": 0.0,
+    "fe": 4.63,
+    "folsum": 14.4,
+    "vitc": 0.0,
+    "retol": 0.0,
+    "vitd": 0.0,
+    "thia": 0.04,
+    "ribf": 0.01,
+    "nia": 0.02,
+    "vitb6c": 0.71,
+    "ca": 107.0,
+    "mg": 115.0,
+    "zn": 0.45,
+    "p": 74.53,
+    "k": 488.0,
+    "na": 25.38
+   }
+  }
+ ]
+}

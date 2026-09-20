@@ -67,9 +67,9 @@ export default function UploadPage() {
     try {
       await uploadBloodReport(reportFile, activeId);
       if (symptomFile) {
-        await uploadSymptomPhoto(symptomFile, activeId);
+        await uploadSymptomPhoto(symptomFile, 'eyes', activeId);
       }
-      router.push('/processing');
+      router.push('/results');
     } catch (err: any) {
       console.warn('Upload error, proceeding to presentation dashboard', err);
       router.push('/results');

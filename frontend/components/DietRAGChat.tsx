@@ -4,7 +4,17 @@ import React, { useState } from 'react';
 import { Send, Bot, User, Sparkles } from 'lucide-react';
 import { sendDietChatQuery } from '@/lib/api';
 
-export default function DietRAGChat({ deficiencyType = "iron" }: { deficiencyType?: string }) {
+export default function DietRAGChat({
+  deficiencyType = "iron",
+  dietPref = "vegetarian",
+  allergies = [],
+  disorders = [],
+}: {
+  deficiencyType?: string;
+  dietPref?: string;
+  allergies?: string[];
+  disorders?: string[];
+}) {
   const [messages, setMessages] = useState<Array<{ sender: 'user' | 'bot'; text: string }>>([
     { sender: 'bot', text: `Hello! I am your Groq-powered FSSAI Diet Assistant. Ask me anything about managing ${deficiencyType} deficiency through Indian foods, recipe ideas, or meal timing!` }
   ]);
@@ -21,7 +31,7 @@ export default function DietRAGChat({ deficiencyType = "iron" }: { deficiencyTyp
     setLoading(true);
 
     try {
-      const res = await sendDietChatQuery(userMsg, deficiencyType);
+      const res = await sendDietChatQuery(userMsg, deficiencyType, dietPref, allergies, disorders);
       setMessages(prev => [...prev, { sender: 'bot', text: res.answer }]);
     } catch (err) {
       setMessages(prev => [...prev, { sender: 'bot', text: "Sorry, I encountered an error connecting to Groq RAG engine." }]);
@@ -34,7 +44,7 @@ export default function DietRAGChat({ deficiencyType = "iron" }: { deficiencyTyp
     <div className="bg-white border border-slate-200 rounded-2xl p-4 flex flex-col h-[450px]">
       <div className="flex items-center space-x-2 border-b border-slate-200 pb-3 mb-3">
         <Sparkles className="w-5 h-5 text-amber-400" />
-        <h4 className="font-bold text-white text-base">FSSAI Diet & Nutrition RAG Chat Assistant</h4>
+        <h4 className="font-bold text-slate-900 text-base">FSSAI Diet & Nutrition RAG Chat Assistant</h4>
       </div>
 
       <div className="flex-1 overflow-y-auto space-y-3 pr-2 text-sm">
@@ -45,7 +55,7 @@ export default function DietRAGChat({ deficiencyType = "iron" }: { deficiencyTyp
                 <Bot className="w-4 h-4" />
               </div>
             )}
-            <div className={`p-3 rounded-2xl max-w-[80%] ${m.sender === 'user' ? 'bg-indigo-600 text-white rounded-tr-none' : 'bg-slate-100 text-slate-200 border border-slate-200 rounded-tl-none'}`}>
+            <div className={`p-3 rounded-2xl max-w-[80%] ${m.sender === 'user' ? 'bg-indigo-600 text-white rounded-tr-none' : 'bg-slate-100 text-slate-700 border border-slate-200 rounded-tl-none'}`}>
               {m.text}
             </div>
             {m.sender === 'user' && (
@@ -66,7 +76,7 @@ export default function DietRAGChat({ deficiencyType = "iron" }: { deficiencyTyp
           placeholder="Ask a dietary question (e.g. Can I take iron with milk?)"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="flex-1 bg-slate-100 border border-slate-200 rounded-xl px-4 py-2 text-sm text-white focus:outline-none focus:border-indigo-500"
+          className="flex-1 bg-slate-100 border border-slate-200 rounded-xl px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-indigo-500"
         />
         <button type="submit" disabled={loading} className="p-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white transition disabled:opacity-50">
           <Send className="w-4 h-4" />

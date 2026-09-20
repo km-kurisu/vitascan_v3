@@ -6,8 +6,6 @@ import Link from 'next/link';
 import { Activity } from 'lucide-react';
 
 export default function LoginPage() {
-  const isDummyKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY?.includes('pk_test_placeholder') ?? true;
-
   return (
     <div className="min-h-[80vh] flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md space-y-6">

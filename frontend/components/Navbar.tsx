@@ -1,9 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Activity, Bell, Utensils, Upload, FileText, LogIn } from 'lucide-react';
+import { Activity, LogIn, Menu, X } from 'lucide-react';
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import LanguageDropdown from '@/components/LanguageDropdown';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
@@ -11,11 +11,12 @@ import { useLanguage } from '@/lib/i18n/LanguageContext';
 export default function Navbar() {
   const pathname = usePathname();
   const { t } = useLanguage();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
     { name: t('nav.home') || 'Home', href: '/' },
     { name: t('nav.upload') || 'Upload Scan', href: '/upload' },
-    { name: t('nav.history') || 'Results', href: '/results' },
+    { name: t('nav.results') || 'Results', href: '/results' },
     { name: t('nav.dietPlanner') || 'Diet Planner', href: '/diet-planner' },
     { name: t('nav.reminders') || 'Reminders', href: '/reminders' },
   ];
@@ -66,6 +67,14 @@ export default function Navbar() {
         <div className="flex items-center space-x-3">
           <LanguageDropdown />
 
+          <button
+            onClick={() => setMenuOpen((v) => !v)}
+            className="md:hidden p-2 text-slate-600 hover:text-[#1D61E7] transition-colors"
+            aria-label="Toggle navigation menu"
+          >
+            {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
           </SignedIn>
@@ -81,6 +90,31 @@ export default function Navbar() {
           </SignedOut>
         </div>
       </div>
+
+      {/* Mobile menu */}
+      {menuOpen && (
+        <nav className="md:hidden border-t border-slate-200 bg-white px-4 py-3 space-y-1">
+          {navLinks.map((link) => {
+            const isActive =
+              pathname === link.href ||
+              (link.href !== '/' && pathname?.startsWith(link.href));
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className={`block py-2.5 px-3 rounded-xl text-sm font-semibold transition-colors ${
+                  isActive
+                    ? 'bg-blue-50 text-[#1D61E7]'
+                    : 'text-slate-700 hover:bg-slate-50'
+                }`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
+        </nav>
+      )}
     </header>
   );
 }

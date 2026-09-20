@@ -1,0 +1,161 @@
+{
+  "deficiency": "calcium",
+  "deficiency_label": "Calcium",
+  "target_nutrients": [
+    "ca"
+  ],
+  "diet_pref": "lactovegetarian",
+  "allergens": [
+    "peanut"
+  ],
+  "disorders": [
+    "celiac",
+    "gout"
+  ],
+  "meal_plan": {},
+  "bioavailability_tips": [
+    "No safe food matched this combination. Please consult a physician/dietitian."
+  ],
+  "fssai_checked": true,
+  "source": "curated_kb+web",
+  "coverage": {
+    "deficiency": "calcium",
+    "target_nutrients": [
+      "ca"
+    ],
+    "per_nutrient": {
+      "ca": {
+        "available": 0,
+        "rda_pct_serving": 0.0
+      }
+    },
+    "adequate": false
+  },
+  "explanation": [
+    "Target nutrient: Calcium (ca), RDA 1000.0 mg/day.",
+    "Disorder rule (celiac): Strictly avoid wheat, barley, rye. Use certified gluten-free millets (ragi, jowar, bajra), rice, quinoa.",
+    "Disorder rule (gout): Limit organ meats, red meat and shellfish; drink water and prefer vegetables and dairy."
+  ],
+  "web_sources": [
+    {
+      "code": "A001",
+      "name": "Amaranth seed, black",
+      "nutrient": "ca",
+      "value": 181.0
+    },
+    {
+      "code": "A002",
+      "name": "Amaranth seed, pale brown",
+      "nutrient": "ca",
+      "value": 162.0
+    },
+    {
+      "code": "A003",
+      "name": "Bajra",
+      "nutrient": "ca",
+      "value": 27.35
+    },
+    {
+      "code": "A004",
+      "name": "Barley",
+      "nutrient": "ca",
+      "value": 28.64
+    },
+    {
+      "code": "A005",
+      "name": "Jowar",
+      "nutrient": "ca",
+      "value": 27.6
+    },
+    {
+      "code": "A006",
+      "name": "Maize, dry",
+      "nutrient": "ca",
+      "value": 8.91
+    },
+    {
+      "code": "A007",
+      "name": "Maize, tender, local",
+      "nutrient": "ca",
+      "value": 6.35
+    },
+    {
+      "code": "A008",
+      "name": "Maize, tender, sweet",
+      "nutrient": "ca",
+      "value": 6.37
+    },
+    {
+      "code": "A009",
+      "name": "Quinoa",
+      "nutrient": "ca",
+      "value": 198.0
+    },
+    {
+      "code": "A010",
+      "name": "Ragi",
+      "nutrient": "ca",
+      "value": 364.0
+    },
+    {
+      "code": "A011",
+      "name": "Rice, flakes",
+      "nutrient": "ca",
+      "value": 9.19
+    },
+    {
+      "code": "A012",
+      "name": "Rice, puffed",
+      "nutrient": "ca",
+      "value": 15.09
+    },
+    {
+      "code": "A013",
+      "name": "Rice, raw, brown",
+      "nutrient": "ca",
+      "value": 10.93
+    },
+    {
+      "code": "A014",
+      "name": "Rice, parboiled, milled",
+      "nutrient": "ca",
+      "value": 8.11
+    },
+    {
+      "code": "A015",
+      "name": "Rice, raw, milled",
+      "nutrient": "ca",
+      "value": 7.49
+    },
+    {
+      "code": "A016",
+      "name": "Samai",
+      "nutrient": "ca",
+      "value": 16.06
+    },
+    {
+      "code": "A017",
+      "name": "Varagu",
+      "nutrient": "ca",
+      "value": 15.27
+    },
+    {
+      "code": "A018",
+      "name": "Wheat flour, refined",
+      "nutrient": "ca",
+      "value": 20.4
+    },
+    {
+      "code": "A019",
+      "name": "Wheat flour, atta",
+      "nutrient": "ca",
+      "value": 30.94
+    },
+    {
+      "code": "A020",
+      "name": "Wheat, whole",
+      "nutrient": "ca",
+      "value": 39.36
+    }
+  ]
+}

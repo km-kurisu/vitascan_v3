@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "note": "Digestive / metabolic disorder rules. 'avoid_allergens' additionally excludes allergen-listed foods. 'avoid_tags'/'prefer_tags' filter foods.json tags. 'limit_nutrients' caps contribution.",
+    "warning_text": "Automated diet guidance is informational and not a substitute for a physician or dietitian."
+  },
+  "disorders": {
+    "lactose_intolerance": {
+      "label": "Lactose Intolerance",
+      "avoid_allergens": ["dairy"],
+      "avoid_tags": ["dairy"],
+      "prefer_tags": [],
+      "limit_nutrients": {},
+      "note": "Dairy avoided. Use lactose-free milk, soya milk, or small amounts of curd/ghee if tolerated."
+    },
+    "celiac": {
+      "label": "Celiac Disease / Gluten Intolerance",
+      "avoid_allergens": ["gluten"],
+      "avoid_tags": [],
+      "prefer_tags": ["gluten_free"],
+      "limit_nutrients": {},
+      "note": "Strictly avoid wheat, barley, rye. Use certified gluten-free millets (ragi, jowar, bajra), rice, quinoa."
+    },
+    "ibs": {
+      "label": "Irritable Bowel Syndrome",
+      "avoid_allergens": [],
+      "avoid_tags": ["high_fodmap"],
+      "prefer_tags": ["high_fiber", "low_gi"],
+      "limit_nutrients": {},
+      "note": "Low-FODMAP approach: well-cooked dals, easy vegetables; choose fiber gradually."
+    },
+    "gerd": {
+      "label": "Acidity / GERD",
+      "avoid_allergens": [],
+      "avoid_tags": ["spicy", "high_fat"],
+      "prefer_tags": ["low_gi"],
+      "limit_nutrients": {},
+      "note": "Avoid spicy, fried and heavy meals late at night; keep meals small and frequent."
+    },
+    "diabetes": {
+      "label": "Diabetes / Prediabetes",
+      "avoid_allergens": [],
+      "avoid_tags": [],
+      "prefer_tags": ["low_gi", "high_fiber"],
+      "limit_nutrients": {},
+      "note": "Prefer whole millets, pulses, and fiber; limit refined sugar, sugary drinks and refined flour."
+    },
+    "ckd": {
+      "label": "Chronic Kidney Disease",
+      "avoid_allergens": [],
+      "avoid_tags": ["high_potassium", "high_phosphorus"],
+      "prefer_tags": [],
+      "limit_nutrients": {"na": 0.4, "k": 0.4, "p": 0.4},
+      "note": "Physician-led dietary plan required - potassium, phosphorus and sodium often restricted."
+    },
+    "hypertension": {
+      "label": "Hypertension",
+      "avoid_allergens": [],
+      "avoid_tags": [],
+      "prefer_tags": ["high_fiber"],
+      "limit_nutrients": {"na": 0.4},
+      "note": "Restrict salt and packaged foods; increase potassium-rich vegetables and fruits."
+    },
+    "gout": {
+      "label": "Gout / High Uric Acid",
+      "avoid_allergens": [],
+      "avoid_tags": ["high_purine"],
+      "prefer_tags": ["high_fiber"],
+      "limit_nutrients": {},
+      "note": "Limit organ meats, red meat and shellfish; drink water and prefer vegetables and dairy."
+    },
+    "pcos": {
+      "label": "PCOS / Hormonal Imbalance",
+      "avoid_allergens": [],
+      "avoid_tags": [],
+      "prefer_tags": ["low_gi", "high_fiber"],
+      "limit_nutrients": {},
+      "note": "Prefer low-glycemic whole foods and protein; limit refined sugar."
+    }
+  }
+}

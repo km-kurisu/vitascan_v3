@@ -53,7 +53,7 @@ export default function Home() {
   const handleSymptomUpload = async (file: File) => {
     setLoading(true);
     try {
-      await uploadSymptomPhoto(file, getActivePatientId());
+      await uploadSymptomPhoto(file, 'skin', getActivePatientId());
       router.push('/results');
     } catch (e) {
       router.push('/results');

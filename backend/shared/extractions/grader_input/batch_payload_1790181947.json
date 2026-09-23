@@ -1,0 +1,62 @@
+[
+  {
+    "patient_id": "PAT-EXTRACTOR-3003",
+    "hemoglobin": 10.4,
+    "mcv": null,
+    "rdw": null,
+    "ferritin": 11.2,
+    "b12": 210.0,
+    "folate": null,
+    "rbc": null,
+    "mch": null,
+    "mchc": null
+  },
+  {
+    "patient_id": "PAT-GGS25DSD",
+    "hemoglobin": 12.5,
+    "mcv": 87.75,
+    "rdw": 13.6,
+    "ferritin": null,
+    "b12": null,
+    "folate": null,
+    "rbc": 5.2,
+    "mch": 27.2,
+    "mchc": 32.8
+  },
+  {
+    "patient_id": "PAT-GGS25",
+    "hemoglobin": 14.5,
+    "mcv": 90.3,
+    "rdw": 13.6,
+    "ferritin": null,
+    "b12": null,
+    "folate": null,
+    "rbc": 4.79,
+    "mch": 30.2,
+    "mchc": 33.4
+  },
+  {
+    "patient_id": "sample_cbc_report.pdf",
+    "hemoglobin": 10.4,
+    "mcv": null,
+    "rdw": null,
+    "ferritin": 11.2,
+    "b12": 210.0,
+    "folate": null,
+    "rbc": null,
+    "mch": null,
+    "mchc": null
+  },
+  {
+    "patient_id": "REPORT",
+    "hemoglobin": null,
+    "mcv": null,
+    "rdw": null,
+    "ferritin": null,
+    "b12": null,
+    "folate": null,
+    "rbc": null,
+    "mch": null,
+    "mchc": null
+  }
+]

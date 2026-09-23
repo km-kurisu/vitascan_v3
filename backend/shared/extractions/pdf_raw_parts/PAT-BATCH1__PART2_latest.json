@@ -1,0 +1,36 @@
+{
+  "filename": "part2_b12_folate.txt",
+  "patient_id": "PAT-BATCH1",
+  "patient_details": {
+    "patient_id": "PAT-BATCH1",
+    "name": null,
+    "age": null,
+    "gender": "Female",
+    "date": "034/09/2026",
+    "lab_id": "PAT-BATCH1",
+    "referred_by": null
+  },
+  "age": null,
+  "gender": "Female",
+  "biomarkers": {
+    "vitamin_b12_cyanocobalamin": {
+      "canonical_name": "Vitamin B12 (Cyanocobalamin)",
+      "value": 148.0,
+      "raw_value": 148.0,
+      "unit": "pg/mL",
+      "ref_range": "197 - 771",
+      "source_span": "Vitamin B12 (Cyanocobalamin)  148.0 pg/mL   197 - 771     CLIA"
+    }
+  },
+  "labs": {
+    "Vitamin B12 (Cyanocobalamin)": {
+      "value": "148.0",
+      "unit": "pg/mL",
+      "ref_range": "197 - 771"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "CLINICAL LABORATORY REPORT\nVitaScan Reference Laboratory  (NABL Lab: NABL-AB-2026-XXXX)\n\nPatient Name : Aisha Khan   Age/Gender : 28 Y/F\nLab No : 034/09/2026-017\n\nNUTRITIONAL VITAMINS\nSample : Serum\n\nVitamin B12 (Cyanocobalamin)  148.0 pg/mL   197 - 771     CLIA\nFolic Acid / Folate - Serum  3.2 ng/mL   3.89 - 26.8     CLIA\n",
+  "extraction_method": "utf-8 plain text",
+  "char_count": 325
+}

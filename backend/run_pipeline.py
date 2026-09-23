@@ -20,6 +20,8 @@ load_dotenv()
 from backend.path_b_blood_report.mod_b1_extractor.extractor import BloodReportExtractor
 from backend.path_b_blood_report.mod_b1_extractor.biobert_extractor import BioBERTBiomarkerExtractor
 from backend.path_b_blood_report.mod_b2_normalizer.normalizer import BiomarkerNormalizer
+from backend.path_b_blood_report.mod_b2_normalizer.grader_input import GraderInputBuilder
+from backend.path_b_blood_report.mod_b2_normalizer.composer import compose_pdf_raw
 from backend.path_b_blood_report.mod_b3_grader.grader import PathBGrader
 from backend.path_a_symptom_image.groq_vision_analyzer import GroqSymptomVisionAnalyzer
 from backend.path_a_symptom_image.crosscheck import PathACrosscheckSignal
@@ -54,6 +56,7 @@ app.include_router(diet_router)
 b1_extractor = BloodReportExtractor()
 biobert_extractor = BioBERTBiomarkerExtractor()
 normalizer = BiomarkerNormalizer()
+grader_input_builder = GraderInputBuilder()
 b3_grader = PathBGrader()
 
 groq_vision = GroqSymptomVisionAnalyzer()
@@ -80,6 +83,9 @@ async def upload_report(file: UploadFile = File(...), patient_id: Optional[str] 
     raw_extraction = b1_extractor.extract_from_bytes(content, file.filename, patient_id)
     save_json_artifact("pdf_raw", patient_id, raw_extraction)
 
+    grader_input = grader_input_builder.build(raw_extraction)
+    save_json_artifact("grader_input", patient_id, grader_input)
+
     ner_res = biobert_extractor.extract_biomarkers(raw_extraction["raw_text"])
     save_json_artifact("biomarkers", patient_id, ner_res)
 
@@ -89,6 +95,55 @@ async def upload_report(file: UploadFile = File(...), patient_id: Optional[str] 
     formatted = mod_c_formatter.format_pipeline_output(b3_output)
     pipeline_state["latest_result"] = formatted.model_dump()
     return formatted.model_dump()
+
+@app.post("/upload-reports-batch")
+async def upload_reports_batch(
+    files: List[UploadFile] = File(...),
+    patient_id: Optional[str] = Form("PAT-DEMO123")
+):
+    """Upload several report files for one patient; compose a single model input.
+
+    Each file is extracted to its own pdf_raw part (saved under
+    `extractions/pdf_raw_parts/`), the parts are merged by `compose_pdf_raw`
+    (first-file-wins per biomarker key + concatenated raw text), the composite
+    is saved under `extractions/pdf_raw_composite/`, and the merged record is
+    cleaned into the 9-key grader payload under `extractions/grader_input/`.
+    """
+    if not files:
+        raise HTTPException(status_code=400, detail="No files uploaded")
+
+    parts = []
+    for i, f in enumerate(files, 1):
+        content = await f.read()
+        raw = b1_extractor.extract_from_bytes(content, f.filename, patient_id, save_json=False)
+        part_id = f"{patient_id}__PART{i}"
+        raw["json_storage_path"] = save_json_artifact("pdf_raw_parts", part_id, raw)
+        parts.append(raw)
+
+    composite = compose_pdf_raw(parts, patient_id=patient_id)
+    comp_path = save_json_artifact("pdf_raw_composite", patient_id, composite)
+
+    grader_input = grader_input_builder.build(composite)
+    gi_path = save_json_artifact("grader_input", patient_id, grader_input)
+
+    payload = grader_input_builder.to_payload(grader_input)
+    logger.info("Composite grader payload for %s: %s", patient_id, payload)
+
+    return {
+        "status": "success",
+        "patient_id": patient_id,
+        "files_processed": [f.filename for f in files],
+        "parts": [
+            {"index": i, "filename": p.get("filename"), "biomarker_count": len(p.get("biomarkers") or {})}
+            for i, p in enumerate(parts, 1)
+        ],
+        "pdf_raw_parts_paths": [p.get("json_storage_path") for p in parts],
+        "pdf_raw_composite_path": comp_path,
+        "grader_input_path": gi_path,
+        "na_count": grader_input["na_count"],
+        "model_input": grader_input["model_input"],
+        "warnings": grader_input["warnings"],
+    }
 
 @app.post("/upload-symptom-photo")
 async def upload_symptom_photo(

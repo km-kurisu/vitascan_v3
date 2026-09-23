@@ -1,0 +1,111 @@
+{
+  "format_version": "1.0.0",
+  "target": "vitascan_grader_model.AnemiaGrader.grade",
+  "patient_id": "PAT-GGS25DSD",
+  "source_file": "CBC-with-ESR-test-report-format-example-sample-template-Drlogy-lab-report.pdf",
+  "na_count": 3,
+  "model_input": {
+    "hemoglobin": 12.5,
+    "mcv": 87.75,
+    "rdw": 13.6,
+    "ferritin": null,
+    "b12": null,
+    "folate": null,
+    "rbc": 5.2,
+    "mch": 27.2,
+    "mchc": 32.8
+  },
+  "biomarkers": {
+    "hemoglobin": {
+      "value": 12.5,
+      "raw_value": 12.5,
+      "unit": "Low",
+      "confidence": null,
+      "resolved_from": "hemoglobin_hb",
+      "status": "ok (unit 'Low' is not a hemoglobin unit)"
+    },
+    "mcv": {
+      "value": 87.75,
+      "raw_value": 87.75,
+      "unit": "",
+      "confidence": null,
+      "resolved_from": "mean_corpuscular_volume_mcv",
+      "status": "ok"
+    },
+    "rdw": {
+      "value": 13.6,
+      "raw_value": 13.6,
+      "unit": "%",
+      "confidence": null,
+      "resolved_from": "rdw",
+      "status": "ok"
+    },
+    "ferritin": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "b12": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "folate": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "rbc": {
+      "value": 5.2,
+      "raw_value": 5.2,
+      "unit": "",
+      "confidence": null,
+      "resolved_from": "total_rbc_count",
+      "status": "ok"
+    },
+    "mch": {
+      "value": 27.2,
+      "raw_value": 27.2,
+      "unit": "pg",
+      "confidence": null,
+      "resolved_from": "mch",
+      "status": "ok"
+    },
+    "mchc": {
+      "value": 32.8,
+      "raw_value": 32.8,
+      "unit": "g/dL",
+      "confidence": null,
+      "resolved_from": "mchc",
+      "status": "ok"
+    }
+  },
+  "derived": {
+    "srivastava_index": 5.2308,
+    "mentzer_index": 16.875,
+    "cell_hb_density": 8.9216
+  },
+  "warnings": [
+    "hemoglobin: ok (unit 'Low' is not a hemoglobin unit) (value 12.5, raw '12.5')",
+    "ferritin: not present in pdf_raw biomarkers -> null",
+    "b12: not present in pdf_raw biomarkers -> null",
+    "folate: not present in pdf_raw biomarkers -> null",
+    "ferritin: not found in raw_text either -> null",
+    "b12: not found in raw_text either -> null",
+    "folate: not found in raw_text either -> null"
+  ],
+  "imputed": {
+    "hemoglobin": 12.5,
+    "mcv": 87.75,
+    "rdw": 13.6,
+    "ferritin": 92.934,
+    "b12": 387.1195,
+    "folate": 11.3028,
+    "rbc": 5.2,
+    "mch": 27.2,
+    "mchc": 32.8,
+    "srivastava_index": 5.2308,
+    "mentzer_index": 16.875,
+    "cell_hb_density": 8.9216
+  }
+}

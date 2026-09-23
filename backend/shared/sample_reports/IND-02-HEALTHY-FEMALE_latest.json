@@ -1,0 +1,63 @@
+{
+  "patient_id": "IND-02-HEALTHY-FEMALE",
+  "filename": "IND-02-HEALTHY-FEMALE.pdf",
+  "raw_text": "CLINICAL LABORATORY REPORT\nVitaScan Reference Laboratory   (NABL Accredited Lab: NABL-AB-2026-XXXX)\nPlot 14, Sector 18, New Delhi - 110001, India\n\nPatient Name : Priya Deshmukh          Age/Gender : 29 Y/Female\nPatient ID   : IND-02-HEALTHY-FEMALE            Ref. By : Self\nLab No       : 034/09/2026-002          Barcode No : 10139002\nSample Drawn : 05/Sep/2026 08:12 AM     Registered : 05/Sep/2026\nReported     : 06/Sep/2026 04:45 PM     Visit Type : Routine / OPD\n\nPANEL: ANAEMIA PROFILE (NUTRITIONAL)\n       CBC (HEMOGRAM) + IRON STUDIES + FERRITIN + VITAMIN B12 + FOLIC ACID\n\nHAEMATOLOGY\nComplete Blood Count (CBC)\nSample : Whole Blood, EDTA\nHemoglobin (Hb)          12.6 g/dL        11.5 - 15.0      Spectrophotometric (Cyanmeth)\nPacked Cell Volume (PCV) 39.1 %          40.0 - 50.0      Calculated\nTotal RBC Count          4.42 million/cmm    3.8 - 4.8      Electrical Impedance\nMean Corpuscular Volume (MCV) 88.4 fL    83.0 - 101.0    Calculated\nMean Corpuscular Hemoglobin (MCH) 28.5 pg  27.0 - 32.0    Calculated\nMCHC                     32.2 g/dL      31.5 - 34.5      Calculated\nRDW (CV)                 12.8 %          11.6 - 14.0      Calculated\nTotal Leucocyte Count (TLC)  7.4 thousand/mm3  4.0 - 10.0    Electrical Impedance\nPlatelet Count              2.7 lac/mm3      1.5 - 4.5    Electrical Impedance\n\nBIOCHEMISTRY - IRON STUDIES\nSample : Serum\nSerum Ferritin           58.7 ng/mL     10.0 - 120.0    ECLIA\nSerum Iron                118.9 ug/dL        50.0 - 170.0    Ferrozine\nTotal Iron Binding Capacity (TIBC)  318.4 ug/dL  250.0 - 400.0  Calculated\n% Transferrin Saturation  37.3 %            14.0 - 50.0     Calculated\n\nNUTRITIONAL VITAMINS\nSample : Serum\nVitamin B12 (Cyanocobalamin)  398.0 pg/mL   197.0 - 771.0   ECLIA\nFolic Acid / Folate - Serum    14.1 ng/mL   3.89 - 26.8    ECLIA\n\nREMARKS\nThis is a synthetic sample report generated for model validation. It does not\nrepresent a real patient. Values are set within Indian adult reference ranges.\n\nReviewed & Authorised By\nDr. A. Sharma, MD Pathology\nConsultant Pathologist\n~ END OF REPORT ~",
+  "biomarkers": {
+    "hemoglobin_hb": {
+      "value": 12.6,
+      "unit": "g/dL",
+      "raw_value": "12.6 g/dL",
+      "ref_range": "11.5 - 15.0"
+    },
+    "mcv": {
+      "value": 88.4,
+      "unit": "fL",
+      "raw_value": "88.4 fL",
+      "ref_range": "83.0 - 101.0"
+    },
+    "red_cell_distribution_width_rdw": {
+      "value": 12.8,
+      "unit": "%",
+      "raw_value": "12.8 %",
+      "ref_range": "11.6 - 14.0"
+    },
+    "ferritin": {
+      "value": 58.7,
+      "unit": "ng/mL",
+      "raw_value": "58.7 ng/mL",
+      "ref_range": "10.0 - 120.0"
+    },
+    "b12": {
+      "value": 398.0,
+      "unit": "pg/mL",
+      "raw_value": "398.0 pg/mL",
+      "ref_range": "197.0 - 771.0"
+    },
+    "folate": {
+      "value": 14.1,
+      "unit": "ng/mL",
+      "raw_value": "14.1 ng/mL",
+      "ref_range": "3.89 - 26.8"
+    },
+    "total_rbc_count": {
+      "value": 4.42,
+      "unit": "million/cmm",
+      "raw_value": "4.42 million/cmm",
+      "ref_range": "3.8 - 4.8"
+    },
+    "mch": {
+      "value": 28.5,
+      "unit": "pg",
+      "raw_value": "28.5 pg",
+      "ref_range": "27.0 - 32.0"
+    },
+    "mchc": {
+      "value": 32.2,
+      "unit": "g/dL",
+      "raw_value": "32.2 g/dL",
+      "ref_range": "31.5 - 34.5"
+    }
+  },
+  "is_synthetic": true,
+  "based_on_format": "Female reference intervals (Hb 11.5-15.0, RBC 3.8-4.8, ferritin 10-120); indices computed from standard formulas."
+}

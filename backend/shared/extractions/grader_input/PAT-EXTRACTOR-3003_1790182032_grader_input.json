@@ -1,0 +1,109 @@
+{
+  "format_version": "1.0.0",
+  "target": "vitascan_grader_model.AnemiaGrader.grade",
+  "patient_id": "PAT-EXTRACTOR-3003",
+  "source_file": "test_report.txt",
+  "na_count": 6,
+  "model_input": {
+    "hemoglobin": 10.4,
+    "mcv": null,
+    "rdw": null,
+    "ferritin": 11.2,
+    "b12": 210.0,
+    "folate": null,
+    "rbc": null,
+    "mch": null,
+    "mchc": null
+  },
+  "biomarkers": {
+    "hemoglobin": {
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "confidence": null,
+      "resolved_from": "hemoglobin",
+      "status": "ok (unit 'g/dL' is not a hemoglobin unit)"
+    },
+    "mcv": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "rdw": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "ferritin": {
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "confidence": null,
+      "resolved_from": "ferritin",
+      "status": "ok (unit 'ng/mL' is not a ferritin unit)"
+    },
+    "b12": {
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "pg/mL",
+      "confidence": null,
+      "resolved_from": "b12",
+      "status": "ok"
+    },
+    "folate": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "rbc": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "mch": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "mchc": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    }
+  },
+  "derived": {
+    "srivastava_index": null,
+    "mentzer_index": null,
+    "cell_hb_density": null
+  },
+  "warnings": [
+    "hemoglobin: ok (unit 'g/dL' is not a hemoglobin unit) (value 10.4, raw '10.4')",
+    "mcv: not present in pdf_raw biomarkers -> null",
+    "rdw: not present in pdf_raw biomarkers -> null",
+    "ferritin: ok (unit 'ng/mL' is not a ferritin unit) (value 11.2, raw '11.2')",
+    "folate: not present in pdf_raw biomarkers -> null",
+    "rbc: not present in pdf_raw biomarkers -> null",
+    "mch: not present in pdf_raw biomarkers -> null",
+    "mchc: not present in pdf_raw biomarkers -> null",
+    "mcv: not found in raw_text either -> null",
+    "rdw: not found in raw_text either -> null",
+    "folate: not found in raw_text either -> null",
+    "rbc: not found in raw_text either -> null",
+    "mch: not found in raw_text either -> null",
+    "mchc: not found in raw_text either -> null"
+  ],
+  "imputed": {
+    "hemoglobin": 10.4,
+    "mcv": 73.4826,
+    "rdw": 15.4324,
+    "ferritin": 11.2,
+    "b12": 210.0,
+    "folate": 11.3712,
+    "rbc": 3.2182,
+    "mch": 30.7086,
+    "mchc": 33.0733,
+    "srivastava_index": 9.9418,
+    "mentzer_index": 23.3054,
+    "cell_hb_density": 10.1161
+  }
+}

@@ -16,6 +16,9 @@ SUBDIRS = {
     "results": BASE_STORAGE_DIR / "results",
     "diet_plans": BASE_STORAGE_DIR / "diet_plans",
     "reminders": BASE_STORAGE_DIR / "reminders",
+    "grader_input": BASE_STORAGE_DIR / "grader_input",
+    "pdf_raw_parts": BASE_STORAGE_DIR / "pdf_raw_parts",
+    "pdf_raw_composite": BASE_STORAGE_DIR / "pdf_raw_composite",
 }
 
 for d in SUBDIRS.values():

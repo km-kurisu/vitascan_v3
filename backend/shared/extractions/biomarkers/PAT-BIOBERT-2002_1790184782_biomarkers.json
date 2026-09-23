@@ -1,15 +1,35 @@
 {
   "model": "Ihor/gliner-biomed-small-v1.0",
   "biomarkers": {
-    "gender": {
-      "canonical_name": "Gender",
-      "raw_value": "Male",
-      "value": "Male",
+    "platelets": {
+      "canonical_name": "Platelets",
+      "raw_value": "Platelets",
+      "value": "Platelets",
       "unit": "",
-      "confidence": 0.87,
+      "confidence": 0.82,
       "source": "gliner",
-      "source_span": "Male",
+      "source_span": "Platelets",
       "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "raw_value": "Vitamin B12",
+      "value": "Vitamin B12",
+      "unit": "",
+      "confidence": 0.95,
+      "source": "gliner",
+      "source_span": "Vitamin B12",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "confidence": 0.95,
+      "source_span": "Ferritin: 11.2 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
     },
     "vitamin_d": {
       "canonical_name": "Vitamin D",
@@ -31,15 +51,35 @@
       "source_span": "Vitamin B12: 210 pg/mL",
       "entity_type": "BIOMARKER_ENTITY"
     },
-    "serum_ferritin": {
-      "canonical_name": "Serum Ferritin",
-      "value": 11.2,
-      "raw_value": 11.2,
-      "unit": "ng/mL",
-      "ref_range": "N/A",
-      "confidence": 0.9,
-      "source_span": "Serum Ferritin: 11.2 ng/mL (Ref: 13 - 150)",
-      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "45",
+      "value": "45",
+      "unit": "",
+      "confidence": 0.95,
+      "source": "gliner",
+      "source_span": "45",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Male",
+      "value": "Male",
+      "unit": "",
+      "confidence": 0.87,
+      "source": "gliner",
+      "source_span": "Male",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin: 10.4 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
     },
     "folate": {
       "canonical_name": "Folate",
@@ -51,89 +91,49 @@
       "source_span": "Ferritin",
       "entity_type": "GLINER_BIOMEDICAL_ENTITY"
     },
-    "vitamin_b12": {
-      "canonical_name": "Vitamin B12",
-      "raw_value": "Vitamin B12",
-      "value": "Vitamin B12",
-      "unit": "",
-      "confidence": 0.95,
-      "source": "gliner",
-      "source_span": "Vitamin B12",
-      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
-    },
-    "platelets": {
-      "canonical_name": "Platelets",
-      "raw_value": "Platelets",
-      "value": "Platelets",
-      "unit": "",
-      "confidence": 0.82,
-      "source": "gliner",
-      "source_span": "Platelets",
-      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
-    },
-    "age": {
-      "canonical_name": "Age",
-      "raw_value": "45",
-      "value": "45",
-      "unit": "",
-      "confidence": 0.95,
-      "source": "gliner",
-      "source_span": "45",
-      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
-    },
-    "ferritin": {
+    "serum_ferritin": {
       "canonical_name": "Serum Ferritin",
       "value": 11.2,
       "raw_value": 11.2,
       "unit": "ng/mL",
-      "ref_range": "13.0 - 150.0",
-      "confidence": 0.95,
-      "source_span": "Ferritin: 11.2 ng/mL",
-      "entity_type": "BIOMARKER_ENTITY"
-    },
-    "hemoglobin": {
-      "canonical_name": "Hemoglobin",
-      "value": 10.4,
-      "raw_value": 10.4,
-      "unit": "g/dL",
-      "ref_range": "12.0 - 15.5",
-      "confidence": 0.95,
-      "source_span": "Hemoglobin: 10.4 g/dL",
-      "entity_type": "BIOMARKER_ENTITY"
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Serum Ferritin: 11.2 ng/mL (Ref: 13 - 150)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
     }
   },
   "labs": {
-    "Gender": {
-      "value": "Male",
-      "unit": ""
-    },
-    "Vitamin D": {
-      "value": "Folate",
+    "Platelets": {
+      "value": "Platelets",
       "unit": ""
     },
     "Vitamin B12": {
-      "value": "Vitamin B12",
-      "unit": ""
+      "value": "210.0",
+      "unit": "pg/mL"
     },
     "Serum Ferritin": {
       "value": "11.2",
       "unit": "ng/mL"
     },
-    "Folate": {
-      "value": "Ferritin",
-      "unit": ""
-    },
-    "Platelets": {
-      "value": "Platelets",
+    "Vitamin D": {
+      "value": "Folate",
       "unit": ""
     },
     "Age": {
       "value": "45",
       "unit": ""
     },
+    "Gender": {
+      "value": "Male",
+      "unit": ""
+    },
     "Hemoglobin": {
       "value": "10.4",
       "unit": "g/dL"
+    },
+    "Folate": {
+      "value": "Ferritin",
+      "unit": ""
     }
   },
   "confidence_summary": 0.89,

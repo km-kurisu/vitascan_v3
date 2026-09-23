@@ -1,0 +1,107 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="stylesheet" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css"/><meta http-equiv="Content-Security-Policy" content="default-src 'self' *.gstatic.com *.cloudfront.net *.googleapis.com *.lalpathlabs.com *.hereapi.com *.here.com; media-src 'self' *.lalpathlabs.com *.drlallab.com https://chat360-mediafiles.s3.ap-south-1.amazonaws.com; connect-src blob: 'self' *.doubleclick.net *.cloudfront.net *.google-analytics.com https://maps.googleapis.com wss://mqtt.haptik.me wss://mqtt-emqx.haptik.me ssl://mqtt-emqx.haptik.me ws://evbk.gamooga.com wss://chat360.lalpathlabs.com *.taboola.com https://s.yimg.com *.haptikapi.com *.google.com *.hellohaptik.com *.juspay.in *.lalpathlabs.com *.drlallab.com *.hereapi.com *.here.com; script-src blob: 'self' 'unsafe-eval' 'unsafe-hashes' *.haptikapi.com *.hellohaptik.com *.juspay.in *.googleapis.com *.google.com *.gstatic.com *.base.maps.ls.hereapi.com *.aerial.maps.ls.hereapi.com *.vector.hereapi.com *.js.api.here.com *.autosuggest.search.hereapi.com *.hereapi.com *.here.com; script-src-elem 'self' 'unsafe-inline' https://techcntrl.com *.inmobicdn.net googleads.g.doubleclick.net *.googleadservices.com https://s.yimg.com https:://amplify.outbrain.com https:://tr.outbrain.com https://amplify.outbrain.com https://s.yimg.com *.taboola.com *.googleads.g.doubleclick.net *.googletagmanager.com *.googleads.g.doubleclick.net *.cloudflare.com *.notifyvisitors.com *.lalpathlabs.com *.gsecondscreen.com *.facebook.net *.haptikapi.com *.hellohaptik.com *.juspay.in *.googleapis.com *.google.com *.gstatic.com *.google-analytics.com *.hereapi.com *.here.com *.techcntrl.com *.criteo.net *.criteo.com *.jquery.com; frame-src blob: data: https:://techcntrl.com/ bid.g.doubleclick.net *.juspay.in https://tracking.icubeswire.co/ https://techcntrl.com *.gsecondscreen.com/ *.googleadservices.com *.google.com *.drlallab.com *.lalpathlabs.com *.hereapi.com *.here.com *.pixelaj.com *.criteo.net *.criteo.com; style-src 'unsafe-hashes' *.notifyvisitors.com *.haptikapi.com *.hellohaptik.com 'unsafe-inline' *.googleapis.com *.lalpathlabs.com *.hereapi.com *.here.com *.drlallab.com; img-src blob: data: 'self' *.google.co.in https://www.trackpangea.com biz-ad.vnative.net *.clmbtech.com *.taboola.com https:://tr.outbrain.com https://sp.analytics.yahoo.com https://googleads.g.doubleclick.net *.evbk.gamooga.com www.google.com *.googleadservices.com connect.facebook.net *.googleapis.com *.gstatic.com *.cloudfront.com *.haptikapi.com *.hellohaptik.com *.cloudfront.net *.amazonaws.com *.lalpathlabs.com *.facebook.com *.google-analytics.com *.notifyvisitors.com evbk.gamooga.com *.drlallab.com *.hereapi.com *.here.com *.googletagmanager.com; font-src 'self' data: *.cloudfront.com *.cloudfront.net *.haptikapi.com https://fonts.gstatic.com *.hereapi.com *.here.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self' *.lalpathlabs.com *.drlallab.com"><link rel="manifest" href="https://www.lalpathlabs.com/notifyvisitors_push/chrome/manifest.json"/><script src="https://api.juspay.in/pay-v3.js" defer="defer"></script><script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-THBWMHL');</script><script>var nv = nv || function () {
+            (window.nv.q = window.nv.q || []).push(arguments)
+        };
+        nv.l = new Date;
+        var notify_visitors = notify_visitors || function () {
+            var e = {
+                initialize: !1,
+                ab_overlay: !1,
+                auth: {
+                    bid_e: "9A60C54ECDC5F4B9DC6AE29A2DEA40C1",
+                    bid: "5193",
+                    t: "420"
+                }
+            };
+            return e.data = {
+                bid_e: e.auth.bid_e,
+                bid: e.auth.bid,
+                t: e.auth.t,
+                iFrame: window !== window.parent,
+                trafficSource: document.referrer,
+                link_referrer: document.referrer,
+                pageUrl: document.location,
+                path: location.pathname,
+                domain: location.origin,
+                gmOffset: 60 * (new Date).getTimezoneOffset() * -1,
+                screenWidth: screen.width,
+                screenHeight: screen.height,
+                isPwa: window.matchMedia && window.matchMedia("(display-mode: standalone)").matches ? 1 : 0,
+                cookieData: document.cookie
+            }, e.options = function (t) {
+                t && "object" == typeof t ? e.ab_overlay = t.ab_overlay : console.log("Not a valid option")
+            }, e.tokens = function (t) {
+                e.data.tokens = t && "object" == typeof t ? JSON.stringify(t) : ""
+            }, e.ruleData = function (t) {
+                e.data.ruleData = t && "object" == typeof t ? JSON.stringify(t) : ""
+            }, e.getParams = function (e) {
+                url = window.location.href.toLowerCase(), e = e.replace(/[\[\]]/g, "\\$&").toLowerCase();
+                var t = new RegExp("[?&]" + e + "(=([^&#]*)|&|#|$)").exec(url);
+                return t && t[2] ? decodeURIComponent(t[2].replace(/\+/g, " ")) : ""
+            }, e.init = function () {
+                if (e.auth && !e.initialize && (e.data.storage = e.browserStorage(), e.js_callback =
+                    "nv_json1", !e.data.iFrame && "noapi" !== e.getParams("nvcheck"))) {
+                    var t = "?";
+                    if (e.ab_overlay) {
+                        var o = document.createElement("style"),
+                            n =
+                                "body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",
+                            a = document.getElementsByTagName("head")[0];
+                        o.setAttribute("id", "_nv_hm_hidden_element"), o.setAttribute("type", "text/css"), o
+                            .styleSheet ? o.styleSheet.cssText = n : o.appendChild(document.createTextNode(
+                                n)), a.appendChild(o), setTimeout(function () {
+                                    var e = this.document.getElementById("_nv_hm_hidden_element");
+                                    if (e) try {
+                                        e.parentNode.removeChild(e)
+                                    } catch (t) {
+                                        e.remove()
+                                    }
+                                }, 2e3)
+                    }
+                    for (var i in e.data) e.data.hasOwnProperty(i) && (t += encodeURIComponent(i) + "=" +
+                        encodeURIComponent(e.data[i]) + "&");
+                    e.load("https://www.notifyvisitors.com/ext/v1/settings" + t), e.initialize = !0
+                }
+            }, e.browserStorage = function () {
+                var t = {
+                    session: e.storage("sessionStorage"),
+                    local: e.storage("localStorage")
+                };
+                return JSON.stringify(t)
+            }, e.storage = function (e) {
+                var t = {};
+                return window[e] && window[e].length > 0 && Object.keys(window[e]).forEach(function (o) {
+                    -1 !== o.indexOf("_nv_") && (t[o] = window[e][o])
+                }), t
+            }, e.load = function (e) {
+                var t = document,
+                    o = t.createElement("script");
+                o.src = e, o.type = "text/javascript", t.body ? t.body.appendChild(o) : t.head.appendChild(
+                    o)
+            }, e
+        }();
+
+        notify_visitors.options({
+            ab_overlay: false
+        });
+        notify_visitors.init();</script><script>window.onload = function () {
+            (function (botId) {
+                var s = document.createElement("script");
+                s.async = true;
+                s.type = "text/javascript";
+                s.src = "https://chat360.lalpathlabs.com/widget/chatbox/common_scripts/script.js";
+                s.onload = function () {
+                    window.loadChat360Bot(botId);
+                };
+                s.onerror = function (err) {
+                    console.error(err);
+                };
+                document.body.appendChild(s);
+            })("7ca9fe9f-0633-40c5-aebf-4aa3e954d83c");
+        };</script><script type="text/javscript">triggerEvent("AddtoCart");</script><link rel="icon" href="/favicon.ico"></head><div class="initial-loader" id="initial-loader"><div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div><body id="root_body"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THBWMHL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="notifyvisitorstag"></div><div id="root"></div><script defer="defer" src="/secondary/js/index.2af6d029b1843f0696e4.js"></script><script defer="defer" src="/secondary/js/vendor.d483c3c7b76eeaf510f2.js"></script></body></html>

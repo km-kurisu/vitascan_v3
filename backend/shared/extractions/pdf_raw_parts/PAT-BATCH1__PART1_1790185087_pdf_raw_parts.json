@@ -1,0 +1,257 @@
+{
+  "filename": "cbc_1674150106.pdf",
+  "patient_id": "PAT-BATCH1",
+  "patient_details": {
+    "patient_id": "PAT-BATCH1",
+    "name": null,
+    "age": "3",
+    "gender": "Male",
+    "date": "24/08/2022",
+    "lab_id": "PAT-BATCH1",
+    "referred_by": "Dr."
+  },
+  "age": "3",
+  "gender": "Male",
+  "biomarkers": {
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 12.8,
+      "raw_value": 12.8,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "source_span": "Haemoglobin\n12.8\n"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 4.88,
+      "raw_value": 4.88,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "source_span": "RBC\n4.88\n"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 248000.0,
+      "raw_value": 248000.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count\n248000\n"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 80.0,
+      "raw_value": 80.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "source_span": "MCV\n80\n"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 26.2,
+      "raw_value": 26.2,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "source_span": "MCH\n26.2\n"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 32.7,
+      "raw_value": 32.7,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "source_span": "MCHC\n32.7\n"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 13.8,
+      "raw_value": 13.8,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "source_span": "RDW\n13.8\n"
+    },
+    "5000": {
+      "canonical_name": "5000",
+      "value": 15000.0,
+      "raw_value": 15000.0,
+      "unit": "/cmm",
+      "ref_range": "N/A",
+      "source_span": "5000-15000 /cmm"
+    },
+    "6000": {
+      "canonical_name": "6000",
+      "value": 9000.0,
+      "raw_value": 9000.0,
+      "unit": "/cmm",
+      "ref_range": "N/A",
+      "source_span": "6000-9000 /cmm"
+    },
+    "200": {
+      "canonical_name": "200",
+      "value": 1000.0,
+      "raw_value": 1000.0,
+      "unit": "/cmm",
+      "ref_range": "N/A",
+      "source_span": "200-1000 /cmm"
+    },
+    "1500": {
+      "canonical_name": "1500",
+      "value": 8000.0,
+      "raw_value": 8000.0,
+      "unit": "/cmm",
+      "ref_range": "N/A",
+      "source_span": "1500-8000 /cmm"
+    },
+    "100": {
+      "canonical_name": "100",
+      "value": 1000.0,
+      "raw_value": 1000.0,
+      "unit": "/cmm",
+      "ref_range": "N/A",
+      "source_span": "100-1000 /cmm"
+    },
+    "200000": {
+      "canonical_name": "200000",
+      "value": 450000.0,
+      "raw_value": 450000.0,
+      "unit": "/cmm",
+      "ref_range": "N/A",
+      "source_span": "200000-450000 /cmm"
+    },
+    "19_jan_2023_12": {
+      "canonical_name": "19-Jan-2023 / 12",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "19-Jan-2023 / 12:02"
+    },
+    "kanai_mukherjee_vol_i_chap": {
+      "canonical_name": "Kanai Mukherjee Vol I / Chap",
+      "value": 11.0,
+      "raw_value": 11.0,
+      "unit": "PG",
+      "ref_range": "326",
+      "source_span": "Kanai Mukherjee Vol I / CHAP:11 PG:326"
+    },
+    "fever_and_up_to": {
+      "canonical_name": "Fever And Up To",
+      "value": 9.0,
+      "raw_value": 9.0,
+      "unit": "days",
+      "ref_range": ".",
+      "source_span": "fever and up to 9 days. This helps in early implementation of supportive therapy & monitoring, this in turn reduces risk of complications such as"
+    },
+    "with_serology_in_7": {
+      "canonical_name": "With Serology In 7",
+      "value": 14.0,
+      "raw_value": 14.0,
+      "unit": "days",
+      "ref_range": ".",
+      "source_span": "with serology in 7-14 days."
+    },
+    "less_than": {
+      "canonical_name": "Less Than",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "/hpf",
+      "ref_range": "N/A",
+      "source_span": "Less than 20/hpf"
+    }
+  },
+  "labs": {
+    "Hemoglobin": {
+      "value": "12.8",
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5"
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "4.88",
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2"
+    },
+    "Platelet Count": {
+      "value": "248000.0",
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000"
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "80.0",
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "26.2",
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "32.7",
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "13.8",
+      "unit": "%",
+      "ref_range": "11.5 - 14.5"
+    },
+    "5000": {
+      "value": "15000.0",
+      "unit": "/cmm",
+      "ref_range": "N/A"
+    },
+    "6000": {
+      "value": "9000.0",
+      "unit": "/cmm",
+      "ref_range": "N/A"
+    },
+    "200": {
+      "value": "1000.0",
+      "unit": "/cmm",
+      "ref_range": "N/A"
+    },
+    "1500": {
+      "value": "8000.0",
+      "unit": "/cmm",
+      "ref_range": "N/A"
+    },
+    "100": {
+      "value": "1000.0",
+      "unit": "/cmm",
+      "ref_range": "N/A"
+    },
+    "200000": {
+      "value": "450000.0",
+      "unit": "/cmm",
+      "ref_range": "N/A"
+    },
+    "19-Jan-2023 / 12": {
+      "value": "2.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Kanai Mukherjee Vol I / Chap": {
+      "value": "11.0",
+      "unit": "PG",
+      "ref_range": "326"
+    },
+    "Fever And Up To": {
+      "value": "9.0",
+      "unit": "days",
+      "ref_range": "."
+    },
+    "With Serology In 7": {
+      "value": "14.0",
+      "unit": "days",
+      "ref_range": "."
+    },
+    "Less Than": {
+      "value": "20.0",
+      "unit": "/hpf",
+      "ref_range": "N/A"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "CBC (Complete Blood Count), Blood\nPARAMETER\nRESULTS\nBIOLOGICAL REF RANGE\nMETHOD\nRBC PARAMETERS\nHaemoglobin \n12.8 \n11.0-14.0 g/dL\nSpectrophotometric\nRBC \n4.88 \n4.0-5.2 mil/cmm\nElect. Impedance\nPCV \n39.1 \n34-40 %\nMeasured\nMCV \n80 \n75-87 fl\nCalculated\nMCH \n26.2 \n24-30 pg\nCalculated\nMCHC \n32.7 \n31-37 g/dL\nCalculated\nRDW \n13.8 \n11.6-14.0 %\nCalculated\nWBC PARAMETERS\nWBC Total Count \n4920 \n5000-15000 /cmm\nElect. Impedance\nWBC DIFFERENTIAL AND ABSOLUTE COUNTS\nLymphocytes \n37.0 \n44-74 %\nAbsolute Lymphocytes \n1820.4 \n6000-9000 /cmm\nCalculated\nMonocytes \n10.0 \n3-7 %\nAbsolute Monocytes \n492.0 \n200-1000 /cmm\nCalculated\nNeutrophils \n51.0 \n15-65 %\nAbsolute Neutrophils \n2509.2 \n1500-8000 /cmm\nCalculated\nEosinophils \n1.0 \n1-6 %\nAbsolute Eosinophils \n49.2 \n100-1000 /cmm\nCalculated\nBasophils \n1.0 \n0.1-2 %\nAbsolute Basophils \n49.2 \n20-100 /cmm\nCalculated\nImmature Leukocytes \n-  \nWBC Differential Count by Absorbance & Impedance method/Microscopy.\nPLATELET PARAMETERS\nPlatelet Count \n248000 \n200000-450000 /cmm\nElect. Impedance\nMPV \n7.8 \n6-11 fl\nCalculated\nPDW \n10.9 \n11-18 %\nCalculated\nRBC MORPHOLOGY\nPage 1 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:19-Jan-2023 / 16:42\n19-Jan-2023 / 12:02\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n\nHypochromia \n-  \nMicrocytosis \n-  \nMacrocytosis \n-  \nAnisocytosis \n-  \nPoikilocytosis \n-  \nPolychromasia \n-  \nTarget Cells \n-  \nBasophilic Stippling \n-  \nNormoblasts \n-  \nOthers \nNormocytic,Normochromic  \nWBC MORPHOLOGY \n-  \nPLATELET MORPHOLOGY \n-  \nCOMMENT \n-  \nKindly correlate clinically\nSpecimen: EDTA Whole Blood\n*Sample processed at SUBURBAN DIAGNOSTICS (INDIA) PVT. LTD Cloud 9 Lab, Vashi\n*** End Of Report ***\nDr.JYOT THAKKER\nPathologist & AVP( Medical \nServices)\nM.D. (PATH), DPB\nPage 2 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:19-Jan-2023 / 16:42\n19-Jan-2023 / 12:02\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n\nMALARIAL PARASITE (MP)\nPARAMETER\nRESULTS\nBIOLOGICAL REF RANGE\nMALARIAL PARASITE, EDTA \nWB.\nNegative \nNegative\nIntended Use: To detect the presence of Malarial Parasite on peripheral smear.\nClinical Significance:\n\u0087\nExamination of the thin smears allows calculation of malaria percent parasitemia, which can be used to predict prognosis and monitor \nresponse to treatment. The percentage parasitemia represents the percentage of infected red blood cells.\n\u0087\nWHO considers the falciparum parasitemia to be heavy and to carry a poor prognosis when more than 5 % are parasitized\nTest Interpretation:\n\u0087\nNegative- A single negative result does not rule out Malaria. Sensitive detection of parasitemia may require examination of several \nspecimens.\n\u0087\nPositive- Depending on the morphology, different malarial parasites are identified.\nReflex Tests: Rapid malaria detection test.\nLimitations of the test: Low level of parasitemia may require the examination of multiple specimens for detection.\nReferences:\n\u0087\nKanai Mukherjee Vol I / CHAP:11 PG:326\n\u0087\nDace and Lewis Practical haematology, 10th edition\n\u0087\nDistrict laboratory practice in tropical countries Monica Cheebrough\n*Sample processed at SUBURBAN DIAGNOSTICS (INDIA) PVT. LTD Panvel Lab, Panvel East\n*** End Of Report ***\nDr.IMRAN MUJAWAR\nPathologist\nM.D ( Path )\nPage 3 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:19-Jan-2023 / 16:26\n19-Jan-2023 / 12:02\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n\nCRP-QUANTITATIVE TEST\nPARAMETER\nRESULTS\nBIOLOGICAL REF RANGE\nMETHOD\nCRP-QUANTITATIVE, Serum\n6.9 \n1-5 mg/l\nImm.Turbidimetry\nInterpretation:\nCRP elevations are nonspecific and may be useful for the detection of systemic inflammatory processes like;\n1) To assess treatment of bacterial infections with antibiotics\n2) To differentiate between active and inactive forms of disease with concurrent infection\n3) Postoperative monitoring  & to determine the presence of postoperative complications at an early stage, such as infected wounds, \nthrombosis, and pneumonia.\nClinical Significance:\n1) C-reactive protein (CRP) is an acute phase reactant, a protein made by the liver and released into the blood within a few hours after tissue \ninjury, the start of an infection, or other cause of inflammation. \n2) The test measures the amount of CRP in the blood and can be valuable in detecting inflammation due to acute conditions or in monitoring \ndisease activity in chronic conditions.\n3) In normal healthy individuals CRP is a trace protein, after onset of an acute phase response the serum CRP concentration rises rapidly and \nextensively. Alterations are detectable within 6 to 8 hours and the peak value is reached within 24 to 48 hours.\n4) Levels of up to thousand fold the normal value are associated with severe stimuli such as myocardial infarction, major trauma, surgery, or \nmalignant neoplasms.\n5) CRP has a half-life of only a few hours, making it an ideal tool for clinical monitoring. Postoperative monitoring of CRP levels of patients \nindicates either the normal recovery process (decreasing levels to normal) or unexpected complications (persisting high levels).\n6) Persistence of a high serum CRP concentration is usually a grave prognostic sign which generally indicates the presence of an uncontrolled \ninfection.\n7) CRP determination may replace the classical determination of Erythrocytes Sedimentation Rate (ESR), due to its prompt response to changes \nin disease activity and its good correlation to ESR.\nReflex Tests:\n1) Complement\n2) Procalcitonin\nLimitations of the test:\nThe CRP test is not diagnostic of any condition, but it can be used together with signs and symptoms and other tests to evaluate an individual \nfor an acute or chronic inflammatory condition.\nReference:\n1) Wallach's Interpretation of Diagnostic Tests\n2) CRP Kit Insert\n*Sample processed at SUBURBAN DIAGNOSTICS (INDIA) PVT. LTD Cloud 9 Lab, Vashi\n*** End Of Report ***\nDr.JYOT THAKKER\nPathologist & AVP( Medical \nServices)\nM.D. (PATH), DPB\nPage 4 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:19-Jan-2023 / 13:27\n19-Jan-2023 / 12:02\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n\nDENGUE NS1 ANTIGEN \nPARAMETER\nRESULTS\nBIOLOGICAL REF RANGE\nMETHOD\nDengue NS1 Antigen, Serum\nNegative (0.02) \n< 1.0                    Negative\n>/= 1.0                  Positive\nCLIA\nKindly note change in reference range and method w.e.f. 24/08/2022\nClinical significance:\nDetection of NS1 Antigen by is valuable as it detects infection prior to seroconversion. It can be detected in serum from day 1 after onset of \nfever and up to 9 days. This helps in early implementation of supportive therapy & monitoring, this in turn reduces risk of complications such as \nDengue hemorrhagic fever or Dengue shock syndrome.\nIntended use:\nQualitative or semi-quantitative detection of Dengue virus NS1 antigen in human serum or plasma by enzyme immunoassay.\nInterpretation:\n1.\nNegative: No detectable Dengue NS1 antigen. The result does not rule out Dengue infection. An additional sample should be tested \nwith serology in 7-14 days.\n2.\nEquivocal: Equivocal samples should be repeated. Samples that remain equivocal after repeat testing should be repeated by an \nalternative method or another sample should be collected.\n3.\nPositive: Presence of detectable Dengue NS1 antigen. Dengue serology assays should be performed on follow-up samples to confirm \nDengue infection.\nReflex test: Dengue RNA detection by PCR\nLimitations:\n1.\nNegative result does not rule out Dengue infection. An additional sample should be tested with serology in 7-14 days.\n2.\nDiagnosis of recent infection can only be established on the basis of a combination of clinical and biological data. The result obtained \non a single sample does not constitute a sufficient proof for diagnosis of recent infection.\nReference: Dengue NS1 kit insert\n*Sample processed at SUBURBAN DIAGNOSTICS (INDIA) PVT. LTD SDRL, Vidyavihar Lab\n*** End Of Report ***\nDr.LEENA SALUNKHE\nPathologist\nM.B.B.S, DPB (PATH)\nPage 5 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:19-Jan-2023 / 17:19\n19-Jan-2023 / 12:02\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n\nURINE EXAMINATION REPORT\nPARAMETER\nRESULTS\nBIOLOGICAL REF RANGE\nMETHOD\nPHYSICAL EXAMINATION\nColor \nYellow \nPale Yellow\n-\nReaction (pH) \n7.0 \n4.5 - 8.0\nChemical Indicator\nSpecific Gravity \n1.020 \n1.001-1.030\nChemical Indicator\nTransparency \nSlight hazy \nClear \n-\nVolume (ml) \n10 \n- \n-\nCHEMICAL EXAMINATION\nProteins \nTrace \nAbsent \npH Indicator\nGlucose \nAbsent \nAbsent \nGOD-POD\nKetones \nAbsent \nAbsent \nLegals Test\nBlood \nAbsent \nAbsent \nPeroxidase\nBilirubin \nAbsent \nAbsent \nDiazonium Salt\nUrobilinogen \nNormal \nNormal \nDiazonium Salt\nNitrite \nAbsent \nAbsent \nGriess Test\nMICROSCOPIC EXAMINATION\nLeukocytes(Pus cells)/hpf \n2-3 \n0-5/hpf\nRed Blood Cells / hpf \nAbsent \n0-2/hpf\nEpithelial Cells / hpf \n1-2 \nCasts \nAbsent \nAbsent \nCrystals \nAbsent \nAbsent \nAmorphous debris \nAbsent \nAbsent \nBacteria / hpf \n+(>20/hpf) \nLess than 20/hpf\nOthers \n-  \nInterpretation: The concentration values of Chemical analytes corresponding to the grading given in the report are as follows:\n\u0087\nProtein:(1+ ~25 mg/dl, 2+ ~75 mg/dl, 3+ ~ 150 mg/dl, 4+ ~ 500 mg/dl)\n\u0087\nGlucose:(1+ ~ 50 mg/dl, 2+ ~100 mg/dl, 3+ ~300 mg/dl,4+ ~1000 mg/dl) \n\u0087\nKetone:(1+ ~5 mg/dl, 2+ ~15 mg/dl, 3+ ~ 50 mg/dl, 4+ ~ 150 mg/dl) \nReference: Pack insert\n*Sample processed at SUBURBAN DIAGNOSTICS (INDIA) PVT. LTD SDRL, Vidyavihar Lab\nDr.LEENA SALUNKHE\nPathologist\nM.B.B.S, DPB (PATH)\nPage 6 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:19-Jan-2023 / 17:33\n19-Jan-2023 / 12:02\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n\n*** End Of Report ***\nPage 7 of 7\nName\nAge  /  Gender\nConsulting Dr.\nCID\n:\n:\n:\n:\nMASTER.RUDRANSH SHARAN\n3 Years / Male\nC9-DR PIYUSH JAIN\n2301913910\nCollected\n:\nReported\n:\nReg. Location\n: Cloud 9, Vashi\nUse a QR Code Scanner\nApplication To Scan the Code\nAuthenticity Check\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 10625
+}

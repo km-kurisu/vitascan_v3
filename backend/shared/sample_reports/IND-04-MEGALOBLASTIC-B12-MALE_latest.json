@@ -1,0 +1,63 @@
+{
+  "patient_id": "IND-04-MEGALOBLASTIC-B12-MALE",
+  "filename": "IND-04-MEGALOBLASTIC-B12-MALE.pdf",
+  "raw_text": "CLINICAL LABORATORY REPORT\nVitaScan Reference Laboratory   (NABL Accredited Lab: NABL-AB-2026-XXXX)\nPlot 14, Sector 18, New Delhi - 110001, India\n\nPatient Name : Arjun Pillai          Age/Gender : 41 Y/Male\nPatient ID   : IND-04-MEGALOBLASTIC-B12-MALE            Ref. By : Dr. S. Reddy\nLab No       : 034/09/2026-004          Barcode No : 10139004\nSample Drawn : 05/Sep/2026 08:12 AM     Registered : 05/Sep/2026\nReported     : 06/Sep/2026 04:45 PM     Visit Type : Routine / OPD\n\nPANEL: ANAEMIA PROFILE (NUTRITIONAL)\n       CBC (HEMOGRAM) + IRON STUDIES + FERRITIN + VITAMIN B12 + FOLIC ACID\n\nHAEMATOLOGY\nComplete Blood Count (CBC)\nSample : Whole Blood, EDTA\nHemoglobin (Hb)          10.1 g/dL        13.0 - 17.0      Spectrophotometric (Cyanmeth)\nPacked Cell Volume (PCV) 30.7 %          40.0 - 50.0      Calculated\nTotal RBC Count          2.92 million/cmm    4.5 - 5.5      Electrical Impedance\nMean Corpuscular Volume (MCV) 105.2 fL    83.0 - 101.0    Calculated\nMean Corpuscular Hemoglobin (MCH) 34.6 pg  27.0 - 32.0    Calculated\nMCHC                     32.9 g/dL      31.5 - 34.5      Calculated\nRDW (CV)                 16.9 %          11.6 - 14.0      Calculated\nTotal Leucocyte Count (TLC)  7.4 thousand/mm3  4.0 - 10.0    Electrical Impedance\nPlatelet Count              2.7 lac/mm3      1.5 - 4.5    Electrical Impedance\n\nBIOCHEMISTRY - IRON STUDIES\nSample : Serum\nSerum Ferritin           132.5 ng/mL     22.0 - 322.0    ECLIA\nSerum Iron                118.9 ug/dL        50.0 - 170.0    Ferrozine\nTotal Iron Binding Capacity (TIBC)  318.4 ug/dL  250.0 - 400.0  Calculated\n% Transferrin Saturation  37.3 %            14.0 - 50.0     Calculated\n\nNUTRITIONAL VITAMINS\nSample : Serum\nVitamin B12 (Cyanocobalamin)  84.0 pg/mL   197.0 - 771.0   ECLIA\nFolic Acid / Folate - Serum    11.4 ng/mL   3.89 - 26.8    ECLIA\n\nREMARKS\nThis is a synthetic sample report generated for model validation. It does not\nrepresent a real patient. Values are set within Indian adult reference ranges.\n\nReviewed & Authorised By\nDr. A. Sharma, MD Pathology\nConsultant Pathologist\n~ END OF REPORT ~",
+  "biomarkers": {
+    "hemoglobin_hb": {
+      "value": 10.1,
+      "unit": "g/dL",
+      "raw_value": "10.1 g/dL",
+      "ref_range": "13.0 - 17.0"
+    },
+    "mcv": {
+      "value": 105.2,
+      "unit": "fL",
+      "raw_value": "105.2 fL",
+      "ref_range": "83.0 - 101.0"
+    },
+    "red_cell_distribution_width_rdw": {
+      "value": 16.9,
+      "unit": "%",
+      "raw_value": "16.9 %",
+      "ref_range": "11.6 - 14.0"
+    },
+    "ferritin": {
+      "value": 132.5,
+      "unit": "ng/mL",
+      "raw_value": "132.5 ng/mL",
+      "ref_range": "22.0 - 322.0"
+    },
+    "b12": {
+      "value": 84.0,
+      "unit": "pg/mL",
+      "raw_value": "84.0 pg/mL",
+      "ref_range": "197.0 - 771.0"
+    },
+    "folate": {
+      "value": 11.4,
+      "unit": "ng/mL",
+      "raw_value": "11.4 ng/mL",
+      "ref_range": "3.89 - 26.8"
+    },
+    "total_rbc_count": {
+      "value": 2.92,
+      "unit": "million/cmm",
+      "raw_value": "2.92 million/cmm",
+      "ref_range": "4.5 - 5.5"
+    },
+    "mch": {
+      "value": 34.6,
+      "unit": "pg",
+      "raw_value": "34.6 pg",
+      "ref_range": "27.0 - 32.0"
+    },
+    "mchc": {
+      "value": 32.9,
+      "unit": "g/dL",
+      "raw_value": "32.9 g/dL",
+      "ref_range": "31.5 - 34.5"
+    }
+  },
+  "is_synthetic": true,
+  "based_on_format": "Megaloblastic / B12 deficiency pattern: macrocytic (MCV>100), low B12 <100 pg/mL with symptoms; consistent with vegetarian-diet Indian macrocytic anaemia."
+}

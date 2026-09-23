@@ -1,0 +1,109 @@
+{
+  "format_version": "1.0.0",
+  "target": "vitascan_grader_model.AnemiaGrader.grade",
+  "patient_id": "PAT-GGS25",
+  "source_file": "sterling-accuris-pathology-sample-report-unlocked.pdf",
+  "na_count": 4,
+  "model_input": {
+    "hemoglobin": 3.0,
+    "mcv": null,
+    "rdw": null,
+    "ferritin": null,
+    "b12": 40.0,
+    "folate": 12.0,
+    "rbc": 4.79,
+    "mch": null,
+    "mchc": 33.4
+  },
+  "biomarkers": {
+    "hemoglobin": {
+      "value": 3.0,
+      "status": "ok",
+      "resolved_from": "raw_text",
+      "unit": "g/dL",
+      "raw_value": 3.0
+    },
+    "mcv": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "rdw": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "ferritin": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "b12": {
+      "value": 40.0,
+      "status": "ok",
+      "resolved_from": "raw_text",
+      "unit": "pg/mL",
+      "raw_value": 40.0
+    },
+    "folate": {
+      "value": 12.0,
+      "status": "ok",
+      "resolved_from": "raw_text",
+      "unit": "ng/mL",
+      "raw_value": 12.0
+    },
+    "rbc": {
+      "value": 4.79,
+      "status": "ok",
+      "resolved_from": "raw_text",
+      "unit": "million/uL",
+      "raw_value": 4.79
+    },
+    "mch": {
+      "value": null,
+      "status": "missing",
+      "resolved_from": "raw_text(no-match)"
+    },
+    "mchc": {
+      "value": 33.4,
+      "status": "ok",
+      "resolved_from": "raw_text",
+      "unit": "g/dL",
+      "raw_value": 33.4
+    }
+  },
+  "derived": {
+    "srivastava_index": null,
+    "mentzer_index": null,
+    "cell_hb_density": null
+  },
+  "warnings": [
+    "hemoglobin: not present in pdf_raw biomarkers -> null",
+    "mcv: not present in pdf_raw biomarkers -> null",
+    "rdw: not present in pdf_raw biomarkers -> null",
+    "ferritin: not present in pdf_raw biomarkers -> null",
+    "b12: not present in pdf_raw biomarkers -> null",
+    "folate: not present in pdf_raw biomarkers -> null",
+    "rbc: not present in pdf_raw biomarkers -> null",
+    "mch: not present in pdf_raw biomarkers -> null",
+    "mchc: not present in pdf_raw biomarkers -> null",
+    "mcv: not found in raw_text either -> null",
+    "rdw: not found in raw_text either -> null",
+    "ferritin: not found in raw_text either -> null",
+    "mch: not found in raw_text either -> null"
+  ],
+  "imputed": {
+    "hemoglobin": 3.0,
+    "mcv": 77.2109,
+    "rdw": 14.158,
+    "ferritin": 21.5247,
+    "b12": 40.0,
+    "folate": 12.0,
+    "rbc": 4.79,
+    "mch": 29.8159,
+    "mchc": 33.4,
+    "srivastava_index": 10.2361,
+    "mentzer_index": 26.1422,
+    "cell_hb_density": 9.8944
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "format_version": "1.0.0",
+  "target": "vitascan_grader_model.AnemiaGrader.grade",
+  "patient_id": "IND-04-MEGALOBLASTIC-B12-MALE",
+  "source_file": "IND-04-MEGALOBLASTIC-B12-MALE.pdf",
+  "na_count": 0,
+  "model_input": {
+    "hemoglobin": 10.1,
+    "mcv": 105.2,
+    "rdw": 16.9,
+    "ferritin": 132.5,
+    "b12": 84.0,
+    "folate": 11.4,
+    "rbc": 2.92,
+    "mch": 34.6,
+    "mchc": 32.9
+  },
+  "biomarkers": {
+    "hemoglobin": {
+      "value": 10.1,
+      "raw_value": 10.1,
+      "unit": "g/dL",
+      "confidence": null,
+      "resolved_from": "hemoglobin_hb",
+      "status": "ok"
+    },
+    "mcv": {
+      "value": 105.2,
+      "raw_value": 105.2,
+      "unit": "fL",
+      "confidence": null,
+      "resolved_from": "mcv",
+      "status": "ok"
+    },
+    "rdw": {
+      "value": 16.9,
+      "raw_value": 16.9,
+      "unit": "%",
+      "confidence": null,
+      "resolved_from": "red_cell_distribution_width_rdw",
+      "status": "ok"
+    },
+    "ferritin": {
+      "value": 132.5,
+      "raw_value": 132.5,
+      "unit": "ng/mL",
+      "confidence": null,
+      "resolved_from": "ferritin",
+      "status": "ok"
+    },
+    "b12": {
+      "value": 84.0,
+      "raw_value": 84.0,
+      "unit": "pg/mL",
+      "confidence": null,
+      "resolved_from": "b12",
+      "status": "ok"
+    },
+    "folate": {
+      "value": 11.4,
+      "raw_value": 11.4,
+      "unit": "ng/mL",
+      "confidence": null,
+      "resolved_from": "folate",
+      "status": "ok"
+    },
+    "rbc": {
+      "value": 2.92,
+      "raw_value": 2.92,
+      "unit": "million/cmm",
+      "confidence": null,
+      "resolved_from": "total_rbc_count",
+      "status": "ok"
+    },
+    "mch": {
+      "value": 34.6,
+      "raw_value": 34.6,
+      "unit": "pg",
+      "confidence": null,
+      "resolved_from": "mch",
+      "status": "ok"
+    },
+    "mchc": {
+      "value": 32.9,
+      "raw_value": 32.9,
+      "unit": "g/dL",
+      "confidence": null,
+      "resolved_from": "mchc",
+      "status": "ok"
+    }
+  },
+  "derived": {
+    "srivastava_index": 11.8493,
+    "mentzer_index": 36.0274,
+    "cell_hb_density": 11.3834
+  },
+  "warnings": [],
+  "imputed": {
+    "hemoglobin": 10.1,
+    "mcv": 105.2,
+    "rdw": 16.9,
+    "ferritin": 132.5,
+    "b12": 84.0,
+    "folate": 11.4,
+    "rbc": 2.92,
+    "mch": 34.6,
+    "mchc": 32.9,
+    "srivastava_index": 11.8493,
+    "mentzer_index": 36.0274,
+    "cell_hb_density": 11.3834
+  }
+}

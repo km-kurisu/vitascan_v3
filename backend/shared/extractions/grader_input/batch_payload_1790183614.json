@@ -1,0 +1,74 @@
+[
+  {
+    "patient_id": "IND-01-HEALTHY-MALE",
+    "hemoglobin": 14.8,
+    "mcv": 86.9,
+    "rdw": 13.2,
+    "ferritin": 96.4,
+    "b12": 476.0,
+    "folate": 12.8,
+    "rbc": 5.11,
+    "mch": 29.0,
+    "mchc": 33.3
+  },
+  {
+    "patient_id": "IND-02-HEALTHY-FEMALE",
+    "hemoglobin": 12.6,
+    "mcv": 88.4,
+    "rdw": 12.8,
+    "ferritin": 58.7,
+    "b12": 398.0,
+    "folate": 14.1,
+    "rbc": 4.42,
+    "mch": 28.5,
+    "mchc": 32.2
+  },
+  {
+    "patient_id": "IND-03-IDA-FEMALE",
+    "hemoglobin": 9.2,
+    "mcv": 72.6,
+    "rdw": 17.3,
+    "ferritin": 7.2,
+    "b12": 412.0,
+    "folate": 13.6,
+    "rbc": 3.92,
+    "mch": 23.5,
+    "mchc": 32.3
+  },
+  {
+    "patient_id": "IND-04-MEGALOBLASTIC-B12-MALE",
+    "hemoglobin": 10.1,
+    "mcv": 105.2,
+    "rdw": 16.9,
+    "ferritin": 132.5,
+    "b12": 84.0,
+    "folate": 11.4,
+    "rbc": 2.92,
+    "mch": 34.6,
+    "mchc": 32.9
+  },
+  {
+    "patient_id": "IND-05-MEGALOBLASTIC-FOLATE-FEMALE",
+    "hemoglobin": 9.8,
+    "mcv": 104.3,
+    "rdw": 17.6,
+    "ferritin": 94.1,
+    "b12": 402.0,
+    "folate": 2.7,
+    "rbc": 3.09,
+    "mch": 31.7,
+    "mchc": 30.4
+  },
+  {
+    "patient_id": "IND-06-MIXED-GREYZONE-MALE",
+    "hemoglobin": 12.3,
+    "mcv": 88.7,
+    "rdw": 15.1,
+    "ferritin": 24.6,
+    "b12": 208.0,
+    "folate": 5.1,
+    "rbc": 4.58,
+    "mch": 26.9,
+    "mchc": 30.3
+  }
+]

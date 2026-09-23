@@ -16,6 +16,20 @@ class SeverityDetail(BaseModel):
     model: str = Field(..., description="Model identifier used for inference (gat or baseline)")
 
 
+class ModelGradeDetail(BaseModel):
+    decision_code: int = Field(..., ge=0, le=4, description="0 No Anemia, 1 IDA, 2 B12, 3 Folate, 4 Grey Zone Triage")
+    etiology: str = Field(..., description="Model decision label (DECISION_NAMES[decision_code])")
+    na_count: int = Field(..., ge=0, le=9, description="Missing base biomarkers fed to the model (KNN-imputed)")
+    complete_input: bool = Field(..., description="True when all 9 base biomarkers were present")
+    proba: Dict[str, float] = Field(..., description="Blended probabilities over the 4 etiologies")
+    proba_xgb: Dict[str, float] = Field(..., description="XGB cascade probabilities")
+    proba_gnn: Dict[str, float] = Field(..., description="Hetero-GNN probabilities")
+    alpha: float = Field(..., ge=0.0, le=1.0, description="Soft-vote blend weight on the XGB cascade")
+    imputed_features: Optional[Dict[str, float]] = Field(
+        None, description="12-feature row after KNN imputation (log only, matches training order)"
+    )
+
+
 class ModB3Output(BaseModel):
     patient_id: str
     severity: Dict[str, SeverityDetail] = Field(
@@ -31,6 +45,10 @@ class ModB3Output(BaseModel):
         description="Baseline model evaluation scores (gat, logistic_regression, random_forest, xgboost)"
     )
     model_confidence: float = Field(..., ge=0.0, le=1.0)
+    model: Optional[ModelGradeDetail] = Field(
+        None,
+        description="Deployed AnemiaGrader (xgb cascade + hetero-GNN) decision on the normalizer payload",
+    )
 
 
 # ==========================================

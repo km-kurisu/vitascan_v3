@@ -24,7 +24,7 @@ class ModCFormatter:
 
             exp_text = self.explainer.explain_deficiency(d_type, item.band, {"score": item.score})
 
-            cross_ind = CrosscheckIndicator(available=False)
+            cross_ind = CrosscheckIndicator(available=False, agrees=False, source="none")
             if mod_a3 and d_type in mod_a3.crosscheck_signal:
                 a3_item = mod_a3.crosscheck_signal[d_type]
                 cross_ind = CrosscheckIndicator(

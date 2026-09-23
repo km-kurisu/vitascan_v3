@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-09-23T17:54:11.586846Z",
+  "schema_version": "1.0",
+  "patient": {
+    "patient_id": "REPORT",
+    "age": 32,
+    "gender": "Female"
+  },
+  "deficiencies": [
+    {
+      "type": "iron",
+      "severity": {
+        "band": "moderate",
+        "score_pct": "30%",
+        "badge_color": "#f59e0b"
+      },
+      "explanation": "Your report indicates a moderate level of iron deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "Serum Ferritin",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of iron-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    },
+    {
+      "type": "anemia",
+      "severity": {
+        "band": "mild",
+        "score_pct": "55%",
+        "badge_color": "#3b82f6"
+      },
+      "explanation": "Your report indicates a mild level of anemia deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "Anemia",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of anemia-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    },
+    {
+      "type": "b12",
+      "severity": {
+        "band": "none",
+        "score_pct": "0%",
+        "badge_color": "#10b981"
+      },
+      "explanation": "Your report indicates a none level of b12 deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "B12",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of b12-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    },
+    {
+      "type": "folate",
+      "severity": {
+        "band": "none",
+        "score_pct": "0%",
+        "badge_color": "#10b981"
+      },
+      "explanation": "Your report indicates a none level of folate deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "Folate",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of folate-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "flagged_deficiency_count": 2,
+    "overall_risk_band": "moderate"
+  }
+}

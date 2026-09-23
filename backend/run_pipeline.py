@@ -90,7 +90,7 @@ async def upload_report(file: UploadFile = File(...), patient_id: Optional[str] 
     save_json_artifact("biomarkers", patient_id, ner_res)
 
     norm_res = normalizer.normalize(ner_res["biomarkers"])
-    b3_output = b3_grader.grade(patient_id, norm_res)
+    b3_output = b3_grader.grade(patient_id, norm_res, grader_input=grader_input)
 
     formatted = mod_c_formatter.format_pipeline_output(b3_output)
     pipeline_state["latest_result"] = formatted.model_dump()

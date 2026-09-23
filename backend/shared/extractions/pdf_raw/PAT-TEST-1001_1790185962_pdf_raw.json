@@ -1,0 +1,25 @@
+{
+  "filename": "sample_cbc_report.pdf",
+  "raw_text": "Patient Name: Alice Smith\nAge: 34\nGender: Female\nDate: 2026-08-19\nSerum Ferritin: 11.2 ng/mL\nHemoglobin: 10.4 g/dL\nVitamin B12: 210 pg/mL",
+  "patient_details": {
+    "patient_id": "PAT-TEST-1001",
+    "name": "Alice Smith",
+    "age": "34",
+    "gender": "Female",
+    "date": "2026-08-19"
+  },
+  "biomarkers": {
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "unit": "ng/mL"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 10.4,
+      "unit": "g/dL"
+    }
+  },
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 145
+}

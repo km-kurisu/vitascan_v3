@@ -1,0 +1,39 @@
+{
+  "decision_code": 0,
+  "etiology": "No Anemia",
+  "na_count": 0,
+  "complete_input": true,
+  "proba": {
+    "No Anemia": 0.713,
+    "IDA": 0.1896,
+    "B12 Deficiency": 0.0315,
+    "Folate Deficiency": 0.0659
+  },
+  "proba_xgb": {
+    "No Anemia": 0.9999,
+    "IDA": 0.0,
+    "B12 Deficiency": 0.0,
+    "Folate Deficiency": 0.0
+  },
+  "proba_gnn": {
+    "No Anemia": 0.426,
+    "IDA": 0.3792,
+    "B12 Deficiency": 0.063,
+    "Folate Deficiency": 0.1318
+  },
+  "alpha": 0.5,
+  "imputed_features": {
+    "hemoglobin": 12.6,
+    "mcv": 88.4,
+    "rdw": 12.8,
+    "ferritin": 58.7,
+    "b12": 398.0,
+    "folate": 14.1,
+    "rbc": 4.42,
+    "mch": 28.5,
+    "mchc": 32.2,
+    "srivastava_index": 6.448,
+    "mentzer_index": 20.0,
+    "cell_hb_density": 9.177
+  }
+}

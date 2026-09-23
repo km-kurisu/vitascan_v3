@@ -1,0 +1,99 @@
+{
+  "filename": "test_report.txt",
+  "patient_id": "PAT-EXTRACTOR-3003",
+  "patient_details": {
+    "patient_id": "PAT-EXTRACTOR-3003",
+    "name": "Sarah Connor",
+    "age": "29",
+    "gender": "Female",
+    "date": "2026-08-19",
+    "lab_id": "PAT-EXTRACTOR-3003",
+    "referred_by": null
+  },
+  "age": "29",
+  "gender": "Female",
+  "biomarkers": {
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "source_span": "Ferritin: 11.2 ng/mL"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "source_span": "Hemoglobin: 10.4 g/dL"
+    },
+    "b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "pg/mL",
+      "ref_range": "200.0 - 900.0",
+      "source_span": "Vitamin B12: 210 pg/mL"
+    },
+    "creatinine": {
+      "canonical_name": "Serum Creatinine",
+      "value": 0.8,
+      "raw_value": 0.8,
+      "unit": "mg/dL",
+      "ref_range": "0.5 - 1.2",
+      "source_span": "Creatinine: 0.8 mg/dL"
+    },
+    "serum_ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 11.2,
+      "raw_value": 11.2,
+      "unit": "ng/mL",
+      "ref_range": "N/A",
+      "source_span": "Serum Ferritin: 11.2 ng/mL"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "pg/mL",
+      "ref_range": "N/A",
+      "source_span": "Vitamin B12: 210 pg/mL"
+    },
+    "serum_creatinine": {
+      "canonical_name": "Serum Creatinine",
+      "value": 0.8,
+      "raw_value": 0.8,
+      "unit": "mg/dL",
+      "ref_range": "N/A",
+      "source_span": "Serum Creatinine: 0.8 mg/dL"
+    }
+  },
+  "labs": {
+    "Serum Ferritin": {
+      "value": "11.2",
+      "unit": "ng/mL",
+      "ref_range": "N/A"
+    },
+    "Hemoglobin": {
+      "value": "10.4",
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5"
+    },
+    "Vitamin B12": {
+      "value": "210.0",
+      "unit": "pg/mL",
+      "ref_range": "N/A"
+    },
+    "Serum Creatinine": {
+      "value": "0.8",
+      "unit": "mg/dL",
+      "ref_range": "N/A"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "Patient Name: Sarah Connor\nAge: 29 / Female\nDate: 2026-08-19\nSerum Ferritin: 11.2 ng/mL\nHemoglobin: 10.4 g/dL\nVitamin B12: 210 pg/mL\nSerum Creatinine: 0.8 mg/dL\n",
+  "extraction_method": "utf-8 plain text",
+  "char_count": 161
+}

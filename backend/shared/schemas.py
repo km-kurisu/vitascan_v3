@@ -80,8 +80,8 @@ class ModA3Output(BaseModel):
 
 class PatientInfo(BaseModel):
     patient_id: str
-    age: int
-    gender: str
+    age: Optional[int] = Field(None, description="Age in years when the report states one")
+    gender: str = "Unknown"
 
 
 class KeyContributor(BaseModel):
@@ -111,6 +111,37 @@ class DeficiencyItem(BaseModel):
     key_contributors: List[KeyContributor]
     crosscheck: FrontendCrosscheck
     diet_recommendations: List[DietRecommendation]
+    model_confirmed: bool = Field(
+        False,
+        description="True when the anemia grader verdict implicates this deficiency",
+    )
+    etiology: Optional[str] = Field(
+        None, description="Anemia grader verdict label behind this card (e.g. IDA)"
+    )
+    model_confidence: Optional[float] = Field(
+        None, ge=0.0, le=1.0, description="Verdict confidence when model_confirmed is True"
+    )
+
+
+class BloodParameter(BaseModel):
+    key: str = Field(..., description="Canonical biomarker key, e.g. hemoglobin")
+    name: str = Field(..., description="Display name, e.g. Serum Ferritin")
+    value: float
+    unit: str = ""
+    normal_range: str = Field(..., description="Reference interval as printed, e.g. 12.0 - 15.5")
+    status: Literal["Low", "Normal", "High", "Borderline"] = "Normal"
+    deviation: float = Field(0.0, description="Signed fractional deviation from the reference interval")
+    model_input: bool = Field(
+        False, description="True when this biomarker feeds the anemia grader"
+    )
+    confidence: float = Field(0.0, ge=0.0, le=1.0, description="Extractor confidence")
+
+
+class UploadedReportInfo(BaseModel):
+    filename: str
+    uploaded_at: str
+    page_count: Optional[int] = None
+    parse_confidence: Optional[float] = None
 
 
 class SummaryInfo(BaseModel):
@@ -130,6 +161,13 @@ class ModCFrontendOutput(BaseModel):
     )
     model_confidence: Optional[float] = Field(
         None, ge=0.0, le=1.0, description="Peak blended probability from the deployed grader"
+    )
+    blood_parameters: List[BloodParameter] = Field(
+        default_factory=list,
+        description="Extracted key blood parameters with reference ranges and status",
+    )
+    uploaded_report: Optional[UploadedReportInfo] = Field(
+        None, description="Metadata for the report the results were computed from"
     )
 
 

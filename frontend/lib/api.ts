@@ -50,6 +50,10 @@ export interface DeficiencyItem {
   crosscheck: FrontendCrosscheck;
   diet_recommendations: DietRecommendation[];
   recommendations?: DeficiencyRecommendations;
+  /** True when the anemia grader verdict implicates this deficiency. */
+  model_confirmed?: boolean;
+  etiology?: string | null;
+  model_confidence?: number | null;
 }
 
 export interface SummaryInfo {
@@ -58,15 +62,23 @@ export interface SummaryInfo {
 }
 
 export interface BloodParameter {
+  key: string;
   name: string;
-  value: string;
+  value: number;
+  unit?: string;
   normal_range: string;
-  status: string;
+  status: 'Low' | 'Normal' | 'High' | 'Borderline' | string;
+  deviation?: number;
+  /** True when this biomarker feeds the anemia grader. */
+  model_input?: boolean;
+  confidence?: number;
 }
 
 export interface UploadedReport {
   filename?: string;
   uploaded_at?: string;
+  page_count?: number | null;
+  parse_confidence?: number | null;
 }
 
 export interface ModelGradeDetail {
@@ -89,8 +101,8 @@ export interface ModCFrontendOutput {
   summary: SummaryInfo;
   model?: ModelGradeDetail | null;
   model_confidence?: number | null;
-  blood_parameters?: BloodParameter[];
-  uploaded_report?: UploadedReport;
+  blood_parameters: BloodParameter[];
+  uploaded_report?: UploadedReport | null;
 }
 
 export const api = axios.create({

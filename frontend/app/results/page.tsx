@@ -21,7 +21,7 @@ import {
   Info,
   ChevronRight,
 } from 'lucide-react';
-import { fetchResults, ModCFrontendOutput, DeficiencyItem } from '@/lib/api';
+import { fetchResults, ModCFrontendOutput, DeficiencyItem, BloodParameter } from '@/lib/api';
 import ModelVerdictCard from '@/components/ModelVerdictCard';
 import { saveScanToSupabase } from '@/lib/supabase';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
@@ -55,6 +55,8 @@ export default function ResultsPage() {
     setExpandedCards((prev) => ({ ...prev, [id]: !prev[id] }));
   };
 
+  const bandOf = (item: DeficiencyItem) => (item.severity?.band || 'none').toLowerCase();
+
   const bandLabel = (band: string) => {
     const key = band?.toLowerCase();
     if (key === 'severe' || key === 'moderate' || key === 'mild' || key === 'borderline' || key === 'normal') {
@@ -70,21 +72,21 @@ export default function ResultsPage() {
     return item.title || item.type;
   };
 
+  // The backend explanation is generated from this patient's measured values,
+  // so it wins over the static translation strings (which quote sample numbers).
   const getDeficiencyExplanation = (item: DeficiencyItem) => {
+    if (item.explanation) return item.explanation;
     const key = `explanation.${item.type.toLowerCase()}`;
     const translated = t(key);
-    if (translated !== key) return translated;
-    return item.explanation;
+    return translated !== key ? translated : '';
   };
 
-  const translateParamName = (name: string) => {
-    if (name.includes('Ferritin')) return t('param.ferritin');
-    if (name.includes('Hemoglobin')) return t('param.hemoglobin');
-    if (name.includes('B12')) return t('param.b12');
-    if (name.includes('MCV') || name.includes('Mean Corpuscular')) return t('param.mcv');
-    if (name.includes('TIBC') || name.includes('Binding Capacity')) return t('param.tibc');
-    if (name.includes('Hematocrit')) return t('param.hematocrit');
-    return name;
+  // Look up by the canonical biomarker key so MCH/MCHC don't collapse into
+  // "Hemoglobin"; fall back to the backend's own display name.
+  const translateParamName = (param: BloodParameter) => {
+    const key = `param.${param.key}`;
+    const translated = t(key);
+    return translated !== key ? translated : param.name;
   };
 
   const translateStatus = (status: string) => {
@@ -148,6 +150,10 @@ export default function ResultsPage() {
     );
   }
 
+  // Cards are verdict-led: anything the grader called "none" is not a finding.
+  const deficiencies = (data.deficiencies || []).filter((item) => bandOf(item) !== 'none');
+  const bloodParameters = data.blood_parameters || [];
+
   return (
     <div className="space-y-10 py-4 max-w-6xl mx-auto">
       {/* Top Hero Status Banner */}
@@ -198,56 +204,95 @@ export default function ResultsPage() {
 
       {/* Section 1: Detected Deficiencies and Severity */}
       <div className="space-y-5">
-        <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-          {t('results.sectionDeficiencies')}
-        </h2>
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="text-xl font-bold text-slate-900 tracking-tight">
+            {t('results.sectionDeficiencies')}
+          </h2>
+          {data.model && (
+            <p className="text-xs font-semibold text-slate-500">
+              {t('results.verdictAligned')}
+            </p>
+          )}
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {data.deficiencies.map((item) => {
-            const isSevere = item.severity.band === 'Severe';
-            const isModerate = item.severity.band === 'Moderate';
-            const isMild = item.severity.band === 'Mild';
+        {deficiencies.length === 0 ? (
+          <div className="bg-white rounded-2xl border border-emerald-200 shadow-xs p-8 flex items-start gap-4">
+            <CheckCircle2 className="w-8 h-8 text-emerald-500 flex-shrink-0" />
+            <div className="space-y-1">
+              <h3 className="text-lg font-bold text-slate-900">{t('results.noDeficiencies')}</h3>
+              <p className="text-sm text-slate-600 font-medium">{t('results.noDeficienciesHint')}</p>
+            </div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {deficiencies.map((item) => {
+              const band = bandOf(item);
+              const isSevere = band === 'severe';
+              const isModerate = band === 'moderate';
+              const isMild = band !== 'severe' && band !== 'moderate' && band !== 'none';
+              const confirmed = item.model_confirmed === true;
+              const verdictLabel = item.etiology
+                ? `${item.etiology}${item.model_confidence ? ` · ${Math.round(item.model_confidence * 100)}%` : ''}`
+                : null;
 
-            return (
-              <div
-                key={item.id || item.type}
-                className={`bg-white p-6 rounded-2xl border shadow-xs space-y-4 relative overflow-hidden transition-all ${
-                  isSevere
-                    ? 'border-red-200 hover:border-red-300'
-                    : isModerate
-                    ? 'border-orange-200 hover:border-orange-300'
-                    : 'border-amber-200 hover:border-amber-300'
-                }`}
-              >
-                {/* Header row */}
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3
-                      className={`text-lg font-bold ${
-                        isSevere
-                          ? 'text-red-600'
-                          : isModerate
-                          ? 'text-orange-600'
-                          : 'text-amber-600'
-                      }`}
-                    >
-                      {getDeficiencyTitle(item)}
-                    </h3>
-                    <p className="text-xs font-semibold text-slate-500">{t('results.deficientBadge')}</p>
+              return (
+                <div
+                  key={item.id || item.type}
+                  className={`bg-white p-6 rounded-2xl border shadow-xs space-y-4 relative overflow-hidden transition-all ${
+                    isSevere
+                      ? 'border-red-200 hover:border-red-300'
+                      : isModerate
+                      ? 'border-orange-200 hover:border-orange-300'
+                      : 'border-amber-200 hover:border-amber-300'
+                  }`}
+                >
+                  {/* Header row */}
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <h3
+                        className={`text-lg font-bold ${
+                          isSevere
+                            ? 'text-red-600'
+                            : isModerate
+                            ? 'text-orange-600'
+                            : 'text-amber-600'
+                        }`}
+                      >
+                        {getDeficiencyTitle(item)}
+                      </h3>
+                      <p className="text-xs font-semibold text-slate-500">
+                        {confirmed ? t('results.modelVerified') : t('results.possibleDeficiency')}
+                      </p>
+                    </div>
+
+                    <div className="flex flex-col items-end gap-1.5">
+                      <span
+                        className={`px-3 py-1 text-xs font-bold rounded-full ${
+                          isSevere
+                            ? 'bg-red-100 text-red-700 border border-red-200'
+                            : isModerate
+                            ? 'bg-orange-100 text-orange-700 border border-orange-200'
+                            : isMild
+                            ? 'bg-amber-100 text-amber-700 border border-amber-200'
+                            : 'bg-emerald-100 text-emerald-700 border border-emerald-200'
+                        }`}
+                      >
+                        {bandLabel(band)}
+                      </span>
+                      {verdictLabel && (
+                        <span
+                          className={`px-2 py-0.5 text-[10px] font-bold rounded-full ${
+                            confirmed
+                              ? 'bg-purple-100 text-purple-700 border border-purple-200'
+                              : 'bg-slate-100 text-slate-600 border border-slate-200'
+                          }`}
+                          title={t('results.verdictTooltip')}
+                        >
+                          {verdictLabel}
+                        </span>
+                      )}
+                    </div>
                   </div>
-
-                  <span
-                    className={`px-3 py-1 text-xs font-bold rounded-full ${
-                      isSevere
-                        ? 'bg-red-100 text-red-700 border border-red-200'
-                        : isModerate
-                        ? 'bg-orange-100 text-orange-700 border border-orange-200'
-                        : 'bg-amber-100 text-amber-700 border border-amber-200'
-                    }`}
-                  >
-                    {bandLabel(item.severity.band)}
-                  </span>
-                </div>
 
                 {/* Progress Bar */}
                 <div className="space-y-1.5 pt-2">
@@ -278,7 +323,8 @@ export default function ResultsPage() {
               </div>
             );
           })}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* Section 2: Key Blood Parameters Table */}
@@ -307,35 +353,54 @@ export default function ResultsPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 font-medium text-slate-700">
-                {(data.blood_parameters || []).map((param, idx) => (
-                  <tr
-                    key={idx}
-                    className="hover:bg-slate-50/60 transition-colors"
-                  >
-                    <td className="px-6 py-4 font-bold text-slate-900">
-                      {translateParamName(param.name)}
-                    </td>
-                    <td className="px-6 py-4 font-semibold text-slate-800 font-mono">
-                      {param.value}
-                    </td>
-                    <td className="px-6 py-4 text-slate-500 font-mono">
-                      {param.normal_range}
-                    </td>
-                    <td className="px-6 py-4 text-center">
-                      <span
-                        className={`inline-block px-3 py-1 text-xs font-bold rounded-full ${
-                          param.status === 'Low'
-                            ? 'bg-red-100 text-red-600 border border-red-200'
-                            : param.status === 'Borderline'
-                            ? 'bg-amber-100 text-amber-700 border border-amber-200'
-                            : 'bg-emerald-100 text-emerald-700 border border-emerald-200'
-                        }`}
-                      >
-                        {translateStatus(param.status)}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
+                 {(bloodParameters.length > 0 ? bloodParameters : (data.blood_parameters || [])).map((param, idx) => (
+                   <tr
+                     key={param.key || idx}
+                     className="hover:bg-slate-50/60 transition-colors"
+                   >
+                     <td className="px-6 py-4 font-bold text-slate-900">
+                       {translateParamName(param)}
+                       {param.model_input && (
+                         <span
+                           className="ml-2 align-middle text-[10px] font-bold uppercase tracking-wide text-purple-600 bg-purple-50 border border-purple-200 rounded-full px-1.5 py-0.5"
+                           title={t('results.modelInput')}
+                         >
+                           {t('results.modelInput')}
+                         </span>
+                       )}
+                     </td>
+                     <td className="px-6 py-4 font-semibold text-slate-800 font-mono">
+                       {Number.isFinite(param.value as number) ? (param.value as number).toLocaleString(undefined, { maximumFractionDigits: 2 }) : param.value}
+                       {param.unit ? <span className="ml-1 text-slate-500">{param.unit}</span> : null}
+                     </td>
+                     <td className="px-6 py-4 text-slate-500 font-mono">
+                       {param.normal_range}
+                     </td>
+                     <td className="px-6 py-4 text-center">
+                       <span
+                         className={`inline-block px-3 py-1 text-xs font-bold rounded-full ${
+                           param.status === 'Low'
+                             ? 'bg-red-100 text-red-600 border border-red-200'
+                             : param.status === 'Borderline'
+                             ? 'bg-amber-100 text-amber-700 border border-amber-200'
+                             : param.status === 'High'
+                             ? 'bg-amber-100 text-amber-700 border border-amber-200'
+                             : 'bg-emerald-100 text-emerald-700 border border-emerald-200'
+                         }`}
+                       >
+                         {translateStatus(param.status)}
+                       </span>
+                     </td>
+                   </tr>
+                 ))}
+                 {bloodParameters.length === 0 && (
+                   <tr>
+                     <td colSpan={4} className="px-6 py-8 text-center text-sm text-slate-500 font-medium">
+                       {t('results.noParameters')}
+                     </td>
+                   </tr>
+                 )}
+
               </tbody>
             </table>
           </div>
@@ -387,8 +452,7 @@ export default function ResultsPage() {
                     </div>
                     <div>
                       <h3 className="text-base font-bold text-slate-900">
-                        {getDeficiencyTitle(item)} ({bandLabel(item.severity.band)}{' '}
-                        {t('results.deficiencyNoun')})
+                        {getDeficiencyTitle(item)} ({bandLabel(bandOf(item))})
                       </h3>
                       <p className="text-xs text-slate-500 max-w-xl line-clamp-1">
                         {getDeficiencyExplanation(item)}
@@ -408,11 +472,24 @@ export default function ResultsPage() {
                 {/* Expanded Grid details matching design layout */}
                 {isExpanded && (
                   <div className="px-6 pb-6 pt-2 border-t border-slate-100 bg-[#FAFCFF] grid grid-cols-1 md:grid-cols-4 gap-6 text-xs">
-                    {/* Column 1: Explanation */}
+                    {/* Column 1: biomarkers behind the verdict */}
                     <div className="space-y-2 md:col-span-1 border-r border-slate-100 pr-4">
-                      <p className="text-xs text-slate-600 leading-relaxed font-medium">
-                        {getDeficiencyExplanation(item)}
-                      </p>
+                      <div className="flex items-center space-x-2 font-bold text-slate-800">
+                        <Activity className="w-4 h-4 text-[#1D61E7]" />
+                        <span>{t('results.keyContributors')}</span>
+                      </div>
+                      {item.key_contributors?.length ? (
+                        <ul className="space-y-1">
+                          {item.key_contributors.map((c) => (
+                            <li key={c.biomarker} className="text-slate-600 font-medium flex justify-between gap-2">
+                              <span>{c.biomarker}</span>
+                              <span className="font-mono text-slate-500">{Math.round(c.impact_pct)}%</span>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="text-slate-500 font-medium">{t('results.noContributors')}</p>
+                      )}
                     </div>
 
                     {/* Column 2: Foods */}

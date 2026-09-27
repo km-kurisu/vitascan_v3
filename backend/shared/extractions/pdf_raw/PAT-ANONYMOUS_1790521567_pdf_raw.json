@@ -1,0 +1,479 @@
+{
+  "filename": "cbc_extended_1731055338.pdf",
+  "patient_id": "PAT-ANONYMOUS",
+  "patient_details": {
+    "patient_id": "PAT-ANONYMOUS",
+    "name": null,
+    "age": "2",
+    "gender": "Female",
+    "date": "11.00-36",
+    "lab_id": "PAT-ANONYMOUS",
+    "referred_by": null
+  },
+  "age": "2",
+  "gender": "Female",
+  "biomarkers": {
+    "5000": {
+      "canonical_name": "5000",
+      "value": 15000.0,
+      "raw_value": 15000.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "5000-15000"
+    },
+    "73": {
+      "canonical_name": "73 -",
+      "value": 140.0,
+      "raw_value": 140.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "73 - 140"
+    },
+    "at_risk_pre_diabetic": {
+      "canonical_name": "At Risk (Pre-Diabetic)",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "",
+      "ref_range": "- 6.4",
+      "source_span": "At risk (Pre-Diabetic) : 5.7- 6.4                                                                     Ages 6-12 years: <8%"
+    },
+    "adults": {
+      "canonical_name": "Adults",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "source_span": "Adults: <7%"
+    },
+    "sugar_test_after_consumption_of": {
+      "canonical_name": "Sugar Test (After Consumption Of",
+      "value": 75.0,
+      "raw_value": 75.0,
+      "unit": "gm",
+      "ref_range": "N/A",
+      "source_span": "sugar test (after consumption of 75 gm of glucose) is recommended for all such patients."
+    },
+    "200": {
+      "canonical_name": "200",
+      "value": 239.0,
+      "raw_value": 239.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "200-239"
+    },
+    "150": {
+      "canonical_name": "150",
+      "value": 199.0,
+      "raw_value": 199.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "150-199"
+    },
+    "130": {
+      "canonical_name": "130",
+      "value": 159.0,
+      "raw_value": 159.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "130-159"
+    },
+    "100": {
+      "canonical_name": "100",
+      "value": 129.0,
+      "raw_value": 129.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "100-129"
+    },
+    "160": {
+      "canonical_name": "160",
+      "value": 189.0,
+      "raw_value": 189.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "160-189"
+    },
+    "190": {
+      "canonical_name": "190",
+      "value": 219.0,
+      "raw_value": 219.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "190-219"
+    },
+    "ergocalciferol_are_converted_to": {
+      "canonical_name": "Ergocalciferol Are Converted To",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "5",
+      "source_span": "Ergocalciferol are converted to 25(OH)vitamin D in liver."
+    },
+    "relationship_exists_between_pth_and": {
+      "canonical_name": "Relationship Exists Between Pth And",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "5",
+      "source_span": "relationship exists between PTH and 25(OH)D levels, Parathyroid hormone levels start to rise at 25(OH)D levels below 31 ng/mL & usually"
+    },
+    "1w": {
+      "canonical_name": "1W -",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "w",
+      "ref_range": "N/A",
+      "source_span": "1w - 2w"
+    },
+    "4_months": {
+      "canonical_name": "4 Months -",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "4 months - 1 years"
+    },
+    "10": {
+      "canonical_name": "10 -",
+      "value": 15.0,
+      "raw_value": 15.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "10 - 15 years"
+    },
+    "15": {
+      "canonical_name": "15 -",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "15 - 60 years (Male)"
+    },
+    "4_days": {
+      "canonical_name": "4 Days",
+      "value": 11.0,
+      "raw_value": 11.0,
+      "unit": "months",
+      "ref_range": "N/A",
+      "source_span": "4 days -11 months"
+    },
+    "105": {
+      "canonical_name": "105 -",
+      "value": 245.0,
+      "raw_value": 245.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "105 - 245"
+    },
+    "94": {
+      "canonical_name": "94 -",
+      "value": 241.0,
+      "raw_value": 241.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "94 - 241"
+    },
+    "11": {
+      "canonical_name": "11 -",
+      "value": 15.0,
+      "raw_value": 15.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "11 - 15 years"
+    },
+    "82": {
+      "canonical_name": "82 -",
+      "value": 213.0,
+      "raw_value": 213.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "82 - 213"
+    },
+    "16": {
+      "canonical_name": "16 -",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "16 - 20 years"
+    },
+    "80": {
+      "canonical_name": "80 -",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "80 - 210"
+    },
+    "20": {
+      "canonical_name": "20 -",
+      "value": 50.0,
+      "raw_value": 50.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "20 - 50 years"
+    },
+    "70": {
+      "canonical_name": "70 -",
+      "value": 204.0,
+      "raw_value": 204.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "70 - 204"
+    },
+    "50": {
+      "canonical_name": "50 -",
+      "value": 90.0,
+      "raw_value": 90.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "50 - 90 years"
+    },
+    "40": {
+      "canonical_name": "40 -",
+      "value": 181.0,
+      "raw_value": 181.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "40 - 181"
+    },
+    "5_days": {
+      "canonical_name": "5 Days -",
+      "value": 90.0,
+      "raw_value": 90.0,
+      "unit": "days",
+      "ref_range": "N/A",
+      "source_span": "5 days - 90 days"
+    },
+    "91_days": {
+      "canonical_name": "91 Days -",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "91 days - 20 years"
+    },
+    "21": {
+      "canonical_name": "21 -",
+      "value": 54.0,
+      "raw_value": 54.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "source_span": "21 - 54 years"
+    },
+    "t3_or_3_5": {
+      "canonical_name": "T3 Or 3 5",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "triiodothyronine",
+      "ref_range": "N/A",
+      "source_span": "T3 or 3 5 3 triiodothyronine is a hormone synthesized and secreted from the thyroid gland, and formed by peripheral deiodination of thyroxine"
+    },
+    "negative": {
+      "canonical_name": "Negative",
+      "value": 12.0,
+      "raw_value": 12.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Negative < 12"
+    },
+    "borderline_12": {
+      "canonical_name": "Borderline 12",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Borderline 12-18"
+    },
+    "positive": {
+      "canonical_name": "Positive",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Positive > 18"
+    }
+  },
+  "labs": {
+    "5000": {
+      "value": "15000.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "73 -": {
+      "value": "140.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "At Risk (Pre-Diabetic)": {
+      "value": "5.7",
+      "unit": "",
+      "ref_range": "- 6.4"
+    },
+    "Adults": {
+      "value": "7.0",
+      "unit": "%",
+      "ref_range": "N/A"
+    },
+    "Sugar Test (After Consumption Of": {
+      "value": "75.0",
+      "unit": "gm",
+      "ref_range": "N/A"
+    },
+    "200": {
+      "value": "239.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "150": {
+      "value": "199.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "130": {
+      "value": "159.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "100": {
+      "value": "129.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "160": {
+      "value": "189.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "190": {
+      "value": "219.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Ergocalciferol Are Converted To": {
+      "value": "2.0",
+      "unit": "",
+      "ref_range": "5"
+    },
+    "Relationship Exists Between Pth And": {
+      "value": "2.0",
+      "unit": "",
+      "ref_range": "5"
+    },
+    "1W -": {
+      "value": "2.0",
+      "unit": "w",
+      "ref_range": "N/A"
+    },
+    "4 Months -": {
+      "value": "1.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "10 -": {
+      "value": "15.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "15 -": {
+      "value": "60.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "4 Days": {
+      "value": "11.0",
+      "unit": "months",
+      "ref_range": "N/A"
+    },
+    "105 -": {
+      "value": "245.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "94 -": {
+      "value": "241.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "11 -": {
+      "value": "15.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "82 -": {
+      "value": "213.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "16 -": {
+      "value": "20.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "80 -": {
+      "value": "210.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "20 -": {
+      "value": "50.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "70 -": {
+      "value": "204.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "50 -": {
+      "value": "90.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "40 -": {
+      "value": "181.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "5 Days -": {
+      "value": "90.0",
+      "unit": "days",
+      "ref_range": "N/A"
+    },
+    "91 Days -": {
+      "value": "20.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "21 -": {
+      "value": "54.0",
+      "unit": "years",
+      "ref_range": "N/A"
+    },
+    "T3 Or 3 5": {
+      "value": "3.0",
+      "unit": "triiodothyronine",
+      "ref_range": "N/A"
+    },
+    "Negative": {
+      "value": "12.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Borderline 12": {
+      "value": "18.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Positive": {
+      "value": "18.0",
+      "unit": "",
+      "ref_range": "N/A"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "Complete Blood Count (CBC) Extended\nHaemoglobin (Hb)\n(Whole Blood, Colorimetry)\n11.9\ngm/dL\n11.0-14.0\nTLC (Total Leucocyte Count)\n(Whole Blood, Flourescence Flowcytometry (SF Cube))\n11920\n/cumm\n5000-15000\nRBC Count\n(Whole Blood, Electrical Impedance)\n4.53\n10^6/uL\n3.9-5.1\nPacked Cell Volume\n(Whole Blood, Calculated)\n35.9\n%\n30-38\nMCV\n(Whole Blood, Impedance)\n79.3\nfL\n72-84\nMCH\n(Whole Blood, Calculated)\n26.3\npg\n25-29\nMCHC\n(Whole Blood, Calculated)\n33.1\ng/dL\n32-36\nPlatelet Count\n(Whole Blood, Flourescence Flowcytometry (SF Cube))\n4.00\nlakh/cumm\n2.0-5.5\nDifferential Leucocyte Count\nNeutrophil\n(Whole Blood, Flourescence Flowcytometry (SF Cube))\n26\n%\n35-45\nLymphocyte\n(Whole Blood, Flourescence Flowcytometry (SF Cube))\n66\n%\n35-65\nEosinophils\n(Whole Blood, Flourescence Flowcytometry (SF Cube))\n3\n%\n01-06\nMonocytes\n(Whole Blood,Flourescence Flowcytometry (SF Cube))\n5\n%\n0.1-8.0\nBasophils\n(Whole Blood, Flourescence Flowcytometry (SF Cube))\n0\n%\n0-1\nAbsolute Neutrophil Count\n(Whole Blood, Calculated)\n3.1\nx 10^3 /uL\n1.5-8.0\nAbsolute Lymphocyte Count\n(Whole Blood, Calculated)\n7.87\nx 10^3/uL\n3.5-11.0\nAbsolute Eosinophil Count\n(Whole Blood, Calculated)\n0.36\nx 10^3 cells/uL\n0.1-1.0\nAbsolute Monocyte Count\n(Whole Blood, Calculated)\n0.6\n0.2-1.0\nAbsolute Basophil Count\n(Whole Blood, Calculated)\n0\nx 10^3 cells/uL\n0.00-0.00\nBand Forms\n0\n%\nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 07:04 PM\nReported\n: 01 Oct 2024 07:04 PM\nStatus\n: Final\nDEPARTMENT OF HAEMATOLOGY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 1 of 12\n\n(Whole Blood, Microscopy)\nMetamyelocytes\n(Whole Blood, Microscopy)\n0\n%\nMyelocytes\n(Whole Blood, Microscopy)\n0\n%\nRDW-SD\n(Whole Blood, Calculated)\n40.6\nfl\n39.0-46.0\nRDW-CV\n(Whole Blood, Calculated)\n13.5\n%\n11.5-14.5\nMPV\n(Whole Blood, Calculated)\n11.0\nfL\n9.4-12.3\nPCT\n(Whole Blood, Calculated)\n0.44\n%\n0.10-0.28\nPDW\n(Whole Blood, Calculated)\n15.7\nfL\n9.0-17.0\nMenzter Index\n(Whole Blood, Calculated)\n17.51\nRatio\nErythrocyte Sedimentation Rate (ESR)\n(Whole Blood, Westergren)\n10\nmm/h\n0-10\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 07:04 PM\nReported\n: 01 Oct 2024 07:04 PM\nStatus\n: Final\nDEPARTMENT OF HAEMATOLOGY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 2 of 12\n\nHbA1c (Glycated Haemoglobin)\n(HPLC Method)\n4.8\n%\n4.5-6.5\nREMARKS- In vitro quantitative determination of HbA1c in whole blood is utilized in long term monitoring of glycemia.The HbA1c\nlevel correlates with the mean glucose concentration prevailing in the course of the patient's recent history (approx - 6-8 weeks) and\ntherefore provides much more reliable information for glycemia monitoring than do determinations of blood glucose or urinary glucose.\nIt is recommended that the determination of HbA1c be performed at intervals of 4-6 weeks during Diabetes Mellitus therapy. Results of\nHbA1c should be assessed in conjunction with the patient's medical history, clinical examinations and other findings.\nMean Plasma Glucose\n(Whole Blood, Calculated)\n91.06\nmg/dL\n73 - 140\nIt is based on estimated Average Glucose (eAG) value calculated according to National Glycohemoglobin Standardization Program (NGSP) criteria.\nThe American Diabetes Association(ADA) recommendations are summarized as below:\nRef Range for HBA1c ( In % ):                                                                     HbA1c goals in treatment of diabetes:\nNon diabetic Adults ( Age >=18 years )  < 5.7                                              Ages 0-6 years: 7.6% - 8.4%\nAt risk (Pre-Diabetic) : 5.7- 6.4                                                                     Ages 6-12 years: <8%\nDiagnosing Diabetes: >= 6.5                                                                        Ages 13-19 years: <7.5%\n                                                                                                                     Adults: <7%\nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:41 PM\nReported\n: 01 Oct 2024 06:41 PM\nStatus\n: Final\nDEPARTMENT OF HAEMATOLOGY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 3 of 12\n\nBlood Picture - Peripheral Smear Examination (P/S)\nRBCs                   Normocytic Normochromic.\n \nWBCs                  Total Leukocytes & Differential counts are within normal limits.\n \nPlatelets               Platelets are Adequate in Smear.  \n \nHaemoparasites   Not seen.\n \nImmature cells     Not seen.   \n \nImpression           Normocytic Normochromic Blood Picture.\nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:44 PM\nReported\n: 01 Oct 2024 06:44 PM\nStatus\n: Final\nDEPARTMENT OF HAEMATOLOGY\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Y/Female\nPage 4 of 12\n\nBlood Glucose Fasting\n(Flouride Plasma, Hexokinase)\n71.0\nmg/dL\n60-100\nInterpretation (In accordance with the American diabetes association guidelines):\n\u00b7   A fasting plasma glucose level below 100 mg/dL is considered normal.\n\u00b7   A fasting plasma glucose level between 100-126 mg/dL is considered as glucose intolerant or pre diabetic. A fasting and post-prandial blood\nsugar test (after consumption of 75 gm of glucose) is recommended for all such patients.\n\u00b7   A fasting plasma glucose level of above 126 mg/dL is highly suggestive of a diabetic state. A repeat fasting test is strongly recommended for all\nsuch patients. A fasting plasma glucose level in excess of 126 mg/dL on both the occasions is confirmatory of a diabetic state.\n \n.\n \nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 07:51 PM\nReported\n: 01 Oct 2024 07:51 PM\nStatus\n: Final\nDEPARTMENT OF BIOCHEMISTRY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 5 of 12\n\nLiver Function Test (LFT) with GGT\nBilirubin, Total\n( Serum, Dichlorophenyl Diazonium)\n0.28\nmg/dL\n0.0-1.30\nBilirubin, Direct\n( Serum, Colorimetric, Diazo Dye)\n0.10\nmg/dL\n0.00-0.50\nBilirubin, Indirect\n( Serum, Calculated)\n0.18\nmg/dL\n0.10-1.00\nSGOT (AST), Serum\n(Serum, NADH w/o P-5-P)\n43.00\nU/L\n<31\nSGPT (ALT), Serum\n(Serum, NADH (without P-5-P))\n19.00\nIU/L\n<34\nALP (Alkaline Phosphatase), Serum\n(Serum, Para-nitrophenyl Phosphate)\n272.0\nU/L\n54-369\nProtein, Total\n(Biuret)\n7.07\ng/dL\n6.0-8.0\nAlbumin\n(Serum, Bromcresol green)\n4.59\ng/dL\n3.80-5.40\nGlobulin\n2.48\ng/dL\n2.00-3.50\nA/G Ratio\n1.85\nGGT (Gamma Glutamyl Transferase)\n(Serum, IFCC)\n10\nU/l\n<38\nALT/AST Ratio\n(Serum, Calculated)\n0.44\nRatio\nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:34 PM\nReported\n: 01 Oct 2024 06:34 PM\nStatus\n: Final\nDEPARTMENT OF BIOCHEMISTRY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 6 of 12\n\nKidney Function Test (KFT/RFT)\nBlood Urea Nitrogen (BUN)\n(Serum, Urease)\n15.40\nmg/dL\n5.0-18.0\nUrea, Blood\n(Serum, Calculated)\n32.96\nmg/dL\n11.00-36.00\nCreatinine\n( Serum, Kinetic Alkaline Picrate)\n0.52\nmg/dL\n0.5-1.11\nUric Acid, Serum\n(Serum, Uricase)\n3.20\nmg/dL\n2.6-6.0\nSodium, Serum\n(Serum, Ion Selective Electrode)\n138.0\nmmol/L\n138.0-145.0\nPotassium, Serum\n(Serum, Ion Selective Electrode)\n4.30\nmmol/L\n3.4-4.7\nChloride\n(Ion Selective Electrode)\n105.0\nmmol/L\n98.0-109.0\nCalcium, Serum\n(Serum, Arsenazo III)\n9.70\nmg/dL\n8.6-10.2\nPhosphorous\n(Serum, Phospomolybdate)\n6.40\nmg/dl\n4.00-7.00\nBUN / Creatinine Ratio\n( Serum, Calculated)\n29.62\nUrea / Creatinine Ratio\n(Serum, Calculated)\n63.38\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:34 PM\nReported\n: 01 Oct 2024 06:34 PM\nStatus\n: Final\nDEPARTMENT OF BIOCHEMISTRY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 7 of 12\n\nTotal Cholesterol (mg/dL)\nHDL Cholesterol (mg/dL)\n<200\nBest\n<40 (men); <50 (women) Poor\n200-239\nBorderline high\n50-59\nBetter\n>=240\nHigh\n>=60\nBest\nTriglyceride (mg/dL)\nLDL Cholesterol (mg/dL)\nNon-HDL (mg/dL)\n<150\nBest\n<70\nBest for people with heart disease\n<130\nBest\n150-199\nBorderline high\n<100\nBest for people at risk of heart disease.\n130-159\nNear Ideal\n200-499\nHigh\n100-129\nNear ideal\n160-189\nBorderline high\n>=500\nVery high\n130-159\nBorderline high\n190-219\nHigh\n \n \n160-189\nHigh\n >=220\nVery high\n \n \n>=190\nVery high\n \n \nLipid Profile\nTotal Cholesterol\n(Serum, CHOD-PAP)\n134.0\nmg/dL\n<170\nTriglyceride\n(Serum, Glycerol Phosphate Oxidase)\n117.0\nmg/dL\n<150\nHDL Cholesterol\n(Serum, ASD(accelerator selective detergent))\n50.0\nmg/dL\n40-60\nVLDL Cholesterol\n(Calculated)\n23.4\nmg/dL\n4.7-21.1\nLDL Cholesterol\n(Calculated)\n60.6\nmg/dL\n0-100\nNon-HDL Cholesterol\n(Calculated)\n84\nmg/dL\n<130\nLDL / HDL Cholesterol Ratio\n1.21\n%\n2.5-3.5\nTotal / HDL Cholesterol Ratio\n(Serum, Calculated)\n2.68\nRatio\n3.00-5.00\nComment - Lipid profile checks cholesterol levels, comprising of parameters total cholesterol, LDL cholesterol, HDL cholesterol and\ntriglycerides. The results of the lipid profile as per the AHA guidelines mentioned below.\n \n                                                        Guidelines from The American Heart Association (AHA)\n \n \n \n \n \n \nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:34 PM\nReported\n: 01 Oct 2024 06:34 PM\nStatus\n: Final\nDEPARTMENT OF BIOCHEMISTRY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 8 of 12\n\nFerritin\nFERRITIN SERUM\n(Serum,CMIA)\n10.09\nng/ml\n5.0-204.0\nComment:\nFerritin is the major iron storage compound and a readily available source & reserve of iron for metabolic requirements. \nClinical utility:\nFerritin estimation is useful in the diagnosis of iron deficiency anemia and iron overload. \nIncreased levels seen in hemachromatosis, frequent blood transfusions with packed RBCs and alcoholic liver\ndisease.\nDecreased levels seen in heavy menstrual bleeding, poor absorption of iron, iron deficiency anaemia and long-term\nGI bleed.\n\u200bNote:\nFerritin is an acute phase reactant and thus may be increased with inflammation, chronic infection, liver disease, auto-\nimmune disorders and some type of cancers. Ferritin is not used to detect or monitor these conditions.\nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:46 PM\nReported\n: 01 Oct 2024 06:46 PM\nStatus\n: Final\nDEPARTMENT OF IMMUNOASSAY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 9 of 12\n\nVitamin D, 25 Hydroxy\n(Serum, CMIA)\n14.50\nng/mL\n30-100\nInterpretation :\n1. Vitamin D is a fat soluble vitamin and exists in two main forms as cholecalciferol(vitamin D3) which is synthesized in skin from 7-\ndehydrocholesterol in response to sunlight exposure & Ergocalciferol(vitamin D2) present mainly in dietary sources.Both cholecalciferol &\nErgocalciferol are converted to 25(OH)vitamin D in liver.\n2. Testing for 25(OH)vitamin D is recommended as it is the best indicator of vitamin D nutritional status as obtained from sunlight exposure &\ndietary intake. For diagnosis of vitamin D deficiency it is recommended to have clinical correlation with serum 25(OH)vitamin D, serum\ncalcium, serum PTH & serum alkaline phosphatase.\n3. During monitoring of oral vitamin D therapy- suggested testing of serum 25(OH)vitamin D is after 12 weeks or 3 mths of treatment.\nHowever, the required dosage of vitamin D supplements & time to achieve sufficient vitamin D levels show significant seasonal(especially\nwinter) & individual variability depending on age, body fat, sun exposure, physical activity, genetic factors(especially variable vitamin D\nreceptor responses), associated liver or renal disease, malabsorption syndromes and calcium or magnesium deficiency influencing the\nvitamin D metabolism Vitamin D toxicity is known but very rare.kindly correlate clinically, repeat with fresh sample if indicated.\n4. For diagnosis of vitamin D deficiency it is recommended to have clinical correlation with serum 25(OH)vitamin D and serum PTH.An inverse\nrelationship exists between PTH and 25(OH)D levels, Parathyroid hormone levels start to rise at 25(OH)D levels below 31 ng/mL & usually\ndecrease after the correction of vitamin D insufficiency.Thus, restoration of PTH and 25 (OH)D levels to normalcy after adequate vitamin D\nreplacement therapy is a useful monitoring strategy.\nReference Range in ng/mL\nLevel\n<10\nDeficiency (Severe)\n10-19.99\nDeficiency (Mild to Moderate)\n20-29.99\nInsufficiency\n30-99.99\nOptimum Level\n>100\nToxicity Possible\nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:46 PM\nReported\n: 01 Oct 2024 06:46 PM\nStatus\n: Final\nDEPARTMENT OF IMMUNOASSAY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 10 of 12\n\nAge\nTotal\u00a0T4\u00a0(\u00a0\u03bcg/dl)\n0 - 6 days\n11.8 - 22.6\n1w - 2w\n9.9 - 16.6\n1 - 4 months\n7.2 - 14.4\n4 months - 1 years\n7.8 - 16.5\n1 - 5 years\n7.3 - 15.0\n5 - 10 years\n6.4 - 13.3\n10 - 15 years\n5.6 - 11.7\n15 - 60 years (Male)\n4.6 - 10.5\n15 - 60 years (Female)\n5.5 - 11.0\n>60 years\n5.0 - 10.7\nAge\nTotal T3 (ng/dl)\n0 - 3 days\n100 - 740\n4 days -11 months\n105 - 245\n4 - 5 years\n105 - 269\n6 - 10 years\n94 - 241\n11 - 15 years\n82 - 213\n16 - 20 years\n80 - 210\n20 - 50 years\n70 - 204\n50 - 90 years\n40 - 181\nAge\nTSH\u00a0(\u03bclU/ml)\n0 - 4 days\n1 - 39.0\n5 days - 90 days\n1.7 - 9.1\n91 days - 20 years\n0.7 - 6.4\n21 - 54 years\n0.35 - 5.5\n>54 years\n0.5 - 8.9\nTFT (Thyroid Function Test) Total\nTriiodothyronine, Total (T3)\n(Serum,CMIA)\n147.00\nng/dL\n105-269\nThyroxine, Total (T4)\n(Serum,CMIA)\n7.04\nug/dL\n7.3-15.0\nTSH Ultra Sensitive\n(Serum,CMIA)\n1.89\n\u03bclU/ml\n0.7-6.4\nComment\nT3 or 3 5 3 triiodothyronine is a hormone synthesized and secreted from the thyroid gland, and formed by peripheral deiodination of thyroxine\n(T4). The determination of it in serum is essential in assessing thyroid functions. T3 is secreted by thyroid glands and circulates in the blood\nstream; mostly bound to the plasma protein, thyroxin binding globulin (TBG) and prealbumin and albumin.\nT4 or Thyroxine or 3,5,3,5-tetraiodothyronine is a hormone synthesized and secreted by the thyroid gland and plays an important role in\nregulating metabolism. In the peripheral tissues it act as a prohormone which is further metabolized to another most active thyroid hormone, tri-\niodothyronine (T3) and other inactive metabolites such as reverse T3.               \nTSH or Thyroid-stimulating hormone is a hormone synthesized and secreted by Pituitary gland. TSH is glycoprotein with two non-covalently\nbound alpha and beta subunits. The beta subunit of TSH is unique, which results in the specific biochemical and immunological properties of this\nhormone. The ability to quantitate circulating levels of TSH is important in evaluating thyroid function. It is especially useful in the differential\ndiagnosis of primary (thyroid) from secondary (pituitary) and tertiary (hypothalamus) hypothyroidism. \nReference Ranges for T3, T4 and TSH (Age Wise and During Pregnancy):\n     \nPregnancy Trimester\nTSH\u00a0(\u03bclU/ml)\nFirst Trimester\n0.10\u00a0\u2013\u00a02.5\nSecond Trimester\n0.20\u00a0\u2013\u00a03.0\nThird Trimester\n0.30\u00a0\u2013\u00a03.0\n \nwww.itdoseinfo.com\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 01 Oct 2024 06:46 PM\nReported\n: 01 Oct 2024 06:46 PM\nStatus\n: Final\nDEPARTMENT OF IMMUNOASSAY\nMediTest Obesity Screening Package\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 11 of 12\n\nTissue Transglutaminase Antibody IgA\n(Serum, ELISA)\n5.60\nU/mL\nNegative < 12\nBorderline 12-18\nPositive > 18\nInterpretation\nTissue Transglutaminase (tTG) test was performed by a solid phase enzyme immunoassay for the quantitative and qualitative detection of\nantibodies against neo-epitopes of tissue transglutaminase (tTG)  in human serum.\nClinical Significance\nGluten-sensitive enteropathy or celiac disease is characterized by atrophy of the small intestinal villi leading to a so-called flat mucosa. It is caused\nby a pathological intolerance to gliadin, the alcohol-soluble fraction of gluten in wheat, rye and barley. As celiac disease is caused by the uptake of\ngluten, consequently a gluten-free diet cures the disease completely and thus has to be maintained for life-time.\nDiagnosis of celiac disease is made by small intestinal biopsy (demonstrating flat mucosa) supported by serological markers. Antibodies against \ngliadin and anti-endomysial antibodies (EMA) are of major significance.\nThe diagnostic specificity  of tissue transglutaminase (tTG) antibodies for Celiac disease is 95 -100%. The diagnostic sensitivity of tissue\ntransglutaminase (tTG) antibodies for Celiac is 98 - 100%.\nwww.itdoseinfo.com\n            *** End Of Report ***\nMs. Vernica Sadh\n \n \n \n \n \n \nReferred By\n \nPatient Id\n: 012410010251\nCollected\n: 01 Oct 2024 05:48 PM\nAnalysed\n: 02 Oct 2024 02:35 PM\nReported\n: 02 Oct 2024 02:35 PM\nStatus\n: Final\nDEPARTMENT OF IMMUNOLOGY\nTest Name\nValue\nUnit\nBio Ref.Interval\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a07156319\nPanel : Meditest.in \n378/18, Delhi-Jaipur Expressway, NH-8,\nRajiv Chowk, Sector 11, Gurugram,122001\n9001290014\n: self\n2 Years/Female\nPage 12 of 12\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 19176,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-ANONYMOUS_1790521567_pdf_raw.json"
+}

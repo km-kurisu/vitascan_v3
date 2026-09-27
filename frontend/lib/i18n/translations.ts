@@ -144,6 +144,20 @@ export const translations: Record<Language, Record<string, string>> = {
     'results.recheckSubtitle':
       'to track improvement and make necessary adjustments.',
 
+    'results.modelVerdictTitle': 'Anemia Grader Verdict',
+    'results.modelVerdictSubtitle':
+      'Hybrid XGBoost cascade + heterogeneous GNN analysis',
+    'results.modelConfidence': 'Confidence',
+    'results.modelEtiology': 'Model Diagnosis',
+    'results.modelTopClass': 'Top Predicted Class',
+    'results.modelProbabilities': 'Blended Class Probabilities',
+    'results.modelBlendToggle': 'Model breakdown',
+    'results.modelXgbCascade': 'XGB Cascade',
+    'results.modelGnn': 'Hetero-GNN',
+    'results.modelBiomarkersUsed': 'Biomarkers used',
+    'results.modelComplete': 'All 9 biomarkers measured',
+    'results.modelImputed': '{n} biomarker(s) KNN-imputed',
+
     'severity.severe': 'Severe',
     'severity.moderate': 'Moderate',
     'severity.mild': 'Mild',
@@ -385,6 +399,20 @@ export const translations: Record<Language, Record<string, string>> = {
     'results.recheckTitle': '8–10 सप्ताह में पुनः जांच',
     'results.recheckSubtitle': 'सुधार पर नज़र रखने और आवश्यक समायोजन हेतु।',
 
+    'results.modelVerdictTitle': 'एनीमिया ग्रेडर निर्णय',
+    'results.modelVerdictSubtitle':
+      'हाइब्रिड XGBoost कैस्केड + विषम GNN विश्लेषण',
+    'results.modelConfidence': 'विश्वास',
+    'results.modelEtiology': 'मॉडल निदान',
+    'results.modelTopClass': 'शीर्ष अनुमानित वर्ग',
+    'results.modelProbabilities': 'मिश्रित वर्ग संभावनाएँ',
+    'results.modelBlendToggle': 'मॉडल विवरण',
+    'results.modelXgbCascade': 'XGB कैस्केड',
+    'results.modelGnn': 'हेटेरो-GNN',
+    'results.modelBiomarkersUsed': 'उपयोग किए गए बायोमार्कर',
+    'results.modelComplete': 'सभी 9 बायोमार्कर मापे गए',
+    'results.modelImputed': '{n} बायोमार्कर KNN-इम्प्यूट किए गए',
+
     'severity.severe': 'गंभीर',
     'severity.moderate': 'मध्यम',
     'severity.mild': 'हल्की',
@@ -625,6 +653,20 @@ export const translations: Record<Language, Record<string, string>> = {
     'results.fbAvoid': 'जेवणानंतर लगेच चहा/कॉफी टाळा.',
     'results.recheckTitle': '8–10 आठवड्यांत पुन्हा तपासणी',
     'results.recheckSubtitle': 'सुधारावर लक्ष ठेवण्यासाठी व आवश्यक बदलांसाठी.',
+
+    'results.modelVerdictTitle': 'अ‍ॅनिमिया ग्रेडर निर्णय',
+    'results.modelVerdictSubtitle':
+      'हायब्रिड XGBoost कॅस्केड + विषम GNN विश्लेषण',
+    'results.modelConfidence': 'विश्वास',
+    'results.modelEtiology': 'मॉडेल निदान',
+    'results.modelTopClass': 'सर्वोच्च अंदाजित वर्ग',
+    'results.modelProbabilities': 'मिश्रित वर्ग संभाव्यता',
+    'results.modelBlendToggle': 'मॉडेल तपशील',
+    'results.modelXgbCascade': 'XGB कॅस्केड',
+    'results.modelGnn': 'हेटेरो-GNN',
+    'results.modelBiomarkersUsed': 'वापरलेले बायोमार्कर',
+    'results.modelComplete': 'सर्व 9 बायोमार्कर मोजले',
+    'results.modelImputed': '{n} बायोमार्कर KNN-इम्प्यूट केले',
 
     'severity.severe': 'गंभीर',
     'severity.moderate': 'मध्यम',

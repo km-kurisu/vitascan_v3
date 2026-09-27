@@ -1,0 +1,39 @@
+{
+  "decision_code": 4,
+  "etiology": "Grey Zone Triage",
+  "na_count": 0,
+  "complete_input": true,
+  "proba": {
+    "No Anemia": 0.1538,
+    "IDA": 0.4911,
+    "B12 Deficiency": 0.3393,
+    "Folate Deficiency": 0.0158
+  },
+  "proba_xgb": {
+    "No Anemia": 0.0026,
+    "IDA": 0.332,
+    "B12 Deficiency": 0.664,
+    "Folate Deficiency": 0.0014
+  },
+  "proba_gnn": {
+    "No Anemia": 0.3049,
+    "IDA": 0.6501,
+    "B12 Deficiency": 0.0147,
+    "Folate Deficiency": 0.0303
+  },
+  "alpha": 0.5,
+  "imputed_features": {
+    "hemoglobin": 12.3,
+    "mcv": 88.7,
+    "rdw": 15.1,
+    "ferritin": 24.6,
+    "b12": 208.0,
+    "folate": 5.1,
+    "rbc": 4.58,
+    "mch": 26.9,
+    "mchc": 30.3,
+    "srivastava_index": 5.8734,
+    "mentzer_index": 19.3668,
+    "cell_hb_density": 8.1507
+  }
+}

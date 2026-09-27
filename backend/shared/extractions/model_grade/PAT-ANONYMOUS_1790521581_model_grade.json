@@ -1,0 +1,62 @@
+{
+  "decision_code": 1,
+  "etiology": "IDA",
+  "na_count": 3,
+  "complete_input": false,
+  "proba": {
+    "No Anemia": 0.2604,
+    "IDA": 0.6024,
+    "B12 Deficiency": 0.0841,
+    "Folate Deficiency": 0.0531
+  },
+  "proba_xgb": {
+    "No Anemia": 0.0011,
+    "IDA": 0.9986,
+    "B12 Deficiency": 0.0,
+    "Folate Deficiency": 0.0003
+  },
+  "proba_gnn": {
+    "No Anemia": 0.5197,
+    "IDA": 0.2061,
+    "B12 Deficiency": 0.1682,
+    "Folate Deficiency": 0.106
+  },
+  "alpha": 0.5,
+  "imputed_features": {
+    "hemoglobin": 11.9,
+    "mcv": 79.3,
+    "rdw": 13.5,
+    "ferritin": 10.09,
+    "b12": 330.6272,
+    "folate": 11.0297,
+    "rbc": 3.6092,
+    "mch": 26.3,
+    "mchc": 33.1,
+    "srivastava_index": 7.6123,
+    "mentzer_index": 21.6216,
+    "cell_hb_density": 8.7053
+  },
+  "patient_id": "PAT-ANONYMOUS",
+  "model_confidence": 0.602,
+  "model_input": {
+    "hemoglobin": 11.9,
+    "mcv": 79.3,
+    "rdw": 13.5,
+    "ferritin": 10.09,
+    "b12": null,
+    "folate": null,
+    "rbc": null,
+    "mch": 26.3,
+    "mchc": 33.1
+  },
+  "severity_overlay": {
+    "iron": {
+      "band": "moderate",
+      "score": 0.72
+    },
+    "anemia": {
+      "band": "moderate",
+      "score": 0.75
+    }
+  }
+}

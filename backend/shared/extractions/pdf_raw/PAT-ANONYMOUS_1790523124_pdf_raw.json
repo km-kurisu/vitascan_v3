@@ -1,0 +1,269 @@
+{
+  "filename": "IND-04-MEGALOBLASTIC-B12-MALE.pdf",
+  "patient_id": "PAT-ANONYMOUS",
+  "patient_details": {
+    "patient_id": "PAT-ANONYMOUS",
+    "name": null,
+    "age": null,
+    "gender": "Male",
+    "date": "034/09/2026",
+    "lab_id": "PAT-ANONYMOUS",
+    "referred_by": "Dr. S"
+  },
+  "age": null,
+  "gender": "Male",
+  "biomarkers": {
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 132.5,
+      "raw_value": 132.5,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "source_span": "Ferritin                          132.5 ng/mL"
+    },
+    "iron": {
+      "canonical_name": "Serum Iron",
+      "value": 141.7,
+      "raw_value": 141.7,
+      "unit": "ug/dL",
+      "ref_range": "60.0 - 170.0",
+      "source_span": "Serum Iron                              141.7 ug/dL"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 1.9,
+      "raw_value": 1.9,
+      "unit": "lac/mm",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count                          1.9 lac/mm"
+    },
+    "vs2026": {
+      "canonical_name": "Vs2026",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "VS2026-004"
+    },
+    "034_09_2026": {
+      "canonical_name": "034/09/2026",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "034/09/2026-004"
+    },
+    "05_sep_2026_08": {
+      "canonical_name": "05/Sep/2026 08",
+      "value": 12.0,
+      "raw_value": 12.0,
+      "unit": "AM",
+      "ref_range": "N/A",
+      "source_span": "05/Sep/2026 08:12 AM"
+    },
+    "06_sep_2026_04": {
+      "canonical_name": "06/Sep/2026 04",
+      "value": 45.0,
+      "raw_value": 45.0,
+      "unit": "PM",
+      "ref_range": "N/A",
+      "source_span": "06/Sep/2026 04:45 PM"
+    },
+    "hemoglobin_hb": {
+      "canonical_name": "Hemoglobin (Hb)",
+      "value": 10.1,
+      "raw_value": 10.1,
+      "unit": "g/dL",
+      "ref_range": "13.0 - 17.0",
+      "source_span": "Hemoglobin (Hb)                         10.1 g/dL                 (13.0 - 17.0)   L"
+    },
+    "packed_cell_volume_pcv": {
+      "canonical_name": "Packed Cell Volume (Pcv)",
+      "value": 30.7,
+      "raw_value": 30.7,
+      "unit": "%",
+      "ref_range": "40.0 - 50.0",
+      "source_span": "Packed Cell Volume (PCV)                30.7 %                    (40.0 - 50.0)   L"
+    },
+    "total_rbc_count": {
+      "canonical_name": "Total Rbc Count",
+      "value": 2.92,
+      "raw_value": 2.92,
+      "unit": "million/cmm",
+      "ref_range": "4.5 - 5.5",
+      "source_span": "Total RBC Count                         2.92 million/cmm          (4.5 - 5.5)   L"
+    },
+    "mean_corpuscular_volume_mcv": {
+      "canonical_name": "Mean Corpuscular Volume (Mcv)",
+      "value": 105.2,
+      "raw_value": 105.2,
+      "unit": "fL",
+      "ref_range": "83.0 - 101.0",
+      "source_span": "Mean Corpuscular Volume (MCV)           105.2 fL                  (83.0 - 101.0)   H"
+    },
+    "mean_corpuscular_hemoglobin_mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (Mch)",
+      "value": 34.6,
+      "raw_value": 34.6,
+      "unit": "pg",
+      "ref_range": "27.0 - 32.0",
+      "source_span": "Mean Corpuscular Hemoglobin (MCH)       34.6 pg                   (27.0 - 32.0)   H"
+    },
+    "mchc_mean_corpuscular_hb": {
+      "canonical_name": "Mchc (Mean Corpuscular Hb)",
+      "value": 32.9,
+      "raw_value": 32.9,
+      "unit": "g/dL",
+      "ref_range": "31.5 - 34.5",
+      "source_span": "MCHC (Mean Corpuscular Hb)              32.9 g/dL                 (31.5 - 34.5)"
+    },
+    "rdw_cv": {
+      "canonical_name": "Rdw (Cv)",
+      "value": 16.9,
+      "raw_value": 16.9,
+      "unit": "%",
+      "ref_range": "11.6 - 14.0",
+      "source_span": "RDW (CV)                                16.9 %                    (11.6 - 14.0)   H"
+    },
+    "total_leucocyte_count_tlc": {
+      "canonical_name": "Total Leucocyte Count (Tlc)",
+      "value": 5.6,
+      "raw_value": 5.6,
+      "unit": "thousand/mm",
+      "ref_range": "3",
+      "source_span": "Total Leucocyte Count (TLC)             5.6 thousand/mm3          (4.0 - 10.0)"
+    },
+    "platelet_count": {
+      "canonical_name": "Platelet Count",
+      "value": 1.9,
+      "raw_value": 1.9,
+      "unit": "lac/mm",
+      "ref_range": "3",
+      "source_span": "Platelet Count                          1.9 lac/mm3               (1.5 - 4.5)"
+    },
+    "serum_ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 132.5,
+      "raw_value": 132.5,
+      "unit": "ng/mL",
+      "ref_range": "22.0 - 322.0",
+      "source_span": "Serum Ferritin                          132.5 ng/mL               (22.0 - 322.0)"
+    },
+    "serum_iron": {
+      "canonical_name": "Serum Iron",
+      "value": 141.7,
+      "raw_value": 141.7,
+      "unit": "ug/dL",
+      "ref_range": "50.0 - 170.0",
+      "source_span": "Serum Iron                              141.7 ug/dL               (50.0 - 170.0)"
+    },
+    "total_iron_binding_capacity_tibc": {
+      "canonical_name": "Total Iron Binding Capacity (Tibc)",
+      "value": 286.3,
+      "raw_value": 286.3,
+      "unit": "ug/dL",
+      "ref_range": "250.0 - 400.0",
+      "source_span": "Total Iron Binding Capacity (TIBC)      286.3 ug/dL               (250.0 - 400.0)"
+    },
+    "vitamin_b12_cyanocobalamin": {
+      "canonical_name": "Vitamin B12 (Cyanocobalamin)",
+      "value": 84.0,
+      "raw_value": 84.0,
+      "unit": "pg/mL",
+      "ref_range": "197.0 - 771.0",
+      "source_span": "Vitamin B12 (Cyanocobalamin)            84.0 pg/mL                (197.0 - 771.0)   L"
+    }
+  },
+  "labs": {
+    "Serum Ferritin": {
+      "value": "132.5",
+      "unit": "ng/mL",
+      "ref_range": "22.0 - 322.0"
+    },
+    "Serum Iron": {
+      "value": "141.7",
+      "unit": "ug/dL",
+      "ref_range": "50.0 - 170.0"
+    },
+    "Platelet Count": {
+      "value": "1.9",
+      "unit": "lac/mm",
+      "ref_range": "3"
+    },
+    "Vs2026": {
+      "value": "4.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "034/09/2026": {
+      "value": "4.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "05/Sep/2026 08": {
+      "value": "12.0",
+      "unit": "AM",
+      "ref_range": "N/A"
+    },
+    "06/Sep/2026 04": {
+      "value": "45.0",
+      "unit": "PM",
+      "ref_range": "N/A"
+    },
+    "Hemoglobin (Hb)": {
+      "value": "10.1",
+      "unit": "g/dL",
+      "ref_range": "13.0 - 17.0"
+    },
+    "Packed Cell Volume (Pcv)": {
+      "value": "30.7",
+      "unit": "%",
+      "ref_range": "40.0 - 50.0"
+    },
+    "Total Rbc Count": {
+      "value": "2.92",
+      "unit": "million/cmm",
+      "ref_range": "4.5 - 5.5"
+    },
+    "Mean Corpuscular Volume (Mcv)": {
+      "value": "105.2",
+      "unit": "fL",
+      "ref_range": "83.0 - 101.0"
+    },
+    "Mean Corpuscular Hemoglobin (Mch)": {
+      "value": "34.6",
+      "unit": "pg",
+      "ref_range": "27.0 - 32.0"
+    },
+    "Mchc (Mean Corpuscular Hb)": {
+      "value": "32.9",
+      "unit": "g/dL",
+      "ref_range": "31.5 - 34.5"
+    },
+    "Rdw (Cv)": {
+      "value": "16.9",
+      "unit": "%",
+      "ref_range": "11.6 - 14.0"
+    },
+    "Total Leucocyte Count (Tlc)": {
+      "value": "5.6",
+      "unit": "thousand/mm",
+      "ref_range": "3"
+    },
+    "Total Iron Binding Capacity (Tibc)": {
+      "value": "286.3",
+      "unit": "ug/dL",
+      "ref_range": "250.0 - 400.0"
+    },
+    "Vitamin B12 (Cyanocobalamin)": {
+      "value": "84.0",
+      "unit": "pg/mL",
+      "ref_range": "197.0 - 771.0"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "VitaScan Reference Laboratory\nNABL Accredited Laboratory: NABL-AB-2026-XXXX \u00a0|\u00a0 Plot 14, Sector 18, New Delhi - 110001, India\nCLINICAL LABORATORY REPORT\nPanel: Anaemia Profile (Nutritional) - see results below\nPatient\nArjun Pillai\nAge / Gender\n41 Y/Male\nPatient ID\nVS2026-004\nReferred By\nDr. S. Reddy\nLab No\n034/09/2026-004\nBarcode\n10139004\nSample\nWhole Blood (EDTA) / Serum\nVisit Type\nRoutine / OPD\nCollected\n05/Sep/2026 08:12 AM\nReported\n06/Sep/2026 04:45 PM\nTEST NAME RESULT & UNIT BIOLOGICAL REFERENCE INTERVAL FLAG\nCOMPLETE BLOOD COUNT (CBC)\nHemoglobin (Hb)                         10.1 g/dL                 (13.0 - 17.0)   L\nPacked Cell Volume (PCV)                30.7 %                    (40.0 - 50.0)   L\nTotal RBC Count                         2.92 million/cmm          (4.5 - 5.5)   L\nMean Corpuscular Volume (MCV)           105.2 fL                  (83.0 - 101.0)   H\nMean Corpuscular Hemoglobin (MCH)       34.6 pg                   (27.0 - 32.0)   H\nMCHC (Mean Corpuscular Hb)              32.9 g/dL                 (31.5 - 34.5)\nRDW (CV)                                16.9 %                    (11.6 - 14.0)   H\nTotal Leucocyte Count (TLC)             5.6 thousand/mm3          (4.0 - 10.0)\nPlatelet Count                          1.9 lac/mm3               (1.5 - 4.5)\nIRON STUDIES\nSerum Ferritin                          132.5 ng/mL               (22.0 - 322.0)\nSerum Iron                              141.7 ug/dL               (50.0 - 170.0)\nTotal Iron Binding Capacity (TIBC)      286.3 ug/dL               (250.0 - 400.0)\nTransferrin Saturation (%)              49.5 %                    (14.0 - 50.0)\nNUTRITIONAL VITAMINS\nVitamin B12 (Cyanocobalamin)            84.0 pg/mL                (197.0 - 771.0)   L\nFolic Acid (Folate) - Serum             11.4 ng/mL                (3.89 - 26.8)\nRemarks: SYNTHETIC REPORT generated for VitaScan pipeline testing. Not a real patient and not for clinical use. Provenance for each scenario is recorded in\nMANIFEST.json.\nVitaScan Reference Laboratory\nNABL No: NABL-AB-2026-XXXX\nDr. A. Sharma, MD Pathology\nConsultant Pathologist\nElectronically verified\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 2114,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-ANONYMOUS_1790523124_pdf_raw.json"
+}

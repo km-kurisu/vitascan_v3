@@ -1,0 +1,879 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "105": {
+      "canonical_name": "105 -",
+      "value": 245.0,
+      "raw_value": 245.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "105 - 245",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "alt": {
+      "canonical_name": "Alanine Transaminase (ALT / SGPT)",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "U/L",
+      "ref_range": "7.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "SGPT (ALT), Serum: 5.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "5_days": {
+      "canonical_name": "5 Days -",
+      "value": 90.0,
+      "raw_value": 90.0,
+      "unit": "days",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "5 days - 90 days",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "21": {
+      "canonical_name": "21 -",
+      "value": 54.0,
+      "raw_value": 54.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "21 - 54 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "relationship_exists_between_pth_and": {
+      "canonical_name": "Relationship Exists Between Pth And",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "5",
+      "confidence": 0.9,
+      "source_span": "relationship exists between PTH and 25(OH)D levels, Parathyroid hormone levels start to rise at 25(OH)D levels below 31 ng/mL & usually",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "50": {
+      "canonical_name": "50 -",
+      "value": 90.0,
+      "raw_value": 90.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "50 - 90 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "women",
+      "value": "women",
+      "unit": "",
+      "confidence": 0.74,
+      "source": "gliner",
+      "source_span": "women",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "82": {
+      "canonical_name": "82 -",
+      "value": 213.0,
+      "raw_value": 213.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "82 - 213",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.9,
+      "raw_value": 11.9,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Haemoglobin (Hb): 11.9 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 33.1,
+      "raw_value": 33.1,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC: 33.1 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "raw_value": "BUN",
+      "value": "BUN",
+      "unit": "",
+      "confidence": 0.59,
+      "source": "gliner",
+      "source_span": "BUN",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "40": {
+      "canonical_name": "40 -",
+      "value": 181.0,
+      "raw_value": 181.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "40 - 181",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "10": {
+      "canonical_name": "10 -",
+      "value": 15.0,
+      "raw_value": 15.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "10 - 15 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "potassium": {
+      "canonical_name": "Serum Potassium",
+      "value": 4.3,
+      "raw_value": 4.3,
+      "unit": "mEq/L",
+      "ref_range": "3.5 - 5.0",
+      "confidence": 0.95,
+      "source_span": "Potassium, Serum: 4.3 mEq/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "130": {
+      "canonical_name": "130",
+      "value": 159.0,
+      "raw_value": 159.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "130-159",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "4_days": {
+      "canonical_name": "4 Days",
+      "value": 11.0,
+      "raw_value": 11.0,
+      "unit": "months",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "4 days -11 months",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "creatinine": {
+      "canonical_name": "Serum Creatinine",
+      "value": 0.52,
+      "raw_value": 0.52,
+      "unit": "mg/dL",
+      "ref_range": "0.5 - 1.2",
+      "confidence": 0.95,
+      "source_span": "Creatinine: 0.52 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "positive": {
+      "canonical_name": "Positive",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Positive > 18",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "at_risk_pre_diabetic": {
+      "canonical_name": "At Risk (Pre-Diabetic)",
+      "value": 5.7,
+      "raw_value": 5.7,
+      "unit": "",
+      "ref_range": "- 6.4",
+      "confidence": 0.9,
+      "source_span": "At risk (Pre-Diabetic) : 5.7- 6.4                                                                     Ages 6-12 years: <8%",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count: 4.0 cells/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "11": {
+      "canonical_name": "11 -",
+      "value": 15.0,
+      "raw_value": 15.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "11 - 15 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 4.53,
+      "raw_value": 4.53,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC Count: 4.53 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "190": {
+      "canonical_name": "190",
+      "value": 219.0,
+      "raw_value": 219.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "190-219",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "cholesterol": {
+      "canonical_name": "Cholesterol",
+      "raw_value": "Cholesterol",
+      "value": "Cholesterol",
+      "unit": "",
+      "confidence": 0.73,
+      "source": "gliner",
+      "source_span": "Cholesterol",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "urea": {
+      "canonical_name": "Blood Urea",
+      "value": 15.4,
+      "raw_value": 15.4,
+      "unit": "mg/dL",
+      "ref_range": "7.0 - 20.0",
+      "confidence": 0.95,
+      "source_span": "Blood Urea Nitrogen (BUN): 15.4 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "sugar_test_after_consumption_of": {
+      "canonical_name": "Sugar Test (After Consumption Of",
+      "value": 75.0,
+      "raw_value": 75.0,
+      "unit": "gm",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "sugar test (after consumption of 75 gm of glucose) is recommended for all such patients.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "16": {
+      "canonical_name": "16 -",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "16 - 20 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "94": {
+      "canonical_name": "94 -",
+      "value": 241.0,
+      "raw_value": 241.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "94 - 241",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "13-19 years",
+      "value": "13-19 years",
+      "unit": "",
+      "confidence": 0.66,
+      "source": "gliner",
+      "source_span": "13-19 years",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "200": {
+      "canonical_name": "200",
+      "value": 239.0,
+      "raw_value": 239.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "200-239",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "73": {
+      "canonical_name": "73 -",
+      "value": 140.0,
+      "raw_value": 140.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "73 - 140",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "80": {
+      "canonical_name": "80 -",
+      "value": 210.0,
+      "raw_value": 210.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "80 - 210",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "t3_or_3_5": {
+      "canonical_name": "T3 Or 3 5",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "triiodothyronine",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "T3 or 3 5 3 triiodothyronine is a hormone synthesized and secreted from the thyroid gland, and formed by peripheral deiodination of thyroxine",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "sodium": {
+      "canonical_name": "Serum Sodium",
+      "value": 138.0,
+      "raw_value": 138.0,
+      "unit": "mEq/L",
+      "ref_range": "135.0 - 145.0",
+      "confidence": 0.95,
+      "source_span": "Sodium, Serum: 138.0 mEq/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "70": {
+      "canonical_name": "70 -",
+      "value": 204.0,
+      "raw_value": 204.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "70 - 204",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 10.09,
+      "raw_value": 10.09,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "confidence": 0.95,
+      "source_span": "Ferritin: 10.09 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "160": {
+      "canonical_name": "160",
+      "value": 189.0,
+      "raw_value": 189.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "160-189",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hba1c": {
+      "canonical_name": "HbA1c",
+      "value": 4.8,
+      "raw_value": 4.8,
+      "unit": "%",
+      "ref_range": "4.0 - 5.7",
+      "confidence": 0.95,
+      "source_span": "HbA1c (Glycated Haemoglobin): 4.8 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "91_days": {
+      "canonical_name": "91 Days -",
+      "value": 20.0,
+      "raw_value": 20.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "91 days - 20 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "negative": {
+      "canonical_name": "Negative",
+      "value": 12.0,
+      "raw_value": 12.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Negative < 12",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "albumin": {
+      "canonical_name": "Serum Albumin",
+      "value": 4.59,
+      "raw_value": 4.59,
+      "unit": "g/dL",
+      "ref_range": "3.5 - 5.0",
+      "confidence": 0.95,
+      "source_span": "Albumin: 4.59 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "150": {
+      "canonical_name": "150",
+      "value": 199.0,
+      "raw_value": 199.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "150-199",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 40.6,
+      "raw_value": 40.6,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "RDW-SD: 40.6 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 26.3,
+      "raw_value": 26.3,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH: 26.3 pg",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "1w": {
+      "canonical_name": "1W -",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "w",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "1w - 2w",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hdl": {
+      "canonical_name": "HDL Cholesterol",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "mg/dL",
+      "ref_range": "40.0 - 90.0",
+      "confidence": 0.95,
+      "source_span": "HDL Cholesterol (mg/dL): 200.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "calcium": {
+      "canonical_name": "Serum Calcium",
+      "value": 9.7,
+      "raw_value": 9.7,
+      "unit": "mg/dL",
+      "ref_range": "8.5 - 10.5",
+      "confidence": 0.95,
+      "source_span": "Calcium, Serum: 9.7 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "tsh": {
+      "canonical_name": "Thyroid Stimulating Hormone (TSH)",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "uIU/mL",
+      "ref_range": "0.4 - 4.5",
+      "confidence": 0.95,
+      "source_span": "TSH\u00a0(\u03bclU/ml): 5.0 uIU/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "100": {
+      "canonical_name": "100",
+      "value": 129.0,
+      "raw_value": 129.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "100-129",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 79.3,
+      "raw_value": 79.3,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "MCV: 79.3 fL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "vitamin_d": {
+      "canonical_name": "Vitamin D (25-OH)",
+      "value": 14.5,
+      "raw_value": 14.5,
+      "unit": "ng/mL",
+      "ref_range": "30.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "Vitamin D, 25 Hydroxy: 14.5 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "20": {
+      "canonical_name": "20 -",
+      "value": 50.0,
+      "raw_value": 50.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "20 - 50 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "bilirubin": {
+      "canonical_name": "Total Bilirubin",
+      "value": 0.28,
+      "raw_value": 0.28,
+      "unit": "mg/dL",
+      "ref_range": "0.1 - 1.2",
+      "confidence": 0.95,
+      "source_span": "Bilirubin, Total: 0.28 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "ldl": {
+      "canonical_name": "LDL Cholesterol",
+      "value": 150.0,
+      "raw_value": 150.0,
+      "unit": "mg/dL",
+      "ref_range": "0.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "LDL Cholesterol (mg/dL): 150.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "5000": {
+      "canonical_name": "5000",
+      "value": 15000.0,
+      "raw_value": 15000.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "5000-15000",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "15": {
+      "canonical_name": "15 -",
+      "value": 60.0,
+      "raw_value": 60.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "15 - 60 years (Male)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "adults": {
+      "canonical_name": "Adults",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "%",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Adults: <7%",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "ergocalciferol_are_converted_to": {
+      "canonical_name": "Ergocalciferol Are Converted To",
+      "value": 2.0,
+      "raw_value": 2.0,
+      "unit": "",
+      "ref_range": "5",
+      "confidence": 0.9,
+      "source_span": "Ergocalciferol are converted to 25(OH)vitamin D in liver.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "borderline_12": {
+      "canonical_name": "Borderline 12",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Borderline 12-18",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "fasting_glucose": {
+      "canonical_name": "Fasting Glucose",
+      "raw_value": "HbA1c",
+      "value": "HbA1c",
+      "unit": "",
+      "confidence": 0.57,
+      "source": "gliner",
+      "source_span": "HbA1c",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "ast": {
+      "canonical_name": "Aspartate Transaminase (AST / SGOT)",
+      "value": 5.0,
+      "raw_value": 5.0,
+      "unit": "U/L",
+      "ref_range": "8.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "SGOT (AST), Serum: 5.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "4_months": {
+      "canonical_name": "4 Months -",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "years",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "4 months - 1 years",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "105 -": {
+      "value": "245.0",
+      "unit": ""
+    },
+    "Alanine Transaminase (ALT / SGPT)": {
+      "value": "5.0",
+      "unit": "U/L"
+    },
+    "5 Days -": {
+      "value": "90.0",
+      "unit": "days"
+    },
+    "21 -": {
+      "value": "54.0",
+      "unit": "years"
+    },
+    "Relationship Exists Between Pth And": {
+      "value": "2.0",
+      "unit": ""
+    },
+    "50 -": {
+      "value": "90.0",
+      "unit": "years"
+    },
+    "Gender": {
+      "value": "women",
+      "unit": ""
+    },
+    "82 -": {
+      "value": "213.0",
+      "unit": ""
+    },
+    "Hemoglobin": {
+      "value": "11.9",
+      "unit": "g/dL"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "33.1",
+      "unit": "g/dL"
+    },
+    "Vitamin B12": {
+      "value": "BUN",
+      "unit": ""
+    },
+    "40 -": {
+      "value": "181.0",
+      "unit": ""
+    },
+    "10 -": {
+      "value": "15.0",
+      "unit": "years"
+    },
+    "Serum Potassium": {
+      "value": "4.3",
+      "unit": "mEq/L"
+    },
+    "130": {
+      "value": "159.0",
+      "unit": ""
+    },
+    "4 Days": {
+      "value": "11.0",
+      "unit": "months"
+    },
+    "Serum Creatinine": {
+      "value": "0.52",
+      "unit": "mg/dL"
+    },
+    "Positive": {
+      "value": "18.0",
+      "unit": ""
+    },
+    "At Risk (Pre-Diabetic)": {
+      "value": "5.7",
+      "unit": ""
+    },
+    "Platelet Count": {
+      "value": "4.0",
+      "unit": "cells/uL"
+    },
+    "11 -": {
+      "value": "15.0",
+      "unit": "years"
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "4.53",
+      "unit": "million/uL"
+    },
+    "190": {
+      "value": "219.0",
+      "unit": ""
+    },
+    "Cholesterol": {
+      "value": "Cholesterol",
+      "unit": ""
+    },
+    "Blood Urea": {
+      "value": "15.4",
+      "unit": "mg/dL"
+    },
+    "Sugar Test (After Consumption Of": {
+      "value": "75.0",
+      "unit": "gm"
+    },
+    "16 -": {
+      "value": "20.0",
+      "unit": "years"
+    },
+    "94 -": {
+      "value": "241.0",
+      "unit": ""
+    },
+    "Age": {
+      "value": "13-19 years",
+      "unit": ""
+    },
+    "200": {
+      "value": "239.0",
+      "unit": ""
+    },
+    "73 -": {
+      "value": "140.0",
+      "unit": ""
+    },
+    "80 -": {
+      "value": "210.0",
+      "unit": ""
+    },
+    "T3 Or 3 5": {
+      "value": "3.0",
+      "unit": "triiodothyronine"
+    },
+    "Serum Sodium": {
+      "value": "138.0",
+      "unit": "mEq/L"
+    },
+    "70 -": {
+      "value": "204.0",
+      "unit": ""
+    },
+    "Serum Ferritin": {
+      "value": "10.09",
+      "unit": "ng/mL"
+    },
+    "160": {
+      "value": "189.0",
+      "unit": ""
+    },
+    "HbA1c": {
+      "value": "4.8",
+      "unit": "%"
+    },
+    "91 Days -": {
+      "value": "20.0",
+      "unit": "years"
+    },
+    "Negative": {
+      "value": "12.0",
+      "unit": ""
+    },
+    "Serum Albumin": {
+      "value": "4.59",
+      "unit": "g/dL"
+    },
+    "150": {
+      "value": "199.0",
+      "unit": ""
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "40.6",
+      "unit": "%"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "26.3",
+      "unit": "pg"
+    },
+    "1W -": {
+      "value": "2.0",
+      "unit": "w"
+    },
+    "HDL Cholesterol": {
+      "value": "200.0",
+      "unit": "mg/dL"
+    },
+    "Serum Calcium": {
+      "value": "9.7",
+      "unit": "mg/dL"
+    },
+    "Thyroid Stimulating Hormone (TSH)": {
+      "value": "5.0",
+      "unit": "uIU/mL"
+    },
+    "100": {
+      "value": "129.0",
+      "unit": ""
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "79.3",
+      "unit": "fL"
+    },
+    "Vitamin D (25-OH)": {
+      "value": "14.5",
+      "unit": "ng/mL"
+    },
+    "20 -": {
+      "value": "50.0",
+      "unit": "years"
+    },
+    "Total Bilirubin": {
+      "value": "0.28",
+      "unit": "mg/dL"
+    },
+    "LDL Cholesterol": {
+      "value": "150.0",
+      "unit": "mg/dL"
+    },
+    "5000": {
+      "value": "15000.0",
+      "unit": ""
+    },
+    "15 -": {
+      "value": "60.0",
+      "unit": "years"
+    },
+    "Adults": {
+      "value": "7.0",
+      "unit": "%"
+    },
+    "Ergocalciferol Are Converted To": {
+      "value": "2.0",
+      "unit": ""
+    },
+    "Borderline 12": {
+      "value": "18.0",
+      "unit": ""
+    },
+    "Fasting Glucose": {
+      "value": "HbA1c",
+      "unit": ""
+    },
+    "Aspartate Transaminase (AST / SGOT)": {
+      "value": "5.0",
+      "unit": "U/L"
+    },
+    "4 Months -": {
+      "value": "1.0",
+      "unit": "years"
+    }
+  },
+  "confidence_summary": 0.9,
+  "parse_confidence": 0.9,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

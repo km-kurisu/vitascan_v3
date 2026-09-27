@@ -1,0 +1,497 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "hdl": {
+      "canonical_name": "HDL Cholesterol",
+      "value": 44.0,
+      "raw_value": 44.0,
+      "unit": "mg/dL",
+      "ref_range": "40.0 - 90.0",
+      "confidence": 0.95,
+      "source_span": "HDL Cholesterol*: 44.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 25.0,
+      "raw_value": 25.0,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH\n25.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "ast": {
+      "canonical_name": "Aspartate Transaminase (AST / SGOT)",
+      "value": 35.0,
+      "raw_value": 35.0,
+      "unit": "U/L",
+      "ref_range": "8.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "AST (SGOT)*: 35.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "ldl": {
+      "canonical_name": "LDL Cholesterol",
+      "value": 136.0,
+      "raw_value": 136.0,
+      "unit": "mg/dL",
+      "ref_range": "0.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "LDL Cholesterol, Calculated: 136.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 11.1,
+      "raw_value": 11.1,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "Red Cell Distribution Width (RDW): 11.1 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "creatinine": {
+      "canonical_name": "Serum Creatinine",
+      "value": 5.01,
+      "raw_value": 5.01,
+      "unit": "mg/dL",
+      "ref_range": "0.5 - 1.2",
+      "confidence": 0.95,
+      "source_span": "Creatinine*: 5.01 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "bilirubin": {
+      "canonical_name": "Total Bilirubin",
+      "value": 0.1,
+      "raw_value": 0.1,
+      "unit": "mg/dL",
+      "ref_range": "0.1 - 1.2",
+      "confidence": 0.95,
+      "source_span": "Bilirubin  Total*: 0.1 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "tsh": {
+      "canonical_name": "Thyroid Stimulating Hormone (TSH)",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "uIU/mL",
+      "ref_range": "0.4 - 4.5",
+      "confidence": 0.95,
+      "source_span": "TSH*: 1.0 uIU/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "cholesterol": {
+      "canonical_name": "Total Cholesterol",
+      "value": 195.0,
+      "raw_value": 195.0,
+      "unit": "mg/dL",
+      "ref_range": "125.0 - 200.0",
+      "confidence": 0.95,
+      "source_span": "Cholesterol, Total*: 195.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "vitamin_d": {
+      "canonical_name": "Vitamin D (25-OH)",
+      "value": 25.0,
+      "raw_value": 25.0,
+      "unit": "ng/mL",
+      "ref_range": "30.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "vitamin D 25 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "homocysteine": {
+      "canonical_name": "Homocysteine",
+      "raw_value": "homocysteine",
+      "value": "homocysteine",
+      "unit": "",
+      "confidence": 0.71,
+      "source": "gliner",
+      "source_span": "homocysteine",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 170.0,
+      "raw_value": 170.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count\n170.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 77.0,
+      "raw_value": 77.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "MCV\n77.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "sodium": {
+      "canonical_name": "Serum Sodium",
+      "value": 4.34,
+      "raw_value": 4.34,
+      "unit": "mEq/L",
+      "ref_range": "135.0 - 145.0",
+      "confidence": 0.95,
+      "source_span": "Sodium*: 4.34 mEq/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "triglycerides": {
+      "canonical_name": "Triglycerides",
+      "value": 75.0,
+      "raw_value": 75.0,
+      "unit": "mg/dL",
+      "ref_range": "35.0 - 150.0",
+      "confidence": 0.95,
+      "source_span": "Triglycerides*: 75.0 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 4.89,
+      "raw_value": 4.89,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC Count: 4.89 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "urea": {
+      "canonical_name": "Blood Urea",
+      "value": 0.43,
+      "raw_value": 0.43,
+      "unit": "mg/dL",
+      "ref_range": "7.0 - 20.0",
+      "confidence": 0.95,
+      "source_span": "Urea*: 0.43 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "29_8_2021_2": {
+      "canonical_name": "29/8/2021  2",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "",
+      "ref_range": "36",
+      "confidence": 0.9,
+      "source_span": "29/8/2021  2:03:36PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "potassium": {
+      "canonical_name": "Serum Potassium",
+      "value": 104.0,
+      "raw_value": 104.0,
+      "unit": "mEq/L",
+      "ref_range": "3.5 - 5.0",
+      "confidence": 0.95,
+      "source_span": "Potassium*: 104.0 mEq/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "swasthfit_super": {
+      "canonical_name": "Swasthfit Super",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "SwasthFit Super 4",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Female",
+      "value": "Female",
+      "unit": "",
+      "confidence": 0.57,
+      "source": "gliner",
+      "source_span": "Female",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "calcium": {
+      "canonical_name": "Serum Calcium",
+      "value": 4.27,
+      "raw_value": 4.27,
+      "unit": "mg/dL",
+      "ref_range": "8.5 - 10.5",
+      "confidence": 0.95,
+      "source_span": "Calcium, Total*: 4.27 mg/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "Age",
+      "value": "Age",
+      "unit": "",
+      "confidence": 0.7,
+      "source": "gliner",
+      "source_span": "Age",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.5,
+      "raw_value": 11.5,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin\n11.50 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "hba1c": {
+      "canonical_name": "HbA1c",
+      "value": 5.8,
+      "raw_value": 5.8,
+      "unit": "%",
+      "ref_range": "4.0 - 5.7",
+      "confidence": 0.95,
+      "source_span": "HbA1c\n5.8\n%",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "alt": {
+      "canonical_name": "Alanine Transaminase (ALT / SGPT)",
+      "value": 35.0,
+      "raw_value": 35.0,
+      "unit": "U/L",
+      "ref_range": "7.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "ALT (SGPT)*: 35.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "albumin": {
+      "canonical_name": "Serum Albumin",
+      "value": 1.35,
+      "raw_value": 1.35,
+      "unit": "g/dL",
+      "ref_range": "3.5 - 5.0",
+      "confidence": 0.95,
+      "source_span": "Albumin*: 1.35 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "raw_value": "Vitamin B12",
+      "value": "Vitamin B12",
+      "unit": "",
+      "confidence": 0.81,
+      "source": "gliner",
+      "source_span": "Vitamin B12",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "b12": {
+      "canonical_name": "Vitamin B12",
+      "value": 357.0,
+      "raw_value": 357.0,
+      "unit": "pg/mL",
+      "ref_range": "200.0 - 900.0",
+      "confidence": 0.95,
+      "source_span": "VITAMIN B12; CYANOCOBALAMIN, SERUM*: 357.0 pg/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "69": {
+      "canonical_name": "69 -",
+      "value": 325.0,
+      "raw_value": 325.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "69 - 325",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "note": {
+      "canonical_name": "Note",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "Normal",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Note: 1. Normal levels of IgE do not rule out possibility of IgE dependent allergies as the diagnostic",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "values": {
+      "canonical_name": "Values",
+      "value": 0.03,
+      "raw_value": 0.03,
+      "unit": "uIU/mL",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Values <0.03 uIU/mL need to be clinically correlated due to presence of a rare TSH   variant in",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "28_8_2021_1": {
+      "canonical_name": "28/8/2021   1",
+      "value": 55.0,
+      "raw_value": 55.0,
+      "unit": "",
+      "ref_range": "00",
+      "confidence": 0.9,
+      "source_span": "28/8/2021   1:55:00PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 31.0,
+      "raw_value": 31.0,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC\n31.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "28_8_2021_2": {
+      "canonical_name": "28/8/2021   2",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "",
+      "ref_range": "26",
+      "confidence": 0.9,
+      "source_span": "28/8/2021   2:18:26PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "HDL Cholesterol": {
+      "value": "44.0",
+      "unit": "mg/dL"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "25.0",
+      "unit": "pg"
+    },
+    "Aspartate Transaminase (AST / SGOT)": {
+      "value": "35.0",
+      "unit": "U/L"
+    },
+    "LDL Cholesterol": {
+      "value": "136.0",
+      "unit": "mg/dL"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "11.1",
+      "unit": "%"
+    },
+    "Serum Creatinine": {
+      "value": "5.01",
+      "unit": "mg/dL"
+    },
+    "Total Bilirubin": {
+      "value": "0.1",
+      "unit": "mg/dL"
+    },
+    "Thyroid Stimulating Hormone (TSH)": {
+      "value": "1.0",
+      "unit": "uIU/mL"
+    },
+    "Total Cholesterol": {
+      "value": "195.0",
+      "unit": "mg/dL"
+    },
+    "Vitamin D (25-OH)": {
+      "value": "25.0",
+      "unit": "ng/mL"
+    },
+    "Homocysteine": {
+      "value": "homocysteine",
+      "unit": ""
+    },
+    "Platelet Count": {
+      "value": "170.0",
+      "unit": "cells/uL"
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "77.0",
+      "unit": "fL"
+    },
+    "Serum Sodium": {
+      "value": "4.34",
+      "unit": "mEq/L"
+    },
+    "Triglycerides": {
+      "value": "75.0",
+      "unit": "mg/dL"
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "4.89",
+      "unit": "million/uL"
+    },
+    "Blood Urea": {
+      "value": "0.43",
+      "unit": "mg/dL"
+    },
+    "29/8/2021  2": {
+      "value": "3.0",
+      "unit": ""
+    },
+    "Serum Potassium": {
+      "value": "104.0",
+      "unit": "mEq/L"
+    },
+    "Swasthfit Super": {
+      "value": "4.0",
+      "unit": ""
+    },
+    "Gender": {
+      "value": "Female",
+      "unit": ""
+    },
+    "Serum Calcium": {
+      "value": "4.27",
+      "unit": "mg/dL"
+    },
+    "Age": {
+      "value": "Age",
+      "unit": ""
+    },
+    "Hemoglobin": {
+      "value": "11.5",
+      "unit": "g/dL"
+    },
+    "HbA1c": {
+      "value": "5.8",
+      "unit": "%"
+    },
+    "Alanine Transaminase (ALT / SGPT)": {
+      "value": "35.0",
+      "unit": "U/L"
+    },
+    "Serum Albumin": {
+      "value": "1.35",
+      "unit": "g/dL"
+    },
+    "Vitamin B12": {
+      "value": "357.0",
+      "unit": "pg/mL"
+    },
+    "69 -": {
+      "value": "325.0",
+      "unit": ""
+    },
+    "Note": {
+      "value": "1.0",
+      "unit": "Normal"
+    },
+    "Values": {
+      "value": "0.03",
+      "unit": "uIU/mL"
+    },
+    "28/8/2021   1": {
+      "value": "55.0",
+      "unit": ""
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "31.0",
+      "unit": "g/dL"
+    },
+    "28/8/2021   2": {
+      "value": "18.0",
+      "unit": ""
+    }
+  },
+  "confidence_summary": 0.91,
+  "parse_confidence": 0.91,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

@@ -1,0 +1,193 @@
+{
+  "filename": "lalpathlabs_hemogram_1690361889.pdf",
+  "patient_id": "PAT-ANONYMOUS",
+  "patient_details": {
+    "patient_id": "PAT-ANONYMOUS",
+    "name": null,
+    "age": null,
+    "gender": "Female",
+    "date": "91-11-2788",
+    "lab_id": "PAT-ANONYMOUS",
+    "referred_by": "Dr.ShavetaDhiman"
+  },
+  "age": null,
+  "gender": "Female",
+  "biomarkers": {
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.1,
+      "raw_value": 11.1,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "source_span": "Hemoglobin\n11.10 "
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count\n200.00 "
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 72.0,
+      "raw_value": 72.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "source_span": "MCV\n72.00 "
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 25.0,
+      "raw_value": 25.0,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "source_span": "MCH\n25.00 "
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 32.0,
+      "raw_value": 32.0,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "source_span": "MCHC\n32.00 "
+    },
+    "tsh": {
+      "canonical_name": "Thyroid Stimulating Hormone (TSH)",
+      "value": 0.7,
+      "raw_value": 0.7,
+      "unit": "uIU/mL",
+      "ref_range": "0.4 - 4.5",
+      "source_span": "TSH\n0.70 "
+    },
+    "23_7_2023_11": {
+      "canonical_name": "23/7/2023  11",
+      "value": 55.0,
+      "raw_value": 55.0,
+      "unit": "",
+      "ref_range": "00",
+      "source_span": "23/7/2023  11:55:00AM"
+    },
+    "23_7_2023_5": {
+      "canonical_name": "23/7/2023  5",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "48",
+      "source_span": "23/7/2023  5:01:48PM"
+    },
+    "chandigarh": {
+      "canonical_name": "Chandigarh",
+      "value": 160002.0,
+      "raw_value": 160002.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "Chandigarh-160002."
+    },
+    "values": {
+      "canonical_name": "Values",
+      "value": 0.03,
+      "raw_value": 0.03,
+      "unit": "uIU/mL",
+      "ref_range": "N/A",
+      "source_span": "Values <0.03 uIU/mL need to be clinically correlated due to presence of a rare TSH   variant in"
+    },
+    "begins_in_4": {
+      "canonical_name": "Begins In 4",
+      "value": 6.0,
+      "raw_value": 6.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "begins in 4-6 hrs, the intensity of the rise being  higher than ESR and the recovery being earlier than ESR."
+    },
+    "within": {
+      "canonical_name": "Within",
+      "value": 6.0,
+      "raw_value": 6.0,
+      "unit": "months",
+      "ref_range": ".",
+      "source_span": "within 6 months."
+    },
+    "antibiotic_treatment_during": {
+      "canonical_name": "Antibiotic Treatment During",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "st",
+      "ref_range": "N/A",
+      "source_span": "Antibiotic treatment during 1st week before the appearance of antibodies tend to supress the immune"
+    }
+  },
+  "labs": {
+    "Hemoglobin": {
+      "value": "11.1",
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5"
+    },
+    "Platelet Count": {
+      "value": "200.0",
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000"
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "72.0",
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "25.0",
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "32.0",
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0"
+    },
+    "Thyroid Stimulating Hormone (TSH)": {
+      "value": "0.7",
+      "unit": "uIU/mL",
+      "ref_range": "0.4 - 4.5"
+    },
+    "23/7/2023  11": {
+      "value": "55.0",
+      "unit": "",
+      "ref_range": "00"
+    },
+    "23/7/2023  5": {
+      "value": "1.0",
+      "unit": "",
+      "ref_range": "48"
+    },
+    "Chandigarh": {
+      "value": "160002.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Values": {
+      "value": "0.03",
+      "unit": "uIU/mL",
+      "ref_range": "N/A"
+    },
+    "Begins In 4": {
+      "value": "6.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Within": {
+      "value": "6.0",
+      "unit": "months",
+      "ref_range": "."
+    },
+    "Antibiotic Treatment During": {
+      "value": "1.0",
+      "unit": "st",
+      "ref_range": "N/A"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "Report Status    \nFemale\n1 Year\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n23/7/2023  11:55:00AM\nSELF\n433892468\n  SHIVANYA\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n23/7/2023  5:01:48PM\nFinal\nCollected at    :\nProcessed at      :\nZIRAKPUR CC5\nLPL-CHANDIGARH LAB\nPlot No. 17, Ground Floor, Industrial Area, \nPhase-1, Backside Citroen Showroom, \nChandigarh-160002.\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nHEMOGRAM\n(Photometry, electrical impedance, vcs technology, calculated & Photometrical capillary)\nHemoglobin\n 11.10 - 14.10 \ng/dL\n7.40\nPacked Cell Volume (PCV)\n 30.00 - 38.00 \n%\n25.40\nRBC Count\n 3.90 - 5.10 \nmill/mm3\n4.89\nMCV\n 72.00 - 84.00 \nfL\n52.10\nMCH\n 25.00 - 29.00 \npg\n15.10\nMCHC\n 32.00 - 36.00 \ng/dL\n29.00\nRed Cell Distribution Width (RDW)\n 12.3 - 17.0 \n%\n21.10\nTotal Leukocyte Count  (TLC)\n 6.00 - 16.00 \nthou/mm3\n6.40\nDifferential Leucocyte Count (DLC)\n 14.00 - 55.00 \nSegmented Neutrophils\n%\n45.70\n 37.00 - 79.00 \nLymphocytes\n%\n43.50\n 2.00 - 12.00 \nMonocytes\n%\n10.00\n 0.00 - 6.00 \nEosinophils\n%\n0.40\n 0.00 - 1.00 \nBasophils\n%\n0.40\nAbsolute Leucocyte Count\n 1.00 - 7.00 \nNeutrophils\nthou/mm3\n2.92\n 3.50 - 11.00 \nLymphocytes\nthou/mm3\n2.78\n 0.20 - 1.00 \nMonocytes\nthou/mm3\n0.64\n 0.10 - 1.00 \nEosinophils\nthou/mm3\n0.03\n 0.02 - 0.10 \nBasophils\nthou/mm3\n0.03\nPlatelet Count\n 200.00 - 550.00 \nthou/mm3\n452\nMean Platelet Volume\n 6.5 - 12.0 \nfL\n8.5\nE.S.R.\n 0.00 - 20.00 \nmm/hr\n10\n*433892468*\nPage 1 of 6\n\nReport Status    \nFemale\n1 Year\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n23/7/2023  11:55:00AM\nSELF\n433892468\n  SHIVANYA\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n23/7/2023  5:01:48PM\nFinal\nCollected at    :\nProcessed at      :\nZIRAKPUR CC5\nLPL-CHANDIGARH LAB\nPlot No. 17, Ground Floor, Industrial Area, \nPhase-1, Backside Citroen Showroom, \nChandigarh-160002.\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nAdvised: Hb HPLC to rule out Thalassemia Minor\nNote\n1. As per the recommendation of International council for Standardization in Hematology, the differential\n   leucocyte counts are additionally being reported as absolute numbers of each cell in per unit volume of\n   blood  \n                   \n2. Test conducted on EDTA whole blood\n*433892468*\nPage 2 of 6\n\nReport Status    \nFemale\n1 Year\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n23/7/2023  11:55:00AM\nSELF\n433892468\n  SHIVANYA\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n23/7/2023  5:01:48PM\nFinal\n:\nCollected at     \n:\nProcessed at      \nZIRAKPUR CC5\nLPL-CHANDIGARH LAB\nPlot No. 17, Ground Floor, Industrial Area, \nPhase-1, Backside Citroen Showroom, \nChandigarh-160002.\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nTHYROID PROFILE,TOTAL, SERUM\n(CLIA)\n1.15\nT3, Total\n 1.05 - 2.69 \nng/mL\n7.00\nT4, Total\n 6.00 - 13.20 \n\u00b5g/dL\n0.74\nTSH\n 0.70 - 6.40 \n\u00b5IU/mL\nNote\n1.\nTSH levels are subject to circadian variation, reaching peak levels between 2 - 4.a.m. and at a \nminimum between 6-10 pm . The variation is of the order of 50% .  hence time of the day has \ninfluence on the measured serum TSH concentrations.\n2.\nAlteration in concentration of Thyroid hormone binding protein can profoundly affect Total T3 and/or \nTotal T4 levels especially in pregnancy and in patients on steroid therapy.\n3.\nUnbound fraction ( Free,T4 /Free,T3) of thyroid hormone is biologically active form and correlate \nmore closely with clinical status of the patient than total T4/T3 concentration\n4.\nValues <0.03 uIU/mL need to be clinically correlated due to presence of a rare TSH   variant in \nsome individuals\n*433892468*\nPage 3 of 6\n\nReport Status    \nFemale\n1 Year\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n23/7/2023  11:55:00AM\nSELF\n433892468\n  SHIVANYA\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n23/7/2023  5:01:48PM\nFinal\nLPL-CHANDIGARH LAB\nPlot No. 17, Ground Floor, Industrial Area, \nPhase-1, Backside Citroen Showroom, \nChandigarh-160002.\n:\n:\nCollected at     \nProcessed at      \nZIRAKPUR CC5\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nAST (SGOT), SERUM\n(IFCC,without P5P)\n42.0\nU/L\n9.00 - 80.00\nALT (SGPT), SERUM\n(IFCC,without P5P)\n29.0\nU/L\n7.00 - 35.00\nC-REACTIVE PROTEIN; CRP, SERUM\n(Immunoturbidimetry)\n0.70\nmg/L\n<5.00\nComments\nCRP is an acute phase reactant which is used in inflammatory disorders for monitoring course and effect of \ntherapy.  It is most useful as an indicator of activity in Rheumatoid arthritis, Rheumatic fever, tissue injury or \nnecrosis and infections. As compared to ESR, CRP shows an earlier rise in inflammatory disorders which \nbegins in 4-6 hrs, the intensity of the rise being  higher than ESR and the recovery being earlier than ESR. \nUnlike ESR, CRP levels are not influenced by hematologic conditions like Anemia, Polycythemia etc.\nWIDAL TEST, SERUM\n(SLIDE AGGLUTINATION)\nSalmonella typhi O (TO)\nNon Reactive\nSalmonella typhi H (TH)\nNon Reactive\nSalmonella paratyphi A, H (AH)\nNon Reactive\nSalmonella paratyphi B, H (BH)\nNon Reactive\nInterpretation\n -------------------------------------------------------------------------------------\n| RESULT       | REMARKS                                                              |\n|--------------|----------------------------------------------------------------------|\n| Reactive     | Indicates presence of IgM & IgG antibodies against Salmonella spp.   |\n|--------------|----------------------------------------------------------------------|\n| Non-Reactive | Indicates absence of IgM & IgG  antibodies against Salmonella spp.   |\n -------------------------------------------------------------------------------------\nNote: \n1.Titres \u22651:80 of \u201cO\u201d antigen & \u22651:160 of \u201cH\u201d antigen for Salmonella typhi and titres \u22651:80 of \u201cH\u201d antigen for \nSalmonella paratyphi A & B are significant.\n2.\nRising titres in paired samples taken 7-10 days apart are more significant than a single test. \n3.\nReactive results indicates ongoing or recent infection by Salmonella spp. and the diagnosis should be \nconfirmed by gold standard test such as Blood culture prior to start of antibiotics.\n4.\nThe reactivity will vary with stage of the disease with appearance in 1st week to increase in titres till end \nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)*433892468*\nPage 4 of 6\n\nReport Status    \nFemale\n1 Year\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n23/7/2023  11:55:00AM\nSELF\n433892468\n  SHIVANYA\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n23/7/2023  5:01:48PM\nFinal\nLPL-CHANDIGARH LAB\nPlot No. 17, Ground Floor, Industrial Area, \nPhase-1, Backside Citroen Showroom, \nChandigarh-160002.\n:\n:\nCollected at     \nProcessed at      \nZIRAKPUR CC5\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nof 4th week post which it starts decreasing.\n5.\nIn TAB vaccinated patients, high titres of H antibody of \u22651:160 to each of Salmonellae is observed. They \ntend to persist for many months and even years while O antibody shows lower titres and disappears \nwithin 6 months.\n6.\nAntibiotic treatment during 1st week before the appearance of antibodies tend to supress the immune \nresponse in the form of no or decreasing antibody levels.\n7.\nFalse positive results/anamnestic response may be seen in patients with past enteric infection during \nunrelated fevers like Malaria, Influenzae etc. in the form of transient rise in H antibody in Widal test. \n8.\nFalse negative results may be due to processing of sample collected early in the course of disease (1st \nweek) and immunosuppression. \n9.\nTest conducted on serum.\nUses\n\u00b7\nTo diagnose infection due to Salmonella spp. (Enteric fever).\n\u00b7\nTo monitor the progression of disease.\n\u00b7\nTo assess the response to therapy (decreasing titres) in patients being treated for Enteric fever.\nDr.ShavetaDhiman\nMD Microbiology\nConsultant Microbiologist                       \nDr Lal PathLabs Ltd\nDr Sandeep Kumar Arora\nMD, Pathology\nChief of Laboratory                            \nDr Lal PathLabs Ltd\nDr.Utkarshni\nMD ,Pathology\nChief of Laboratory                            \nDr Lal PathLabs Ltd\n-------------------------------End of report --------------------------------\nAHEEEHAPMKHIAKFNLCAJDNPCBILLJCECCLLCIKPJPKEDFNFAPPAHEEEHA\nBNFFFNBPAPBPNLIGFGEHNOIPAOAHFHALAKNOBCJGBLEKMOJHMPBNFFFNB\nCIEGCDFLPMNNCBFOPFIAAJHFJAHEHEDFPKPHENFLMLKIOEFLBKHDEHANP\nDJPEGCFNBLAIEDIFFJPELFMFAFHKALBFJIFEPBOAKCLJPDNLIJHBKEMEK\nLAHDLHFJOJBFDIAHGLBCKPJGIENLKDAHKKMHCKOIPLKGKPNGKFFFOOILD\nHGCBBEFNNICGDLHKIPEHEIPBADHFOFAINDECBKDKBLIKONNALNEIOOMCL\nPLIMIJFJMLOMLMFIEKMEDHFHIHAFJBALPNEPBLMMKJCHKJFHIJNJIDILD\nNJJJAMFNBJPNBEDJGANHDGFILLBMFMBFKFCCAMNNIIKNOPNGBNFMBHILL\nNKHPHDFOEKOGFAADLOMIHIAKHOEFEKFBJFFKALPFOOBIOCNKDJPHNEKLJ\nPPBLMPFCEPBJJDCPDHLFGPNDCDFKPNJHKEPFCDFLNKCKIGEOCFLKHLAJK\nFNIKOLFLGKCBMPBMPNFALJEEINMFEJJBJMFEBFOFPNDMKPFKEPCIGKIMO\nIOICGJFCPLDALGFMHHGDHPDEIEOPPFOEAEFPBLNOOLJBIKNIOKONHDICL\nMNNNNNEHKGDJIGKJOCFLHGIHJBAHFHABPKPFCMNLMKJCLFNOAHFHAHIKL\nAPBBBPAPBHOAEJBCBODKCNCFAHHCHHCAONFFPLOGOLMHNLNNEDFFDBKHH\nHHHHHHHPHHHPHPPPPPPPPPHHHHPPPPPPPPPHHHHPPHHHPHPHHHHPPHPHP\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)*433892468*\nPage 5 of 6\n\nReport Status    \nFemale\n1 Year\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n23/7/2023  11:55:00AM\nSELF\n433892468\n  SHIVANYA\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n23/7/2023  5:01:48PM\nFinal\nLPL-CHANDIGARH LAB\nPlot No. 17, Ground Floor, Industrial Area, \nPhase-1, Backside Citroen Showroom, \nChandigarh-160002.\n:\n:\nCollected at     \nProcessed at      \nZIRAKPUR CC5\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nIMPORTANT INSTRUCTIONS\n\u0178Test results released pertain to the specimen submitted.\u0178All test results are dependent on the quality of the sample received by the Laboratory . \n\u0178Laboratory investigations are only a tool to facilitate in arriving at a diagnosis and should be clinically correlated by the Referring Physician .\u0178Report \ndelivery may be delayed due to unforeseen circumstances. Inconvenience is regretted .\u0178Certain tests may require further testing at additional cost for \nderivation of exact value. Kindly submit request within 72 hours post reporting.\u0178Test results may show interlaboratory variations.\u0178The Courts/Forum \nat Delhi shall have exclusive jurisdiction in all disputes/claims concerning the test(s) & or results of test(s).\u0178Test results are not valid for medico legal \npurposes.\u0178This is computer generated medical diagnostic report that has been validated by Authorized Medical Practitioner /Doctor.\u0178The report does \nnot need physical signature.\n(#) Sample drawn from outside source.\nIf Test results are alarming or unexpected, client is advised to contact the Customer Care immediately for possible remedial action. \nTel: +91-11-49885050,Fax: - +91-11-2788-2134, E-mail: lalpathlabs@lalpathlabs.com \nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)*433892468*\nPage 6 of 6\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 10847,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-ANONYMOUS_1790521809_pdf_raw.json"
+}

@@ -22,6 +22,7 @@ import {
   ChevronRight,
 } from 'lucide-react';
 import { fetchResults, ModCFrontendOutput, DeficiencyItem } from '@/lib/api';
+import ModelVerdictCard from '@/components/ModelVerdictCard';
 import { saveScanToSupabase } from '@/lib/supabase';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 
@@ -189,6 +190,11 @@ export default function ResultsPage() {
           </div>
         </div>
       </div>
+
+      {/* Model Grader Verdict */}
+      {data.model && (
+        <ModelVerdictCard model={data.model} modelConfidence={data.model_confidence} />
+      )}
 
       {/* Section 1: Detected Deficiencies and Severity */}
       <div className="space-y-5">

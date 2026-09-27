@@ -1,0 +1,206 @@
+{
+  "filename": "lalpathlabs_cbc_1630294519.pdf",
+  "patient_id": "PAT-RENDER-CHECK",
+  "patient_details": {
+    "patient_id": "PAT-RENDER-CHECK",
+    "name": null,
+    "age": "8",
+    "gender": "Female",
+    "date": "00-15.00",
+    "lab_id": "PAT-RENDER-CHECK",
+    "referred_by": "Gender"
+  },
+  "age": "8",
+  "gender": "Female",
+  "biomarkers": {
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.5,
+      "raw_value": 11.5,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "source_span": "Hemoglobin\n11.50 "
+    },
+    "vitamin_d": {
+      "canonical_name": "Vitamin D (25-OH)",
+      "value": 25.0,
+      "raw_value": 25.0,
+      "unit": "ng/mL",
+      "ref_range": "30.0 - 100.0",
+      "source_span": "vitamin D 25 "
+    },
+    "hba1c": {
+      "canonical_name": "HbA1c",
+      "value": 5.8,
+      "raw_value": 5.8,
+      "unit": "%",
+      "ref_range": "4.0 - 5.7",
+      "source_span": "HbA1c\n5.8\n%"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 170.0,
+      "raw_value": 170.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count\n170.00 "
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 77.0,
+      "raw_value": 77.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "source_span": "MCV\n77.00 "
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 25.0,
+      "raw_value": 25.0,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "source_span": "MCH\n25.00 "
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 31.0,
+      "raw_value": 31.0,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "source_span": "MCHC\n31.00 "
+    },
+    "28_8_2021_1": {
+      "canonical_name": "28/8/2021   1",
+      "value": 55.0,
+      "raw_value": 55.0,
+      "unit": "",
+      "ref_range": "00",
+      "source_span": "28/8/2021   1:55:00PM"
+    },
+    "28_8_2021_2": {
+      "canonical_name": "28/8/2021   2",
+      "value": 18.0,
+      "raw_value": 18.0,
+      "unit": "",
+      "ref_range": "26",
+      "source_span": "28/8/2021   2:18:26PM"
+    },
+    "29_8_2021_2": {
+      "canonical_name": "29/8/2021  2",
+      "value": 3.0,
+      "raw_value": 3.0,
+      "unit": "",
+      "ref_range": "36",
+      "source_span": "29/8/2021  2:03:36PM"
+    },
+    "swasthfit_super": {
+      "canonical_name": "Swasthfit Super",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "SwasthFit Super 4"
+    },
+    "69": {
+      "canonical_name": "69 -",
+      "value": 325.0,
+      "raw_value": 325.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "69 - 325"
+    },
+    "values": {
+      "canonical_name": "Values",
+      "value": 0.03,
+      "raw_value": 0.03,
+      "unit": "uIU/mL",
+      "ref_range": "N/A",
+      "source_span": "Values <0.03 uIU/mL need to be clinically correlated due to presence of a rare TSH   variant in"
+    },
+    "note": {
+      "canonical_name": "Note",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "Normal",
+      "ref_range": "N/A",
+      "source_span": "Note: 1. Normal levels of IgE do not rule out possibility of IgE dependent allergies as the diagnostic"
+    }
+  },
+  "labs": {
+    "Hemoglobin": {
+      "value": "11.5",
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5"
+    },
+    "Vitamin D (25-OH)": {
+      "value": "25.0",
+      "unit": "ng/mL",
+      "ref_range": "30.0 - 100.0"
+    },
+    "HbA1c": {
+      "value": "5.8",
+      "unit": "%",
+      "ref_range": "4.0 - 5.7"
+    },
+    "Platelet Count": {
+      "value": "170.0",
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000"
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "77.0",
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "25.0",
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "31.0",
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0"
+    },
+    "28/8/2021   1": {
+      "value": "55.0",
+      "unit": "",
+      "ref_range": "00"
+    },
+    "28/8/2021   2": {
+      "value": "18.0",
+      "unit": "",
+      "ref_range": "26"
+    },
+    "29/8/2021  2": {
+      "value": "3.0",
+      "unit": "",
+      "ref_range": "36"
+    },
+    "Swasthfit Super": {
+      "value": "4.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "69 -": {
+      "value": "325.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "Values": {
+      "value": "0.03",
+      "unit": "uIU/mL",
+      "ref_range": "N/A"
+    },
+    "Note": {
+      "value": "1.0",
+      "unit": "Normal",
+      "ref_range": "N/A"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "L23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nSwasthFit Super 4\nCOMPLETE BLOOD COUNT;CBC\n(Electrical Impedence,Manual)\nHemoglobin\n 11.50 - 15.50 \ng/dL\n13.60\nPacked Cell Volume (PCV)\n 35.00 - 45.00 \n%\n41.00\nRBC Count\n 4.00 - 5.20 \nmill/mm3\n4.89\nMCV\n 77.00 - 95.00 \nfL\n84.00\nMCH\n 25.00 - 33.00 \npg\n27.70\nMCHC\n 31.00 - 37.00 \ng/dL\n33.10\nRed Cell Distribution Width (RDW)\n 11.90 - 14.90 \n%\n11.10\nTotal Leukocyte Count  (TLC)\n 5.00 - 13.00 \nthou/mm3\n10.10\nDifferential Leucocyte Count (DLC)\n 32.00 - 71.00 \nSegmented Neutrophils\n%\n50.90\n 20.00 - 59.00 \nLymphocytes\n%\n42.60\n 2.00 - 10.00 \nMonocytes\n%\n2.70\n 0.00 - 8.00 \nEosinophils\n%\n2.90\n 0.00 - 1.00 \nBasophils\n%\n0.90\nAbsolute Leucocyte Count\n 2.00 - 8.00 \nNeutrophils\nthou/mm3\n5.14\n 1.00 - 5.00 \nLymphocytes\nthou/mm3\n4.30\n 0.20 - 1.00 \nMonocytes\nthou/mm3\n0.27\n 0.10 - 1.00 \nEosinophils\nthou/mm3\n0.29\n 0.02 - 0.10 \nBasophils\nthou/mm3\n0.09\nPlatelet Count\n 170.00 - 450.00 \nthou/mm3\n350.0\nMean Platelet Volume\n 6.5 - 12.0 \nfL\n8.3\nNote\n*314643947*\nPage 1 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\n1. As per the recommendation of International council for Standardization in Hematology, the differential\n   leucocyte counts are additionally being reported as absolute numbers of each cell in per unit volume of\n   blood  \n                   \n2. Test conducted on EDTA whole blood\n*314643947*\nPage 2 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nLIVER & KIDNEY PANEL, SERUM\n0.43\nBilirubin  Total*\n(DPD)\n 0.30 - 1.20 \nmg/dL\n0.10\nBilirubin  Direct*\n(DPD)\n <0.20 \nmg/dL\n0.33\nBilirubin  Indirect*\n(Calculated)\n <1.10 \nmg/dL\n137\nAST (SGOT)*\n(IFCC without P5P)\n <35 \nU/L\n168\nALT (SGPT)*\n(IFCC without P5P)\n <35 \nU/L\n29\nGGTP*\n(IFCC)\n 4 - 22 \nU/L\n288\nAlkaline Phosphatase (ALP)*\n(IFCC-AMP)\n 69 - 325 \nU/L\n7.21\nTotal Protein*\n(Biuret)\n 6.00 - 8.00 \ng/dL\n4.14\nAlbumin*\n(BCG)\n 3.80 - 5.40 \ng/dL\n1.35\nA : G Ratio*\n(Calculated)\n 0.90 - 2.00 \n20.55\nUrea*\n(Urease UV)\n 10.00 - 38.00 \nmg/dL\n0.43\nCreatinine*\n(Modified Jaffe,Kinetic)\n 0.30 - 0.70 \nmg/dL\n5.01\nUric Acid*\n(Uricase)\n 2.60 - 6.00 \nmg/dL\nPatientReportSCSuperPanel.GENERAL_PANEL_ANALYTE_SC (Version: 6)\n*314643947*\nPage 3 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\n9.25\nCalcium, Total*\n(Arsenazo III)\n 8.80 - 10.80 \nmg/dL\n4.27\nPhosphorus*\n(Molybdate UV)\n 3.20 - 5.80 \nmg/dL\n140.00\nSodium*\n(Indirect ISE)\n 138.00 - 145.00 \nmEq/L\n4.34\nPotassium*\n(Indirect ISE)\n 3.40 - 4.70 \nmEq/L\n104.00\nChloride*\n(Indirect ISE)\n 101.00 - 109.00 \nmEq/L\nPatientReportSCSuperPanel.GENERAL_PANEL_ANALYTE_SC (Version: 6)\n*314643947*\nPage 4 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nHbA1c (GLYCOSYLATED HEMOGLOBIN), BLOOD\n(HPLC)\nHbA1c\n5.8\n%\n4.00 - 5.60\nEstimated average glucose (eAG)\n120\nmg/dL\nInterpretation\nHbA1c result is suggestive of at risk for Diabetes (Prediabetes)/ well controlled Diabetes in a known Diabetic\nNote: Presence of Hemoglobin variants and/or conditions that affect red cell turnover must be considered, \nparticularly when the HbA1C result does not correlate with the patient\u2019s blood glucose levels.\n ---------------------------------------------------------------------------------\n| FACTORS THAT INTERFERE WITH HbA1C    | FACTORS THAT AFFECT INTERPRETATION       |\n| MEASUREMENT                          | OF HBA1C RESULTS                         |\n|--------------------------------------|------------------------------------------|\n| Hemoglobin variants,elevated fetal   | Any condition that shortens erythrocyte  |\n| hemoglobin (HbF) and chemically      | survival or decreases mean erythrocyte   |\n| modified derivatives of hemoglobin   | age (e.g.,recovery from acute blood loss,| \n| (e.g. carbamylated Hb in patients    | hemolytic anemia, HbSS, HbCC, and HbSC)  |\n| with renal failure) can affect the   | will falsely lower HbA1c test results    |\n| accuracy of HbA1c measurements       | regardless of the assay method used.Iron | \n|                                      | deficiency anemia is associated with     | \n|                                      | higher HbA1c                             |\n ---------------------------------------------------------------------------------\nPatientReportSCSuperPanel.HBELECTRO_SC (Version: 7)\n*314643947*\nPage 5 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nGLUCOSE, FASTING (F), PLASMA*\n(Hexokinase)\n102.00\nmg/dL\n70.00 - 100.00\nVITAMIN B12; CYANOCOBALAMIN, SERUM*\n(CLIA)\n357.00\npg/mL\n211.00 - 911.00\nNotes\n1.\nInterpretation of the result should be considered in relation to clinical circumstances.\n2.\nIt is recommended to consider supplementary testing with plasma Methylmalonic acid (MMA) or \nplasma homocysteine levels to determine biochemical cobalamin deficiency in presence of clinical \nsuspicion of deficiency but indeterminate levels. Homocysteine levels are more sensitive but MMA is \nmore specific\n3.\nFalse increase in Vitamin B12 levels may be observed in patients with intrinsic factor blocking \nantibodies, MMA measurement should be considered in such patients\n4.\nThe concentration of Vitamin B12 obtained with different assay methods cannot be used \ninterchangeably due to differences in assay methods and reagent specificity\nVITAMIN D, 25 - HYDROXY, SERUM*\n(Chemiluminescence)\n86.40\nnmol/L\n75.00 - 250.00\nInterpretation \n -------------------------------------------------------------\n| LEVEL         | REFERENCE RANGE | COMMENTS                  |\n|               | IN nmol/L       |                           |\n|---------------|-----------------|---------------------------|\n| Deficient     | < 50            | High risk for developing  |\n|               |                 | bone disease              |\n|---------------|-----------------|---------------------------|\n| Insufficient  | 50-74           | Vitamin D concentration   |\n|               |                 | which normalizes          |\n|               |                 | Parathyroid hormone       |\n|               |                 | concentration             |\n|---------------|-----------------|---------------------------|\n| Sufficient    | 75-250          | Optimal concentration     | \n|               |                 | for maximal health benefit|\n|---------------|-----------------|---------------------------|\n| Potential     | >250            | High risk for toxic       |\n| intoxication  |                 | effects                   |\n -------------------------------------------------------------\nNote  \n\u00b7\nThe assay measures both D2 (Ergocalciferol) and D3 (Cholecalciferol) metabolites of vitamin D.\n\u00b7\n25 (OH)D is influenced by sunlight, latitude, skin pigmentation, sunscreen use and hepatic function.\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 6 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\n\u00b7\nOptimal calcium absorption requires vitamin D 25 (OH) levels exceeding 75 nmol/L.\n\u00b7\nIt shows seasonal variation, with values being 40-50% lower in winter than in summer. \n\u00b7\nLevels vary with age and are increased in pregnancy. \n\u00b7\nA new test Vitamin D, Ultrasensitive by LC-MS/MS is also available\nComments\nVitamin D promotes absorption of calcium and phosphorus and mineralization of bones and teeth. Deficiency \nin children causes Rickets and in adults leads to Osteomalacia.  It can also lead to Hypocalcemia and \nTetany.  Vitamin D status is best determined  by measurement of 25 hydroxy vitamin D, as it is the major \ncirculating form and has longer half life (2-3 weeks) than 1,25 Dihydroxy vitamin D (5-8 hrs).\nDecreased Levels\n\u00b7\nInadequate exposure to sunlight\n\u00b7\nDietary deficiency\n\u00b7\nVitamin D malabsorption\n\u00b7\nSevere  Hepatocellular disease\n\u00b7\nDrugs like Anticonvulsants\n\u00b7\nNephrotic syndrome\nIncreased levels\nVitamin D intoxication \nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 7 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nTHYROID PROFILE,TOTAL, SERUM\n(CLIA)\n0.94\nT3, Total*\n 0.94 - 2.41 \nng/mL\n6.90\nT4, Total*\n 6.40 - 13.30 \n\u00b5g/dL\n1.34\nTSH*\n 0.70 - 6.40 \n\u00b5IU/mL\nNote\n1.\nTSH levels are subject to circadian variation, reaching peak levels between 2 - 4.a.m. and at a \nminimum between 6-10 pm . The variation is of the order of 50% .  hence time of the day has \ninfluence on the measured serum TSH concentrations.\n2.\nAlteration in concentration of Thyroid hormone binding protein can profoundly affect Total T3 and/or \nTotal T4 levels especially in pregnancy and in patients on steroid therapy.\n3.\nUnbound fraction ( Free,T4 /Free,T3) of thyroid hormone is biologically active form and correlate \nmore closely with clinical status of the patient than total T4/T3 concentration\n4.\nValues <0.03 uIU/mL need to be clinically correlated due to presence of a rare TSH   variant in \nsome individuals\nPatientReportSCSuperPanel.GENERAL_PANEL_ANALYTE_SC (Version: 6)\n*314643947*\nPage 8 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nLIPID SCREEN, SERUM\nCholesterol, Total*\n(CHO-POD)\n195.00\nmg/dL\n<170.00\nTriglycerides*\n(GPO-POD)\n75.00\nmg/dL\n<150.00\nHDL Cholesterol*\n(Enzymatic Immunoinhibiti\n44.00\nmg/dL\n40.00 - 60.00\nLDL Cholesterol, Calculated\n136.00\nmg/dL\n<110.00\nVLDL Cholesterol,Calculated\n15.00\nmg/dL\n<30.00\nNon-HDL Cholesterol\n(Calculated)\n151\nmg/dL\n<130\nInterpretation\n-------------------------------------------------------------\n| REMARKS        | TOTAL      | TRIGLYCERIDE | LDL CHOLESTEROL|\n|                | CHOLESTEROL| in mg/dL     | in mg/dL       |               \n|                | in mg/dL   |              |                |      \n|----------------|------------|--------------|----------------|\n| Optimal        | <170       | <150         |  <110          |\n|----------------|------------|--------------|----------------|\n| Borderline High| 171-199    | 150-199      |  111-129       |\n|----------------|------------|--------------|----------------|\n| High           | >=200      | 200-499      |  >=130         |\n|----------------|------------|--------------|----------------|\n| Very High      | -          | >=500        |  -             |\n-------------------------------------------------------------\nNote\n1.\nMeasurements in the same patient can show physiological & analytical variations. Three serial \nsamples 1 week apart are recommended for Total Cholesterol, Triglycerides, HDL & LDL Cholesterol.\n2.\nATP III recommends a complete lipoprotein profile as the initial test for evaluating cholesterol.\n3.\nFriedewald equation to calculate LDL cholesterol is most accurate when Triglyceride level is < 400 \nmg/dL. Measurement of Direct LDL cholesterol is recommended when Triglyceride level is >400 \nmg/dL.\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 9 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\n   \nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 10 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nIMMUNOGLOBULIN IgE, SERUM**\n(FEIA)\n109.00\nkUA/L\n<71.00\nNote: 1. Normal levels of IgE do not rule out possibility of IgE dependent allergies as the diagnostic \n              sensitivity of the test depends upon elapsed time between exposure to an allergen and testing, \n              patient age and affected target organs.\n    2. No close correlation has been demonstrated between severity of allergic reaction and IgE levels.\nComments \nImmunoglobulin E (IgE) is the most important trigger molecule for allergic information. The level of IgE is \nlow during the first year of life, gradually increases with age and reaches adult levels after 10 years. As \nIgE is a mediator of allergic  response, quantitative  measurement can provide  useful information for \ndifferential  diagnosis of  atopic and non-atopic disease. Patients with atopic diseases like Allergic \nasthma, Allergic rhinitis & Atopic dermatitis have moderately elevated IgE levels.                              \n                                                                          \n Increased Levels -  Atopic/Non-atopic allergy, Hyper IgE syndrome, Parasitic infections, IgE Myeloma, \n Pulmonary Aspergillosis, Immunodeficiency states & Autoimmune diseases                 \nUses\n\u00b7\nEvaluation of children with strong family history of allergies and early clinical signs of disease\n\u00b7\nEvaluation of children and adults suspected of having allergic respiratory disease to establish the \ndiagnosis and define the allergens\n\u00b7\nTo confirm clinical expression of sensitivity to foods in patients with Anaphylactic sensitivity or with \nAsthma, Angioedema or Cutaneous disease\n\u00b7\nTo evaluate sensitivity to insect venom allergens particularly as an aid in defining venom specificity in \nthose cases in which skin tests are equivocal\n\u00b7\nTo confirm the presence of IgE antibodies to certain occupational allergens\nALLERGY, INDIVIDUAL MARKER, COCKROACH, \nSERUM**\n(FEIA)\n0.07\nkUA/L\n<0.35\nInterpretation \n -----------------------------------------------------------\n| Quantitative result| Level of Allergen | Symptom relation |\n| in kUA/L           | specific antibody |                  |\n|--------------------|-------------------|------------------|\n| <0.10              | Undetectable      | Unlikely         |\n|--------------------|-------------------|------------------|\n| 0.10-0.50          | Very low          | Uncommon         |\n|--------------------|-------------------|------------------|\n| 0.50-2.00          | Low               | Low              |\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 11 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\n|--------------------|-------------------|------------------|\n| 2.00-15.00         | Moderate          | Common           |\n|--------------------|-------------------|------------------|\n| 15.00-50.00        | High              | High             |\n|--------------------|-------------------|------------------|\n| 50.00-100.00       | Very High         | Very High        |\n|--------------------|-------------------|------------------|\n| >100.00            | Very High         | Very High        |\n----------------------------------------------------------- \nNote\n \n1.\nSensitized patients show elevated levels of specific allergens. Generally the higher the kUA /L value, \nthe more exposed the patient is to the allergen. \n2.\nAll results should be interpreted in relation to the individual case history.\nComments\nCockroaches are cosmopolitan and are probably the oldest insect in the world. They are found in homes, \nhotels, restaurants, food plants, warehouses, pantries, furniture cracks, closets, stores, refrigerators and \ndish washers. Cockroach allergens have been identified as a potent source of allergen in house dust. Allergic \nindividuals can be exposed to cockroach allergens by inhalation from living quarters and ingestion of \ncontaminated food stuff. Hypersensitivity to cockroach allergens has been implicated as a factor in urban \nasthma. The allergenic components are usually the cast skins leading to immediate skin reactions, \nbronchoconstriction and perennial asthma. \nPotential Cross Reactivity\nSeen with different species of the genus, house dust mites, tropomyosin found in shrimps and other \ncrustacean species.\nALLERGY, INDIVIDUAL MARKER, HOUSE DUST, \nSERUM**\n(FEIA)\n0.05\nkUA/L\n<0.35\nInterpretation \n -----------------------------------------------------------\n| QUANTITATIVE RESULT| LEVEL OF ALLERGEN | SYMPTOM RELATION |\n| IN kUA/L           | SPECIFIC ANTIBODY |                  |\n|--------------------|-------------------|------------------|\n| <0.10              | Undetectable      | Unlikely         |\n|--------------------|-------------------|------------------|\n| 0.10-0.50          | Very low          | Uncommon         |\n|--------------------|-------------------|------------------|\n| 0.50-2.00          | Low               | Low              |\n|--------------------|-------------------|------------------|\n| 2.00-15.00         | Moderate          | Common           |\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 12 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\n|--------------------|-------------------|------------------|\n| 15.00-50.00        | High              | High             |\n|--------------------|-------------------|------------------|\n| 50.00-100.00       | Very High         | Very High        |\n|--------------------|-------------------|------------------|\n| >100.00            | Very High         | Very High        |\n----------------------------------------------------------- \nNote \n1.\nSensitized patients show elevated levels of specific allergens. Generally the higher the kUA /L value, \nthe more exposed the patient is to the allergen. \n2.\nAll results should be interpreted in relation to the individual case history.\nComments\nThe ingredients of house dust that can cause allergic reactions include molds, pets and human dander, \ncockroach waste and mites. Ordinary house dust is the commonest cause of allergic manifestations like \nAsthma and Upper respiratory tract infections. The waste products of mites and cockroaches continue to \ncause allergic symptoms even after the mites and cockroaches that produced them have been killed. House \ndust allergy is the commonest environmental factor leading to Asthma in children.\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 13 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nSTOOL EXAMINATION, ROUTINE; STOOL, R/E*\n(Manual Method, Light microscopy)\nColour*\nDark Brown\nBrown\nForm and Consistency*\nSemi Formed\nSemi Solid\nMucus*\nAbsent\nAbsent\nVisible Blood*\nAbsent\nAbsent\nReaction*\nAcidic\nAlkaline\nPus Cells*\n0 - 2\n/hpf\n0 - 5\n0 - 5\nRBC*\nNil\n/hpf\nNone Seen\nMacrophages*\nNone Seen\nNone Seen\nTrophozoites*\nNone Seen\nNone Seen\nCysts*\nNone Seen\nNone Seen\nHelminthic Ova*\nNone Seen\nNone Seen\nLarva*\nNone Seen\nNone Seen\nOther Observations*\nNone Seen\nNone Seen\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)\n*314643947*\nPage 14 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nURINE EXAMINATION, ROUTINE; URINE, R/E\n(Dipstick, Microscopy)\nPhysical\nPale yellow\nLight Yellow\nColour\n1.001 - 1.030\n1.025\nSpecific Gravity\n5.0 - 8.0\n5\npH\nChemical\nProteins\nNegative\nNegative\nGlucose\nNegative\nNegative\nKetones\nNegative\nNegative\nBilirubin\nNegative\nNegative\nUrobilinogen\nNegative\nNegative\nLeucocyte Esterase\nNegative\nPositive\nNitrite\nNegative\nNegative\nMicroscopy\nR.B.C.\n0.0 - 2.0 RBC/hpf\n0-1  RBC/HPF\nPus Cells\n0-5 WBC / hpf\n6 - 8 WBC/HPF\nEpithelial Cells\n0.0 - 5.0 Epi \ncells/hpf\n3-5 Epi Cells/hpf\nCasts\nNone seen/Lpf\nNone seen\nCrystals\nNone seen\nNone seen\nOthers\nNone seen\nNone seen\nPatientReportSCSuperPanel.URINE_EXAMINATION_SC (Version: 6)*314643947*\nPage 15 of 16\n\nL23 - FPSC DELHI ROAD\n46,MANBAGH CHORAHA, \nJAISINGHPURA KHOR\nJAIPUR \nName      \nA/c Status \nLab No.    \nRef By : \nGender:\nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n8 Years\n28/8/2021   1:55:00PM\n28/8/2021   2:18:26PM\n314643947\nFemale\nDr. SELF\nBaby MANSWI  JAIN\n29/8/2021  2:03:36PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nDr Ajay Gupta\nMD, Pathology\nHOD Hematology & \nImmunohematology                        \nNRL - Dr Lal PathLabs Ltd\nDr Anjana Mittal\nMD, Pathology\nConsultant Pathologist                          \nDr Lal PathLabs Ltd\nDr  Jatin Munjal\nMD,Pathology\nConsultant Pathologist                          \nDr Lal PathLabs Ltd\nDr Jasmine Kohli\nMD, Pathology\nChief of Laboratory                            \nDr Lal PathLabs Ltd\nDr Sunanda\nMD, Pathology\nConsultant Pathologist                          \nDr Lal PathLabs Ltd\nDr Sarita Kumari Lal\nMD, Pathology\nConsultant Pathologist                          \nDr Lal PathLabs Ltd\n             -------------------------------End of report --------------------------------\n*  Test conducted under NABL scope MC-2696,LPL-JAIPUR LAB at JAIPUR\n** Test conducted under NABL scope MC-2113,LPL-NATIONAL REFERENCE LAB at NEW DELHI\nIMPORTANT INSTRUCTIONS\n\u0178Test results released pertain to the specimen submitted.\u0178All test results are dependent on the quality of the sample received by the Laboratory . \n\u0178Laboratory \ninvestigations \nare \nonly \na \ntool \nto \nfacilitate \nin \narriving \nat \na \ndiagnosis \nand \nshould \nbe \nclinically \ncorrelated \nby \nthe \nReferring \nPhysician.\u0178Sample repeats are accepted on request of Referring Physician within 7 days post reporting.\u0178Report delivery may be delayed due to \nunforeseen circumstances. Inconvenience is regretted .\u0178Certain tests may require further testing at additional cost for derivation of exact value . \nKindly submit request within \n72 hours post reporting.\u0178Test results may show interlaboratory variations.\u0178The Courts/Forum at Delhi shall have \nexclusive jurisdiction in all disputes/claims concerning the test(s) & or results of test(s).\u0178Test results are not valid for medico legal purposes. \n\u0178Contact customer care Tel No. +91-11-39885050 for all queries related to test results.\n(#) Sample drawn from outside source.\nPatientReportSCSuperPanel.URINE_EXAMINATION_SC (Version: 6)*314643947*\nPage 16 of 16\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 25996,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-RENDER-CHECK_1790520937_pdf_raw.json"
+}

@@ -24,7 +24,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..",
 
 from backend.path_b_blood_report.mod_b2_normalizer.grader_input import GraderInputBuilder
 from backend.path_b_blood_report.mod_b3_grader.grader import PathBGrader
-from backend.shared.storage import save_json_artifact
 
 SAMPLE_DIR = Path(__file__).resolve().parents[2] / "shared" / "sample_reports"
 REPORT_DIR = Path(__file__).resolve().parents[2] / "shared" / "extractions" / "mod_b3_grader"
@@ -131,7 +130,6 @@ def test_india_composites_through_full_flow():
         assert output.model is not None, f"{pid}: model grade missing"
         assert output.model.na_count == 0, f"{pid}: expected 9/9 biomarkers, got {output.model.na_count} NaN"
         detail = output.model
-        save_json_artifact("model_grade", pid, detail.model_dump())
         results.append((pid, {
             "model_input": record["model_input"],
             "model": detail.model_dump(),

@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-09-27T15:06:21.981023Z",
+  "schema_version": "1.0",
+  "patient": {
+    "patient_id": "PAT-ANONYMOUS",
+    "age": 32,
+    "gender": "Female"
+  },
+  "deficiencies": [
+    {
+      "type": "iron",
+      "severity": {
+        "band": "moderate",
+        "score_pct": "72%",
+        "badge_color": "#f59e0b"
+      },
+      "explanation": "Your report indicates a moderate level of iron deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "Serum Ferritin",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of iron-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    },
+    {
+      "type": "anemia",
+      "severity": {
+        "band": "moderate",
+        "score_pct": "75%",
+        "badge_color": "#f59e0b"
+      },
+      "explanation": "Your report indicates a moderate level of anemia deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "Anemia",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of anemia-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    },
+    {
+      "type": "b12",
+      "severity": {
+        "band": "none",
+        "score_pct": "0%",
+        "badge_color": "#10b981"
+      },
+      "explanation": "Your report indicates a none level of b12 deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "B12",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of b12-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    },
+    {
+      "type": "folate",
+      "severity": {
+        "band": "none",
+        "score_pct": "0%",
+        "badge_color": "#10b981"
+      },
+      "explanation": "Your report indicates a none level of folate deficiency. Biomarkers show deviations from standard reference ranges. Incorporating recommended dietary adjustments and consulting a physician is advised.",
+      "key_contributors": [
+        {
+          "biomarker": "Folate",
+          "impact_pct": 70.0,
+          "direction": "negative"
+        }
+      ],
+      "crosscheck": {
+        "available": false,
+        "agrees": false,
+        "source": "none"
+      },
+      "diet_recommendations": [
+        {
+          "suggestion": "Increase consumption of folate-rich foods and follow FSSAI RDA guidelines.",
+          "fssai_checked": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "flagged_deficiency_count": 2,
+    "overall_risk_band": "moderate"
+  },
+  "model": {
+    "decision_code": 1,
+    "etiology": "IDA",
+    "na_count": 3,
+    "complete_input": false,
+    "proba": {
+      "No Anemia": 0.2604,
+      "IDA": 0.6024,
+      "B12 Deficiency": 0.0841,
+      "Folate Deficiency": 0.0531
+    },
+    "proba_xgb": {
+      "No Anemia": 0.0011,
+      "IDA": 0.9986,
+      "B12 Deficiency": 0.0,
+      "Folate Deficiency": 0.0003
+    },
+    "proba_gnn": {
+      "No Anemia": 0.5197,
+      "IDA": 0.2061,
+      "B12 Deficiency": 0.1682,
+      "Folate Deficiency": 0.106
+    },
+    "alpha": 0.5,
+    "imputed_features": {
+      "hemoglobin": 11.9,
+      "mcv": 79.3,
+      "rdw": 13.5,
+      "ferritin": 10.09,
+      "b12": 330.6272,
+      "folate": 11.0297,
+      "rbc": 3.6092,
+      "mch": 26.3,
+      "mchc": 33.1,
+      "srivastava_index": 7.6123,
+      "mentzer_index": 21.6216,
+      "cell_hb_density": 8.7053
+    }
+  },
+  "model_confidence": 0.602
+}

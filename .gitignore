@@ -21,6 +21,7 @@ __pycache__/
 *.pyo
 *.pyd
 .pytest_cache/
+*.tsbuildinfo
 
 # OS & IDE Files
 .DS_Store
@@ -33,3 +34,6 @@ Thumbs.db
 # Large Model Binaries (Optional)
 # backend/path_b_blood_report/mod_b3_grader/weights/*.pkl
 backend/.cache/
+
+# Local agent session transcripts
+session-*.md

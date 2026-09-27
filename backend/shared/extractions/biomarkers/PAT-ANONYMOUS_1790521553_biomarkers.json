@@ -1,0 +1,193 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "13_3_2023_12": {
+      "canonical_name": "13/3/2023  12",
+      "value": 36.0,
+      "raw_value": 36.0,
+      "unit": "",
+      "ref_range": "51",
+      "confidence": 0.9,
+      "source_span": "13/3/2023  12:36:51PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "Age",
+      "value": "Age",
+      "unit": "",
+      "confidence": 0.59,
+      "source": "gliner",
+      "source_span": "Age",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 67.5,
+      "raw_value": 67.5,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "MCV: 67.5 fL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Gender",
+      "value": "Gender",
+      "unit": "",
+      "confidence": 0.86,
+      "source": "gliner",
+      "source_span": "Gender",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "12_03_2023_09": {
+      "canonical_name": "12/03/2023 09",
+      "value": 14.0,
+      "raw_value": 14.0,
+      "unit": "",
+      "ref_range": "25",
+      "confidence": 0.9,
+      "source_span": "12/03/2023 09:14:25 PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 448.0,
+      "raw_value": 448.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count: 448.0 cells/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "12_3_2023_7": {
+      "canonical_name": "12/3/2023   7",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "",
+      "ref_range": "00",
+      "confidence": 0.9,
+      "source_span": "12/3/2023   7:29:00PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 5.17,
+      "raw_value": 5.17,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC Count: 5.17 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "note": {
+      "canonical_name": "Note",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "Normal",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Note: 1. Normal levels of IgE do not rule out possibility of IgE dependent allergies as the diagnostic",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.3,
+      "raw_value": 11.3,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin: 11.3 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 14.5,
+      "raw_value": 14.5,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "Red Cell Distribution Width (RDW): 14.5 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 21.9,
+      "raw_value": 21.9,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH: 21.9 pg",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 32.4,
+      "raw_value": 32.4,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC: 32.4 g/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "13/3/2023  12": {
+      "value": "36.0",
+      "unit": ""
+    },
+    "Age": {
+      "value": "Age",
+      "unit": ""
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "67.5",
+      "unit": "fL"
+    },
+    "Gender": {
+      "value": "Gender",
+      "unit": ""
+    },
+    "12/03/2023 09": {
+      "value": "14.0",
+      "unit": ""
+    },
+    "Platelet Count": {
+      "value": "448.0",
+      "unit": "cells/uL"
+    },
+    "12/3/2023   7": {
+      "value": "29.0",
+      "unit": ""
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "5.17",
+      "unit": "million/uL"
+    },
+    "Note": {
+      "value": "1.0",
+      "unit": "Normal"
+    },
+    "Hemoglobin": {
+      "value": "11.3",
+      "unit": "g/dL"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "14.5",
+      "unit": "%"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "21.9",
+      "unit": "pg"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "32.4",
+      "unit": "g/dL"
+    }
+  },
+  "confidence_summary": 0.9,
+  "parse_confidence": 0.9,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

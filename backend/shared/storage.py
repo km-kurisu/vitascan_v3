@@ -19,6 +19,7 @@ SUBDIRS = {
     "grader_input": BASE_STORAGE_DIR / "grader_input",
     "pdf_raw_parts": BASE_STORAGE_DIR / "pdf_raw_parts",
     "pdf_raw_composite": BASE_STORAGE_DIR / "pdf_raw_composite",
+    "model_grade": BASE_STORAGE_DIR / "model_grade",
 }
 
 for d in SUBDIRS.values():

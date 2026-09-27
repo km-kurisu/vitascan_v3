@@ -124,6 +124,13 @@ class ModCFrontendOutput(BaseModel):
     patient: PatientInfo
     deficiencies: List[DeficiencyItem]
     summary: SummaryInfo
+    model: Optional[ModelGradeDetail] = Field(
+        None,
+        description="Deployed AnemiaGrader (xgb cascade + hetero-GNN) verdict for the anemia workup",
+    )
+    model_confidence: Optional[float] = Field(
+        None, ge=0.0, le=1.0, description="Peak blended probability from the deployed grader"
+    )
 
 
 # Alias definitions for backwards compatibility

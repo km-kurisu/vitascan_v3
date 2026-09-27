@@ -1,0 +1,277 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "alt": {
+      "canonical_name": "Alanine Transaminase (ALT / SGPT)",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "U/L",
+      "ref_range": "7.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "ALT (SGPT), SERUM: 29.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "Age",
+      "value": "Age",
+      "unit": "",
+      "confidence": 0.52,
+      "source": "gliner",
+      "source_span": "Age",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "values": {
+      "canonical_name": "Values",
+      "value": 0.03,
+      "raw_value": 0.03,
+      "unit": "uIU/mL",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Values <0.03 uIU/mL need to be clinically correlated due to presence of a rare TSH   variant in",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "23_7_2023_11": {
+      "canonical_name": "23/7/2023  11",
+      "value": 55.0,
+      "raw_value": 55.0,
+      "unit": "",
+      "ref_range": "00",
+      "confidence": 0.9,
+      "source_span": "23/7/2023  11:55:00AM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "antibiotic_treatment_during": {
+      "canonical_name": "Antibiotic Treatment During",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "st",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Antibiotic treatment during 1st week before the appearance of antibodies tend to supress the immune",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "within": {
+      "canonical_name": "Within",
+      "value": 6.0,
+      "raw_value": 6.0,
+      "unit": "months",
+      "ref_range": ".",
+      "confidence": 0.9,
+      "source_span": "within 6 months.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.1,
+      "raw_value": 11.1,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin\n11.10 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 21.1,
+      "raw_value": 21.1,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "Red Cell Distribution Width (RDW): 21.1 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 25.0,
+      "raw_value": 25.0,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH\n25.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 32.0,
+      "raw_value": 32.0,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC\n32.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "23_7_2023_5": {
+      "canonical_name": "23/7/2023  5",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "",
+      "ref_range": "48",
+      "confidence": 0.9,
+      "source_span": "23/7/2023  5:01:48PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "tsh": {
+      "canonical_name": "Thyroid Stimulating Hormone (TSH)",
+      "value": 0.7,
+      "raw_value": 0.7,
+      "unit": "uIU/mL",
+      "ref_range": "0.4 - 4.5",
+      "confidence": 0.95,
+      "source_span": "TSH\n0.70 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "chandigarh": {
+      "canonical_name": "Chandigarh",
+      "value": 160002.0,
+      "raw_value": 160002.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "Chandigarh-160002.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 72.0,
+      "raw_value": 72.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "MCV\n72.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count\n200.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "begins_in_4": {
+      "canonical_name": "Begins In 4",
+      "value": 6.0,
+      "raw_value": 6.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "begins in 4-6 hrs, the intensity of the rise being  higher than ESR and the recovery being earlier than ESR.",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 4.89,
+      "raw_value": 4.89,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC Count: 4.89 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Gender",
+      "value": "Gender",
+      "unit": "",
+      "confidence": 0.93,
+      "source": "gliner",
+      "source_span": "Gender",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "ast": {
+      "canonical_name": "Aspartate Transaminase (AST / SGOT)",
+      "value": 42.0,
+      "raw_value": 42.0,
+      "unit": "U/L",
+      "ref_range": "8.0 - 40.0",
+      "confidence": 0.95,
+      "source_span": "AST (SGOT), SERUM: 42.0 U/L",
+      "entity_type": "BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "Alanine Transaminase (ALT / SGPT)": {
+      "value": "29.0",
+      "unit": "U/L"
+    },
+    "Age": {
+      "value": "Age",
+      "unit": ""
+    },
+    "Values": {
+      "value": "0.03",
+      "unit": "uIU/mL"
+    },
+    "23/7/2023  11": {
+      "value": "55.0",
+      "unit": ""
+    },
+    "Antibiotic Treatment During": {
+      "value": "1.0",
+      "unit": "st"
+    },
+    "Within": {
+      "value": "6.0",
+      "unit": "months"
+    },
+    "Hemoglobin": {
+      "value": "11.1",
+      "unit": "g/dL"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "21.1",
+      "unit": "%"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "25.0",
+      "unit": "pg"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "32.0",
+      "unit": "g/dL"
+    },
+    "23/7/2023  5": {
+      "value": "1.0",
+      "unit": ""
+    },
+    "Thyroid Stimulating Hormone (TSH)": {
+      "value": "0.7",
+      "unit": "uIU/mL"
+    },
+    "Chandigarh": {
+      "value": "160002.0",
+      "unit": ""
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "72.0",
+      "unit": "fL"
+    },
+    "Platelet Count": {
+      "value": "200.0",
+      "unit": "cells/uL"
+    },
+    "Begins In 4": {
+      "value": "6.0",
+      "unit": ""
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "4.89",
+      "unit": "million/uL"
+    },
+    "Gender": {
+      "value": "Gender",
+      "unit": ""
+    },
+    "Aspartate Transaminase (AST / SGOT)": {
+      "value": "42.0",
+      "unit": "U/L"
+    }
+  },
+  "confidence_summary": 0.91,
+  "parse_confidence": 0.91,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

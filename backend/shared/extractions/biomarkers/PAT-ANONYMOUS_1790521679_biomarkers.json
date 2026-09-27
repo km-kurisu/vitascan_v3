@@ -1,0 +1,165 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "5_1_2022_4": {
+      "canonical_name": "5/1/2022  4",
+      "value": 49.0,
+      "raw_value": 49.0,
+      "unit": "",
+      "ref_range": "17",
+      "confidence": 0.9,
+      "source_span": "5/1/2022  4:49:17PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "Age",
+      "value": "Age",
+      "unit": "",
+      "confidence": 0.65,
+      "source": "gliner",
+      "source_span": "Age",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 75.0,
+      "raw_value": 75.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "confidence": 0.95,
+      "source_span": "MCV\n75.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Gender",
+      "value": "Gender",
+      "unit": "",
+      "confidence": 0.79,
+      "source": "gliner",
+      "source_span": "Gender",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count\n200.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rbc": {
+      "canonical_name": "Red Blood Cell Count (RBC)",
+      "value": 4.09,
+      "raw_value": 4.09,
+      "unit": "million/uL",
+      "ref_range": "3.8 - 5.2",
+      "confidence": 0.95,
+      "source_span": "RBC Count: 4.09 million/uL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "5_1_2022_10": {
+      "canonical_name": "5/1/2022  10",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "",
+      "ref_range": "00",
+      "confidence": 0.9,
+      "source_span": "5/1/2022  10:29:00AM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.0,
+      "raw_value": 11.0,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "confidence": 0.95,
+      "source_span": "Hemoglobin\n11.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "rdw": {
+      "canonical_name": "Red Cell Distribution Width (RDW)",
+      "value": 12.3,
+      "raw_value": 12.3,
+      "unit": "%",
+      "ref_range": "11.5 - 14.5",
+      "confidence": 0.95,
+      "source_span": "Red Cell Distribution Width (RDW): 12.3 %",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 24.0,
+      "raw_value": 24.0,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "confidence": 0.95,
+      "source_span": "MCH\n24.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 31.0,
+      "raw_value": 31.0,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "confidence": 0.95,
+      "source_span": "MCHC\n31.00 ",
+      "entity_type": "BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "5/1/2022  4": {
+      "value": "49.0",
+      "unit": ""
+    },
+    "Age": {
+      "value": "Age",
+      "unit": ""
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "75.0",
+      "unit": "fL"
+    },
+    "Gender": {
+      "value": "Gender",
+      "unit": ""
+    },
+    "Platelet Count": {
+      "value": "200.0",
+      "unit": "cells/uL"
+    },
+    "Red Blood Cell Count (RBC)": {
+      "value": "4.09",
+      "unit": "million/uL"
+    },
+    "5/1/2022  10": {
+      "value": "29.0",
+      "unit": ""
+    },
+    "Hemoglobin": {
+      "value": "11.0",
+      "unit": "g/dL"
+    },
+    "Red Cell Distribution Width (RDW)": {
+      "value": "12.3",
+      "unit": "%"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "24.0",
+      "unit": "pg"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "31.0",
+      "unit": "g/dL"
+    }
+  },
+  "confidence_summary": 0.9,
+  "parse_confidence": 0.9,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

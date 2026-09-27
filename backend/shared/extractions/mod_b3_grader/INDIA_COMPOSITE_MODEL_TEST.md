@@ -1,6 +1,6 @@
 # AnemiaGrader (mod_b3_grader) × India composite reports — Vitascan V3 test report
 
-- Generated: 2026-09-23T23:24:33
+- Generated: 2026-09-27T20:29:36
 - Flow: `sample pdf_raw -> GraderInputBuilder.build() -> PathBGrader.grade(grader_input=...)`
 - Model: xgb cascade + hetero-GNN hybrid (blend alpha per decision)
 - Samples: `backend/shared/sample_reports/IND-*_latest.json` (6 reports)

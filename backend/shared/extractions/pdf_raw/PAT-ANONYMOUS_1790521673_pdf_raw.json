@@ -1,0 +1,115 @@
+{
+  "filename": "lalpathlabs_hemogram_1641525681.pdf",
+  "patient_id": "PAT-ANONYMOUS",
+  "patient_details": {
+    "patient_id": "PAT-ANONYMOUS",
+    "name": null,
+    "age": "5",
+    "gender": "Male",
+    "date": null,
+    "lab_id": "PAT-ANONYMOUS",
+    "referred_by": "Gender"
+  },
+  "age": "5",
+  "gender": "Male",
+  "biomarkers": {
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "value": 11.0,
+      "raw_value": 11.0,
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5",
+      "source_span": "Hemoglobin\n11.00 "
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 200.0,
+      "raw_value": 200.0,
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count\n200.00 "
+    },
+    "mcv": {
+      "canonical_name": "Mean Corpuscular Volume (MCV)",
+      "value": 75.0,
+      "raw_value": 75.0,
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0",
+      "source_span": "MCV\n75.00 "
+    },
+    "mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (MCH)",
+      "value": 24.0,
+      "raw_value": 24.0,
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0",
+      "source_span": "MCH\n24.00 "
+    },
+    "mchc": {
+      "canonical_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "value": 31.0,
+      "raw_value": 31.0,
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0",
+      "source_span": "MCHC\n31.00 "
+    },
+    "5_1_2022_10": {
+      "canonical_name": "5/1/2022  10",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "",
+      "ref_range": "00",
+      "source_span": "5/1/2022  10:29:00AM"
+    },
+    "5_1_2022_4": {
+      "canonical_name": "5/1/2022  4",
+      "value": 49.0,
+      "raw_value": 49.0,
+      "unit": "",
+      "ref_range": "17",
+      "source_span": "5/1/2022  4:49:17PM"
+    }
+  },
+  "labs": {
+    "Hemoglobin": {
+      "value": "11.0",
+      "unit": "g/dL",
+      "ref_range": "12.0 - 15.5"
+    },
+    "Platelet Count": {
+      "value": "200.0",
+      "unit": "cells/uL",
+      "ref_range": "150000 - 450000"
+    },
+    "Mean Corpuscular Volume (MCV)": {
+      "value": "75.0",
+      "unit": "fL",
+      "ref_range": "80.0 - 100.0"
+    },
+    "Mean Corpuscular Hemoglobin (MCH)": {
+      "value": "24.0",
+      "unit": "pg",
+      "ref_range": "27.0 - 33.0"
+    },
+    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+      "value": "31.0",
+      "unit": "g/dL",
+      "ref_range": "32.0 - 36.0"
+    },
+    "5/1/2022  10": {
+      "value": "29.0",
+      "unit": "",
+      "ref_range": "00"
+    },
+    "5/1/2022  4": {
+      "value": "49.0",
+      "unit": "",
+      "ref_range": "17"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "S05 - PARSIK NAGAR- KALWA CC\nshop no 5, Moreshwar CHS,Parsik Nagar Opp \nReliance Mart,kalwa\nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n5 Years\n5/1/2022  10:29:00AM\n5/1/2022  10:48:14AM\n315868227\nMale\nDr. SELF\nMaster VIHAAN  KALE\n5/1/2022  4:49:17PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nHEMOGRAM\n(Electrical Impedence & Flow, Westergren)\nHemoglobin\n 11.00 - 14.00 \ng/dL\n11.10\nPacked Cell Volume (PCV)\n 34.00 - 40.00 \n%\n33.30\nRBC Count\n 4.00 - 5.20 \nmill/mm3\n4.09\nMCV\n 75.00 - 87.00 \nfL\n81.00\nMCH\n 24.00 - 30.00 \npg\n27.00\nMCHC\n 31.00 - 37.00 \ng/dL\n33.20\nRed Cell Distribution Width (RDW)\n 11.90 - 14.90 \n%\n12.30\nTotal Leukocyte Count  (TLC)\n 5.00 - 15.00 \nthou/mm3\n5.20\nDifferential Leucocyte Count (DLC)\n 32.00 - 71.00 \nSegmented Neutrophils\n%\n25.90\n 20.00 - 59.00 \nLymphocytes\n%\n58.60\n 2.00 - 10.00 \nMonocytes\n%\n5.50\n 0.00 - 8.00 \nEosinophils\n%\n9.90\n 0.00 - 1.00 \nBasophils\n%\n0.10\nAbsolute Leucocyte Count\n 1.50 - 8.00 \nNeutrophils\nthou/mm3\n1.35\n 6.00 - 9.00 \nLymphocytes\nthou/mm3\n3.05\n 0.20 - 1.00 \nMonocytes\nthou/mm3\n0.29\n 0.10 - 1.00 \nEosinophils\nthou/mm3\n0.51\n 0.02 - 0.10 \nBasophils\nthou/mm3\n0.01\nPlatelet Count\n 200.00 - 490.00 \nthou/mm3\n256.0\nMean Platelet Volume\n 6.5 - 12.0 \nfL\n7.7\nESR\n 0 - 15 \nmm/hr\n5\n*315868227*\nPage 1 of 2\n\nS05 - PARSIK NAGAR- KALWA CC\nshop no 5, Moreshwar CHS,Parsik Nagar Opp \nReliance Mart,kalwa\nName      \nA/c Status \nLab No.    \nRef By : \nGender: \nAge: \nReport Status    \nReported        \nReceived           \nCollected        \nP\n:\n:\n:\n:\n:\n:\n: Final\n5 Years\n5/1/2022  10:29:00AM\n5/1/2022  10:48:14AM\n315868227\nMale\nDr. SELF\nMaster VIHAAN  KALE\n5/1/2022  4:49:17PM\nTest Name\nResults\nUnits\nBio. Ref. Interval\nNote\n1. As per the recommendation of International council for Standardization in Hematology, the differential\n   leucocyte counts are additionally being reported as absolute numbers of each cell in per unit volume of\n   blood  \n                   \n2. Test conducted on EDTA whole blood\nDr Arshad KhanPathan\nMD, Pathology\nChief of Laboratory                            \nDr Lal PathLabs Ltd\n             -------------------------------End of report --------------------------------\nAHEEEHAPMCIPBAMGEBDMKINKAHPEFLFCNKKMABLKNKCJOPAHEEEHA\nBNFFFNBPAOFLNGEOACNDEDFHAHFHACEHMGICAOJPMPAONPBNFFFNB\nGPFAACFPJNFNMACOFODKIGJOGABFDCIGKFPCBNFBOKKKMLEDEGHOL\nCJPHPNFAFPNAMGCGEAKLJLPGMPHELLIIKNHOFNMFOMCHFKNCFGFCG\nMANAHJFFJMFLHBAOGNKKPCIMCGHDCJKAOMFIBLOIKEDGHKFPGKPCH\nLKNCFIFMEIMKBLEAFIHCKKEGBGDDKECNOONEDEMNKKBAEMEEBIPKO\nICMCAHFHAFILFJLMNCEPCKLIAHFHAKBEMLNMAKFFOMKJAHFHACPHK\nFGKPCDFGABGGDAGDHAPAHJPCGFEBFKBJPCECBNFFOBDACGDFBHDDL\nCFAGDIFKGPILKMLNAMKAFPPDFEFFPHCDKKMKBMMBKNCIBACDIFHOC\nPJPKGAFJKJBKNIMPBALNNFLDIPLCFHKHPHPNBDGOJNDPKBOAJEHCP\nNAKBNJFKPIEAOAPNJLGDJEOKPLIFFNLHKFNDAMMJLLCOLFGIKMLNL\nMNNFNNEHCEIILKEAEACAOKIDAHFHAFKHMKFCBLNPODKIAHFHAKHPL\nAPBBBPAPBALONHHCOOIJFIELBCHDACAPMGMIBNNBOLCEHHHCFABAJ\nHHHHHHHPHPHHHPHHPPHPPHPHHHPHPHHHPPPPHPPHPHHPPHPPHPHPP\nIMPORTANT INSTRUCTIONS\n\u0178Test results released pertain to the specimen submitted.\u0178All test results are dependent on the quality of the sample received by the Laboratory . \n\u0178Laboratory \ninvestigations \nare \nonly \na \ntool \nto \nfacilitate \nin \narriving \nat \na \ndiagnosis \nand \nshould \nbe \nclinically \ncorrelated \nby \nthe \nReferring \nPhysician.\u0178Sample repeats are accepted on request of Referring Physician within 7 days post reporting.\u0178Report delivery may be delayed due to \nunforeseen circumstances. Inconvenience is regretted .\u0178Certain tests may require further testing at additional cost for derivation of exact value . \nKindly submit request within \n72 hours post reporting.\u0178Test results may show interlaboratory variations.\u0178The Courts/Forum at Delhi shall have \nexclusive jurisdiction in all disputes/claims concerning the test(s) & or results of test(s).\u0178Test results are not valid for medico legal purposes. \n\u0178Contact customer care Tel No. +91-11-39885050 for all queries related to test results.\n(#) Sample drawn from outside source.\n*315868227*\nPage 2 of 2\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 4058,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-ANONYMOUS_1790521673_pdf_raw.json"
+}

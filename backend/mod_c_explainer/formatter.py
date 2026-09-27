@@ -47,7 +47,9 @@ class ModCFormatter:
             schema_version="1.0",
             patient=PatientMetadata(patient_id=patient_id, age=32, gender="Female"),
             deficiencies=deficiencies,
-            summary=SummarySection(flagged_deficiency_count=flagged_count, overall_risk_band=worst_band)
+            summary=SummarySection(flagged_deficiency_count=flagged_count, overall_risk_band=worst_band),
+            model=mod_b3.model,
+            model_confidence=mod_b3.model_confidence,
         )
 
         save_json_artifact("results", patient_id, output.model_dump())

@@ -1,0 +1,76 @@
+{
+  "filename": "lalpathlabs_cbc_1679073675.pdf",
+  "patient_id": "PAT-ANONYMOUS",
+  "patient_details": {
+    "patient_id": "PAT-ANONYMOUS",
+    "name": null,
+    "age": "18",
+    "gender": "Female",
+    "date": "12/03/2023",
+    "lab_id": "PAT-ANONYMOUS",
+    "referred_by": "Dr. AMIT KAWALE"
+  },
+  "age": "18",
+  "gender": "Female",
+  "biomarkers": {
+    "12_03_2023_09": {
+      "canonical_name": "12/03/2023 09",
+      "value": 14.0,
+      "raw_value": 14.0,
+      "unit": "",
+      "ref_range": "25",
+      "source_span": "12/03/2023 09:14:25 PM"
+    },
+    "12_3_2023_7": {
+      "canonical_name": "12/3/2023   7",
+      "value": 29.0,
+      "raw_value": 29.0,
+      "unit": "",
+      "ref_range": "00",
+      "source_span": "12/3/2023   7:29:00PM"
+    },
+    "13_3_2023_12": {
+      "canonical_name": "13/3/2023  12",
+      "value": 36.0,
+      "raw_value": 36.0,
+      "unit": "",
+      "ref_range": "51",
+      "source_span": "13/3/2023  12:36:51PM"
+    },
+    "note": {
+      "canonical_name": "Note",
+      "value": 1.0,
+      "raw_value": 1.0,
+      "unit": "Normal",
+      "ref_range": "N/A",
+      "source_span": "Note: 1. Normal levels of IgE do not rule out possibility of IgE dependent allergies as the diagnostic"
+    }
+  },
+  "labs": {
+    "12/03/2023 09": {
+      "value": "14.0",
+      "unit": "",
+      "ref_range": "25"
+    },
+    "12/3/2023   7": {
+      "value": "29.0",
+      "unit": "",
+      "ref_range": "00"
+    },
+    "13/3/2023  12": {
+      "value": "36.0",
+      "unit": "",
+      "ref_range": "51"
+    },
+    "Note": {
+      "value": "1.0",
+      "unit": "Normal",
+      "ref_range": "N/A"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "COMPLETE BLOOD COUNT (CBC)\n(Electrical Impedence, Photometric)\nHemoglobin\ng/dL\n11.00 - 14.00\n( Spectrophotometry)\n11.30\nPacked Cell Volume (PCV)\n%\n34.00 - 40.00\n(Analogical Integration)\n34.90\nRBC Count\nmill/mm3\n4.00 - 5.20\n(Electrical Impendence) \n5.17\nMCV\nfL\n75.00 - 87.00\n(Calculated) \n67.50\nMCH\npg\n24.00 - 30.00\n(Calculated) \n21.90\nMCHC\ng/dL\n31.00 - 37.00\n(Calculated) \n32.40\nRed Cell Distribution Width (RDW)\n%\n12.30 - 17.00\n(Calculated) \n14.50\nTotal Leukocyte Count (TLC)\nthou/mm3\n5.00 - 15.00\n(Electrical Impedence) \n17.06\nDifferential Leucocyte Count (DLC)\nSegmented Neutrophils\n%\n14-55\n( Flow Cytometry)\n45.50\nLymphocytes\n%\n37-79\n( Flow Cytometry)\n44.80\nMonocytes\n%\n2-12\n( Flow Cytometry)\n7.40\nEosinophils\n%\n0-6\n( Flow Cytometry)\n2.00\nBasophils\n%\n0-1\n( Flow Cytometry)\n0.30\nAbsolute Leucocyte Count (Calculated)\nNeutrophils\nthou/mm3\n1.50 - 8.00\n7.76\nLymphocytes\nthou/mm3\n6.00 - 9.00\n7.64\nTest Name\nUnits\nResults\nBio. Ref. Interval\nName\n: 12/03/2023 07:29:00 PM\nReport Status : Final\nCollected\nA/c Status\nP\nCollected At : B03-WALK IN BAWANKAR LAB\nProcessed At\n:\n:\nBawankar Pathology, A unit of Dr Lal \nPathLabs\nBhandara\n12/03/2023 09:14:25 PM\nReported\n: Baby JANHVI KHARABE\nAge\n: 18 Months\nLab No.\n:\n:\nGender\n: Female\nRef By\n: Dr. AMIT KAWALE (MBBS,DCH)\n387577061\nRAJIV GANDHI CHOWK, BHANDARA JP \nTOWER MAH  NAGPUR441904 IND\nTest Report\nPage 1 of 5\n38 5\n06\naby J\n8\no t s\ne\na e\n\nCOMPLETE BLOOD COUNT (CBC)\n(Electrical Impedence, Photometric)\nMonocytes\nthou/mm3\n0.20 - 1.00\n1.26\nEosinophils\nthou/mm3\n0.10 - 1.00\n0.34\nBasophils\nthou/mm3\n0.01 - 0.10\n(Calculated) \n0.05\nPlatelet Count\nthou/mm3\n200.00 - 490.00\n(Electrical Impendence)\n448\nMPV (Mean Platelet Volume)\nfL\n6.50 - 12.00\n(Calculated) \n7.50\nNote\n1.\nAs per the recommendation of international council for Standardization in Hematology, the differential leucocyte \ncounts are additionally being reported as absolute numbers of each cell in per unit volume of blood.\n2.\nTest counducted on EDTA whole blood.\nName\n: 12/03/2023 07:29:00 PM\nReport Status : Final\nCollected\nA/c Status\nP\nCollected At : B03-WALK IN BAWANKAR LAB\nProcessed At\n:\n:\nBawankar Pathology, A unit of Dr Lal \nPathLabs\nBhandara\n12/03/2023 09:14:25 PM\nReported\n: Baby JANHVI KHARABE\nAge\n: 18 Months\nLab No.\n:\n:\nGender\n: Female\nRef By\n: Dr. AMIT KAWALE (MBBS,DCH)\n387577061\nRAJIV GANDHI CHOWK, BHANDARA JP \nTOWER MAH  NAGPUR441904 IND\nTest Report\nPage 2 of 5\n38 5\n06\naby J\n8\no t s\ne\na e\n\nBLOOD GROUP, ABO & RH TYPING\n(Tube & Slide Agglutination)\nABO Group\n\" AB \"\nRh Factor\nPositive\nNote\n1. Performed by Slide method.\n2. Both Forward & Reverse grouping performed.\n3. Test conducted on EDTA whole blood.\nTest Name\nUnits\nResults\nBio. Ref. Interval\nName\n: 12/03/2023 07:29:00 PM\nReport Status : Final\nCollected\nA/c Status\nP\nCollected At : B03-WALK IN BAWANKAR LAB\nProcessed At\n:\n:\nBawankar Pathology, A unit of Dr Lal \nPathLabs\nBhandara\n12/03/2023 09:14:25 PM\nReported\n: Baby JANHVI KHARABE\nAge\n: 18 Months\nLab No.\n:\n:\nGender\n: Female\nRef By\n: Dr. AMIT KAWALE (MBBS,DCH)\n387577061\nRAJIV GANDHI CHOWK, BHANDARA JP \nTOWER MAH  NAGPUR441904 IND\nTest Report\nPage 3 of 5\n38 5\n06\naby J\n8\no t s\ne\na e\n\nReport Status    \nFemale\n18 Months\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n12/3/2023   7:29:00PM\nDr. AMIT KAWALE (MBBS,DCH)\n387577061\nBaby JANHVI  KHARABE\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n13/3/2023  12:36:51PM\nFinal\nLPL-NAGPUR LAB\nPlot No. 7, Ground Floor Hotel Sunny \nInternational, Besides Gujrati Samaj \nBhavan, Dhantoli Nagpur - 440012.\n:\n:\nCollected at     \nProcessed at      \nBAWANKAR LAB\nRAJIV GANDHI CHOWK, BHANDARA,JP TOWER, \nMAH, NAGPUR 441904\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\nIMMUNOGLOBULIN IgE, SERUM\n(ECLIA)\n5.83\nIU/mL\n0.00 - 60.00\nNote: 1. Normal levels of IgE do not rule out possibility of IgE dependent allergies as the diagnostic \n              sensitivity of the test depends upon elapsed time between exposure to an allergen and testing, \n              patient age and affected target organs.\n    2. No close correlation has been demonstrated between severity of allergic reaction and IgE levels.\nComments \nImmunoglobulin E (IgE) is the most important trigger molecule for allergic information. The level of IgE is \nlow during the first year of life, gradually increases with age and reaches adult levels after 10 years. As \nIgE is a mediator of allergic  response, quantitative  measurement can provide  useful information for \ndifferential  diagnosis of  atopic and non-atopic disease. Patients with atopic diseases like Allergic \nasthma, Allergic rhinitis & Atopic dermatitis have moderately elevated IgE levels.                              \n                                                                          \n Increased Levels -  Atopic/Non-atopic allergy, Hyper IgE syndrome, Parasitic infections, IgE Myeloma, \n Pulmonary Aspergillosis, Immunodeficiency states & Autoimmune diseases                 \nUses\n\u00b7\nEvaluation of children with strong family history of allergies and early clinical signs of disease\n\u00b7\nEvaluation of children and adults suspected of having allergic respiratory disease to establish the \ndiagnosis and define the allergens\n\u00b7\nTo confirm clinical expression of sensitivity to foods in patients with Anaphylactic sensitivity or with \nAsthma, Angioedema or Cutaneous disease\n\u00b7\nTo evaluate sensitivity to insect venom allergens particularly as an aid in defining venom specificity in \nthose cases in which skin tests are equivocal\n\u00b7\nTo confirm the presence of IgE antibodies to certain occupational allergens\nDr Mayuri Govind Rathod\nMD, Pathology\nChief of Laboratory                            \nDr Lal PathLabs Ltd\nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)*387577061*\nPage 1 of 2\nPage 4 of 5\n38 5\n06\naby J\n8\no t s\ne\na e\n\nReport Status    \nFemale\n18 Months\n:\n:\n:\n:\nAge\nGender\nReported        \nP\n12/3/2023   7:29:00PM\nDr. AMIT KAWALE (MBBS,DCH)\n387577061\nBaby JANHVI  KHARABE\n:\n:\n:\n:\n:\nName        \nLab No.    \nRef By \nCollected       \nA/c Status \n13/3/2023  12:36:51PM\nFinal\nLPL-NAGPUR LAB\nPlot No. 7, Ground Floor Hotel Sunny \nInternational, Besides Gujrati Samaj \nBhavan, Dhantoli Nagpur - 440012.\n:\n:\nCollected at     \nProcessed at      \nBAWANKAR LAB\nRAJIV GANDHI CHOWK, BHANDARA,JP TOWER, \nMAH, NAGPUR 441904\nTest Report      \nTest Name\nResults\nUnits\nBio. Ref. Interval\n-------------------------------End of report --------------------------------\nAHEEEHAPMKHKFOANLDKLLINCBILLJCECCIKCIKPJPKEDFNFAPPAHEEEHA\nBNFFFNBPAPBGJKEGFOEPAGAPAOAHFHAKAKJOBCJOJLELMKJHMPBNFFFNB\nGIEHEGFNNMPIGBEJEFIAAJHFJAFEHEDPNKPHENFLMKKCKEFLBLHDEHANP\nDJHMPOFNBIBIEPEHBJOELGOFANHLALAFJIFEPBPAKODJPDNLIJFBKEMEL\nIBKHBJFJPFNFDIADDPHFILBJDENPIBKHKKMJACGIPLKGKPNGKFFFOLKFC\nPGCBBEFPJEOJOLEKIGGLDIPBADHFOFAINDFCBKDKBLIKONNALNEJOGMKL\nCBIMIJFFELOBGEOIEGMIDEGHIHAFJBALOFEPBLMIKJCGKPFBIJNNIDILD\nFJHBAMFNBIMKNDKPFANHDFHILKBMFMBHKFCCAMNNIIKJOPNOBNFMAHILL\nNKKHIKFNJCKGFEMCEMMIHLMKHMEFEKFBJFFLBKPFOEDIOCNKDJPHNEKLJ\nOPHMFBFCEMEJJDCAEAOJDLFICDFKPNJHKEPJALFKNKCKIGEOCJGKHKCKL\nIGIKDPFLGKKECMBMPOFCPJEEINMGNJIBJMEEBFODPNDMKOEKEPCIGCAEO\nEGICGJFDGLDKDACMHHKNHPDEIEOPPFOEAEHPBLNOOLJBIGFJPKONHDICL\nMNNNNNEPKFBDODAEPCFLHDAHJBAHFHAHNKPFCMNLMLIILFNOAHFHAHIKL\nAPBBBPAPBIFAEFFIIODKCEJFAHGCHHCAONFFOKPGODKHNLNFEDFCGBKHH\nHHHHHHHPHHPPHPPPPHHHPPPPPHPPPPPPPPPHHPPPPHHHPHPHHHHHPHPHP\nIMPORTANT INSTRUCTIONS\n\u0178Test results released pertain to the specimen submitted.\u0178All test results are dependent on the quality of the sample received by the Laboratory . \n\u0178Laboratory investigations are only a tool to facilitate in arriving at a diagnosis and should be clinically correlated by the Referring Physician .\u0178Report \ndelivery may be delayed due to unforeseen circumstances. Inconvenience is regretted .\u0178Certain tests may require further testing at additional cost for \nderivation of exact value. Kindly submit request within 72 hours post reporting.\u0178Test results may show interlaboratory variations.\u0178The Courts/Forum \nat Delhi shall have exclusive jurisdiction in all disputes/claims concerning the test(s) & or results of test(s).\u0178Test results are not valid for medico legal \npurposes.\u0178This is computer generated medical diagnostic report that has been validated by Authorized Medical Practitioner /Doctor.\u0178The report does \nnot need physical signature.\n(#) Sample drawn from outside source.\nIf Test results are alarming or unexpected, client is advised to contact the Customer Care immediately for possible remedial action. \nTel: +91-11-49885050,Fax: - +91-11-2788-2134, E-mail: lalpathlabs@lalpathlabs.com \nPatientReportSCSuperPanel.SP_GENERAL_TEMPLATE01_SC (Version: 7)*387577061*\nPage 2 of 2\nPage 5 of 5\n38 5\n06\naby J\n8\no t s\ne\na e\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 8619,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-ANONYMOUS_1790521540_pdf_raw.json"
+}

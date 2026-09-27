@@ -1,0 +1,335 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "41",
+      "value": "41",
+      "unit": "",
+      "confidence": 0.9,
+      "source": "gliner",
+      "source_span": "41",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "serum_ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 132.5,
+      "raw_value": 132.5,
+      "unit": "ng/mL",
+      "ref_range": "22.0 - 322.0",
+      "confidence": 0.9,
+      "source_span": "Serum Ferritin                          132.5 ng/mL               (22.0 - 322.0)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "034_09_2026": {
+      "canonical_name": "034/09/2026",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "034/09/2026-004",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "iron": {
+      "canonical_name": "Serum Iron",
+      "value": 141.7,
+      "raw_value": 141.7,
+      "unit": "ug/dL",
+      "ref_range": "60.0 - 170.0",
+      "confidence": 0.95,
+      "source_span": "Serum Iron                              141.7 ug/dL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "hemoglobin_hb": {
+      "canonical_name": "Hemoglobin (Hb)",
+      "value": 10.1,
+      "raw_value": 10.1,
+      "unit": "g/dL",
+      "ref_range": "13.0 - 17.0",
+      "confidence": 0.9,
+      "source_span": "Hemoglobin (Hb)                         10.1 g/dL                 (13.0 - 17.0)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "ferritin": {
+      "canonical_name": "Serum Ferritin",
+      "value": 132.5,
+      "raw_value": 132.5,
+      "unit": "ng/mL",
+      "ref_range": "13.0 - 150.0",
+      "confidence": 0.95,
+      "source_span": "Ferritin                          132.5 ng/mL",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "mchc_mean_corpuscular_hb": {
+      "canonical_name": "Mchc (Mean Corpuscular Hb)",
+      "value": 32.9,
+      "raw_value": 32.9,
+      "unit": "g/dL",
+      "ref_range": "31.5 - 34.5",
+      "confidence": 0.9,
+      "source_span": "MCHC (Mean Corpuscular Hb)              32.9 g/dL                 (31.5 - 34.5)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "raw_value": "Leucocyte",
+      "value": "Leucocyte",
+      "unit": "",
+      "confidence": 0.5,
+      "source": "gliner",
+      "source_span": "Leucocyte",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "vitamin_b12": {
+      "canonical_name": "Vitamin B12",
+      "raw_value": "Folate",
+      "value": "Folate",
+      "unit": "",
+      "confidence": 0.81,
+      "source": "gliner",
+      "source_span": "Folate",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "mean_corpuscular_hemoglobin_mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (Mch)",
+      "value": 34.6,
+      "raw_value": 34.6,
+      "unit": "pg",
+      "ref_range": "27.0 - 32.0",
+      "confidence": 0.9,
+      "source_span": "Mean Corpuscular Hemoglobin (MCH)       34.6 pg                   (27.0 - 32.0)   H",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "total_rbc_count": {
+      "canonical_name": "Total Rbc Count",
+      "value": 2.92,
+      "raw_value": 2.92,
+      "unit": "million/cmm",
+      "ref_range": "4.5 - 5.5",
+      "confidence": 0.9,
+      "source_span": "Total RBC Count                         2.92 million/cmm          (4.5 - 5.5)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelet_count": {
+      "canonical_name": "Platelet Count",
+      "value": 1.9,
+      "raw_value": 1.9,
+      "unit": "lac/mm",
+      "ref_range": "3",
+      "confidence": 0.9,
+      "source_span": "Platelet Count                          1.9 lac/mm3               (1.5 - 4.5)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mean_corpuscular_volume_mcv": {
+      "canonical_name": "Mean Corpuscular Volume (Mcv)",
+      "value": 105.2,
+      "raw_value": 105.2,
+      "unit": "fL",
+      "ref_range": "83.0 - 101.0",
+      "confidence": 0.9,
+      "source_span": "Mean Corpuscular Volume (MCV)           105.2 fL                  (83.0 - 101.0)   H",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "vs2026": {
+      "canonical_name": "Vs2026",
+      "value": 4.0,
+      "raw_value": 4.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "VS2026-004",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "total_leucocyte_count_tlc": {
+      "canonical_name": "Total Leucocyte Count (Tlc)",
+      "value": 5.6,
+      "raw_value": 5.6,
+      "unit": "thousand/mm",
+      "ref_range": "3",
+      "confidence": 0.9,
+      "source_span": "Total Leucocyte Count (TLC)             5.6 thousand/mm3          (4.0 - 10.0)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "05_sep_2026_08": {
+      "canonical_name": "05/Sep/2026 08",
+      "value": 12.0,
+      "raw_value": 12.0,
+      "unit": "AM",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "05/Sep/2026 08:12 AM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rdw_cv": {
+      "canonical_name": "Rdw (Cv)",
+      "value": 16.9,
+      "raw_value": 16.9,
+      "unit": "%",
+      "ref_range": "11.6 - 14.0",
+      "confidence": 0.9,
+      "source_span": "RDW (CV)                                16.9 %                    (11.6 - 14.0)   H",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "06_sep_2026_04": {
+      "canonical_name": "06/Sep/2026 04",
+      "value": 45.0,
+      "raw_value": 45.0,
+      "unit": "PM",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "06/Sep/2026 04:45 PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 1.9,
+      "raw_value": 1.9,
+      "unit": "lac/mm",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count                          1.9 lac/mm",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "total_iron_binding_capacity_tibc": {
+      "canonical_name": "Total Iron Binding Capacity (Tibc)",
+      "value": 286.3,
+      "raw_value": 286.3,
+      "unit": "ug/dL",
+      "ref_range": "250.0 - 400.0",
+      "confidence": 0.9,
+      "source_span": "Total Iron Binding Capacity (TIBC)      286.3 ug/dL               (250.0 - 400.0)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "serum_iron": {
+      "canonical_name": "Serum Iron",
+      "value": 141.7,
+      "raw_value": 141.7,
+      "unit": "ug/dL",
+      "ref_range": "50.0 - 170.0",
+      "confidence": 0.9,
+      "source_span": "Serum Iron                              141.7 ug/dL               (50.0 - 170.0)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "packed_cell_volume_pcv": {
+      "canonical_name": "Packed Cell Volume (Pcv)",
+      "value": 30.7,
+      "raw_value": 30.7,
+      "unit": "%",
+      "ref_range": "40.0 - 50.0",
+      "confidence": 0.9,
+      "source_span": "Packed Cell Volume (PCV)                30.7 %                    (40.0 - 50.0)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Male",
+      "value": "Male",
+      "unit": "",
+      "confidence": 0.86,
+      "source": "gliner",
+      "source_span": "Male",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "vitamin_b12_cyanocobalamin": {
+      "canonical_name": "Vitamin B12 (Cyanocobalamin)",
+      "value": 84.0,
+      "raw_value": 84.0,
+      "unit": "pg/mL",
+      "ref_range": "197.0 - 771.0",
+      "confidence": 0.9,
+      "source_span": "Vitamin B12 (Cyanocobalamin)            84.0 pg/mL                (197.0 - 771.0)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "Age": {
+      "value": "41",
+      "unit": ""
+    },
+    "Serum Ferritin": {
+      "value": "132.5",
+      "unit": "ng/mL"
+    },
+    "034/09/2026": {
+      "value": "4.0",
+      "unit": ""
+    },
+    "Serum Iron": {
+      "value": "141.7",
+      "unit": "ug/dL"
+    },
+    "Hemoglobin (Hb)": {
+      "value": "10.1",
+      "unit": "g/dL"
+    },
+    "Mchc (Mean Corpuscular Hb)": {
+      "value": "32.9",
+      "unit": "g/dL"
+    },
+    "Hemoglobin": {
+      "value": "Leucocyte",
+      "unit": ""
+    },
+    "Vitamin B12": {
+      "value": "Folate",
+      "unit": ""
+    },
+    "Mean Corpuscular Hemoglobin (Mch)": {
+      "value": "34.6",
+      "unit": "pg"
+    },
+    "Total Rbc Count": {
+      "value": "2.92",
+      "unit": "million/cmm"
+    },
+    "Platelet Count": {
+      "value": "1.9",
+      "unit": "lac/mm"
+    },
+    "Mean Corpuscular Volume (Mcv)": {
+      "value": "105.2",
+      "unit": "fL"
+    },
+    "Vs2026": {
+      "value": "4.0",
+      "unit": ""
+    },
+    "Total Leucocyte Count (Tlc)": {
+      "value": "5.6",
+      "unit": "thousand/mm"
+    },
+    "05/Sep/2026 08": {
+      "value": "12.0",
+      "unit": "AM"
+    },
+    "Rdw (Cv)": {
+      "value": "16.9",
+      "unit": "%"
+    },
+    "06/Sep/2026 04": {
+      "value": "45.0",
+      "unit": "PM"
+    },
+    "Total Iron Binding Capacity (Tibc)": {
+      "value": "286.3",
+      "unit": "ug/dL"
+    },
+    "Packed Cell Volume (Pcv)": {
+      "value": "30.7",
+      "unit": "%"
+    },
+    "Gender": {
+      "value": "Male",
+      "unit": ""
+    },
+    "Vitamin B12 (Cyanocobalamin)": {
+      "value": "84.0",
+      "unit": "pg/mL"
+    }
+  },
+  "confidence_summary": 0.88,
+  "parse_confidence": 0.88,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

@@ -1,0 +1,201 @@
+{
+  "filename": "IND-07-CBC-ONLY-FEMALE.pdf",
+  "patient_id": "PAT-ANONYMOUS",
+  "patient_details": {
+    "patient_id": "PAT-ANONYMOUS",
+    "name": null,
+    "age": null,
+    "gender": "Female",
+    "date": "034/09/2026",
+    "lab_id": "PAT-ANONYMOUS",
+    "referred_by": "Dr. R"
+  },
+  "age": null,
+  "gender": "Female",
+  "biomarkers": {
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 3.3,
+      "raw_value": 3.3,
+      "unit": "lac/mm",
+      "ref_range": "150000 - 450000",
+      "source_span": "Platelet Count                          3.3 lac/mm"
+    },
+    "vs2026": {
+      "canonical_name": "Vs2026",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "VS2026-007"
+    },
+    "034_09_2026": {
+      "canonical_name": "034/09/2026",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "source_span": "034/09/2026-007"
+    },
+    "05_sep_2026_08": {
+      "canonical_name": "05/Sep/2026 08",
+      "value": 12.0,
+      "raw_value": 12.0,
+      "unit": "AM",
+      "ref_range": "N/A",
+      "source_span": "05/Sep/2026 08:12 AM"
+    },
+    "06_sep_2026_04": {
+      "canonical_name": "06/Sep/2026 04",
+      "value": 45.0,
+      "raw_value": 45.0,
+      "unit": "PM",
+      "ref_range": "N/A",
+      "source_span": "06/Sep/2026 04:45 PM"
+    },
+    "hemoglobin_hb": {
+      "canonical_name": "Hemoglobin (Hb)",
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "ref_range": "11.5 - 15.0",
+      "source_span": "Hemoglobin (Hb)                         10.4 g/dL                 (11.5 - 15.0)   L"
+    },
+    "packed_cell_volume_pcv": {
+      "canonical_name": "Packed Cell Volume (Pcv)",
+      "value": 26.7,
+      "raw_value": 26.7,
+      "unit": "%",
+      "ref_range": "40.0 - 50.0",
+      "source_span": "Packed Cell Volume (PCV)                26.7 %                    (40.0 - 50.0)   L"
+    },
+    "total_rbc_count": {
+      "canonical_name": "Total Rbc Count",
+      "value": 3.61,
+      "raw_value": 3.61,
+      "unit": "million/cmm",
+      "ref_range": "3.8 - 4.8",
+      "source_span": "Total RBC Count                         3.61 million/cmm          (3.8 - 4.8)   L"
+    },
+    "mean_corpuscular_volume_mcv": {
+      "canonical_name": "Mean Corpuscular Volume (Mcv)",
+      "value": 74.0,
+      "raw_value": 74.0,
+      "unit": "fL",
+      "ref_range": "83.0 - 101.0",
+      "source_span": "Mean Corpuscular Volume (MCV)           74.0 fL                   (83.0 - 101.0)   L"
+    },
+    "mean_corpuscular_hemoglobin_mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (Mch)",
+      "value": 28.8,
+      "raw_value": 28.8,
+      "unit": "pg",
+      "ref_range": "27.0 - 32.0",
+      "source_span": "Mean Corpuscular Hemoglobin (MCH)       28.8 pg                   (27.0 - 32.0)"
+    },
+    "mchc_mean_corpuscular_hb": {
+      "canonical_name": "Mchc (Mean Corpuscular Hb)",
+      "value": 38.9,
+      "raw_value": 38.9,
+      "unit": "g/dL",
+      "ref_range": "31.5 - 34.5",
+      "source_span": "MCHC (Mean Corpuscular Hb)              38.9 g/dL                 (31.5 - 34.5)   H"
+    },
+    "rdw_cv": {
+      "canonical_name": "Rdw (Cv)",
+      "value": 18.2,
+      "raw_value": 18.2,
+      "unit": "%",
+      "ref_range": "11.6 - 14.0",
+      "source_span": "RDW (CV)                                18.2 %                    (11.6 - 14.0)   H"
+    },
+    "total_leucocyte_count_tlc": {
+      "canonical_name": "Total Leucocyte Count (Tlc)",
+      "value": 9.4,
+      "raw_value": 9.4,
+      "unit": "thousand/mm",
+      "ref_range": "3",
+      "source_span": "Total Leucocyte Count (TLC)             9.4 thousand/mm3          (4.0 - 10.0)"
+    },
+    "platelet_count": {
+      "canonical_name": "Platelet Count",
+      "value": 3.3,
+      "raw_value": 3.3,
+      "unit": "lac/mm",
+      "ref_range": "3",
+      "source_span": "Platelet Count                          3.3 lac/mm3               (1.5 - 4.5)"
+    }
+  },
+  "labs": {
+    "Platelet Count": {
+      "value": "3.3",
+      "unit": "lac/mm",
+      "ref_range": "3"
+    },
+    "Vs2026": {
+      "value": "7.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "034/09/2026": {
+      "value": "7.0",
+      "unit": "",
+      "ref_range": "N/A"
+    },
+    "05/Sep/2026 08": {
+      "value": "12.0",
+      "unit": "AM",
+      "ref_range": "N/A"
+    },
+    "06/Sep/2026 04": {
+      "value": "45.0",
+      "unit": "PM",
+      "ref_range": "N/A"
+    },
+    "Hemoglobin (Hb)": {
+      "value": "10.4",
+      "unit": "g/dL",
+      "ref_range": "11.5 - 15.0"
+    },
+    "Packed Cell Volume (Pcv)": {
+      "value": "26.7",
+      "unit": "%",
+      "ref_range": "40.0 - 50.0"
+    },
+    "Total Rbc Count": {
+      "value": "3.61",
+      "unit": "million/cmm",
+      "ref_range": "3.8 - 4.8"
+    },
+    "Mean Corpuscular Volume (Mcv)": {
+      "value": "74.0",
+      "unit": "fL",
+      "ref_range": "83.0 - 101.0"
+    },
+    "Mean Corpuscular Hemoglobin (Mch)": {
+      "value": "28.8",
+      "unit": "pg",
+      "ref_range": "27.0 - 32.0"
+    },
+    "Mchc (Mean Corpuscular Hb)": {
+      "value": "38.9",
+      "unit": "g/dL",
+      "ref_range": "31.5 - 34.5"
+    },
+    "Rdw (Cv)": {
+      "value": "18.2",
+      "unit": "%",
+      "ref_range": "11.6 - 14.0"
+    },
+    "Total Leucocyte Count (Tlc)": {
+      "value": "9.4",
+      "unit": "thousand/mm",
+      "ref_range": "3"
+    }
+  },
+  "parse_confidence": 0.95,
+  "raw_text": "VitaScan Reference Laboratory\nNABL Accredited Laboratory: NABL-AB-2026-XXXX \u00a0|\u00a0 Plot 14, Sector 18, New Delhi - 110001, India\nCLINICAL LABORATORY REPORT\nPanel: Complete Blood Count (Haemogram)\nPatient\nMeera Krishnan\nAge / Gender\n26 Y/Female\nPatient ID\nVS2026-007\nReferred By\nDr. R. Bhatt\nLab No\n034/09/2026-007\nBarcode\n10139007\nSample\nWhole Blood (EDTA) / Serum\nVisit Type\nRoutine / OPD\nCollected\n05/Sep/2026 08:12 AM\nReported\n06/Sep/2026 04:45 PM\nTEST NAME RESULT & UNIT BIOLOGICAL REFERENCE INTERVAL FLAG\nCOMPLETE BLOOD COUNT (CBC)\nHemoglobin (Hb)                         10.4 g/dL                 (11.5 - 15.0)   L\nPacked Cell Volume (PCV)                26.7 %                    (40.0 - 50.0)   L\nTotal RBC Count                         3.61 million/cmm          (3.8 - 4.8)   L\nMean Corpuscular Volume (MCV)           74.0 fL                   (83.0 - 101.0)   L\nMean Corpuscular Hemoglobin (MCH)       28.8 pg                   (27.0 - 32.0)\nMCHC (Mean Corpuscular Hb)              38.9 g/dL                 (31.5 - 34.5)   H\nRDW (CV)                                18.2 %                    (11.6 - 14.0)   H\nTotal Leucocyte Count (TLC)             9.4 thousand/mm3          (4.0 - 10.0)\nPlatelet Count                          3.3 lac/mm3               (1.5 - 4.5)\nRemarks: SYNTHETIC REPORT generated for VitaScan pipeline testing. Not a real patient and not for clinical use. Provenance for each scenario is recorded in\nMANIFEST.json.\nVitaScan Reference Laboratory\nNABL No: NABL-AB-2026-XXXX\nDr. A. Sharma, MD Pathology\nConsultant Pathologist\nElectronically verified\n",
+  "extraction_method": "PyMuPDF text extraction",
+  "char_count": 1577,
+  "json_storage_path": "/home/kurisuichigo/Projects/vitascan_v3/backend/shared/extractions/pdf_raw/PAT-ANONYMOUS_1790523146_pdf_raw.json"
+}

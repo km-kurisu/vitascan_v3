@@ -1,0 +1,245 @@
+{
+  "model": "Ihor/gliner-biomed-small-v1.0",
+  "biomarkers": {
+    "platelet_count": {
+      "canonical_name": "Platelet Count",
+      "value": 3.3,
+      "raw_value": 3.3,
+      "unit": "lac/mm",
+      "ref_range": "3",
+      "confidence": 0.9,
+      "source_span": "Platelet Count                          3.3 lac/mm3               (1.5 - 4.5)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mean_corpuscular_volume_mcv": {
+      "canonical_name": "Mean Corpuscular Volume (Mcv)",
+      "value": 74.0,
+      "raw_value": 74.0,
+      "unit": "fL",
+      "ref_range": "83.0 - 101.0",
+      "confidence": 0.9,
+      "source_span": "Mean Corpuscular Volume (MCV)           74.0 fL                   (83.0 - 101.0)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "vs2026": {
+      "canonical_name": "Vs2026",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "VS2026-007",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "05_sep_2026_08": {
+      "canonical_name": "05/Sep/2026 08",
+      "value": 12.0,
+      "raw_value": 12.0,
+      "unit": "AM",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "05/Sep/2026 08:12 AM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "total_leucocyte_count_tlc": {
+      "canonical_name": "Total Leucocyte Count (Tlc)",
+      "value": 9.4,
+      "raw_value": 9.4,
+      "unit": "thousand/mm",
+      "ref_range": "3",
+      "confidence": 0.9,
+      "source_span": "Total Leucocyte Count (TLC)             9.4 thousand/mm3          (4.0 - 10.0)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "age": {
+      "canonical_name": "Age",
+      "raw_value": "26",
+      "value": "26",
+      "unit": "",
+      "confidence": 0.8,
+      "source": "gliner",
+      "source_span": "26",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "mean_corpuscular_hemoglobin_mch": {
+      "canonical_name": "Mean Corpuscular Hemoglobin (Mch)",
+      "value": 28.8,
+      "raw_value": 28.8,
+      "unit": "pg",
+      "ref_range": "27.0 - 32.0",
+      "confidence": 0.9,
+      "source_span": "Mean Corpuscular Hemoglobin (MCH)       28.8 pg                   (27.0 - 32.0)",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "rdw_cv": {
+      "canonical_name": "Rdw (Cv)",
+      "value": 18.2,
+      "raw_value": 18.2,
+      "unit": "%",
+      "ref_range": "11.6 - 14.0",
+      "confidence": 0.9,
+      "source_span": "RDW (CV)                                18.2 %                    (11.6 - 14.0)   H",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "06_sep_2026_04": {
+      "canonical_name": "06/Sep/2026 04",
+      "value": 45.0,
+      "raw_value": 45.0,
+      "unit": "PM",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "06/Sep/2026 04:45 PM",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "platelets": {
+      "canonical_name": "Platelet Count",
+      "value": 3.3,
+      "raw_value": 3.3,
+      "unit": "lac/mm",
+      "ref_range": "150000 - 450000",
+      "confidence": 0.95,
+      "source_span": "Platelet Count                          3.3 lac/mm",
+      "entity_type": "BIOMARKER_ENTITY"
+    },
+    "034_09_2026": {
+      "canonical_name": "034/09/2026",
+      "value": 7.0,
+      "raw_value": 7.0,
+      "unit": "",
+      "ref_range": "N/A",
+      "confidence": 0.9,
+      "source_span": "034/09/2026-007",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "hemoglobin_hb": {
+      "canonical_name": "Hemoglobin (Hb)",
+      "value": 10.4,
+      "raw_value": 10.4,
+      "unit": "g/dL",
+      "ref_range": "11.5 - 15.0",
+      "confidence": 0.9,
+      "source_span": "Hemoglobin (Hb)                         10.4 g/dL                 (11.5 - 15.0)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "mchc_mean_corpuscular_hb": {
+      "canonical_name": "Mchc (Mean Corpuscular Hb)",
+      "value": 38.9,
+      "raw_value": 38.9,
+      "unit": "g/dL",
+      "ref_range": "31.5 - 34.5",
+      "confidence": 0.9,
+      "source_span": "MCHC (Mean Corpuscular Hb)              38.9 g/dL                 (31.5 - 34.5)   H",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "packed_cell_volume_pcv": {
+      "canonical_name": "Packed Cell Volume (Pcv)",
+      "value": 26.7,
+      "raw_value": 26.7,
+      "unit": "%",
+      "ref_range": "40.0 - 50.0",
+      "confidence": 0.9,
+      "source_span": "Packed Cell Volume (PCV)                26.7 %                    (40.0 - 50.0)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    },
+    "gender": {
+      "canonical_name": "Gender",
+      "raw_value": "Female",
+      "value": "Female",
+      "unit": "",
+      "confidence": 0.91,
+      "source": "gliner",
+      "source_span": "Female",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "hemoglobin": {
+      "canonical_name": "Hemoglobin",
+      "raw_value": "Leucocyte",
+      "value": "Leucocyte",
+      "unit": "",
+      "confidence": 0.52,
+      "source": "gliner",
+      "source_span": "Leucocyte",
+      "entity_type": "GLINER_BIOMEDICAL_ENTITY"
+    },
+    "total_rbc_count": {
+      "canonical_name": "Total Rbc Count",
+      "value": 3.61,
+      "raw_value": 3.61,
+      "unit": "million/cmm",
+      "ref_range": "3.8 - 4.8",
+      "confidence": 0.9,
+      "source_span": "Total RBC Count                         3.61 million/cmm          (3.8 - 4.8)   L",
+      "entity_type": "GENERIC_BIOMARKER_ENTITY"
+    }
+  },
+  "labs": {
+    "Platelet Count": {
+      "value": "3.3",
+      "unit": "lac/mm"
+    },
+    "Mean Corpuscular Volume (Mcv)": {
+      "value": "74.0",
+      "unit": "fL"
+    },
+    "Vs2026": {
+      "value": "7.0",
+      "unit": ""
+    },
+    "05/Sep/2026 08": {
+      "value": "12.0",
+      "unit": "AM"
+    },
+    "Total Leucocyte Count (Tlc)": {
+      "value": "9.4",
+      "unit": "thousand/mm"
+    },
+    "Age": {
+      "value": "26",
+      "unit": ""
+    },
+    "Mean Corpuscular Hemoglobin (Mch)": {
+      "value": "28.8",
+      "unit": "pg"
+    },
+    "Rdw (Cv)": {
+      "value": "18.2",
+      "unit": "%"
+    },
+    "06/Sep/2026 04": {
+      "value": "45.0",
+      "unit": "PM"
+    },
+    "034/09/2026": {
+      "value": "7.0",
+      "unit": ""
+    },
+    "Hemoglobin (Hb)": {
+      "value": "10.4",
+      "unit": "g/dL"
+    },
+    "Mchc (Mean Corpuscular Hb)": {
+      "value": "38.9",
+      "unit": "g/dL"
+    },
+    "Packed Cell Volume (Pcv)": {
+      "value": "26.7",
+      "unit": "%"
+    },
+    "Gender": {
+      "value": "Female",
+      "unit": ""
+    },
+    "Hemoglobin": {
+      "value": "Leucocyte",
+      "unit": ""
+    },
+    "Total Rbc Count": {
+      "value": "3.61",
+      "unit": "million/cmm"
+    }
+  },
+  "confidence_summary": 0.88,
+  "parse_confidence": 0.88,
+  "source_mix": "hybrid",
+  "extractor_mode": "gliner_biomedical_ner"
+}

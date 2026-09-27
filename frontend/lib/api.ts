@@ -69,12 +69,26 @@ export interface UploadedReport {
   uploaded_at?: string;
 }
 
+export interface ModelGradeDetail {
+  decision_code: number;
+  etiology: string;
+  na_count: number;
+  complete_input: boolean;
+  proba: Record<string, number>;
+  proba_xgb: Record<string, number>;
+  proba_gnn: Record<string, number>;
+  alpha: number;
+  imputed_features?: Record<string, number> | null;
+}
+
 export interface ModCFrontendOutput {
   generated_at: string;
   schema_version?: string;
   patient: PatientInfo;
   deficiencies: DeficiencyItem[];
   summary: SummaryInfo;
+  model?: ModelGradeDetail | null;
+  model_confidence?: number | null;
   blood_parameters?: BloodParameter[];
   uploaded_report?: UploadedReport;
 }

@@ -15,7 +15,8 @@ import os
 import logging
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(os.path.join(root_dir, "backend", ".env"))   # works from any CWD
+load_dotenv(".env")                                     # fall back to ./.env
 
 from backend.path_b_blood_report.mod_b1_extractor.extractor import BloodReportExtractor
 from backend.path_b_blood_report.mod_b1_extractor.biobert_extractor import BioBERTBiomarkerExtractor

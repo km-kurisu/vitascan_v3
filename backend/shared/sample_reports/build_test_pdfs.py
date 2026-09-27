@@ -36,7 +36,16 @@ from build_sample_reports import (
 HERE = Path(__file__).resolve().parent
 OUT_DIR = HERE / "test_pdfs"
 
-CHROME_CANDIDATES = ("chromium", "chromium-browser", "google-chrome", "google-chrome-stable")
+CHROME_CANDIDATES = (
+    "chromium",
+    "chromium-browser",
+    "google-chrome",
+    "google-chrome-stable",
+    # Windows: Edge is preinstalled but usually not on PATH
+    "msedge",
+    r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+    r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
+)
 
 # Reference intervals as printed in build_sample_reports.Scenario.raw_text.
 MCV_REF = "83.0 - 101.0"
@@ -291,11 +300,11 @@ def _page(s: Scenario, include_chemistry: bool, remark: str) -> str:
 
 def _chrome() -> str:
     for name in CHROME_CANDIDATES:
-        path = shutil.which(name)
+        path = shutil.which(name) or (name if Path(name).is_file() else None)
         if path:
             return path
     raise SystemExit(
-        "No Chromium/Chrome binary found (needed to render PDFs). "
+        "No Chromium/Chrome/Edge binary found (needed to render PDFs). "
         f"Install one or edit CHROME_CANDIDATES in {__file__}."
     )
 

@@ -23,9 +23,9 @@ ode -v).
 
 ## 2. Environment Configuration
 
-### Backend (ackend/.env)
-Ensure ackend/.env is configured with required keys:
-`nv
+### Backend (backend/.env)
+Ensure backend/.env is configured with required keys:
+`env
 HOST=0.0.0.0
 PORT=8000
 DEBUG=True
@@ -45,8 +45,8 @@ BREVO_API_KEY=xkeysib-...
 BREVO_FROM=noreply@vitascan.ai
 `
 
-### Frontend (rontend/.env.local)
-`nv
+### Frontend (frontend/.env.local)
+`env
 NEXT_PUBLIC_API_URL=http://localhost:8000
 `
 
@@ -54,9 +54,9 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ## 3. Running the Backend
 
-Open terminal in ackend/ and execute:
+Open terminal in backend/ and execute:
 
-`ash
+`bash
 # 1. Navigate to backend
 cd backend
 
@@ -77,9 +77,9 @@ Interactive API Documentation (Swagger UI) is available at **http://localhost:80
 
 ## 4. Running the Frontend
 
-Open terminal in rontend/ and execute:
+Open terminal in frontend/ and execute:
 
-`ash
+`bash
 # 1. Navigate to frontend
 cd frontend
 

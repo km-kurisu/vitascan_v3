@@ -4,7 +4,7 @@
 VitaScan V3 is an AI-powered multi-modal biomarker deficiency detection platform that integrates:
 1. **Blood Report Processing (Path B)**: PyMuPDF + Tesseract OCR + GLiNER Biomedical NER (Ihor/gliner-biomed-small-v1.0) + Reference Range Normalizer + GAT Model (gat_model.py).
 2. **Physical Symptom Vision Analysis (Path A)**: Groq Multimodal Vision API (llama-3.2-11b-vision-preview) with GROQ_VISION_API_KEY.
-3. **FSSAI Diet RAG Engine**: Groq LLaMA 3.3 70B RAG (GROQ_RAG_API_KEY) querying FSSAI RDA Knowledge Base (ssai_knowledge_base.json).
+3. **FSSAI Diet RAG Engine**: Groq LLaMA 3.3 70B RAG (GROQ_RAG_API_KEY) querying FSSAI RDA Knowledge Base (FSSAI_knowledge_base.json).
 4. **Email & Google Calendar Reminders**: Brevo SMTP/API HTML email dispatch + Google Calendar link & .ics file generator.
 5. **Next.js 14 Web Frontend**: Interactive dark-themed UI matching Design/ specs with i18n support, deficiency detail pages, diet planner, and reminder modal.
 
@@ -42,7 +42,7 @@ Vitascan_V3_Gq/
 ## 3. How to Run
 
 ### Backend (FastAPI)
-`ash
+`bash
 cd backend
 python -m venv venv
 .\venv\Scripts\activate
@@ -52,7 +52,7 @@ python run_pipeline.py
 *Server runs on http://localhost:8000 (Docs at http://localhost:8000/docs)*
 
 ### Frontend (Next.js)
-`ash
+`bash
 cd frontend
 npm install
 npm run dev

@@ -1,0 +1,156 @@
+[
+  {
+    "patient_id": "IND-01-HEALTHY-MALE",
+    "pdf": "IND-01-HEALTHY-MALE.pdf",
+    "age_gender": "34 Y/Male",
+    "has_iron_studies": true,
+    "expected_etiology": "No Anemia",
+    "expected_decision_code": 0,
+    "biochemistry": {
+      "hemoglobin": 14.8,
+      "rbc": 5.11,
+      "mcv": 86.9,
+      "rdw": 13.2,
+      "mch": 29.0,
+      "mchc": 33.3,
+      "pcv": 44.4,
+      "ferritin": 96.4,
+      "b12": 476.0,
+      "folate": 12.8
+    },
+    "expected_na_count": 0,
+    "note": "Normal CBC block (Dr Lal PathLabs / Drlogy layout) + normal iron/B12/folate (Apollo 24|7 ECLIA refs); all within Indian adult ranges."
+  },
+  {
+    "patient_id": "IND-02-HEALTHY-FEMALE",
+    "pdf": "IND-02-HEALTHY-FEMALE.pdf",
+    "age_gender": "29 Y/Female",
+    "has_iron_studies": true,
+    "expected_etiology": "No Anemia",
+    "expected_decision_code": 0,
+    "biochemistry": {
+      "hemoglobin": 12.6,
+      "rbc": 4.42,
+      "mcv": 88.4,
+      "rdw": 12.8,
+      "mch": 28.5,
+      "mchc": 32.2,
+      "pcv": 39.1,
+      "ferritin": 58.7,
+      "b12": 398.0,
+      "folate": 14.1
+    },
+    "expected_na_count": 0,
+    "note": "Female reference intervals (Hb 11.5-15.0, RBC 3.8-4.8, ferritin 10-120); indices computed from standard formulas."
+  },
+  {
+    "patient_id": "IND-03-IDA-FEMALE",
+    "pdf": "IND-03-IDA-FEMALE.pdf",
+    "age_gender": "28 Y/Female",
+    "has_iron_studies": true,
+    "expected_etiology": "IDA",
+    "expected_decision_code": 1,
+    "biochemistry": {
+      "hemoglobin": 9.2,
+      "rbc": 3.92,
+      "mcv": 72.6,
+      "rdw": 17.3,
+      "mch": 23.5,
+      "mchc": 32.3,
+      "pcv": 28.5,
+      "ferritin": 7.2,
+      "b12": 412.0,
+      "folate": 13.6
+    },
+    "expected_na_count": 0,
+    "note": "Iron deficiency anaemia pattern: microcytic (MCV<80), hypochromic, high RDW, ferritin <15 ng/mL; mirrors classic Indian IDA and RMLIMS cohort."
+  },
+  {
+    "patient_id": "IND-04-MEGALOBLASTIC-B12-MALE",
+    "pdf": "IND-04-MEGALOBLASTIC-B12-MALE.pdf",
+    "age_gender": "41 Y/Male",
+    "has_iron_studies": true,
+    "expected_etiology": "Grey Zone Triage",
+    "expected_decision_code": 4,
+    "biochemistry": {
+      "hemoglobin": 10.1,
+      "rbc": 2.92,
+      "mcv": 105.2,
+      "rdw": 16.9,
+      "mch": 34.6,
+      "mchc": 32.9,
+      "pcv": 30.7,
+      "ferritin": 132.5,
+      "b12": 84.0,
+      "folate": 11.4
+    },
+    "expected_na_count": 0,
+    "note": "Megaloblastic / B12 deficiency pattern: macrocytic (MCV>100), low B12 <100 pg/mL with symptoms; consistent with vegetarian-diet Indian macrocytic anaemia."
+  },
+  {
+    "patient_id": "IND-05-MEGALOBLASTIC-FOLATE-FEMALE",
+    "pdf": "IND-05-MEGALOBLASTIC-FOLATE-FEMALE.pdf",
+    "age_gender": "32 Y/Female",
+    "has_iron_studies": true,
+    "expected_etiology": "Folate Deficiency",
+    "expected_decision_code": 3,
+    "biochemistry": {
+      "hemoglobin": 9.8,
+      "rbc": 3.09,
+      "mcv": 104.3,
+      "rdw": 17.6,
+      "mch": 31.7,
+      "mchc": 30.4,
+      "pcv": 32.2,
+      "ferritin": 94.1,
+      "b12": 402.0,
+      "folate": 2.7
+    },
+    "expected_na_count": 0,
+    "note": "Megaloblastic / folate deficiency pattern: macrocytic (MCV>100), low folate <3.89 ng/mL, normal B12; common folate-deficient Indian antenatal profile."
+  },
+  {
+    "patient_id": "IND-06-MIXED-GREYZONE-MALE",
+    "pdf": "IND-06-MIXED-GREYZONE-MALE.pdf",
+    "age_gender": "45 Y/Male",
+    "has_iron_studies": true,
+    "expected_etiology": "Grey Zone Triage",
+    "expected_decision_code": 4,
+    "biochemistry": {
+      "hemoglobin": 12.3,
+      "rbc": 4.58,
+      "mcv": 88.7,
+      "rdw": 15.1,
+      "mch": 26.9,
+      "mchc": 30.3,
+      "pcv": 40.6,
+      "ferritin": 24.6,
+      "b12": 208.0,
+      "folate": 5.1
+    },
+    "expected_na_count": 0,
+    "note": "Borderline/mixed picture: mild Hb fall, marginal ferritin (→IDA start), borderline B12 208 and folate 5.1; designed to land between classes (grey-zone probe)."
+  },
+  {
+    "patient_id": "IND-07-CBC-ONLY-FEMALE",
+    "pdf": "IND-07-CBC-ONLY-FEMALE.pdf",
+    "age_gender": "26 Y/Female",
+    "has_iron_studies": false,
+    "expected_etiology": "IDA",
+    "expected_decision_code": 1,
+    "biochemistry": {
+      "hemoglobin": 10.4,
+      "rbc": 3.61,
+      "mcv": 74.0,
+      "rdw": 18.2,
+      "mch": 28.8,
+      "mchc": 38.9,
+      "pcv": 26.7,
+      "ferritin": null,
+      "b12": null,
+      "folate": null
+    },
+    "expected_na_count": 3,
+    "note": "Plain CBC only (no ferritin/B12/folate) to exercise KNN imputation of the grader's 9-feature payload."
+  }
+]

@@ -181,9 +181,9 @@ def build_report(pid, **kwargs) -> Scenario:
     return s
 
 
-def main():
-    (HERE / "__init__.py").touch(exist_ok=True)
-    scenarios = [
+def scenarios():
+    """The six India-compliant anaemia scenarios (values shared with the PDF builder)."""
+    return [
         build_report(
             pid="IND-01-HEALTHY-MALE",
             lab_no="034/09/2026-001", barcode="10139001", name="Rohan Mehta",
@@ -234,7 +234,12 @@ def main():
                      "borderline B12 208 and folate 5.1; designed to land between classes "
                      "(grey-zone probe)."),
     ]
-    print(f"wrote {len(scenarios)} India-compliant synthetic reports to {HERE}")
+
+
+def main():
+    (HERE / "__init__.py").touch(exist_ok=True)
+    written = scenarios()
+    print(f"wrote {len(written)} India-compliant synthetic reports to {HERE}")
 
 
 if __name__ == "__main__":

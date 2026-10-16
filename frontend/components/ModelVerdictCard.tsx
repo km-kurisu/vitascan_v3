@@ -8,6 +8,7 @@ import {
   AlertTriangle,
   CheckCircle2,
   GitMerge,
+  Info,
 } from 'lucide-react';
 import { ModelGradeDetail } from '@/lib/api';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
@@ -211,6 +212,103 @@ export default function ModelVerdictCard({
           </div>
         )}
       </div>
+
+      {/* Explanation caveats. These carry the limits of the attribution -- that
+          a share is not a probability, and that the GNN part is an
+          approximation. Dropping them here would let the numbers read as more
+          than they are. */}
+      {!!model.explanation?.caveats?.length && (
+        <div className="px-6 pb-6">
+          <div className="bg-slate-50/80 border border-slate-200/80 rounded-2xl p-4 space-y-2">
+            <div className="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase tracking-wider">
+              <Info className="w-3.5 h-3.5" />
+              <span>{t('results.explanationCaveats')}</span>
+            </div>
+            <ul className="space-y-1">
+              {model.explanation.caveats.map((caveat) => (
+                <li
+                  key={caveat}
+                  className="text-[11px] text-slate-600 leading-relaxed font-medium"
+                >
+                  · {caveat}
+                </li>
+              ))}
+            </ul>
+            {model.explanation.gnn_available === false && (
+              <p className="text-[11px] text-amber-700 leading-relaxed font-medium">
+                {t('results.gnnUnavailable')}
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Counterfactuals: the nearest value at which this verdict changes.
+          Only present when the server was asked to compute them, so absence
+          here means "not computed", while an empty target list means "computed,
+          and nothing plausible moves it" -- a different and stronger claim. */}
+      {model.counterfactuals && (
+        <div className="px-6 pb-6 space-y-3">
+          <h3 className="text-sm font-bold text-slate-800">
+            {t('results.counterfactualHeading')}
+          </h3>
+
+          {model.counterfactuals.targets?.length ? (
+            <div className="space-y-2.5">
+              {model.counterfactuals.targets.map((target) => (
+                <div
+                  key={target.feature}
+                  className="bg-slate-50/80 border border-slate-200/80 rounded-xl p-3 space-y-1"
+                >
+                  <div className="flex items-center justify-between gap-3 text-xs font-semibold text-slate-700">
+                    <span>{target.label}</span>
+                    <span className="font-mono text-slate-800">
+                      {target.current_value} → {target.target_value}
+                      {target.unit ? ` ${target.unit}` : ''}
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 font-medium">
+                    {t('results.counterfactualTo')}{' '}
+                    <span className="font-bold text-slate-700">
+                      {target.to_etiology}
+                    </span>
+                    {target.at_range_boundary && (
+                      <span className="text-amber-700">
+                        {' · '}
+                        {t('results.counterfactualRangeEdge')}
+                      </span>
+                    )}
+                  </p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="text-xs text-slate-600 font-medium">
+              {t('results.counterfactualNone')}
+            </p>
+          )}
+
+          {!!model.counterfactuals.refused?.length && (
+            <p className="text-[11px] text-amber-700 leading-relaxed font-medium">
+              {t('results.counterfactualNotSearched')}{' '}
+              {model.counterfactuals.refused.join(', ')}
+            </p>
+          )}
+
+          {!!model.counterfactuals.caveats?.length && (
+            <ul className="space-y-1">
+              {model.counterfactuals.caveats.map((caveat) => (
+                <li
+                  key={caveat}
+                  className="text-[11px] text-slate-500 leading-relaxed font-medium"
+                >
+                  · {caveat}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
 
       {/* Data completeness footer */}
       <div className="px-6 py-4 bg-slate-50/60 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">

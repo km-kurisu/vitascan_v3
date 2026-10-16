@@ -87,17 +87,17 @@ export const translations: Record<Language, Record<string, string>> = {
       'Upload symptom photo (eyes, nails, tongue, skin)',
     'upload.pathASupports':
       'Used by CNN inference model for cross-check validation',
-    'upload.executing': 'Executing Pipeline & GAT Model...',
+    'upload.executing': 'Executing Pipeline & Anemia Grader...',
     'upload.executeBtn': 'Execute Pipeline & View Results',
 
     'processing.title': 'Processing Multi-Modal Pipeline',
     'processing.patientIdLabel': 'Patient ID:',
-    'processing.pathBTitle': 'Path B: Blood Report Pipeline (GAT Joint Reasoning)',
+    'processing.pathBTitle': 'Path B: Blood Report Pipeline (Model Reasoning)',
     'processing.modB1': 'Mod B1: Text Extraction (PyMuPDF / OCR)',
     'processing.modB2':
       'Mod B2: Biomarker Normalization & Reference Calibration',
     'processing.modB3':
-      'Mod B3: Biomarker Graph Builder & GAT Severity Grader',
+      'Mod B3: Biomarker Graph Builder & Anemia Grader',
     'processing.pathATitle': 'Path A: Symptom Photo CNN Cross-check',
     'processing.modA12': 'Mod A1 & A2: CNN Symptom Manifestation Inference',
     'processing.modA3':
@@ -110,7 +110,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'processing.inProgress': 'Processing...',
 
     'results.loading':
-      'Evaluating GAT Models & Formulating Recommendations...',
+      'Evaluating the Anemia Grader & Formulating Recommendations...',
     'results.readyTitle': 'Your Blood Report Analysis is Ready!',
     'results.readySubtitle': 'Here are your results and health insights.',
     'results.uploadedReport': 'Uploaded Report',
@@ -127,7 +127,27 @@ export const translations: Record<Language, Record<string, string>> = {
     'results.modelInput': 'Model input',
     'results.keyContributors': 'Key Contributors',
     'results.noContributors': 'No single biomarker stood out for this finding.',
-    'results.viewReasoning': 'View GAT Reasoning',
+    'results.genericExplanationNote':
+      'General guidance only — no patient-specific explanation was available for this finding.',
+    'results.genericShort': 'general guidance',
+    'results.estimatedMarker': 'estimated',
+    'results.estimatedNote':
+      'This value was not measured in the report; it was estimated from the other markers, so the explanation rests on it only loosely.',
+    'results.deviationSourceNote':
+      'Derived from how far each measured value sits from its reference range. The model did not report which markers it used for this finding.',
+    'results.explanationCaveats': 'About this explanation',
+    'results.againstVerdict': 'against',
+    'results.gnnUnavailable':
+      'Only the XGBoost cascade could be attributed for this patient; the graph model could not be explained, so these shares cover part of the verdict.',
+    'results.counterfactualHeading': 'What would move this verdict',
+    'results.counterfactualNone':
+      'Nothing within physiologically plausible range changes this verdict.',
+    'results.counterfactualTo': 'boundary to',
+    'results.counterfactualNotSearched':
+      'Not searched (value was estimated, not measured):',
+    'results.counterfactualRangeEdge':
+      'boundary sits at the edge of the searched range',
+    'results.viewReasoning': 'View model reasoning',
     'results.sectionParams': 'Key Blood Parameters',
     'results.thParam': 'Parameter',
     'results.thValue': 'Your Value',
@@ -196,10 +216,15 @@ export const translations: Record<Language, Record<string, string>> = {
     'source.skin': 'Skin / Nails',
     'source.none': 'None',
 
-    'explanation.iron': 'Graph Attention analysis indicates moderate Iron Deficiency Risk. Serum Ferritin level (11.2 ng/mL) is significantly below normal range, supported by lower Hemoglobin (10.4 g/dL). Attention weights assign 62% impact to Ferritin.',
-    'explanation.b12': 'Serum B12 is borderline (210 pg/mL). GAT graph analysis shows mild secondary influence on overall red cell indices (MCV 98 fL).',
+    // These are *fallbacks*, shown only when the backend sends no explanation.
+    // They previously quoted sample lab values ("Serum Ferritin 11.2 ng/mL",
+    // "62% impact to Ferritin") and attributed them to a graph analysis, so a
+    // patient saw invented numbers presented as their own results. They are now
+    // deliberately number-free and make no claim to describe this patient.
+    'explanation.iron': 'Iron deficiency risk. Serum ferritin is the primary marker, supported by haemoglobin and red cell indices.',
+    'explanation.b12': 'Vitamin B12 is at the borderline. Red cell indices (MCV, RDW) suggest a possible effect on red cell size.',
     'explanation.anemia': 'Mild anemia detected primarily driven by Iron deficiency rather than Folate or Vitamin B12 depletion.',
-    'explanation.vitamin_d': 'Serum 25-hydroxyvitamin D is below optimal threshold. GAT model indicates mild Vitamin D insufficiency.',
+    'explanation.vitamin_d': 'Serum 25-hydroxyvitamin D is below the optimal threshold.',
 
     'reco.iron.foods': 'Increase consumption of dark leafy greens (spinach, amaranth), jaggery, beetroot, and legumes.',
     'reco.iron.tips': 'Pair iron-rich meals with Vitamin C (lemon juice, amla) to enhance non-heme iron absorption.',
@@ -211,15 +236,14 @@ export const translations: Record<Language, Record<string, string>> = {
     'reco.vitd.sunlight': 'Get 15-20 minutes of direct morning sunlight daily (between 8 AM and 11 AM).',
     'reco.vitd.supplements': 'Oral Vitamin D3 2000 IU daily or as recommended by your physician.',
 
-    'detail.loading': 'Loading GAT Deficiency Reasoning...',
+    'detail.loading': 'Loading Model Reasoning...',
     'detail.back': 'Back to Results Dashboard',
     'detail.biomarkerHeading': 'Biomarker Clinical Analysis',
     'detail.detailSuffix': 'Deficiency Detail',
     'detail.riskWord': 'Risk',
     'detail.llmHeading': 'LLM Plain-English Clinical Explanation',
-    'detail.gatHeading':
-      'Graph Attention Network (GAT) Key Biomarker Contributors',
-    'detail.gatWeightWord': 'GAT Weight',
+    'detail.contributorHeading': 'Biomarkers Behind This Verdict',
+    'detail.shareWord': 'share of explanation',
     'detail.pathAHeading': 'Path A Symptom Photo Signal',
     'detail.crosscheckAvailable': 'Crosscheck Available:',
     'detail.yes': 'Yes',
@@ -228,12 +252,6 @@ export const translations: Record<Language, Record<string, string>> = {
     'detail.agrees': 'Agrees with Path B:',
     'detail.confirmed': 'Confirmed',
     'detail.pending': 'Pending',
-    'detail.benchmarkHeading': 'Baseline Models Benchmark',
-    'detail.gatPrediction': 'GAT Model Prediction:',
-    'detail.logReg': 'Logistic Regression:',
-    'detail.randForest': 'Random Forest:',
-    'detail.xgboost': 'XGBoost Baseline:',
-
     'pd.title': 'Basic Details',
     'pd.subtitle': "Let's start with some basic details",
     'pd.securityBadge': 'Your personal details are safe with us.',
@@ -359,15 +377,15 @@ export const translations: Record<Language, Record<string, string>> = {
     'upload.pathADropzone': 'लक्षण फ़ोटो अपलोड करें (आंखें, नाखून, जीभ, त्वचा)',
     'upload.pathASupports':
       'क्रॉस-चेक सत्यापन हेतु CNN इन्फ़रेंस मॉडल द्वारा उपयोग किया जाता है',
-    'upload.executing': 'पाइपलाइन और GAT मॉडल चलाए जा रहे हैं...',
+    'upload.executing': 'पाइपलाइन और एनीमिया ग्रेडर चलाए जा रहे हैं...',
     'upload.executeBtn': 'पाइपलाइन चलाएँ और परिणाम देखें',
 
     'processing.title': 'मल्टी-मोडल पाइपलाइन प्रोसेसिंग',
     'processing.patientIdLabel': 'रोगी आईडी:',
-    'processing.pathBTitle': 'Path B: ब्लड रिपोर्ट पाइपलाइन (GAT संयुक्त तर्क)',
+    'processing.pathBTitle': 'Path B: ब्लड रिपोर्ट पाइपलाइन (मॉडल तर्क)',
     'processing.modB1': 'Mod B1: पाठ निष्कर्षण (PyMuPDF / OCR)',
     'processing.modB2': 'Mod B2: बायोमार्कर सामान्यीकरण और संदर्भ अंशांकन',
-    'processing.modB3': 'Mod B3: बायोमार्कर ग्राफ़ बिल्डर और GAT गंभीरता ग्रेडर',
+    'processing.modB3': 'Mod B3: बायोमार्कर ग्राफ़ बिल्डर और एनीमिया ग्रेडर',
     'processing.pathATitle': 'Path A: लक्षण फ़ोटो CNN क्रॉस-चेक',
     'processing.modA12': 'Mod A1 और A2: CNN लक्षण अभिव्यक्ति इन्फ़रेंस',
     'processing.modA3': 'Mod A3: एनीमिया / आयरन क्रॉस-चेक संरेखण सिग्नल',
@@ -377,7 +395,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'processing.completed': 'पूर्ण',
     'processing.inProgress': 'प्रोसेसिंग...',
 
-    'results.loading': 'GAT मॉडल का मूल्यांकन और सिफ़ारिशें तैयार हो रही हैं...',
+    'results.loading': 'एनीमिया ग्रेडर का मूल्यांकन और सिफ़ारिशें तैयार हो रही हैं...',
     'results.readyTitle': 'आपका ब्लड रिपोर्ट विश्लेषण तैयार है!',
     'results.readySubtitle': 'यहाँ आपके परिणाम और स्वास्थ्य जानकारी हैं।',
     'results.uploadedReport': 'अपलोड की गई रिपोर्ट',
@@ -394,7 +412,27 @@ export const translations: Record<Language, Record<string, string>> = {
     'results.modelInput': 'मॉडल इनपुट',
     'results.keyContributors': 'मुख्य योगदानकर्ता',
     'results.noContributors': 'इस निष्कर्ष के लिए कोई एक बायोमार्कर प्रमुख नहीं था।',
-    'results.viewReasoning': 'GAT तर्क देखें',
+    'results.genericExplanationNote':
+      'केवल सामान्य मार्गदर्शन — इस निष्कर्ष के लिए रोगी-विशिष्ट स्पष्टीकरण उपलब्ध नहीं था।',
+    'results.genericShort': 'सामान्य मार्गदर्शन',
+    'results.estimatedMarker': 'अनुमानित',
+    'results.estimatedNote':
+      'यह मान रिपोर्ट में मापा नहीं गया; यह अन्य संकेतकों से अनुमानित है, इसलिए स्पष्टीकरण इस पर कम निर्भर करता है।',
+    'results.deviationSourceNote':
+      'यह इस आधार पर है कि प्रत्येक मापा गया मान अपनी सामान्य सीमा से कितना दूर है। मॉडल ने यह नहीं बताया कि उसने इस निष्कर्ष के लिए कौन से संकेतक उपयोग किए।',
+    'results.explanationCaveats': 'इस स्पष्टीकरण के बारे में',
+    'results.againstVerdict': 'विरुद्ध',
+    'results.gnnUnavailable':
+      'इस रोगी के लिए केवल XGBoost कैस्केड का विश्लेषण किया जा सका; ग्राफ़ मॉडल की व्याख्या नहीं हो सकी, इसलिए ये हिस्से निर्णय के एक भाग को कवर करते हैं।',
+    'results.counterfactualHeading': 'यह निर्णय कैसे बदलेगा',
+    'results.counterfactualNone':
+      'शारीरिक रूप से संभव सीमा में कोई भी मान इस निर्णय को नहीं बदलता।',
+    'results.counterfactualTo': 'सीमा यहाँ:',
+    'results.counterfactualNotSearched':
+      'खोजा नहीं गया (मान अनुमानित था, मापा नहीं गया):',
+    'results.counterfactualRangeEdge':
+      'सीमा खोजी गई श्रेणी के किनारे पर है',
+    'results.viewReasoning': 'मॉडल तर्क देखें',
     'results.sectionParams': 'मुख्य ब्लड पैरामीटर',
     'results.thParam': 'पैरामीटर',
     'results.thValue': 'आपका मान',
@@ -461,10 +499,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'source.skin': 'त्वचा / नाखून',
     'source.none': 'कोई नहीं',
 
-    'explanation.iron': 'ग्राफ अटेंशन विश्लेषण मध्यम आयरन की कमी के जोखिम का संकेत देता है। सीरम फेरिटिन स्तर (11.2 ng/mL) सामान्य सीमा से काफी नीचे है, जिसे निचले हीमोग्लोबिन (10.4 g/dL) का समर्थन प्राप्त है। अटेंशन वेट्स फेरिटिन को 62% प्रभाव देते हैं।',
-    'explanation.b12': 'सीरम बी12 सीमांत (210 pg/mL) पर है। GAT ग्राफ विश्लेषण कुल लाल रक्त कोशिका सूचकांकों (MCV 98 fL) पर हल्का प्रभाव दिखाता है।',
+    'explanation.iron': 'आयरन की कमी का जोखिम। सीरम फेरिटिन मुख्य संकेतक है, जिसका समर्थन हीमोग्लोबिन और लाल रक्त कोशिका सूचकांक करते हैं।',
+    'explanation.b12': 'विटामिन बी12 सीमांत पर है। लाल रक्त कोशिका सूचकांक (MCV, RDW) कोशिका आकार पर संभावित प्रभाव दर्शाते हैं।',
     'explanation.anemia': 'फोलेट या विटामिन बी12 की कमी के बजाय मुख्य रूप से आयरन की कमी के कारण हल्का एनीमिया पाया गया।',
-    'explanation.vitamin_d': 'सीरम 25-हाइड्रॉक्सीविटामिन डी इष्टतम सीमा से नीचे है। GAT मॉडल विटामिन डी की हल्की अपर्याप्तता दर्शाता है।',
+    'explanation.vitamin_d': 'सीरम 25-हाइड्रॉक्सीविटामिन डी इष्टतम सीमा से नीचे है।',
 
     'reco.iron.foods': 'हरी पत्तेदार सब्जियां (पालक, चौलाई), गुड़, चुकंदर और दालों का सेवन बढ़ाएं।',
     'reco.iron.tips': 'आयरन अवशोषण बढ़ाने के लिए आयरन युक्त भोजन के साथ विटामिन C (नींबू, आंवला) लें।',
@@ -476,14 +514,14 @@ export const translations: Record<Language, Record<string, string>> = {
     'reco.vitd.sunlight': 'प्रतिदिन सुबह 15-20 मिनट सीधी धूप लें (सुबह 8 बजे से 11 बजे के बीच)।',
     'reco.vitd.supplements': 'मौखिक विटामिन डी3 2000 IU प्रतिदिन या अपने डॉक्टर की सलाह के अनुसार।',
 
-    'detail.loading': 'GAT कमी तर्क लोड हो रहा है...',
+    'detail.loading': 'मॉडल तर्क लोड हो रहा है...',
     'detail.back': 'परिणाम डैशबोर्ड पर वापस जाएँ',
     'detail.biomarkerHeading': 'बायोमार्कर क्लिनिकल विश्लेषण',
     'detail.detailSuffix': 'कमी विवरण',
     'detail.riskWord': 'जोखिम',
     'detail.llmHeading': 'LLM सरल भाषा में क्लिनिकल विवरण',
-    'detail.gatHeading': 'ग्राफ़ अटेंशन नेटवर्क (GAT) प्रमुख बायोमार्कर योगदानकर्ता',
-    'detail.gatWeightWord': 'GAT भार',
+    'detail.contributorHeading': 'इस निर्णय के पीछे के बायोमार्कर',
+    'detail.shareWord': 'स्पष्टीकरण में हिस्सा',
     'detail.pathAHeading': 'Path A लक्षण फ़ोटो सिग्नल',
     'detail.crosscheckAvailable': 'क्रॉसचेक उपलब्ध:',
     'detail.yes': 'हाँ',
@@ -492,12 +530,6 @@ export const translations: Record<Language, Record<string, string>> = {
     'detail.agrees': 'Path B से सहमत:',
     'detail.confirmed': 'पुष्ट',
     'detail.pending': 'लंबित',
-    'detail.benchmarkHeading': 'बेसलाइन मॉडल बेंचमार्क',
-    'detail.gatPrediction': 'GAT मॉडल भविष्यवाणी:',
-    'detail.logReg': 'लॉजिस्टिक रिग्रेशन:',
-    'detail.randForest': 'रैंडम फ़ॉरेस्ट:',
-    'detail.xgboost': 'XGBoost बेसलाइन:',
-
     'pd.title': 'मूल जानकारी',
     'pd.subtitle': 'आइए कुछ मूल जानकारी से शुरू करें',
     'pd.securityBadge': 'आपकी व्यक्तिगत जानकारी हमारे पास सुरक्षित है।',
@@ -623,15 +655,15 @@ export const translations: Record<Language, Record<string, string>> = {
     'upload.pathADropzone': 'लक्षण छायाचित्र अपलोड करा (डोळे, नखे, जीभ, त्वचा)',
     'upload.pathASupports':
       'क्रॉस-चेक पडताळणीसाठी CNN इन्फरन्स मॉडेलद्वारे वापरले जाते',
-    'upload.executing': 'पाइपलाइन व GAT मॉडेल चालवले जात आहेत...',
+    'upload.executing': 'पाइपलाइन व एनीमिया ग्रेडर चालवले जात आहेत...',
     'upload.executeBtn': 'पाइपलाइन चालवा आणि निकाल पहा',
 
     'processing.title': 'मल्टी-मोडल पाइपलाइन प्रक्रिया',
     'processing.patientIdLabel': 'रुग्ण आयडी:',
-    'processing.pathBTitle': 'Path B: रक्त अहवाल पाइपलाइन (GAT संयुक्त तर्क)',
+    'processing.pathBTitle': 'Path B: रक्त अहवाल पाइपलाइन (मॉडेल तर्क)',
     'processing.modB1': 'Mod B1: मजकूर काढणे (PyMuPDF / OCR)',
     'processing.modB2': 'Mod B2: बायोमार्कर प्रमाणीकरण व संदर्भ अंशांकन',
-    'processing.modB3': 'Mod B3: बायोमार्कर ग्राफ बिल्डर व GAT तीव्रता ग्रेडर',
+    'processing.modB3': 'Mod B3: बायोमार्कर ग्राफ बिल्डर व एनीमिया ग्रेडर',
     'processing.pathATitle': 'Path A: लक्षण छायाचित्र CNN क्रॉस-चेक',
     'processing.modA12': 'Mod A1 व A2: CNN लक्षण प्रकटीकरण इन्फरन्स',
     'processing.modA3': 'Mod A3: रक्तक्षय / लोह क्रॉस-चेक संरेखन सिग्नल',
@@ -642,7 +674,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'processing.inProgress': 'प्रक्रिया सुरू...',
 
     'results.loading':
-      'GAT मॉडेल्सचे मूल्यांकन व शिफारसी तयार केल्या जात आहेत...',
+      'एनीमिया ग्रेडरचे मूल्यांकन व शिफारसी तयार केल्या जात आहेत...',
     'results.readyTitle': 'तुमचे रक्त अहवाल विश्लेषण तयार आहे!',
     'results.readySubtitle': 'येथे तुमचे निकाल व आरोग्य अंतर्दृष्टी आहेत.',
     'results.uploadedReport': 'अपलोड केलेला अहवाल',
@@ -659,7 +691,27 @@ export const translations: Record<Language, Record<string, string>> = {
     'results.modelInput': 'मॉडेल इनपुट',
     'results.keyContributors': 'मुख्य योगदानकर्ते',
     'results.noContributors': 'या निष्कर्षासाठी एकच बायोमार्कर ठळीक नाही.',
-    'results.viewReasoning': 'GAT तर्क पहा',
+    'results.genericExplanationNote':
+      'केवळ सामान्य मार्गदर्शन — या निष्कर्षासाठी रुग्ण-विशिष्ट स्पष्टीकरण उपलब्ध नव्हते.',
+    'results.genericShort': 'सामान्य मार्गदर्शन',
+    'results.estimatedMarker': 'अंदाजित',
+    'results.estimatedNote':
+      'हे मूल्य अहवालात मोजले गेले नाही; ते इतर निर्देशकांवरून अंदाजले आहे, त्यामुळे स्पष्टीकरण त्यावर कमी अवलंबून आहे.',
+    'results.deviationSourceNote':
+      'प्रत्येक मोजलेले मूल्य त्याच्या सामान्य श्रेणीपासून किती दूर आहे यावर हे आधारित आहे. मॉडेलने या निष्कर्षासाठी कोणते निर्देशक वापरले हे सांगितलेले नाही.',
+    'results.explanationCaveats': 'या स्पष्टीकरणाबद्दल',
+    'results.againstVerdict': 'विरुद्ध',
+    'results.gnnUnavailable':
+      'या रुग्णासाठी केवळ XGBoost कॅस्केडचे विश्लेषण करता आले; ग्राफ मॉडेलचे स्पष्टीकरण देता आले नाही, त्यामुळे हे वाटे निर्णयाचा एक भाग व्यापतात.',
+    'results.counterfactualHeading': 'हा निर्णय कसा बदलेल',
+    'results.counterfactualNone':
+      'शारीरिकदृष्ट्या शक्य श्रेणीत कोणतेही मूल्य हा निर्णय बदलत नाही.',
+    'results.counterfactualTo': 'सीमा येथे:',
+    'results.counterfactualNotSearched':
+      'शोधले नाही (मूल्य अंदाजित होते, मोजले नाही):',
+    'results.counterfactualRangeEdge':
+      'सीमा शोधलेल्या श्रेणीच्या टोकावर आहे',
+    'results.viewReasoning': 'मॉडेल तर्क पहा',
     'results.sectionParams': 'मुख्य रक्त निर्देशक',
     'results.thParam': 'निर्देशक',
     'results.thValue': 'तुमचे मूल्य',
@@ -726,10 +778,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'source.skin': 'त्वचा / नखे',
     'source.none': 'काहीही नाही',
 
-    'explanation.iron': 'ग्राफ अटेंशन विश्लेषण मध्यम आयर्न कमतरतेच्या धोक्याचा निर्देश करतो. सीरम फेरिटिन पातळी (11.2 ng/mL) सामान्य श्रेणीपेक्षा लक्षणीयरीत्या कमी आहे, ज्याला कमी हिमोग्लोबिन (10.4 g/dL) चा पाठिंबा आहे.',
-    'explanation.b12': 'सीरम बी12 सीमांत (210 pg/mL) आहे. GAT ग्राफ विश्लेषण लाल रक्तपेशींवर (MCV 98 fL) सौम्य प्रभाव दर्शवते.',
+    'explanation.iron': 'आयर्न कमतरतेचा धोका. सीरम फेरिटिन हा मुख्य निर्देशक असून हिमोग्लोबिन व लाल रक्तपेशींचे निर्देशांक त्याला पाठिंबा देतात.',
+    'explanation.b12': 'व्हिटामिन बी12 सीमांतावर आहे. लाल रक्तपेशींचे निर्देशांक (MCV, RDW) पेशीच्या आकारावर संभाव्य परिणाम दर्शवतात.',
     'explanation.anemia': 'फोलेट किंवा व्हिटामिन बी12 च्या कमतरतेऐवजी प्रामुख्याने लोह कमतरतेमुळे सौम्य रक्तक्षय आढळला.',
-    'explanation.vitamin_d': 'सीरम 25-हायड्रॉक्सीव्हिटामिन डी इष्टतम मर्यादेपेक्षा कमी आहे. GAT मॉडेल व्हिटामिन डी ची सौम्य अपुरेपणा दर्शवते.',
+    'explanation.vitamin_d': 'सीरम 25-हायड्रॉक्सीव्हिटामिन डी इष्टतम मर्यादेपेक्षा कमी आहे.',
 
     'reco.iron.foods': 'हिरव्या पालेभाज्या (पालक, माठ), गूळ, बीट आणि कडधान्यांचे सेवन वाढवा.',
     'reco.iron.tips': 'आयर्नचे शोषण वाढवण्यासाठी आयर्नयुक्त अन्नासोबत व्हिटामिन C (लिंबू, आवळा) घ्या.',
@@ -741,14 +793,14 @@ export const translations: Record<Language, Record<string, string>> = {
     'reco.vitd.sunlight': 'दररोज सकाळी 15-20 मिनिटे थेट सूर्यप्रकाश घ्या (सकाळी 8 ते 11 दरम्यान).',
     'reco.vitd.supplements': 'तोंडी व्हिटामिन D3 2000 IU दररोज किंवा डॉक्टरांच्या सल्ल्यानुसार.',
 
-    'detail.loading': 'GAT कमतरता तर्क लोड होत आहे...',
+    'detail.loading': 'मॉडेल तर्क लोड होत आहे...',
     'detail.back': 'निकाल डॅशबोर्डवर परत जा',
     'detail.biomarkerHeading': 'बायोमार्कर क्लिनिकल विश्लेषण',
     'detail.detailSuffix': 'कमतरता तपशील',
     'detail.riskWord': 'धोका',
     'detail.llmHeading': 'LLM सोप्या भाषेतील क्लिनिकल स्पष्टीकरण',
-    'detail.gatHeading': 'ग्राफ अटेंशन नेटवर्क (GAT) प्रमुख बायोमार्कर योगदानकर्ते',
-    'detail.gatWeightWord': 'GAT वजन',
+    'detail.contributorHeading': 'या निर्णयामागील बायोमार्कर',
+    'detail.shareWord': 'स्पष्टीकरणातील वाटा',
     'detail.pathAHeading': 'Path A लक्षण छायाचित्र सिग्नल',
     'detail.crosscheckAvailable': 'क्रॉसचेक उपलब्ध:',
     'detail.yes': 'होय',
@@ -757,12 +809,6 @@ export const translations: Record<Language, Record<string, string>> = {
     'detail.agrees': 'Path B शी सहमत:',
     'detail.confirmed': 'पुष्टीकृत',
     'detail.pending': 'प्रलंबित',
-    'detail.benchmarkHeading': 'बेसलाइन मॉडेल बेंचमार्क',
-    'detail.gatPrediction': 'GAT मॉडेल अंदाज:',
-    'detail.logReg': 'लॉजिस्टिक रिग्रेशन:',
-    'detail.randForest': 'रँडम फॉरेस्ट:',
-    'detail.xgboost': 'XGBoost बेसलाइन:',
-
     'pd.title': 'मूलभूत माहिती',
     'pd.subtitle': 'चला काही मूलभूत माहितीने सुरुवात करू',
     'pd.securityBadge': 'तुमची वैयक्तिक माहिती आमच्याकडे सुरक्षित आहे.',

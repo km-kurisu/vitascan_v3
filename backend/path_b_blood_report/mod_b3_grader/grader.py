@@ -29,6 +29,7 @@ class PathBGrader:
         patient_id: str,
         normalized_biomarkers: dict,
         grader_input: Optional[Dict[str, Any]] = None,
+        counterfactuals: bool = False,
     ) -> ModB3Output:
         raw_sev = self.gat.grade(normalized_biomarkers)
         sev_dict = {k: SeverityDetail(score=v["score"], band=v["band"], model=v["model"]) for k, v in raw_sev.items()}
@@ -36,7 +37,9 @@ class PathBGrader:
         model_detail = None
         model_confidence = 0.88
         if grader_input is not None:
-            model_detail = model_client.grade_record(grader_input)
+            model_detail = model_client.grade_record(
+                grader_input, counterfactuals=counterfactuals
+            )
             model_confidence = max(model_detail.proba.values())
             overlay = model_client.severity_overlay(model_detail.decision_code)
             for deficiency, (band, score) in overlay.items():
@@ -53,7 +56,16 @@ class PathBGrader:
         return ModB3Output(
             patient_id=patient_id,
             severity=sev_dict,
-            attention_weights={"iron": {"ferritin": 0.62, "hemoglobin": 0.24, "tibc": 0.14}},
+            # Was a hardcoded literal ({ferritin: 0.62, hemoglobin: 0.24, tibc:
+            # 0.14}) identical for every patient and rendered in the UI as though
+            # it came from the report. Real attribution now travels on
+            # `model.explanation`; this field is kept empty for compatibility.
+            attention_weights={},
+            # Also fabricated once -- {iron: {gat: 0.75, ...}} returned from a
+            # constant that ignored its argument, and disagreeing with the
+            # frontend's own hardcoded copy of the same "benchmark". No baseline
+            # has been evaluated, so this is empty rather than plausible. See
+            # `baseline_models`.
             baseline_comparison=self.baseline.predict(normalized_biomarkers),
             model_confidence=round(model_confidence, 3),
             model=model_detail,

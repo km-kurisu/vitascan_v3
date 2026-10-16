@@ -310,7 +310,7 @@ export default function ResultsPage() {
                   </div>
                 </div>
 
-                {/* Link to detail GAT reasoning */}
+                {/* Link to the detail page's model reasoning */}
                 <div className="pt-2 flex items-center justify-between text-xs">
                   <Link
                     href={`/results/${item.id || item.type}`}
@@ -456,6 +456,11 @@ export default function ResultsPage() {
                       </h3>
                       <p className="text-xs text-slate-500 max-w-xl line-clamp-1">
                         {getDeficiencyExplanation(item)}
+                        {!item.explanation && (
+                          <span className="ml-1 font-bold text-blue-700/80">
+                            · {t('results.genericShort')}
+                          </span>
+                        )}
                       </p>
                     </div>
                   </div>
@@ -479,14 +484,42 @@ export default function ResultsPage() {
                         <span>{t('results.keyContributors')}</span>
                       </div>
                       {item.key_contributors?.length ? (
-                        <ul className="space-y-1">
-                          {item.key_contributors.map((c) => (
-                            <li key={c.biomarker} className="text-slate-600 font-medium flex justify-between gap-2">
-                              <span>{c.biomarker}</span>
-                              <span className="font-mono text-slate-500">{Math.round(c.impact_pct)}%</span>
-                            </li>
-                          ))}
-                        </ul>
+                        <>
+                          <ul className="space-y-1">
+                            {item.key_contributors.map((c) => (
+                              <li key={c.biomarker} className="text-slate-600 font-medium flex justify-between gap-2">
+                                <span>
+                                  {c.biomarker}
+                                  {c.estimated && (
+                                    <span className="ml-1 text-amber-600">
+                                      ({t('results.estimatedMarker')})
+                                    </span>
+                                  )}
+                                </span>
+                                <span className="font-mono text-slate-500">
+                                  {Math.round(c.impact_pct)}%
+                                  {c.direction === 'negative' && (
+                                    <span className="ml-1 font-sans text-slate-400">
+                                      {t('results.againstVerdict')}
+                                    </span>
+                                  )}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                          {item.key_contributors.some((c) => c.estimated) && (
+                            <p className="text-[11px] text-amber-700 leading-relaxed">
+                              {t('results.estimatedNote')}
+                            </p>
+                          )}
+                          {item.key_contributors.some(
+                            (c) => (c.source ?? 'deviation') !== 'model'
+                          ) && (
+                            <p className="text-[11px] text-slate-500 leading-relaxed">
+                              {t('results.deviationSourceNote')}
+                            </p>
+                          )}
+                        </>
                       ) : (
                         <p className="text-slate-500 font-medium">{t('results.noContributors')}</p>
                       )}

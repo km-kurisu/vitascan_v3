@@ -18,6 +18,21 @@ from dotenv import load_dotenv
 load_dotenv(os.path.join(root_dir, "backend", ".env"))   # works from any CWD
 load_dotenv(".env")                                     # fall back to ./.env
 
+
+def _env_flag(name: str, default: bool = False) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    return raw.strip().lower() in {"1", "true", "yes", "on"}
+
+
+# Level 2 counterfactuals ("what would move this verdict") cost seconds per
+# upload: the GNN shares biomarker nodes across a batch, so the boundary search
+# cannot be batched and runs one row at a time. Opt-in rather than always-on.
+# Enable with VITASCAN_COUNTERFACTUALS=1; results appear under
+# ``model.counterfactuals`` and are absent (not empty) when disabled.
+COUNTERFACTUALS_ENABLED = _env_flag("VITASCAN_COUNTERFACTUALS", False)
+
 from backend.path_b_blood_report.mod_b1_extractor.extractor import BloodReportExtractor
 from backend.path_b_blood_report.mod_b1_extractor.biobert_extractor import BioBERTBiomarkerExtractor
 from backend.path_b_blood_report.mod_b2_normalizer.normalizer import BiomarkerNormalizer
@@ -91,7 +106,12 @@ async def upload_report(file: UploadFile = File(...), patient_id: Optional[str] 
     save_json_artifact("biomarkers", patient_id, ner_res)
 
     norm_res = normalizer.normalize(ner_res["biomarkers"])
-    b3_output = b3_grader.grade(patient_id, norm_res, grader_input=grader_input)
+    b3_output = b3_grader.grade(
+        patient_id,
+        norm_res,
+        grader_input=grader_input,
+        counterfactuals=COUNTERFACTUALS_ENABLED,
+    )
 
     formatted = mod_c_formatter.format_pipeline_output(
         b3_output,

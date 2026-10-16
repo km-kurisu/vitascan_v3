@@ -13,6 +13,7 @@ from backend.shared.schemas import (
     DietRecommendation,
     BloodParameter,
     UploadedReportInfo,
+    ModelExplanation,
 )
 from backend.mod_c_explainer.explainer import LLMExplainer
 from backend.mod_c_explainer.payload_helpers import (
@@ -55,31 +56,57 @@ class ModCFormatter:
     def _contributors(
         self,
         d_type: str,
-        attention: Dict[str, float],
+        explanation: Optional[ModelExplanation],
         parameters: List[BloodParameter],
         limit: int = 3,
     ) -> List[KeyContributor]:
-        """Real biomarkers behind the card: GAT attention weights when the
-        grader published them, else the largest measured deviations."""
-        by_key = {p.key: p for p in parameters}
+        """Biomarkers behind the card, from real model attribution.
 
-        if attention:
-            ranked = sorted(attention.items(), key=lambda kv: kv[1], reverse=True)[:limit]
-            contributors = []
-            for k, w in ranked:
-                # Prefer the table's own name; otherwise the reference name for that
-                # biomarker so labels stay consistent when it wasn't measured here.
-                key = str(k).lower()
-                name = by_key[key].name if key in by_key else _display_name(key, {})
-                contributors.append(
+        Attribution comes from the model itself -- exact TreeSHAP over the
+        XGBoost cascade plus Integrated Gradients over the hetero-GNN. When it
+        is unavailable (explainability disabled, SHAP missing, attribution
+        failed) we fall back to the largest measured deviations and label the
+        result ``source="deviation"``, so a clinical heuristic is never mistaken
+        for a model weight. Keeping that distinction visible is the entire point
+        of this method: the card used to show a hardcoded literal as if it were
+        derived from the patient's report.
+        """
+        markers = DEFICIENCY_MARKERS.get(d_type, ())
+        if explanation and explanation.contributions:
+            relevant = [c for c in explanation.contributions if c.feature in markers]
+            if relevant:
+                ranked = sorted(
+                    relevant, key=lambda c: abs(c.share_pct), reverse=True
+                )[:limit]
+                by_key = {p.key: p for p in parameters}
+                return [
                     KeyContributor(
-                        biomarker=name,
-                        impact_pct=round(float(w) * 100, 1),
-                        direction="negative",
+                        biomarker=(
+                            by_key[c.feature].name
+                            if c.feature in by_key
+                            else _display_name(c.feature, {})
+                        ),
+                        impact_pct=round(abs(c.share_pct), 1),
+                        direction="positive" if c.share_pct >= 0 else "negative",
+                        estimated=c.estimated,
+                        source="model",
                     )
-                )
-            return contributors
+                    for c in ranked
+                ]
 
+        return self._deviation_contributors(d_type, parameters, limit)
+
+    @staticmethod
+    def _deviation_contributors(
+        d_type: str, parameters: List[BloodParameter], limit: int
+    ) -> List[KeyContributor]:
+        """Fallback: largest measured deviations, explicitly labelled as such.
+
+        This says nothing about what the model used -- it only reports which
+        markers are furthest from their reference intervals. Useful when there
+        is no explanation to show, misleading if presented as attribution.
+        """
+        by_key = {p.key: p for p in parameters}
         contributors: List[KeyContributor] = []
         for marker in DEFICIENCY_MARKERS.get(d_type, ()):
             param = by_key.get(marker)
@@ -90,6 +117,7 @@ class ModCFormatter:
                     biomarker=param.name,
                     impact_pct=round(min(abs(param.deviation) * 100, 99.0), 1),
                     direction="negative" if param.deviation < 0 else "positive",
+                    source="deviation",
                 )
             )
             if len(contributors) >= limit:
@@ -136,7 +164,7 @@ class ModCFormatter:
         """
         model = mod_b3.model
         severity = mod_b3.severity
-        attention = mod_b3.attention_weights or {}
+        explanation = model.explanation
         confidence = mod_b3.model_confidence
         cards: List[DeficiencyDetail] = []
         seen = set()
@@ -163,7 +191,7 @@ class ModCFormatter:
                     explanation=self.explainer.explain_deficiency(
                         d_type, band, self._measured_digest(d_type, parameters)
                     ),
-                    key_contributors=self._contributors(d_type, attention.get(d_type, {}), parameters),
+                    key_contributors=self._contributors(d_type, explanation, parameters),
                     crosscheck=crosscheck,
                     diet_recommendations=[
                         DietRecommendation(
@@ -214,7 +242,7 @@ class ModCFormatter:
     ) -> List[DeficiencyDetail]:
         """Pre-verdict behaviour: one card per severity entry."""
         cards: List[DeficiencyDetail] = []
-        attention = mod_b3.attention_weights or {}
+        explanation = mod_b3.model.explanation if mod_b3.model else None
         for d_type, item in mod_b3.severity.items():
             cards.append(
                 DeficiencyDetail(
@@ -227,7 +255,7 @@ class ModCFormatter:
                     explanation=self.explainer.explain_deficiency(
                         d_type, item.band, self._measured_digest(d_type, parameters)
                     ),
-                    key_contributors=self._contributors(d_type, attention.get(d_type, {}), parameters),
+                    key_contributors=self._contributors(d_type, explanation, parameters),
                     crosscheck=CrosscheckIndicator(available=False, agrees=False, source="none"),
                     diet_recommendations=[
                         DietRecommendation(

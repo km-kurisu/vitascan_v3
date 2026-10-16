@@ -666,10 +666,3 @@ computed. They were **deleted**, not restyled:
 
 ---
 
-## Disclaimer
-
-VitaScan is a research and educational project. It is **not a medical device** and has not
-been evaluated by CDSCO, the FDA, or any other regulator. Its output — verdicts,
-explanations, counterfactuals, diet plans, and reminders — is informational only and must not
-be used for diagnosis or treatment. Always consult a qualified physician. All bundled sample
-data is synthetic.

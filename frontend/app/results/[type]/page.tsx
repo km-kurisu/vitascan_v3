@@ -37,11 +37,15 @@ export default function DeficiencyDetailPage() {
     return d.title || d.type;
   };
 
+  // The backend explanation is generated from this patient's measured values.
+  // It must win over the static translation strings, which are generic
+  // fallbacks: preferring them meant every patient read the same sample lab
+  // values as though they were their own results.
   const getDeficiencyExplanation = (d: DeficiencyItem) => {
+    if (d.explanation) return d.explanation;
     const key = `explanation.${d.type.toLowerCase()}`;
     const translated = t(key);
-    if (translated !== key) return translated;
-    return d.explanation;
+    return translated !== key ? translated : '';
   };
 
   const translateBiomarkerName = (name: string) => {
@@ -136,93 +140,108 @@ export default function DeficiencyDetailPage() {
           <p className="text-slate-800 text-sm leading-relaxed font-medium">
             "{getDeficiencyExplanation(detail)}"
           </p>
+          {!detail.explanation && (
+            <p className="text-[11px] text-blue-800/80 font-medium">
+              {t('results.genericExplanationNote')}
+            </p>
+          )}
         </div>
       </div>
 
-      {/* GAT Key Contributors Attention Weights Section */}
+      {/* Key contributors: real model attribution, or a labelled fallback */}
       <div className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/80 shadow-xs space-y-6">
         <div className="flex items-center space-x-3 text-slate-900 font-bold text-lg">
           <BarChart3 className="w-6 h-6 text-blue-600" />
-          <span>{t('detail.gatHeading')}</span>
+          <span>{t('detail.contributorHeading')}</span>
         </div>
 
-        <div className="space-y-4">
-          {detail.key_contributors.map((contrib) => (
-            <div key={contrib.biomarker} className="space-y-1.5">
-              <div className="flex justify-between text-xs font-semibold text-slate-700">
-                <span>{translateBiomarkerName(contrib.biomarker)}</span>
-                <span className="text-blue-600 font-bold">
-                  {contrib.impact_pct}% {t('detail.gatWeightWord')}
-                </span>
-              </div>
-              <div className="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
-                <div
-                  className="bg-blue-600 h-3 rounded-full transition-all duration-500"
-                  style={{ width: `${contrib.impact_pct}%` }}
-                />
-              </div>
+        {detail.key_contributors?.length ? (
+          <>
+            <div className="space-y-4">
+              {detail.key_contributors.map((contrib) => (
+                <div key={contrib.biomarker} className="space-y-1.5">
+                  <div className="flex justify-between text-xs font-semibold text-slate-700">
+                    <span>
+                      {translateBiomarkerName(contrib.biomarker)}
+                      {contrib.estimated && (
+                        <span className="ml-1.5 font-normal text-amber-600">
+                          ({t('results.estimatedMarker')})
+                        </span>
+                      )}
+                    </span>
+                    <span className="text-blue-600 font-bold">
+                      {contrib.impact_pct}% {t('detail.shareWord')}
+                      {contrib.direction === 'negative' && (
+                        <span className="ml-1 font-normal text-slate-500">
+                          ({t('results.againstVerdict')})
+                        </span>
+                      )}
+                    </span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+                    <div
+                      className={`h-3 rounded-full transition-all duration-500 ${
+                        contrib.direction === 'negative'
+                          ? 'bg-slate-400'
+                          : 'bg-blue-600'
+                      }`}
+                      style={{ width: `${Math.min(contrib.impact_pct, 100)}%` }}
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+
+            {detail.key_contributors.some((c) => c.estimated) && (
+              <p className="text-[11px] text-amber-700 leading-relaxed font-medium">
+                {t('results.estimatedNote')}
+              </p>
+            )}
+            {detail.key_contributors.some(
+              (c) => (c.source ?? 'deviation') !== 'model'
+            ) && (
+              <p className="text-[11px] text-slate-500 leading-relaxed font-medium">
+                {t('results.deviationSourceNote')}
+              </p>
+            )}
+          </>
+        ) : (
+          <p className="text-sm text-slate-500 font-medium">
+            {t('results.noContributors')}
+          </p>
+        )}
       </div>
 
-      {/* Path A Cross-check & Baseline Comparison */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Path A Cross-check */}
-        <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-xs space-y-4">
-          <div className="flex items-center space-x-2 text-slate-900 font-bold text-base">
-            <Eye className="w-5 h-5 text-emerald-600" />
-            <span>{t('detail.pathAHeading')}</span>
-          </div>
-
-          <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200/80 text-xs space-y-2.5">
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.crosscheckAvailable')}</span>
-              <span className="font-bold text-slate-800">
-                {detail.crosscheck.available ? t('detail.yes') : t('detail.no')}
-              </span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.sourceRegion')}</span>
-              <span className="font-bold text-slate-800 capitalize">
-                {translateSourceRegion(detail.crosscheck.source)}
-              </span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.agrees')}</span>
-              <span className="font-bold text-emerald-600">
-                {detail.crosscheck.agrees ? t('detail.confirmed') : t('detail.pending')}
-              </span>
-            </div>
-          </div>
+      {/* Path A Cross-check. A "Baseline Models Benchmark" card used to sit
+          beside this one, showing 65.0% / 69.0% / 70.0% for logistic
+          regression, random forest and XGBoost. Those were literals typed into
+          the markup -- identical for every patient, laid out to read as a
+          measured comparison against this patient's own verdict. Nothing ever
+          computed them, so the card is deleted rather than restyled. */}
+      <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-xs space-y-4">
+        <div className="flex items-center space-x-2 text-slate-900 font-bold text-base">
+          <Eye className="w-5 h-5 text-emerald-600" />
+          <span>{t('detail.pathAHeading')}</span>
         </div>
 
-        {/* Baseline Benchmark Comparison */}
-        <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-xs space-y-4">
-          <div className="flex items-center space-x-2 text-slate-900 font-bold text-base">
-            <BarChart3 className="w-5 h-5 text-purple-600" />
-            <span>{t('detail.benchmarkHeading')}</span>
+        <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200/80 text-xs space-y-2.5">
+          <div className="flex justify-between">
+            <span className="text-slate-500">{t('detail.crosscheckAvailable')}</span>
+            <span className="font-bold text-slate-800">
+              {detail.crosscheck.available ? t('detail.yes') : t('detail.no')}
+            </span>
           </div>
-
-          <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200/80 text-xs space-y-2.5">
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.gatPrediction')}</span>
-              <span className="font-bold text-blue-600">
-                {detail.severity.score_pct}
-              </span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.logReg')}</span>
-              <span className="font-bold text-slate-700">65.0%</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.randForest')}</span>
-              <span className="font-bold text-slate-700">69.0%</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-slate-500">{t('detail.xgboost')}</span>
-              <span className="font-bold text-slate-700">70.0%</span>
-            </div>
+          <div className="flex justify-between">
+            <span className="text-slate-500">{t('detail.sourceRegion')}</span>
+            <span className="font-bold text-slate-800 capitalize">
+              {translateSourceRegion(detail.crosscheck.source)}
+            </span>
+          </div>
+          <div className="flex justify-between">
+            <span className="text-slate-500">{t('detail.agrees')}</span>
+            <span className="font-bold text-emerald-600">
+              {detail.crosscheck.agrees ? t('detail.confirmed') : t('detail.pending')}
+            </span>
           </div>
         </div>
       </div>

@@ -26,7 +26,16 @@ numpy>=1.24.0
 pandas>=1.5.0
 joblib>=1.2.0
 scipy>=1.10.0
-scikit-learn>=1.2.0
+# Pinned, not `>=`. The grader's persisted artifacts (StandardScaler,
+# KNNImputer, IsotonicRegression, CalibratedClassifierCV) were pickled under
+# 1.6.1, so a newer scikit-learn warns on every unpickle and leaves transform
+# behaviour dependent on whichever version pip happened to resolve. Bump only
+# alongside a re-fit and a full test run.
+scikit-learn==1.6.1
+# Explainability (mod_b3_grader/explainability). Optional at runtime: the model
+# grades fine without it and the formatter falls back when explanations are
+# absent, so installing SHAP only enables attribution, it never gates a verdict.
+shap>=0.44.0
 
 # --- LLM providers ---
 groq>=0.4.0

@@ -67,7 +67,7 @@ def generate_mock_frontend_output(patient_id: str = "PAT-2026-8841") -> ModCFron
                     "badge_color": "#3b82f6"
                 },
                 explanation=(
-                    "Serum B12 is borderline (210 pg/mL). GAT graph analysis shows mild secondary influence on overall red cell indices (MCV 98 fL)."
+                    "Serum B12 is borderline (210 pg/mL). Graph analysis shows mild secondary influence on overall red cell indices (MCV 98 fL)."
                 ),
                 key_contributors=[
                     KeyContributor(biomarker="Serum B12", impact_pct=75.0, direction="negative"),
